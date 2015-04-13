@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<article role="article" class="article-entry">
+
+  <header class="page-header">
+    <div class="wrap">
+      <h1 class="title">{{ page.title }}</h1>
+      <p class="meta">
+        {{ page.date | date: '%B' }}
+        {% assign d = page.date | date: "%-d" %} 
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st,
+          {% when '2' or '22' %}{{ d }}nd,
+          {% when '3' or '23' %}{{ d }}rd,
+          {% else %}{{ d }}th,
+          {% endcase %}
+          {{ page.date | date: '%Y' }}
+      </p>
+    </div>
+  </header>
+
+  <div class="wrap">
+
+	  <div class="entry-content">
+			{{ content }}
+	  </div>
+
+  </div>
+
+  {% include bio-card.html %}
+
+  <footer class="nav-categories">
+    <div class="wrap">
+      <a href="/journal" class="see-all">Browse all writing</a>
+      <ul>
+      {% for category in site.categories %}
+          {% assign catg_name = category.first %}
+          {% if catg_name == page.category %}
+              {% assign catg_posts = category.last %}
+          {% endif %}
+      {% endfor %}
+      {% for post in catg_posts %}
+          {% if post.title == page.title %}
+              {% unless forloop.last %}
+                  {% assign next = catg_posts[forloop.index] %}
+                  <li class="previous">
+                    <a href="{{ site.baseurl }}{{ next.url }}">&larr; <span>{{ next.title }}</span></a>
+                  </li>
+              {% endunless %}
+              {% unless forloop.first %}
+                  <li class="next">
+                    <a href="{{ site.baseurl }}{{ prev.url }}"><span>{{ prev.title }}</span> &rarr;</a>
+                  </li>
+              {% endunless %}
+          {% endif %}
+          {% assign prev = post %}
+      {% endfor %}
+      </ul>
+    </div>
+  </footer>
+</article>

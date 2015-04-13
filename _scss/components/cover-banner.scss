@@ -1,0 +1,109 @@
+.cover-banner {
+  background-position: 62% center;
+  background-size: cover;
+  background-image: url('../images/johannes-wide-900.jpg');
+
+  @include breakpoint(mobile-lg) {
+    background-image: url('../images/johannes-wide-1100.jpg');
+    background-position: center center;
+  } 
+
+  @include breakpoint(tablet-sm) {
+    background-image: url('../images/johannes-wide-1500.jpg');
+  } 
+
+  @include breakpoint(desktop-sm) {
+    background-image: url('../images/johannes-wide-2600.jpg');
+  } 
+
+  @include breakpoint(tv-sm) {
+    background-image: url('../images/johannes-wide-3000.jpg');
+  }
+
+  .wrap {
+    padding-top: 18%;
+    padding-bottom: 18%;
+
+    @include breakpoint(mobile-lg) {
+      padding-top: 14%;
+      padding-bottom: 14%;
+    }
+
+    @include breakpoint(tablet-lg) {
+      padding-top: 11%;
+      padding-bottom: 11%;
+    } 
+  }
+
+  .title {
+    @extend %text-shadow;
+    margin-bottom: .05em;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: -.02em;
+    color: #fff;
+
+    @include breakpoint(mobile-lg) {
+      font-size: 2.6em;
+    } 
+
+    @include breakpoint(tablet-sm) {
+      font-size: 2.95em;
+    } 
+
+    @include breakpoint(tablet-lg) {
+      font-size: 3.4em;
+    } 
+
+    @include breakpoint(desktop-sm) {
+      font-size: 4em;
+    }
+
+    @include breakpoint(desktop-lg) {
+      font-size: 4.3em;
+    } 
+  }
+
+  .meta {
+    font-size: 1em;
+    margin: .5em 0 .8em;
+    line-height: 1.2;
+    font-weight: 200;
+
+    @include breakpoint(mobile-lg) {
+      font-size: 1em;
+    } 
+
+    @include breakpoint(tablet-sm) {
+      margin: .3em 0 .8em;
+      font-size: 1.1em;
+    } 
+
+    @include breakpoint(tablet-lg) {
+      font-size: 1.25em;
+    } 
+
+    @include breakpoint(desktop-sm) {
+      font-size: 1.45em;
+    } 
+
+    @include breakpoint(desktop-lg) {
+      font-size: 1.55em;
+    }
+
+    span {
+      @include breakpoint(mobile-lg-max) {
+        display: block;
+      } 
+    }
+  }
+
+  .btn {
+    margin: 0;
+    font-size: .9em;
+
+    @include breakpoint(tablet-sm) {
+      font-size: $f16px;
+    } 
+  }
+}

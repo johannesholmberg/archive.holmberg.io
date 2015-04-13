@@ -1,0 +1,30 @@
+---
+layout: default
+title: Writing
+active: journal
+description: "Writing by Johannes Holmberg."
+---
+
+<section>
+
+  <header class="page-header">
+    <div class="wrap">
+      <h1 class="title">Writing</h1>
+      <p class="meta">Collection of thoughts and reflection over the years.</p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    {% for post in site.posts %}
+      {% if post.category == "reading" %}
+      {% elsif post.category == "work" %}
+      {% else if %}
+        <div class="article-item">
+          <p class="date">{{ post.date | date_to_string }}</p>
+          <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </div>
+        {% endif %}
+    {% endfor %}
+  </div>
+
+</section>

@@ -1,0 +1,23 @@
+.article-item {
+
+  margin-bottom: 0;
+  padding: 1.2em 0;
+  border-bottom: 1px solid $snow;
+
+  .title {
+    margin: 0 0 0 4em;
+    font-family: $font-sans;
+    font-size: $f26px;
+
+    a {
+      border-bottom: 0;    
+    }
+  }
+
+  .date {
+    position: absolute;
+    margin: .35em 0;
+    text-transform: uppercase;
+    font-size: $f16px;
+  }
+}

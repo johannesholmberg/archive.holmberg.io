@@ -1,0 +1,67 @@
+---
+layout: book
+title: "An Autobiography"
+date: 2013-06-10
+category: reading
+permalink: reading/gandhi-an-autobiography
+cover: gandhi-an-autobiography
+author: M.K Gandhi
+publisher: Penguin
+book-url: http://www.amazon.com/Autobiography-Penguin-Modern-Classics-ebook/dp/B002RI9HFM/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
+description: 'It has always been a mystery to me how men can feel themselves honoured by the humiliation of their fellow-beings. '
+highlight: 5
+---
+
+{% assign counter=1 %}
+#### highlight {{counter}}
+>'Renunciation of objects, without the renunciation of desires, is short-lived, however hard you may try.' 
+
+loc. 198 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The term 'religion' I am using in its broadest sense, meaning thereby self-realization or knowledge of self. 
+
+loc. 542 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>No matter how explicit the pledge, people will turn and twist the text to suit their own purposes. 
+
+loc. 980 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The institution had gradually lost all its meaning, but conservative England retained it nevertheless. 
+
+loc. 1336 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>It has always been a mystery to me how men can feel themselves honoured by the humiliation of their fellow-beings. 
+
+loc. 2534 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>It is idle to adjudicate upon the right and wrong of incidents that have already happened. It is useful to understand them and, if possible, to learn a lesson from them for the future. It is difficult to say for certain how a particular man would act in a particular set of circumstances. We can also see that judging a man from his outward act is no more than a doubtful inference, inasmuch as it is not based on sufficient data. 
+
+loc. 3121 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The pity is that they often do not realize that they are behaving ill, dirtily, or selfishly. They believe that everything they do is in the natural way. 
+
+loc. 6179 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>There was also the hope that, the city being the capital of Gujarat, monetary help from its wealthy citizens would be more available here than elsewhere. 
+
+loc. 6351 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The grinding poverty and starvation with which our country is afflicted is such that it drives more and more men every year into the ranks of the beggars, whose desperate struggle for bread renders them insensible to all feelings of decency and self-respect. And our philanthropists, instead of providing work for them and insisting on their working for bread, give them alms. 
+
+loc. 6988 &middot; [highlight {{counter}}](#highlight-{{counter}})

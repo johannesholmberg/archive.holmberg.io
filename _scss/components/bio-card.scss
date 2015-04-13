@@ -1,0 +1,53 @@
+.bio-card {
+  margin: 0 0 7%;
+
+
+  .wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  @include breakpoint(tablet-lg-max) {
+    border-top: 1px solid $snow;
+    padding-top: 10%;
+  } 
+
+  img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    
+
+    @include breakpoint(mobile-lg) {
+      float: left;
+      width: 115px;
+      height: 115px;  
+    } 
+
+    @include breakpoint(tablet-lg) {
+      width: 130px;
+      height: 130px; 
+    } 
+  }
+
+  p {
+
+    @include breakpoint(mobile-lg) {
+      width: 60%;
+      margin: .1em 0 0 2em;
+      float: left;
+    } 
+
+    @include breakpoint(tablet-sm) {
+      width: 73%;
+
+    } 
+
+    @include breakpoint(tablet-lg) {
+      width: 75%;
+      margin-top: .6em;
+    } 
+  }
+}

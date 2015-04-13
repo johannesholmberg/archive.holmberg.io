@@ -1,0 +1,67 @@
+---
+layout: book
+title: "Colorless Tsukuru Tazaki and his Years of Pilgrimage"
+date: 2014-08-15
+category: reading
+permalink: reading/colorless-tsukuru-tazaki
+author: Haruki Murakami
+cover: colorless-tsukuru-tazaki
+publisher: Vintage Digital
+book-url: http://www.amazon.com/gp/product/B00I3DNUR6/
+intro: 'Like a young tree absorbing nutrition from the soil, Tsukuru got the sustenance he needed as an adolescent from this group, using it as necessary food to grow, storing what was left as an emergency heat source inside him.'
+---
+
+{% assign counter=1 %}
+#### highlight {{counter}}
+>Like a young tree absorbing nutrition from the soil, Tsukuru got the sustenance he needed as an adolescent from this group, using it as necessary food to grow, storing what was left as an emergency heat source inside him.
+
+loc. 183 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The person here now, the one he saw in the mirror, might at first glance resemble Tsukuru Tazaki, but it wasn’t actually him. It was merely a container that, for the sake of convenience, was labeled with the same name – but its contents had been replaced.
+
+loc. 483 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>‘It’s too bad you’re in the physics department. You should open a restaurant,’ Tsukuru said, half joking. Haida laughed. ‘That sounds good. But I don’t like to be tied down in one place. I want to be free – to go where I want, when I want, and be able to think about whatever I want.’ ‘Sure, but that can’t be easy to actually do.’ ‘It isn’t. But I’ve made up my mind. I always want to be free. I like cooking, but I don’t want to be holed up in a kitchen doing it as a job. If that happened, I’d end up hating somebody.’
+
+loc. 702 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>It’s strange, isn’t it? No matter how quiet and conformist a person’s life seems, there’s always a time in the past when they reached an impasse. A time when they went a little crazy. I guess people need that sort of stage in their lives.
+
+loc. 781 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>I’m a jazz pianist from Tokyo, Midorikawa said. I had some personal disappointments, and the daily grind was wearing me down, so I came alone to this quiet place deep in the mountains, hoping to rest up. Actually, I set out without any plan, and just happened to land here. I like it, everything’s stripped to the bare essentials.
+
+loc. 807 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The world isn’t that easily turned upside down, Haida replied. It’s people who are turned upside down. I don’t feel bad about missing that.
+
+loc. 814 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Just like you’d set about repairing a defect in a station. To do that, though, you need to collect the necessary data, draw up an accurate blueprint, create a detailed work schedule. Above all, you need to identify your priorities.
+
+loc. 1112 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>He still couldn’t move his body. The cable between his will and his muscles remained disconnected, the bolt that linked them together having fallen off. How much of this is real? he wondered. This wasn’t a dream, or an illusion. It had to be real. But it lacked the weight you’d expect from reality.
+
+loc. 1203 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>He was alone in two senses of the word. He was also a foreigner, the people around him speaking a language he couldn’t understand. It was a different sense of isolation from what he normally felt in Japan. And not such a bad feeling, he decided. Being alone in two senses of the word was maybe like a double negation of isolation. In other words, it made perfect sense for him, a foreigner, to feel isolated here.
+
+loc. 2675 &middot; [highlight {{counter}}](#highlight-{{counter}})
+

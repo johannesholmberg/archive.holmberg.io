@@ -1,0 +1,9 @@
+{
+  "name": "holmberg.io",
+  "version": "0.0.1",
+  "dependencies": {
+    "modernizr": "latest",
+    "picturefill": "latest",
+    "loadcss": "latest"
+  }
+}

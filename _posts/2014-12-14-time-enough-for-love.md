@@ -1,0 +1,307 @@
+---
+layout: book
+title: "Time Enough for Love"
+date: 2014-12-14
+category: reading
+permalink: reading/time-enough-for-love
+cover: time-enough-for-love
+author: Robert A. Heinlein
+publisher: Ace
+book-url: http://www.amazon.com/Time-Enough-Love-Robert-Heinlein-ebook/dp/B004IYITXE/
+description: 'Some people are ants by nature; they have to work, even when it’s useless. Few people have a talent for constructive laziness.'
+highlight: 10
+---
+
+{% assign counter=1 %}
+#### highlight {{counter}}
+>Your exact words from the contract under which you deeded Secundus to the Foundation. That there was to be no government on this planet other than such rules as the current chairman found necessary to maintain order. 
+
+loc. 362 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>I don’t trust a man who talks about ethics when he’s picking my pocket. But if he’s acting in his own self-interest and says so, I have usually been able to work out some way to do business with him.
+
+loc. 431 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>But it would have to be new, Ira, not something I’ve done over and over again. 
+
+loc. 484 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“Son, one of the few things I’ve learned is that humans hardly ever learn from the experience of others. They learn—when they do, which isn’t often—on their own, the hard way.” 
+
+loc. 566 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>To figure out the basic questions about this World it would be necessary to stand outside and look at it. 
+
+loc. 577 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Most people won’t learn even by experience, Ira. Never underestimate the power of human stupidity.
+
+loc. 661 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Damn it, Ira, after a long time it is hard to tell a real memory from a memory of a memory of a memory of a real memory. That’s what happens when you think about the past: You edit it and rearrange it, make it more tolerable.
+
+loc. 671 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Would you like to hear a story about a man who made laziness a fine art? His life exemplified the Principle of Least Effort. A true story.
+
+loc. 1176 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>David had always followed his own opinion—against the whole world if necessary. 
+
+loc. 1470 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Some people are ants by nature; they have to work, even when it’s useless. Few people have a talent for constructive laziness. 
+
+loc. 1613 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>‘May you live as long as you wish and love as long as you live.’
+
+loc. 1725 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The trouble with defining in words anything as basic as love is that the definition can’t be understood by anyone who has not experienced it. 
+
+loc. 2474 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“It sounds grand,” Llita conceded, “if we can make a living with those hours—” “You can. A better living. But instead of trying to get every buck, Llita, your object will be to maintain top quality while not losing money . . and enjoy life.” 
+
+loc. 4130 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Llita was well above average smart but suffered from the democratic fallacy: the notion that her opinion was as good as anyone’s—while Joe suffered from the aristocratic fallacy: He accepted the notion of authority in opinion. 
+
+loc. 4273 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>One does not let children get married; they do get married, when and as and to whom they choose.” 
+
+loc. 4356 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Always listen to experts. They’ll tell you what can’t be done, and why. Then do it. 
+
+loc. 4531 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>If it can’t be expressed in figures, it is not science; it is opinion. 
+
+loc. 4537 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>A generation which ignores history has no past—and no future. 
+
+loc. 4549 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Cheops’ Law: Nothing ever gets built on schedule or within budget. 
+
+loc. 4569 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>You can have peace. Or you can have freedom. Don’t ever count on having both at once. 
+
+loc. 4594 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>When a place gets crowded enough to require ID’s, social collapse is not far away. It is time to go elsewhere. The best thing about space travel is that it made it possible to go elsewhere. 
+
+loc. 4606 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Democracy is based on the assumption that a million men are wiser than one man. How’s that again? I missed something. 
+
+loc. 4632 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>What are the facts? Again and again and again—what are the facts? Shun wishful thinking, ignore divine revelation, forget what “the stars foretell,” avoid opinion, care not what the neighbors think, never mind the unguessable “verdict of history”—what are the facts, and to how many decimal places? You pilot always into an unknown future; facts are your single clue. Get the facts! 
+
+loc. 4639 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects. 
+
+loc. 4662 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The more you love, the more you can love—and the more intensely you love. Nor is there any limit on how many you can love. If a person had time enough, he could love all of that majority who are decent and just. 
+
+loc. 4665 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Beware of altruism. It is based on self-deception, the root of all evil. 
+
+loc. 4670 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>You live and learn. Or you don’t live long. 
+
+loc. 4707 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Do not handicap your children by making their lives easy. 
+
+loc. 4718 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Never underestimate the power of human stupidity. 
+
+loc. 4726 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Ernest Gibbons did not worry about his bank. He never worried over any issue less important than life-and-death. Instead he applied his brain to all problems large and small as they came along, and enjoyed life. 
+
+loc. 5027 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Once, when I was very little, you told me a story about when you were a little boy hearing wild geese honking in the sky—how, when you grew up, you wanted to find out where they went. 
+
+loc. 5182 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>I had lost interest in that colony years earlier, as soon as it stopped presenting real challenges; I was itching to do something else. 
+
+loc. 5215 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>I had to consult her—but I had to decide. Responsibility cannot be shared. 
+
+loc. 5808 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Never do today what you can put off till tomorrow if tomorrow might improve the odds. 
+
+loc. 6278 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Always tell her she is beautiful, especially if she is not. 
+
+loc. 6493 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>To stay young requires unceasing cultivation of the ability to unlearn old falsehoods. 
+
+loc. 6515 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Does history record any case in which the majority was right? 
+
+loc. 6517 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>A “critic” is a man who creates nothing and thereby feels qualified to judge the work of creative men. There is logic in this; he is unbiased—he hates all creative people equally. 
+
+loc. 6519 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The human race divides politically into those who want people to be controlled and those who have no such desire. 
+
+loc. 6595 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Sin lies only in hurting other people unnecessarily. All other “sins” are invented nonsense. (Hurting yourself is not sinful—just stupid.) 
+
+loc. 6599 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Being generous is inborn; being altruistic is a learned perversity. No resemblance.
+
+loc. 6601 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>A committee is a life form with six or more legs and no brain. 
+
+loc. 6626 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Most people can’t think, most of the remainder won’t think, the small fraction who do think mostly can’t do it very well. 
+
+loc. 7428 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Each individual lives her life in now independently of how others may measure that life in years. 
+
+loc. 7465 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>In all matters of government the correct answer is usually: Do nothing. 
+
+loc. 8048 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>When he was able to take time to analyze his mistake, he saw that he had committed the prime sin against survival: He had indulged in wishful thinking. 
+
+loc. 9301 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>I think you have the courage to do anything you want to do.
+
+loc. 10128 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>I’m not studying wars; histories are full of wars. I’m studying how people live.
+
+loc. 10389 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>She was relaxed with what she was—“liked herself” as Lazarus thought of it—and liking yourself was the necessary first step toward loving other people. 
+
+loc. 10646 &middot; [highlight {{counter}}](#highlight-{{counter}})

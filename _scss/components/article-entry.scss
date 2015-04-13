@@ -1,0 +1,45 @@
+.article-entry {
+
+  .wrap {
+    padding-bottom: 0;
+    padding-top: 0;
+    position: static;
+  }
+
+  .side-panel {
+    right: 0;
+    position: absolute;
+    margin-top: -3em;
+
+    @include breakpoint(desktop-lg) {
+      width: 32%;
+    } 
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+
+    &.portrait {
+      max-height: 600px;
+    }
+  }
+
+  .entry-content {
+    margin: 0 0 10%;
+    font-size: 1rem;
+
+    @include breakpoint(mobile-lg) {
+      max-width: 86%;
+      float: left;    
+    } 
+
+    @include breakpoint(tablet-lg) {
+      max-width: 72%;
+    }
+
+    > p:first-child {
+      @extend %lead-text;
+    } 
+  }
+}

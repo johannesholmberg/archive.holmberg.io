@@ -1,0 +1,46 @@
+.info {
+
+  .wrap {
+    max-width: 740px;
+  }
+
+  h2 {
+    text-align: center;
+    margin: .6em 0 1.5em;
+  }
+
+  p + h2 {
+    margin-top: 2.5em;
+  }
+
+  .contact {
+    background: #ededed;
+
+    .wrap {
+      padding-top: 3.5em;
+      padding-bottom: 6em;
+    }
+  }
+
+  blockquote {
+    border: 0;
+    padding-left: 0;
+    @extend %clearfix;
+    margin-bottom: 2.5em;
+
+    cite {
+      float: right;
+    }
+
+    p {
+      font-size: $f20px;
+    }
+  }
+}
+
+.confirmation {
+  display: inherit;
+  background: #cedf7a;
+  text-align: center;
+  padding: 2em 1em;
+}

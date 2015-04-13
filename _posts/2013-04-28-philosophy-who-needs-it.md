@@ -1,0 +1,61 @@
+---
+layout: book
+title: "Philosophy: Who Needs It"
+date: 2013-04-28
+category: reading
+permalink: reading/philosophy-who-needs-it
+cover: philosophy-who-needs-it
+author: Ayn Rand
+publisher: Signet
+book-url: http://www.amazon.com/Philosophy-Who-Needs-Ayn-Rand-ebook/dp/B002JPGQ2A/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
+intro: '“The world began when I was born and the world is mine to win.” (“The Westerner” by Badger Clark.)'
+highlight: 8
+---
+
+{% assign counter=1 %}
+#### highlight {{counter}}
+>Nature does not give man any automatic guarantee of the truth of his judgments (and this is a metaphysically given fact, which must be accepted). Who, then, is to judge? Each man, to the best of his ability and honesty. What is his standard of judgment? The metaphysically given. 
+
+loc. 622 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The two cardinal questions, the prime movers of a human mind—“Why?” and “What for?”—are alien to an anti-conceptual mentality. If asked, they elicit nothing beyond the conventionally accepted answers. The answers are usually some equivalent of “Such is life” or “One is supposed to.” Whose life? Blank out. Supposed—by whom? Blank out. 
+
+loc. 831 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Do not hide behind such superficialities as whether you should or should not give a dime to a beggar. That is not the issue. The issue is whether you do or do not have the right to exist without giving him that dime. The issue is whether you must keep buying your life, dime by dime, from any beggar who might choose to approach you. 
+
+loc. 1255 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Compared to the centuries of precapitalist starvation, the living conditions of the poor in the early years of capitalism were the first chance the poor had ever had to survive. As proof—the enormous growth of the European population during the nineteenth century, a growth of over 300 percent, as compared to the previous growth of something like 3 percent per century. 
+
+loc. 1363 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Reason is the only objective means of communication and of understanding among men; when men deal with one another by means of reason, reality is their objective standard and frame of reference. But when men claim to possess supernatural means of knowledge, no persuasion, communication or understanding are possible. 
+
+loc. 1432 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>If you have felt an occasional touch of wistful envy at the thought that there was a time when men went to the opening of a new play, and what they saw was not Hair or Grease, but Cyrano de Bergerac, which opened in 1897—take a wider look. I wish that, borrowing from Victor Hugo’s Notre Dame de Paris, someone had pointed to the Paulsen book, then to the play, and said: “This will kill that.” 
+
+loc. 1579 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>This means that if a young student (named, say, Thomas Hendricks), after days and nights of conscientious study, proves that he knows the subject of medicine, and passes an exam, he is given an arbitrary privilege, an unfair advantage over a young student (named Lee Hunsacker) who spent his time in a drugged daze, listening to rock music. And if Hendricks gets a diploma and a job in a hospital, while Hunsacker does not, Hunsacker will scream that he could not help it and that he never had a chance. Volitional effort? There is no such thing. Brain power? It’s determined by family life—and he couldn’t help it if Mom and Pop did not condition him to be willing to study. He is entitled to a job in a hospital, and a just society would guarantee it to him. The fate of the patients? He’s as good as any other fellow—“all men are in substance equal”—and the only difference between him and the privileged bastards is a diploma granted as unfairly as armorial quarterings! Equal opportunity? Don’t make him laugh! 
+
+loc. 2085 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“The world began when I was born and the world is mine to win.” (“The Westerner” by Badger Clark.) 
+
+loc. 4098 &middot; [highlight {{counter}}](#highlight-{{counter}})

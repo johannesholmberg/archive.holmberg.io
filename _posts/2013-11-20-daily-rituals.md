@@ -1,0 +1,115 @@
+---
+layout: book
+title: "Daily Rituals: How Artists Work"
+date: 2013-11-20
+category: reading
+permalink: reading/daily-rituals
+cover: daily-rituals
+author: Mason Currey
+publisher: Knopf
+book-url: http://www.amazon.com/gp/product/B009Y4I4OM/ref=kinw_myk_ro_title
+description: 'It has always been a mystery to me how men can feel themselves honoured by the humiliation of their fellow-beings. '
+highlight: 5
+---
+
+{% assign counter=1 %}
+#### highlight {{counter}}
+>“At Bollingen I am in the midst of my true life, I am most deeply myself,” Jung wrote. “… I have done without electricity, and tend the fireplace and stove myself. Evenings, I light the old lamps. There is no running water, I pump the water from the well. I chop the wood and cook the food. These simple acts make man simple; and how difficult it is to be simple!” 
+
+loc. 601 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Mahler worked until midday, then silently returned to his room, changed clothes, and walked down to the lake for a swim. Once he was in the water, he would whistle for his wife to join him on the beach. Mahler liked to lie in the sun until he was dry, then jump into the water again, often repeating this four or five times, which left him feeling invigorated and ready for lunch at home. The meal was, to Mahler’s preference, light, simple, thoroughly cooked, and minimally seasoned. “Its purpose was to satisfy without tempting the appetite or causing any sensation of heaviness,” wrote Alma, to whom it seemed “an invalid’s diet.” 
+
+loc. 622 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“You know that all I desire and demand of life is to feel an urge to work!” 
+
+loc. 638 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>My day’s work is very simple; I get up at 8 o’clock, have a bath and breakfast; 3 eggs, tea, “Eingemachtes” [homemade jam]; then I go for a stroll for half an hour by the Nile in the palm grove of the hotel, and work from 10 till 1; the orchestration of the first Act goes forward slowly but surely. At 1 o’clock I have lunch, then read my Schopenhauer or play Bezique with Mrs. Conze for a piastre stake. From 3 till 4 I work on; at 4 o’clock tea, and after that I go for a walk until 6 when I do my duty in admiring the usual sunset. At 6 o’clock it gets cool and dark; then I write letters or work a bit more until 7. At 7 dinner, after which I chat and smoke (8–12 a day), at half past 9 I go to my room, read for half an hour and put out the light at ten. So it goes on day after day. 
+
+loc. 644 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Before bed, if his eyes weren’t too tired, he would sit up and read until 11:00 or midnight, which, he found, “very much enlarges the day.” 
+
+loc. 1077 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“I find that having a job is one of the best things in the world that could happen to me,” he once said. “It introduces discipline and regularity into one’s life. I am just as free as I want to be and of course I have nothing to worry about about money.” 
+
+loc. 1472 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>When I am in Milan or at the university, I am not master of my own time—there is always somebody else deciding what I should do. 
+
+loc. 1523 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“But his passionate desire became so potent that I even got worried that such a tremendous outpouring of sex energy might be harmful to him.” She sought the advice of a doctor, who suggested giving Wright a dose of “saltpeter,” or potassium nitrate, which was thought to reduce a man’s sex drive. 
+
+loc. 1668 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>As the years passed he fell into a daily routine that seldom varied during autumn and winter. Each morning he wrote or read until it was time for the midday dinner; each afternoon he read or wrote or dreamed or merely stared at a sunbeam boring in through a hole in the blind and very slowly moving across the opposite wall. At sunset he went for a long walk, from which he returned late in the evening to eat a bowl of chocolate crumbled thick with bread and then talk about books with his two adoring sisters, Elizabeth and Louisa, both of whom were already marked for spinsterhood; these were almost the only household meetings.… In summer Hawthorne’s routine was more varied; he went for an early-morning swim among the rocks and often spent the day wandering alone by the shore, so idly that he amused himself by standing on a cliff and throwing stones at his shadow. Once, apparently, he stationed himself on the long toll-bridge north of Salem and watched the procession of travelers from morning to night. He never went to church, but on Sunday mornings he liked to stand behind the curtain of his open window and watch the congregation assemble. 
+
+loc. 2103 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“I have my periods of restlessness when my brain is crowded with ideas tingling to my fingertips when I am excited and cannot stop for anybody.” 
+
+loc. 2196 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“It’s the hardest work in the world to try not to work!” 
+
+loc. 2220 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The morning is the best time, there are no people around. My pleasant disposition likes the world with nobody in it.” 
+
+loc. 2224 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>On the other days one is hurrying through the other things one imagines one has to do to keep one’s life going. You get the garden planted. You get the roof fixed. You take the dog to the vet. You spend a day with a friend.… You may even enjoy doing such things.… But always you are hurrying through these things with a certain amount of aggravation so that you can get at the paintings again because that is the high spot—in a way it is what you do all the other things for.… The painting is like a thread that runs through all the reasons for all the other things that make one’s life. 
+
+loc. 2232 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The American architect and inventor (he called himself a “comprehensive, anticipatory design scientist”) was frequently his own research subject as well (he also called himself Guinea Pig B). Just as he questioned humans’ accepted modes of living and transportation—popularizing the geodesic dome and prototyping the three-wheeled, blimp-shaped Dymaxion vehicle, among other futuristic inventions—he also eschewed traditional models of behavior. 
+
+loc. 2305 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>In the early 1930s, it occurred to Bucky (as everyone called him) that ingrained human sleep patterns might no longer be practical for modern lifestyles. He figured that if he could train himself to sleep less, he could have vastly more time to work. 
+
+loc. 2308 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>I get up around 5 A.M. or so—not out of virtue, but because this is the way my sleep-wake cycle goes. Twice a week, I visit my analyst at 6 A.M., as I have been doing for forty years. Then I go for a swim. Swimming gets me going as nothing else can, and I need to do it at the start of the day, otherwise I will be deflected by busyness or laziness. I come back hungry from my swim, and have a large bowl of oatmeal and the first of many cups of tea, hot chocolate, or coffee which get me through the day. I use an electric kettle, in case I get preoccupied with writing and forget to turn it off. 
+
+loc. 2647 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Tharp is something of an expert on daily routines. The choreographer’s 2003 book, The Creative Habit, is all about the necessity of forming good, consistent work habits in order to function at a high creative level. Not surprisingly, her own routine is intense: I begin each day of my life with a ritual: I wake up at 5:30 A.M., put on my workout clothes, my leg warmers, my sweatshirts, and my hat. I walk outside my Manhattan home, hail a taxi, and tell the driver to take me to the Pumping Iron gym at 91st Street and First Avenue, where I work out for two hours. The ritual is not the stretching and weight training I put my body through each morning at the gym; the ritual is the cab. The moment I tell the driver where to go I have completed the ritual. 
+
+loc. 2747 &middot; [highlight {{counter}}](#highlight-{{counter}})

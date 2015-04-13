@@ -1,0 +1,23 @@
+<footer role="contentinfo" class="footer-global">
+  <div class="wrap">
+    <nav>
+      <h2 class="hidden">Footer navigation</h2>
+      {% include navigation.html %}
+    </nav>
+
+    <div class="social">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/johannesholmberg" class="linkedin">LinkedIn</a></li>
+        <li><a href="http://twitter.com/hlmberg" class="twitter">Twitter</a></li>
+        <li><a href="http://github.com/johannesholmberg" class="github">Github</a></li>
+      </ul>
+    </div>
+
+    <p class="copyright">
+      <span>Copyright &copy; 2007–{{ site.time | date: "%Y" }}</span> 
+      <a href="/info">Johannes Holmberg</a> 
+      <a href="mailto:johannes@holmberg.io">johannes@holmberg.io</a> 
+      <a href="{{siteurl}}/feed.xml" class="rss">RSS feed</a>
+    </p>
+  </div>
+</footer>

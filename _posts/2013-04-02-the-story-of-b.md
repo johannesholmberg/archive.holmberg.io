@@ -1,0 +1,43 @@
+---
+layout: book
+title: "The Story of B"
+date: 2013-04-02
+category: reading
+permalink: reading/the-story-of-b
+cover: the-story-of-b
+author: Daniel Quinn
+publisher: Bantam
+book-url: http://www.amazon.com/gp/product/B00338075Y/ref=kinw_myk_ro_title
+description: 'What appears to be kind and is meant to be kind can be the reverse of kind.'
+highlight: 3
+---
+
+{% assign counter=1 %}
+### highlight {{counter}}
+>“If you press a group of schoolchildren to explain why we’re teetering on the edge of calamity, they’ll soon trot out all the coffeehouse cliches—all the theories the Unabomber set forth so solemnly and at such great length in his magnum opus a couple years ago: out-of-control technological advancement, out-of-control industrial greed, out-of-control government expansion, and so on. How do you think all these commonplace explanations evolved?” “I have no idea,” I said. “Forgive me for answering so promptly, but I know this is something I’ve never given any thought to.” 
+
+loc. 1390 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>“The God of revealed religions—and by this I mean religions like yours, Taker religions—is a profoundly inarticulate God. No matter how many times he tries, he can’t make himself clearly or completely understood. He speaks for centuries to the Jews but fails to make himself understood. At last he sends his only-begotten son, and his son can’t seem to do any better. Jesus might have sat himself down with a scribe and dictated the answers to every conceivable theological question in absolutely unequivocal terms, but he chose not to, leaving subsequent generations to settle what Jesus had in mind with pogroms, purges, persecutions, wars, the burning stake, and the rack. Having failed through Jesus, God next tried to make himself understood through Muhammad, with limited success, as always. After a thousand years of silence he tried again with Joseph Smith, with no better results. Averaging it out, all God has been able to tell us for sure is that we should do unto others as we’d have them do unto us. 
+
+loc. 2531 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>What appears to be kind and is meant to be kind can be the reverse of kind.
+
+loc. 2654 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>‘Nothing you write will ever come out the way you hoped it would.’ 
+
+loc. 3555 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Everyone thought it had been this way from the beginning. Everyone thought this was the nature of the world—and the nature of Man. They began to think that the world is an evil place. They began to think that existence itself is evil. They began to think (and who can blame them!) that there was something fundamentally wrong with humans. They began to think that humankind was doomed. They began to think that humankind was damned. They began to think that someone needed to save us. 
+
+loc. 5849 &middot; [highlight {{counter}}](#highlight-{{counter}})

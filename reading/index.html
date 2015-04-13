@@ -1,0 +1,43 @@
+---
+layout: default
+title: Reading
+active: reading
+description: "Books worth reading."
+---
+
+<section>
+
+  <header class="page-header">
+    <div class="wrap">
+      <h1 class="title">Reading</h1>
+      <p class="meta">Books are where I go for inspiration. This is my treasure trove.</p>
+    </div>
+  </header>
+
+  <div class="books">
+    <div class="wrap">
+    {% for post in site.categories.reading %}
+      <div class="book-item">
+        <div class="cover">
+          <div class="container">
+            <a href="{{ post.url }}">
+              <img 
+                src="/assets/images/spacer.png"
+                sizes="
+                (min-width: 34em) 120px, 120px"
+                srcset="
+                /assets/images/reading/{{post.cover}}-140.jpg 140w,
+                /assets/images/reading/{{post.cover}}-240.jpg 240w"
+                alt="{{post.title}}"
+              >
+            </a>
+          </div>
+        </div>
+        <h3 class="title"><a href="{{post.url}}">{{ post.title }}</a></h3>
+        <p class="meta"><span>by</span> {{ post.author }}</p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+
+</section>

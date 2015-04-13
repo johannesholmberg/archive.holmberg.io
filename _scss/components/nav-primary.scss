@@ -1,0 +1,155 @@
+.nav-primary {
+
+  @include breakpoint(mobile-lg) {
+    float: right;
+  }
+
+  ul {
+    list-style: none;
+    margin: .4em 0 .8em;
+    margin-left: -.3em;
+
+    @include breakpoint(mobile-lg) {
+      margin-left: 0;
+      margin-top: 1.2em;
+    } 
+
+    @include breakpoint(tablet-sm) {
+      margin: .8em 0 1.3em;
+    } 
+
+    @include breakpoint(tablet-lg) {
+      margin-top: .7em;      
+    } 
+  }
+    
+  li {
+    display: inline-block;
+    margin-right: .5em;
+    margin-bottom: 0;
+
+    &:first-child a {
+      @include breakpoint(mobile-lg-max) {
+        padding-left: .15em;        
+      } 
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @include breakpoint(mobile-lg) {
+      margin-left: .5em;      
+      margin-right: 0;
+    } 
+
+    @include breakpoint(tablet-sm) {
+      margin-left: .1em;
+    } 
+
+    @include breakpoint(tablet-lg) {
+      margin-left: 1.6em;
+    } 
+  }
+
+  a {
+    transition: all .2s ease-in-out;
+    border-bottom: 1px solid transparent;
+    color: $lightdarkgray;
+    display: inline-block;
+    font-size: $f16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: .4em .65em;
+    border: 1px solid transparent;
+
+    @include breakpoint(tablet-sm) {
+      padding: .5em 1.3em;
+    }
+
+    &.active {
+      color: $darkgray;
+
+      @include breakpoint(tablet-sm) {
+        border-radius: 36px;
+        background: $whitesmoke;
+        color: $profile-text !important;
+        border-bottom: 0;     
+      }
+
+      &:after {
+        background: lighten($darkgray, 20%);
+
+        @include breakpoint(tablet-sm) {
+          background: transparent;
+        } 
+      }
+
+      &:hover,
+      &:focus {
+        @include breakpoint(tablet-sm) {
+          border-bottom: 0;
+
+          &:after {
+            background: transparent !important;
+          }              
+        } 
+      }
+    }
+
+    &:after {
+      transition: all .25s ease-in-out;
+      content: '';
+      display: block;
+      height: 1px;
+    }
+
+    &:hover,
+    &:focus {
+      color: $darkgray;
+      &:after {
+        @include breakpoint(tablet-sm) {
+          background: lighten($darkgray, 20%);              
+        } 
+      }
+    }
+
+    &:active {
+      &:after {
+        @include breakpoint(tablet-sm) {
+          transition: none;
+          background: none;
+          color: $lightdarkgray;          
+        } 
+      }
+    }
+
+    .light & {
+      &.active {
+        @include breakpoint(tablet-sm) {
+          background: #fff;
+          border: 1px solid $profile-bg;          
+        } 
+      }
+
+    }
+
+    .dark & {
+      color: rgba(255, 255, 255, .9);
+
+      &:hover {
+        color: #fff;
+      }
+
+      &:hover:after {
+        background-color: rgba(255, 255, 255, .7);
+      }
+
+      &.active:after {
+        @include breakpoint(tablet-sm-max) {
+          background-color: rgba(255, 255, 255, .7);          
+        } 
+      }
+    }
+  }
+}

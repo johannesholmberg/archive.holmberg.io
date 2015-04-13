@@ -1,0 +1,11 @@
+.error-404 {
+  text-align: center;
+
+  @include breakpoint(mobile-lg) {
+    padding: 4.5em 0;
+  } 
+
+  h1 {
+    margin-bottom: 1em;
+  }
+}

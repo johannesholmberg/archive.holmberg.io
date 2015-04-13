@@ -1,0 +1,34 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Johannes Holmberg
+
+# Name of the author
+author: Johannes Holmberg
+
+# Short bio or description
+description: Johannes Holmberg is a freelance front-end web developer. This is his personal playground with words, design and code.
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-20488297-3
+
+# Your website URL
+# Used for Sitemap.xml and your RSS feed
+url: http://holmberg.io
+
+
+# !! You don't need to change any of the configuration flags below !!
+
+markdown: kramdown
+highlighter: pygments
+permalink: /journal/:title
+
+# Use the following plug-ins
+gems:
+  - jemoji # Emoji please!
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-redirect-from
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", 'bower.json', 'assets/js/vendor/', 'holmberg.io.sublime-workspace', 'holmberg.io.sublime-project']

@@ -1,0 +1,45 @@
+.nav-categories {
+  background: $snow;
+
+  .wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .see-all {
+    display: inline-block;
+    float: left;
+    padding: 1.5em 0;
+    border-bottom: 0;
+  }
+
+  ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      display: inline;
+      margin-bottom: 0;
+    }
+
+    li.next a {
+      padding-right: 0;
+      border-right: 0;
+    }
+
+    a {
+      display: inline-block;
+      padding: 1.5em 1em;
+      border-right: 1px solid $gray;
+      border-bottom: 0;
+
+      span {
+        @include breakpoint(mobile-lg-max) {
+          display: none;
+        } 
+      }
+    }
+  }
+}

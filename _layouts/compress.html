@@ -1,0 +1,10 @@
+{% capture compress %}
+{% assign temp1 = content | split: '<pre>' %}
+{% for temp2 in temp1 %}
+{% assign temp3 = temp2 | split: '</pre>' %}
+{% if temp3.size == 2 %}
+    <pre>{{ temp3.first | newline_to_br }}</pre>
+{% endif %}
+{{ temp3.last | split: ' ' | join: ' ' }}
+{% endfor %}
+{% endcapture %}{{ compress | strip_newlines }}

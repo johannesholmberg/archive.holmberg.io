@@ -1,0 +1,64 @@
+.book-entry {
+
+  header + .wrap {
+    @include breakpoint(mobile-lg) {
+      padding-top: 1.5em;    
+    }
+  }
+
+  .side-panel {
+    margin: 0;
+
+    .img-holder {
+      display: block;
+      border-bottom: 0;
+
+      @include breakpoint(mobile-lg-max) {
+        max-width: 120px;
+      } 
+    }
+
+    aside {
+      @include breakpoint(mobile-lg) {
+        margin-top: -9em;        
+      } 
+    }
+  }
+
+  :target {
+    & + blockquote {
+      border-left: 4px solid $gray;
+
+      @include breakpoint(tablet-sm) {
+        margin-left: -2em;      
+      } 
+
+      p {
+        font-size: 1.1em;
+
+        @include breakpoint(tablet-sm) {
+          font-size: 1.2em;
+        } 
+
+        @include breakpoint(tablet-lg) {
+          font-size: 1.3em;
+        } 
+      }
+    }
+  }
+
+  h2,
+  h3,
+  h4 {
+    visibility: hidden;
+    font-size: 0;
+  }
+
+  blockquote + p {
+    font-size: $f16px;
+    padding-left: 1.5rem;
+    margin-bottom: 3em;
+    margin-top: 0;
+    color: $midgray;
+  }
+}

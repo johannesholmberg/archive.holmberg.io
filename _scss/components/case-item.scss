@@ -1,0 +1,86 @@
+.case-item {
+  @extend %clearfix;
+  margin: 0;
+  padding: 5% 0;
+  position: relative; 
+
+  @include breakpoint(desktop-sm) {
+    padding: 10% 0;
+  }
+
+  &:first-of-type {
+    padding-top: 6%;
+
+    .image {
+      top: 11%;
+    }
+  }
+
+  &:last-of-type {
+    margin-bottom: 5em;
+  }
+
+  a {
+    border-bottom: 0;
+  }
+
+  .image {
+    display: inline-block;
+    margin-bottom: 1em;
+
+    @include breakpoint(mobile-lg) {
+      float: right;
+      max-width: 45%;
+      margin-left: 3em;
+    } 
+
+    @include breakpoint(tablet-lg) {
+      margin: 0 -2em 0 2em;
+      position: absolute;
+      right: 0;
+      top: 20%;
+    } 
+
+    @include breakpoint(desktop-lg) {
+      //margin: 0 -9% 0 2em;
+      //max-width: 54%;
+    } 
+  }
+
+  .title,
+  .meta {
+    @include breakpoint(tablet-lg) {
+      width: 50%;
+    } 
+  }
+
+  .title {
+    margin: 0 0 .25em;
+
+    a:hover,
+    a:focus {
+      border-bottom: 1px solid darken($profile-text, 10%);
+    }
+  }
+
+  .meta,
+  .description {
+    margin-top: 0; 
+  }
+
+  .meta {
+    line-height: 1.4;
+
+    .year {
+      font-weight: 600;
+    }
+  }
+
+  .description {
+    width: 100%;
+
+    @include breakpoint(tablet-lg) {
+      width: 50%;     
+    } 
+  }
+}

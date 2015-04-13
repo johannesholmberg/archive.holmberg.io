@@ -1,0 +1,3547 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inli",
+				"inline-block  (value)"
+			],
+			[
+				"tex-t",
+				"text-decoration:   (property)"
+			],
+			[
+				"pr",
+				"profile-bg"
+			],
+			[
+				"font-s",
+				"font-serif"
+			],
+			[
+				"pro",
+				"profile-bg"
+			],
+			[
+				"profil",
+				"profile-text"
+			],
+			[
+				"f",
+				"f18px"
+			],
+			[
+				"las",
+				"last-of-type  (pseudo-class)"
+			],
+			[
+				"font",
+				"font-sans-condensed"
+			],
+			[
+				"last-",
+				"last-of-type"
+			],
+			[
+				"font-sans",
+				"font-sans-condensed"
+			],
+			[
+				"fon",
+				"font-sans-condensed"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"dar",
+				"darkgray"
+			],
+			[
+				"text",
+				"text-align:   (property)"
+			],
+			[
+				"back",
+				"background-color:   (property)"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"te",
+				"profile-text"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"li",
+				"lightdarkgray"
+			],
+			[
+				"touch",
+				"touchstart"
+			],
+			[
+				"pink",
+				"pinkbg"
+			],
+			[
+				"padd",
+				"padding-left:   (property)"
+			],
+			[
+				"ligh",
+				"lightbodytext"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"dark",
+				"darkblue"
+			],
+			[
+				"light",
+				"lightgray"
+			],
+			[
+				"body",
+				"bodytext"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"bod",
+				"bodytext"
+			],
+			[
+				"sp",
+				"spaceblue"
+			],
+			[
+				"p",
+				"pinktext"
+			],
+			[
+				"pni",
+				"pinkbg"
+			],
+			[
+				"b",
+				"background	Background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_scss/_start.scss",
+			"settings":
+			{
+				"buffer_size": 3833,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/main.scss",
+			"settings":
+			{
+				"buffer_size": 7078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "journal/index.html",
+			"settings":
+			{
+				"buffer_size": 750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_reading.scss",
+			"settings":
+			{
+				"buffer_size": 2955,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_header.scss",
+			"settings":
+			{
+				"buffer_size": 879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 2450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-10-29-reading-100-things-every-presenter-needs-to-know-about-people.md",
+			"settings":
+			{
+				"buffer_size": 4233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_cv.scss",
+			"settings":
+			{
+				"buffer_size": 4953,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 2810,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 4690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cv/index.html",
+			"settings":
+			{
+				"buffer_size": 8286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_archive.scss",
+			"settings":
+			{
+				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 133 files for \"aside\"\n\n/Users/johannes/Documents/Development/jholmberg.com//_layouts/book.html:\n   13  	<div class=\"wrap\">\n   14  		<div role=\"complementary\">\n   15: 			<aside class=\"cover\">\n   16  				<a href=\"{{siteurl}}/reading\">\n   17            <img \n   ..\n   27  				<p>Publisher: {{page.publisher}}<br>\n   28  				Buy: <a href=\"{{page.book-url}}\">Amazon</a></p>\n   29: 			</aside>\n   30  		</div>\n   31  		<div role=\"main\">\n\n/Users/johannes/Documents/Development/jholmberg.com//info/index.html:\n   26  \n   27      <div role=\"complementary\">\n   28:       <aside class=\"text\">\n   29          <figure>\n   30            <img\n   ..\n   45  \n   46          <p>The website is built on <a href=\"http://jekyllrb.com\">Jekyll</a> and is hosted at <a href=\"http://mediatemple.net/\">MediaTemple</a>. All CSS is written with the help of <a href=\"http://sass-lang.com/\">Sass</a>. The task manager being used is <a href=\"http://gulpjs.com/\">Gulp</a> and to help keep track of packages; <a href=\"http://bower.io/\">Bower</a> is of great help. Typeface being used is Source Sans Pro from Adobe.\n   47:       </aside>\n   48      </div>\n   49    </div>\n\n4 matches across 2 files\n\n\nSearching 133 files for \"aside\"\n\n/Users/johannes/Documents/Development/jholmberg.com//_layouts/book.html:\n   13  	<div class=\"wrap\">\n   14  		<div role=\"complementary\">\n   15: 			<aside class=\"cover\">\n   16  				<a href=\"{{siteurl}}/reading\">\n   17            <img \n   ..\n   27  				<p>Publisher: {{page.publisher}}<br>\n   28  				Buy: <a href=\"{{page.book-url}}\">Amazon</a></p>\n   29: 			</aside>\n   30  		</div>\n   31  		<div role=\"main\">\n\n/Users/johannes/Documents/Development/jholmberg.com//info/index.html:\n   26  \n   27      <div role=\"complementary\">\n   28:       <aside class=\"text\">\n   29          <figure>\n   30            <img\n   ..\n   45  \n   46          <p>The website is built on <a href=\"http://jekyllrb.com\">Jekyll</a> and is hosted at <a href=\"http://mediatemple.net/\">MediaTemple</a>. All CSS is written with the help of <a href=\"http://sass-lang.com/\">Sass</a>. The task manager being used is <a href=\"http://gulpjs.com/\">Gulp</a> and to help keep track of packages; <a href=\"http://bower.io/\">Bower</a> is of great help. Typeface being used is Source Sans Pro from Adobe.\n   47:       </aside>\n   48      </div>\n   49    </div>\n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 2350,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "_layouts/book.html",
+			"settings":
+			{
+				"buffer_size": 2074,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "holmberg.io.sublime-project",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_info.scss",
+			"settings":
+			{
+				"buffer_size": 739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 1748,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"dire",
+				"dired"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"di",
+				"dired: Goto Anywhere"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"dir",
+				"dired: Goto Anywhere"
+			],
+			[
+				"upd",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"up",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"sen ev",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"sea",
+				"Evernote: Search Note"
+			],
+			[
+				"search no",
+				"Evernote: Search Note"
+			],
+			[
+				"upda",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"everno",
+				"Evernote: Search Note"
+			],
+			[
+				"ever",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"got",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"goto",
+				"dired: Goto Anywhere"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"file",
+				"File: Duplicate"
+			],
+			[
+				"fil",
+				"File: Move"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			]
+		],
+		"width": 543.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/johannes/Documents/Development/jholmberg.com/"
+	],
+	"file_history":
+	[
+		"/Users/johannes/Documents/Development/jholmberg.com/holmberg.io.sublime-project",
+		"/Users/johannes/Documents/Development/jholmberg.com/_includes/sidebar.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-autoprefixer/node_modules/autoprefixer/lib/hacks/align-items.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp/node_modules/chalk/node_modules/.bin/supports-color",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/vendor/modernizr/feature-detects/script-async.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/critical/node_modules/penthouse/node_modules/phantomjs/lib/phantom/examples/scandir.coffee",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node-form-data.sublime-project",
+		"/Users/johannes/Documents/Development/jholmberg.com/_config.yml",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/__variables.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_layouts/default.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/cv/johannes-holmberg.pdf",
+		"/Users/johannes/Documents/Development/jholmberg.com/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/reading/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_layouts/book.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_layouts/case.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/info/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-05-29-work-ssg.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2012-02-28-work-culturalcare.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-01-20-work-mio.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/work/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/journal/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/__highlights.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_buttons.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_layouts/new-post.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_work.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/main.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_cv.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_reading.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/cv/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/css/fonts.css",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_footer.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_archive.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-08-02-reading-universal-principles-of-design.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/critical/node_modules/penthouse/node_modules/phantomjs/lib/phantom/examples/universe.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/vendor/modernizr/feature-detects/unicode.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/critical/node_modules/cheerio/test/utilities.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_header.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_journal.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_start.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/gulpfile.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/_site/cv/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_site/work/culturalcare/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_site/work/mio/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_site/work/ssg/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/vendor.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/vendor.min.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-08-26-reading-the-design-of-everyday-things.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/app.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/htaccess",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/compat/internals/htmlEscapes.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp/node_modules/semver/head.js",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/_scss/main.scss",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/_scss/__variables.scss",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/_layouts/default.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/_layouts/compress.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/index.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/htaccess",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/_site/work/ssg/index.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/node_modules/gulp-sass/test/scss/variables.scss",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/node_modules/gulp-sass/test/ref/variables.css",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/CNAME",
+		"/Users/johannes/Library/Caches/Cleanup At Startup/Transmit/492DB501-12C0-435F-A16B-972FB9A40CF1/index.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/gulpfile.js",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/journal/index.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/info/index.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/_layouts/new-post.html",
+		"/Users/johannes/Documents/Development/Personal/jholmberg.com/_posts/2014-10-18-reading-the-left-hand-of-darkness.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-10-06-work-annaholmlund.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-10-06-work-miun.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/__mixins.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_layouts/post.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/archive/index.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-sass/node_modules/node-sass/test/lib/vars.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-sass/test/scss/variables.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-sass/test/ref/variables.css",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-09-16-reading-the-road-less-traveled.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-09-08-reading-remote.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-08-04-reading-on-the-road.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-06-05-reading-higher.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-09-21-reading-bird-by-bird.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/underscore/utilities/mixin.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/modern/utilities/mixin.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/compat/utilities/mixin.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-sass/test/scss/mixins.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-sass/test/ref/mixins.css",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-minify-css/test/minify.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_info.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_404.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-09-21-bird-by-bird.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/404.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/browser-sync/README.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/compat/internals/reEscapedHtml.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/icons/rss.svg",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_variables.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_scss/_mixins.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2012-04-25-island.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-09-16-the-road-less-traveled.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_layouts/cv.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/_site/feed.xml",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-notify/lib/withReporter.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/browser-sync/node_modules/http-proxy/lib/http-proxy/passes/web-outgoing.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/browser-sync/node_modules/browser-sync-client/.idea/workspace.xml",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2013-02-10-reading-the-fountainhead.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2012-10-10-reading-stranger-in-a-strange-land.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-autoprefixer/node_modules/autoprefixer/lib/info.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-sass/node_modules/node-sass/test/included_files.scss",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/feed.xml",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/compat/objects/forOwn.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/compat/internals/forOwnIteratorOptions.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp/node_modules/semver/foot.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/critical/node_modules/penthouse/node_modules/phantomjs/lib/phantom/examples/printheaderfooter.coffee",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2012-03-31-reading-insanely-simple.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2012-03-01-reading-steve-jobs.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2013-03-01-reading-chronicles.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/critical/node_modules/cheerio/node_modules/htmlparser2/test/Events/06-leading-lt.json",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/browser-sync/node_modules/resp-modifier/test/fixtures/json-masquerading-as.html",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/vendor/modernizr/feature-detects/css-userselect.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-09-08-those-walks.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/_drafts/2014-09-08-those-walks.md",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/compat/collections/forEachRight.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/vendor/modernizr/feature-detects/css-hyphens.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/_posts/2014-08-09-a-book-apart-on-web-typography.markdown",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/test/readme-issue.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-cache/node_modules/lodash-node/modern/objects/isObject.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/.editorconfig",
+		"/Users/johannes/Documents/Development/jholmberg.com/node_modules/gulp-concat/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/source-map/source-map-generator.js",
+		"/Users/johannes/Documents/Development/jholmberg.com/assets/js/vendor/modernizr/feature-detects/style-scoped.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*",
+			"*.scss",
+			"*.html",
+			"*",
+			"*, !*_site",
+			"*, !_site",
+			"*",
+			"*.scss",
+			"*",
+			"*.scss",
+			"*.md, *.html",
+			".md, .html",
+			"*",
+			"*html",
+			"html",
+			"",
+			"*.scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"aside",
+			"only",
+			"Susan Weinschenk, 100 Things Every Presenter Needs to Know About People, ",
+			"#",
+			"font-family",
+			".meta",
+			"font-seri",
+			"font-serig",
+			"font-family: $font-san",
+			"font-family",
+			"class=\"btn-special\"",
+			"class=\"btn\"",
+			"$font-sans-condensed",
+			"kepler",
+			"div role=\"complementary",
+			"div[role=complementary]",
+			"footer.navigation",
+			".no-t",
+			"Ursula K. le Guin, The Left Hand of Darkness, ",
+			"moon-is-a-harsh-mistress",
+			"Evenemang",
+			"font",
+			"srcset",
+			"div",
+			"intro",
+			"div",
+			"entry-content",
+			"main-content",
+			"skills",
+			"26px",
+			"h3",
+			"cache",
+			"desktop-sm",
+			"tablet",
+			"desktop",
+			"tv",
+			"h1",
+			"mobile-big",
+			"Anne Lamott, Bird by Bird: Some Instructions on Writing and Life, ",
+			"Aldous Huxley, Island, ",
+			"### h",
+			"M. Scott Peck, The Road Less Travelled: A New Psychology of Love, Traditional Values and Spiritual Growth (Classic Edition), ",
+			"archive",
+			"btn",
+			"footer",
+			"Jack Kerouac, On The Road, ",
+			"## h",
+			"Jason Fried and David Heinemeier Hansson, Remote: Office Not Required, ",
+			"reading",
+			"h3",
+			"font-weight: 100",
+			"font-weight",
+			"italic",
+			"aside",
+			"cover",
+			"main",
+			"cover",
+			"Ayn Rand, The fountainhead, ",
+			"Robert A. Heinlein, Stranger in a Strange Land, ",
+			"(#h{{counter}})",
+			"[#h{{counter}}]",
+			"## h{{counter}}",
+			"[#highlight {{counter}}]",
+			"(#highlight{{counter}})",
+			"[#highlight{{counter}}]",
+			"#highlight{{counter}}",
+			"## highlight{{counter}}",
+			"h{",
+			"reading",
+			"mio-desktop",
+			"case",
+			"intro",
+			"h {",
+			"h",
+			"aside",
+			"William Lidwell and Kritina Holden and Jill Butler, Universal Principles of Design, Revised and Updated: 125 Ways to Enhance Usability, Influence Perception, Increase Appeal, Make Better Design Decisions, and Teach through Design, ",
+			"header",
+			"french",
+			"Don Norman, The Design of Everyday Things: Revised and Expanded Edition, ",
+			"blockquo",
+			"reading",
+			"aside",
+			"reading-ho",
+			"aside",
+			"wrap",
+			"meta",
+			"blockqu",
+			"block",
+			"role=main",
+			"writing",
+			"pinktext",
+			"pinkbg",
+			"lightpin",
+			"pinkbg",
+			"clearfi",
+			"comple",
+			"clearfix",
+			"important",
+			"section",
+			"-webkit",
+			"font-sans",
+			"bodytext",
+			"article",
+			"eee",
+			"lightgray",
+			"18px",
+			"26px",
+			"32px",
+			"52px",
+			"px",
+			"14px",
+			"18px",
+			"20px",
+			"calc",
+			"20px",
+			"tablet-big",
+			"mobile",
+			"red",
+			"tall",
+			"browser",
+			"body",
+			"border-radius",
+			"transition",
+			"header",
+			"darkerGray",
+			"darker",
+			"Gray",
+			"darker"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"class=\"btn\"",
+			"$font-sans",
+			"",
+			"tablet-lg",
+			"tablet-sm",
+			"desktop-sm",
+			"mobile-lg",
+			"",
+			"#### h",
+			"",
+			"### h",
+			"",
+			"(#highlight-{{counter}})",
+			"[highlight {{counter}}]",
+			"## highlight {{counter}}",
+			"[highlight {{counter}}]",
+			"(#highlight-{{counter}})",
+			"[#highlight {{counter}}]",
+			"#highlight-{{counter}}",
+			"## highlight {{counter}}",
+			"highlight{",
+			"",
+			"profile-text",
+			"profile-bg",
+			"font-sans-condensed",
+			"darkgray",
+			"whitesmoke",
+			"$f18px",
+			"$f26px",
+			"$f32px",
+			"$f52px",
+			"$f14px",
+			"$f18px",
+			"$f20px",
+			"mobile-big",
+			"2rem",
+			"brown",
+			"blue",
+			"../",
+			"..",
+			"2x"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 14,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_scss/_start.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3804,
+								3804
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3092.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_scss/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5072,
+								5072
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5499.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "journal/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "html",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_scss/_reading.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1175,
+								1175
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 951.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_scss/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_scss/_navigation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1140,
+								1140
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"open_with_edit": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_posts/2014-10-29-reading-100-things-every-presenter-needs-to-know-about-people.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								477
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "markdown",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"open_with_edit": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_scss/_cv.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2227,
+								2227
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_scss/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1363,
+								1363
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "html",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "cv/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3645,
+								3645
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "html",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1077.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_scss/_archive.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2350,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										180,
+										185
+									],
+									[
+										391,
+										396
+									],
+									[
+										572,
+										577
+									],
+									[
+										1107,
+										1112
+									],
+									[
+										1356,
+										1361
+									],
+									[
+										1567,
+										1572
+									],
+									[
+										1748,
+										1753
+									],
+									[
+										2283,
+										2288
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1358,
+								1358
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "find results.hidden-tmlanguage",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 544.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "_layouts/book.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "holmberg.io.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "json",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "_scss/_info.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "scss",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "_layouts/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "html",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 110.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "holmberg.io.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mai",
+				"_scss/main.scss"
+			],
+			[
+				"var",
+				"_scss/__variables.scss"
+			],
+			[
+				"universa",
+				"_posts/2014-08-02-reading-universal-principles-of-design.md"
+			],
+			[
+				"de",
+				"_layouts/default.html"
+			],
+			[
+				"vari",
+				"_scss/__variables.scss"
+			],
+			[
+				"mixi",
+				"_scss/__mixins.scss"
+			],
+			[
+				"main",
+				"_scss/main.scss"
+			],
+			[
+				"defaul",
+				"_layouts/default.html"
+			],
+			[
+				"book",
+				"_layouts/book.html"
+			],
+			[
+				"mix",
+				"_scss/_mixins.scss"
+			],
+			[
+				"defa",
+				"_layouts/default.html"
+			],
+			[
+				"reading-",
+				"_posts/2014-08-26-reading-the-design-of-everyday-things.md"
+			],
+			[
+				"cultur",
+				"_posts/2012-02-28-work-culturalcare.md"
+			],
+			[
+				"side",
+				"_includes/sidebar.html"
+			],
+			[
+				"design",
+				"_posts/2014-08-26-reading-the-design-of-everyday-things.md"
+			],
+			[
+				"reading",
+				"reading/index.html"
+			],
+			[
+				"case",
+				"_layouts/case.html"
+			],
+			[
+				"mio.",
+				"_posts/2014-01-20-work-mio.md"
+			],
+			[
+				"ssg.",
+				"_posts/2014-08-29-work-ssg.md"
+			],
+			[
+				"insane",
+				"_posts/2012-03-31-reading-insanely-simple.md"
+			],
+			[
+				"fount",
+				"_posts/2013-02-10-reading-the-fountainhead.md"
+			],
+			[
+				"readin",
+				"_posts/2014-08-30-reading-universal-principles-of-design.md"
+			],
+			[
+				"desig",
+				"_posts/2014-08-26-reading-the-design-of-everyday-things.md"
+			],
+			[
+				"venod",
+				"assets/js/vendor.js"
+			],
+			[
+				"mio",
+				"_posts/2014-08-28-mio.md"
+			],
+			[
+				"abook",
+				"_posts/2014-08-09-a-book-apart-on-web-typography.markdown"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"fountain",
+				"_posts/2014-08-25-the-fountainhead.md"
+			],
+			[
+				"univ",
+				"_posts/2014-08-30-universal-principles-of-design.md"
+			],
+			[
+				"desi",
+				"_posts/2014-08-26-the-design-of-everyday-things.markdown"
+			],
+			[
+				"designing",
+				"_posts/2012-05-04-designing-in-the-browser.markdown"
+			],
+			[
+				"stranger",
+				"_posts/2014-08-31-stranger-in-a-strange-land.md"
+			],
+			[
+				"ssg",
+				"_posts/2014-08-30-ssg.md"
+			],
+			[
+				"des",
+				"_posts/2014-08-26-the-design-of-everyday-things.markdown"
+			],
+			[
+				"why",
+				"_posts/2012-05-17-why-i-love-this.markdown"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"def",
+				"_layouts/default.html"
+			],
+			[
+				"cleaing",
+				"_posts/2014-08-06-cleaning-the-homescreen.markdown"
+			],
+			[
+				"anew",
+				"_posts/2014-05-29-a-new-home.markdown"
+			],
+			[
+				"aboo",
+				"_posts/2014-08-09-a-book-apart-on-web-typography.markdown"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"main.c",
+				"_site/assets/css/main.css"
+			],
+			[
+				"utilit",
+				"node_modules/critical/node_modules/cheerio/test/utilities.js"
+			],
+			[
+				"404",
+				"404.html"
+			],
+			[
+				"gitign",
+				".gitignore"
+			],
+			[
+				"clea",
+				"_posts/2014-08-06-cleaning-the-homescreen.markdown"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"cleaning",
+				"_posts/2014-08-06-cleaning-the-homescreen.markdown"
+			],
+			[
+				"he",
+				"source/_includes/head.html"
+			],
+			[
+				"arti",
+				"source/_includes/article.html"
+			],
+			[
+				"hea",
+				"source/_includes/custom/header.html"
+			],
+			[
+				"layo",
+				"_layouts/default.html"
+			],
+			[
+				"ut",
+				"_scss/_utilities.scss"
+			],
+			[
+				"st",
+				"style.scss"
+			],
+			[
+				"foo",
+				"source/_includes/custom/after_footer.html"
+			],
+			[
+				"in",
+				"source/index.html"
+			],
+			[
+				"head",
+				"source/_includes/custom/header.html"
+			],
+			[
+				"print",
+				"sass/print.scss"
+			],
+			[
+				"scre",
+				"sass/screen.scss"
+			],
+			[
+				"sca",
+				"sass/scaffolding.scss"
+			],
+			[
+				"scr",
+				"sass/screen.scss"
+			],
+			[
+				"typ",
+				"source/_posts/2014-08-09-a-book-apart-on-web-typography.markdown"
+			],
+			[
+				"va",
+				"sass/helpers/variables.scss"
+			],
+			[
+				"util",
+				"sass/helpers/utilities.scss"
+			],
+			[
+				"onweb",
+				"source/_posts/2014-08-09-a-book-apart-on-web-typography.markdown"
+			],
+			[
+				"clean",
+				"source/_posts/2014-08-06-cleaning-the-homescreen.markdown"
+			],
+			[
+				"scaf",
+				"sass/scaffolding.scss"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"foot",
+				"source/_includes/custom/footer.html"
+			],
+			[
+				"app",
+				"source/javascripts/app.js"
+			],
+			[
+				"header",
+				"source/_includes/custom/header.html"
+			],
+			[
+				"cus",
+				"sass/helpers/custom-normalizing.scss"
+			],
+			[
+				"about",
+				"source/_includes/custom/asides/about.html"
+			],
+			[
+				"scaff",
+				"sass/scaffolding.scss"
+			],
+			[
+				"abou",
+				"source/_includes/custom/asides/about.html"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"sc",
+				"sass/scaffolding.scss"
+			],
+			[
+				"artic",
+				"source/_includes/article.html"
+			],
+			[
+				"scad",
+				"sass/scaffolding.scss"
+			],
+			[
+				"writin",
+				"source/writing/index.html"
+			],
+			[
+				"art",
+				"source/_includes/article.html"
+			],
+			[
+				"pos",
+				"source/_layouts/post.html"
+			],
+			[
+				"ind",
+				"source/index.html"
+			],
+			[
+				"lay",
+				"source/_layouts/post.html"
+			],
+			[
+				"caf",
+				"source/_includes/custom/category_feed.xml"
+			],
+			[
+				"onthe",
+				"source/_posts/2013-06-01-on-the-road-again.markdown"
+			],
+			[
+				"1000",
+				"source/_posts/2012-05-14-a-1000-distractions-in-your-pocket.markdown"
+			],
+			[
+				"ada",
+				"source/_posts/2012-03-26-adapting-to-new-things.markdown"
+			],
+			[
+				"norm",
+				"assets/css/scss/vendor/normalize.scss"
+			],
+			[
+				"cust",
+				"assets/css/scss/helpers/custom-normalizing.scss"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"scas",
+				"assets/css/scss/scaffolding.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"miun",
+				"~/Documents/Development/Osynlig/miun.dev.osynlig.se/miun.dev.osynlig.se.sublime-project"
+			],
+			[
+				"miun.",
+				"~/Documents/Development/Sites/miun.dev.osynlig.se/miun.dev.osynlig.se.sublime-project"
+			],
+			[
+				"jh",
+				"~/Documents/Development/Private/jholmberg.com/2014 jholmberg.com v11/jholmberg.com/jholmberg.com.2014.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/Development/Private/jholmberg.com/2014 jholmberg.com v11/jholmberg.com/jholmberg.com.2014.sublime-project"
+			],
+			[
+				"jholm",
+				"~/Documents/Development/Private/jholmberg.com/2014 jholmberg.com v11/jholmberg.com.2014.sublime-workspace"
+			],
+			[
+				"mss",
+				"~/Documents/Development/Sites/m.ssg.dev.osynlig.se/m.ssg.dev.osynlig.se.sublime-project"
+			],
+			[
+				"of",
+				"~/Documents/Development/Sites/of.dev.osynlig.se/of.dev.osynlig.se.sublime-project"
+			],
+			[
+				"ssg",
+				"~/Documents/Development/Sites/m.ssg.dev.osynlig.se/m.ssg.dev.osynlig.se.sublime-project"
+			],
+			[
+				"of.",
+				"~/Documents/Development/Sites/of.dev.osynlig.se/of.dev.osynlig.se.sublime-project"
+			],
+			[
+				"mio",
+				"~/Documents/Development/Sites/mio.dev.osynlig.se/mio.dev.osynlig.se.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

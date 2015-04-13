@@ -1,0 +1,40 @@
+---
+layout: default
+title: Work
+description: "Work and projects by Johannes Holmberg."
+---
+
+<section>
+
+  <header class="page-header">
+    <div class="wrap">
+      <h1 class="title">Work</h1>
+      <p class="meta">My bread and butter. This is what I do.</p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    {% for post in site.categories.work %}
+      <article class="case-item">
+        <h2 class="title"><a href="{{post.url}}">{{post.title}}</a></h2>
+        <p class="meta">
+          <span class="year">{{post.year}}</span> 
+          &middot; <span>{{post.responsibilities}}</span>
+        </p>
+        <a href="{{ post.url }}" class="image">
+          <img 
+            src="{{siteurl}}/assets/images/spacer.png"
+            sizes="
+            (min-width: 38em) 31.2em, 100%"
+            srcset="
+            {{siteurl}}/assets/images{{post.url}}/{{post.cover}}.jpg 400w,
+            {{siteurl}}/assets/images{{post.url}}/{{post.cover}}@2x.jpg 800w"
+            alt="{{post.title}}"
+          >
+        </a>
+        <p class="description">{{post.description}}</p>
+      </article>
+    {% endfor %}
+  </div>
+
+</section>

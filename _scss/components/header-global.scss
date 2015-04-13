@@ -1,0 +1,80 @@
+.header-global {
+  
+  .wrap {
+    @include breakpoint(mobile-lg) {
+      padding-top: .5em;
+      padding-bottom: .7em;
+    } 
+
+    @include breakpoint(tablet-sm) {
+      padding-top: 1.5em;
+      padding-bottom: 1.3em;
+    } 
+  }
+
+  h1 {
+    letter-spacing: -.005em;
+    line-height: 1;
+    font-size: 1.45rem;
+    margin: 1.1em 0 .55em;
+    font-weight: 400;
+
+    @include breakpoint(mobile-lg) {
+      float: left;  
+      font-size: $f20px;
+    }
+
+    @include breakpoint(tablet-sm) {
+      margin: .8em 0;
+    } 
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: $darkgray;
+
+
+      &:hover,
+      &:focus {
+        .title {
+          color: $darkgray;
+        }
+      }
+
+      .dark & {
+        &:hover,
+        &:focus {
+          .title {
+            color: #fff;
+          }
+        }        
+      }
+    }
+
+    .title {
+      text-transform: uppercase;
+      color: #737373;
+      font-size: 1.05rem;
+      transition: all .2s ease-in-out;
+
+      .dark & {
+        color: rgba(255, 255, 255, .95);
+        text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+      }
+    }
+
+    .role {
+      display: block;
+      margin-top: .25em;
+      font-size: .97rem;
+      color: $lightdarkgray;
+      font-weight: 400;
+      font-family: $font-sans;
+
+      .dark & {
+        color: rgba(255, 255, 255, .65);
+        text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+      }
+    }
+  }
+}

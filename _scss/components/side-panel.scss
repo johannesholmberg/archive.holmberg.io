@@ -1,0 +1,24 @@
+.side-panel {
+
+  margin: 0 auto;
+  max-width: 200px;
+  position: relative;
+
+  @include breakpoint(mobile-lg) {
+    float: right; 
+    width: 21%;
+    max-width: none;
+  }
+}
+
+aside {
+  margin-bottom: 1em;
+
+  @include breakpoint(mobile-lg) {
+    border-left: 1em solid #fff;    
+  } 
+
+  p {
+    font-size: $f16px;
+  }
+}

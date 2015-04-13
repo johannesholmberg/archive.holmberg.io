@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<article class="book-entry">
+
+	<header class="page-header">
+		<div class="wrap">
+		  <h1 class="title">{{ page.title }}</h1>
+		  <p class="meta">
+        {% if page.flag == 'current' %}
+          Currently reading
+        {% else %}
+        {{ page.date | date: '%B' }}
+        {% assign d = page.date | date: "%-d" %} 
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st,
+          {% when '2' or '22' %}{{ d }}nd,
+          {% when '3' or '23' %}{{ d }}rd,
+          {% else %}{{ d }}th,
+          {% endcase %}
+          {{ page.date | date: '%Y' }}
+        {% endif %}
+       — <span>by</span> {{ page.author }}</p>
+		</div>
+	</header>
+
+	<div class="wrap">
+		
+    <div role="complementary" class="side-panel">
+			<aside>
+				<a href="/reading" class="img-holder">
+          <img
+            src="/assets/images/spacer.png"
+            sizes="
+            (min-width: 57em) 200px, 
+            (min-width: 34em) 140px, 120px"
+            srcset="
+            /assets/images/reading/{{page.cover}}-200.jpg 200w,
+            /assets/images/reading/{{page.cover}}-400.jpg 400w"
+            alt="{{page.title}}"
+          >
+				</a>
+				<p>
+          Publisher: {{page.publisher}}<br>
+				  Buy: <a href="{{page.book-url}}">Amazon</a>
+        </p>
+			</aside>
+		</div>
+
+		<div role="main">
+			{{ content }}
+		</div>
+
+	</div>
+
+  <footer class="nav-categories">
+    <div class="wrap">
+      <a href="/reading" class="see-all">Browse all books</a>
+      <ul>
+      {% for category in site.categories %}
+          {% assign catg_name = category.first %}
+          {% if catg_name == page.category %}
+              {% assign catg_posts = category.last %}
+          {% endif %}
+      {% endfor %}
+      {% for post in catg_posts %}
+          {% if post.title == page.title %}
+              {% unless forloop.last %}
+                  {% assign next = catg_posts[forloop.index] %}
+                  <li class="previous">
+                    <a href="{{ site.baseurl }}{{ next.url }}" class="books">&larr; <span>{{ next.title }}</span></a>
+                  </li>
+              {% endunless %}
+              {% unless forloop.first %}
+                  <li class="next">
+                    <a href="{{ site.baseurl }}{{ prev.url }}" class="books"><span>{{ prev.title }}</span> &rarr;</a>
+                  </li>
+              {% endunless %}
+          {% endif %}
+          {% assign prev = post %}
+      {% endfor %}
+      </ul>
+    </div>
+  </footer>
+
+</article>

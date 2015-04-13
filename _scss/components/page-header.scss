@@ -1,0 +1,39 @@
+.page-header {
+
+  position: relative;
+  padding-top: 5%;
+
+  .wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .title {
+    @extend %header-style;
+    max-width: 86%;
+
+    @include breakpoint(tablet-sm) {
+      max-width: 76%;  
+    } 
+  }
+
+  .meta {
+    margin: 0;
+    color: $midgray;
+    line-height: 1.4;
+    max-width: 86%;
+
+    @include breakpoint(tablet-sm) {
+      max-width: 76%;  
+    } 
+
+    @include breakpoint(mobile-lg-max) {
+      font-size: 1.1rem;      
+    }
+
+    span {
+      font-style: italic;
+      font-size: .85em;      
+    }
+  }
+}

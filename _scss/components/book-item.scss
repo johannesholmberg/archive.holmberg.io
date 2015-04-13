@@ -1,0 +1,77 @@
+.books > .wrap {
+  max-width: 108em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-item {
+  margin: 0 2.5% 1.5em;
+  width: 100%;
+  
+
+  @include breakpoint(mobile-lg) {
+    float: left;
+    width: 30.23%;      
+    margin: 1em 1.5% 2.5em;
+  } 
+
+  @include breakpoint(tablet-lg) {
+    width: 21.9%;      
+  } 
+
+  @include breakpoint(desktop-sm) {
+    width: 16.9%;      
+  } 
+
+  @include breakpoint(desktop-lg) {
+    width: 13.56%;  
+  }
+
+  .cover {
+    position: relative;
+    height: 230px;
+    border-bottom: 5px solid $snow;
+
+    a {
+      display: block;
+      border-bottom: 0;
+      margin-bottom: 1em;
+    }
+  }
+
+  .container {
+    position: absolute;
+    bottom: 0;
+  }
+
+  img {
+    max-width: 120px;
+  }
+
+  .title {
+    padding-top: .7em;
+    margin-top: 0;
+    margin-bottom: .2em;
+    font-family: $font-header;
+    
+    @include breakpoint(mobile-lg) {
+      font-size: $f18px;      
+      font-family: $font-sans;
+    } 
+
+    
+    a {
+      text-decoration: none;
+      border-bottom: 0;
+    }
+  }
+
+  .meta {
+    line-height: 1.5;
+    margin: 0;
+
+    @include breakpoint(mobile-lg) {
+      font-size: $f16px;
+    } 
+  }
+}

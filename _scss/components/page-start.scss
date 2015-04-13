@@ -1,0 +1,64 @@
+.box-wrapper {
+  background: #fafafa;
+  border-bottom: 1px solid #eee;
+
+  .wrap {
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 12%;
+
+    @include breakpoint(tablet-sm) {
+      padding-bottom: 8%;
+    } 
+  }
+}
+
+.box {
+  text-align: center;
+  margin: 1em 1em 0;
+
+  @include breakpoint(mobile-lg) {
+    margin: 1em 5em 0;    
+  } 
+
+  @include breakpoint(tablet-lg) {
+    width: 29.2%;
+    float: left;
+    margin: 0 2% 2em;
+  } 
+
+  @include breakpoint(desktop-sm) {
+    padding: 0 1em;
+  } 
+
+  h2 {
+    margin-bottom: 0;
+    font-family: $font-sans;
+    font-size: $f26px;
+
+    span {
+      @include breakpoint(tablet-lg) {
+        display: block;        
+      }
+
+      @include breakpoint(desktop-sm) {
+        display: inline;
+      } 
+    }
+  }
+
+  p {
+    margin-top: .8em;
+  }
+
+  img {
+    width: 32px;
+    height: 32px;
+
+    @include breakpoint(tablet-sm) {
+      width: 44px;
+      height: 44px;      
+    } 
+  }
+}

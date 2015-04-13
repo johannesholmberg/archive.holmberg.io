@@ -1,0 +1,16 @@
+.icon {
+	background-repeat: no-repeat;
+
+	&.icon-code {
+		background-image: url('../../assets/images/icons/png/code.png');
+	}
+
+	&.icon-design {
+		background-image: url('../../assets/images/icons/png/design.png');
+	}
+
+	&.icon-ia {
+		background-image: url('../../assets/images/icons/png/ia.png');
+	}
+
+}
