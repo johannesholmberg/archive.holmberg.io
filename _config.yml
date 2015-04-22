@@ -25,10 +25,4 @@ markdown: kramdown
 highlighter: pygments
 permalink: /journal/:title
 
-# Use the following plug-ins
-gems:
-  - jemoji # Emoji please!
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-redirect-from
-
 exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", 'bower.json', 'assets/js/vendor/', 'holmberg.io.sublime-workspace', 'holmberg.io.sublime-project']

@@ -20,7 +20,6 @@
   border-radius: .25em;
   letter-spacing: .02em;
   transition: all .1s ease-in-out;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 
   &:hover,
   &:focus {
@@ -30,7 +29,6 @@
   &.-standard {
     background: rgba(20, 153, 208, .5);
     border: 1px solid rgba(20, 153, 208, 1);
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 
     &:hover,
     &:focus {

@@ -103,16 +103,16 @@ gulp.task('sass', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function() {
-  iconify({
-    src: 'assets/images/icons/*.svg',
-    pngOutput: 'assets/images/icons/png',
-    scssOutput: '_scss/icons',
-    cssOutput:  '_scss/icons',
-    defaultHeight: '47px',
-    svgoOptions: {
-      enabled: false
-    }
-  });
+  // iconify({
+  //   src: 'assets/images/icons/*.svg',
+  //   pngOutput: 'assets/images/icons/png',
+  //   scssOutput: '_scss/icons',
+  //   cssOutput:  '_scss/icons',
+  //   defaultHeight: '47px',
+  //   svgoOptions: {
+  //     enabled: false
+  //   }
+  // });
   gulp.watch('_scss/**/*.scss', ['sass']);
   gulp.watch([
     '**/*.html',
@@ -128,7 +128,7 @@ gulp.task('watch', function() {
  */
 gulp.task('book-images', function() {
 
-  var source = source;
+  var source = 'assets/images/reading/_orig/*';
 
   gulp.src(source)
     .pipe(imageResize({
