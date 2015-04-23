@@ -128,7 +128,7 @@ gulp.task('watch', function() {
  */
 gulp.task('book-images', function() {
 
-  var source = 'assets/images/reading/_orig/*';
+  var source = 'assets/images/reading/*';
   var dest = 'assets/images/dist';
 
   gulp.src(source)
