@@ -11,11 +11,11 @@ description: "Books worth reading."
 
   <div class="books">
     <div class="wrap">
-      {% for post in site.categories.reading offset:0 limit:30 %}
+      {% for post in site.categories.reading offset:30 limit:30 %}
         {% include book-item.html %}
       {% endfor %}
       <div class="pagination-block">
-        <a href="/reading/2" class="pagination">Next page &raquo;</a>
+        <a href="/reading/" class="pagination">&laquo; Previous page</a>
       </div>
     </div>
   </div>
