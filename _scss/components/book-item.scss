@@ -55,8 +55,9 @@
     font-family: $font-header;
     
     @include breakpoint(mobile-lg) {
-      font-size: $f18px;      
+      font-size: $f16px;      
       font-family: $font-sans;
+      font-weight: 400;
     } 
 
     
@@ -71,7 +72,7 @@
     margin: 0;
 
     @include breakpoint(mobile-lg) {
-      font-size: $f16px;
+      font-size: $f14px;
     } 
   }
 }
