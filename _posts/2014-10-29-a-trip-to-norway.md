@@ -17,11 +17,11 @@ Listening to Douglas Crockford speaking about JavaScript was a little bit unreal
 <figure>
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/douglas-crockford-400.jpg 400w,
-        {{siteurl}}/assets/images/journal/douglas-crockford-600.jpg 600w,
-        {{siteurl}}/assets/images/journal/douglas-crockford-800.jpg 800w,
-        {{siteurl}}/assets/images/journal/douglas-crockford-1000.jpg 1000w,
-        {{siteurl}}/assets/images/journal/douglas-crockford-1400.jpg 1400w"
+        {{siteurl}}/assets/images/dist/douglas-crockford-400.jpg 400w,
+        {{siteurl}}/assets/images/dist/douglas-crockford-600.jpg 600w,
+        {{siteurl}}/assets/images/dist/douglas-crockford-800.jpg 800w,
+        {{siteurl}}/assets/images/dist/douglas-crockford-1000.jpg 1000w,
+        {{siteurl}}/assets/images/dist/douglas-crockford-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         sizes="(min-width: 74em) 49em, 100%"
         alt="Douglas Crockford"
@@ -38,11 +38,11 @@ Chris Coyier is like that imaginary coding buddy you always hear in your head. (
 <figure>
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/chris-coyier-400.jpg 400w,
-        {{siteurl}}/assets/images/journal/chris-coyier-600.jpg 600w,
-        {{siteurl}}/assets/images/journal/chris-coyier-800.jpg 800w,
-        {{siteurl}}/assets/images/journal/chris-coyier-1000.jpg 1000w,
-        {{siteurl}}/assets/images/journal/chris-coyier-1400.jpg 1400w"
+        {{siteurl}}/assets/images/dist/chris-coyier-400.jpg 400w,
+        {{siteurl}}/assets/images/dist/chris-coyier-600.jpg 600w,
+        {{siteurl}}/assets/images/dist/chris-coyier-800.jpg 800w,
+        {{siteurl}}/assets/images/dist/chris-coyier-1000.jpg 1000w,
+        {{siteurl}}/assets/images/dist/chris-coyier-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         sizes="(min-width: 74em) 49em, 100%"
         alt="Chris Coyier"
@@ -59,11 +59,11 @@ Anyway, I hope to come back to Trondheim next year.
 <figure>
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/clarion-hotel-400.jpg 400w,
-        {{siteurl}}/assets/images/journal/clarion-hotel-600.jpg 600w,
-        {{siteurl}}/assets/images/journal/clarion-hotel-800.jpg 800w,
-        {{siteurl}}/assets/images/journal/clarion-hotel-1000.jpg 1000w,
-        {{siteurl}}/assets/images/journal/clarion-hotel-1400.jpg 1400w"
+        {{siteurl}}/assets/images/dist/clarion-hotel-400.jpg 400w,
+        {{siteurl}}/assets/images/dist/clarion-hotel-600.jpg 600w,
+        {{siteurl}}/assets/images/dist/clarion-hotel-800.jpg 800w,
+        {{siteurl}}/assets/images/dist/clarion-hotel-1000.jpg 1000w,
+        {{siteurl}}/assets/images/dist/clarion-hotel-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         sizes="(min-width: 74em) 49em, 100%"
         alt="Clarion Hotel"

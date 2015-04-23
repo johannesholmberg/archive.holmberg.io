@@ -2,5 +2,4 @@
 node_modules
 _site
 assets/css/*.css
-assets/images/reading/*
-assets/images/journal/*
+assets/images/dist/*

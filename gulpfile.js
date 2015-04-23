@@ -129,6 +129,7 @@ gulp.task('watch', function() {
 gulp.task('book-images', function() {
 
   var source = 'assets/images/reading/_orig/*';
+  var dest = 'assets/images/dist';
 
   gulp.src(source)
     .pipe(imageResize({
@@ -138,7 +139,7 @@ gulp.task('book-images', function() {
     .pipe(rename({
       suffix: '-400'
     }))
-    .pipe(gulp.dest('assets/images/reading/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -148,7 +149,7 @@ gulp.task('book-images', function() {
     .pipe(rename({
       suffix: '-240'
     }))
-    .pipe(gulp.dest('assets/images/reading/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -158,7 +159,7 @@ gulp.task('book-images', function() {
     .pipe(rename({
       suffix: '-200'
     }))
-    .pipe(gulp.dest('assets/images/reading/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -168,7 +169,7 @@ gulp.task('book-images', function() {
     .pipe(rename({
       suffix: '-160'
     }))
-    .pipe(gulp.dest('assets/images/reading/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -178,7 +179,7 @@ gulp.task('book-images', function() {
     .pipe(rename({
       suffix: '-140'
     }))
-    .pipe(gulp.dest('assets/images/reading/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -188,7 +189,7 @@ gulp.task('book-images', function() {
     .pipe(rename({
       suffix: '-100'
     }))
-    .pipe(gulp.dest('assets/images/reading/'));
+    .pipe(gulp.dest(dest));
 
   console.log('Resized images');
 });
@@ -198,7 +199,8 @@ gulp.task('book-images', function() {
  */
 gulp.task('article-images', function() {
 
-  var source = 'assets/images/journal/_orig/*';
+  var source = 'assets/images/journal/*';
+  var dest = 'assets/images/dist';
 
   gulp.src(source)
     .pipe(imageResize({
@@ -208,7 +210,7 @@ gulp.task('article-images', function() {
     .pipe(rename({
       suffix: '-1400'
     }))
-    .pipe(gulp.dest('assets/images/journal/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -218,7 +220,7 @@ gulp.task('article-images', function() {
     .pipe(rename({
       suffix: '-1000'
     }))
-    .pipe(gulp.dest('assets/images/journal/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -228,7 +230,7 @@ gulp.task('article-images', function() {
     .pipe(rename({
       suffix: '-800'
     }))
-    .pipe(gulp.dest('assets/images/journal/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -238,7 +240,7 @@ gulp.task('article-images', function() {
     .pipe(rename({
       suffix: '-600'
     }))
-    .pipe(gulp.dest('assets/images/journal/'));
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -248,7 +250,7 @@ gulp.task('article-images', function() {
     .pipe(rename({
       suffix: '-400'
     }))
-    .pipe(gulp.dest('assets/images/journal/'));
+    .pipe(gulp.dest(dest));
 
   console.log('Resized images');
 });

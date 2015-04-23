@@ -13,11 +13,11 @@ I was quite intrigued, I haven’t been doing print work in years and thought it
     <a href="http://coderprint.com">
         <img 
             srcset="
-            {{siteurl}}/assets/images/journal/js-poster1-400.jpg 400w,
-            {{siteurl}}/assets/images/journal/js-poster1-600.jpg 600w,
-            {{siteurl}}/assets/images/journal/js-poster1-800.jpg 800w,
-            {{siteurl}}/assets/images/journal/js-poster1-1000.jpg 1000w,
-            {{siteurl}}/assets/images/journal/js-poster1-1400.jpg 1400w"
+            {{siteurl}}/assets/images/dist/js-poster1-400.jpg 400w,
+            {{siteurl}}/assets/images/dist/js-poster1-600.jpg 600w,
+            {{siteurl}}/assets/images/dist/js-poster1-800.jpg 800w,
+            {{siteurl}}/assets/images/dist/js-poster1-1000.jpg 1000w,
+            {{siteurl}}/assets/images/dist/js-poster1-1400.jpg 1400w"
             src="{{siteurl}}/assets/images/spacer.png"
             alt="Poster"
         >
@@ -28,11 +28,11 @@ I was quite intrigued, I haven’t been doing print work in years and thought it
     <a href="http://coderprint.com">
         <img 
             srcset="
-            {{siteurl}}/assets/images/journal/js-poster2-400.jpg 400w,
-            {{siteurl}}/assets/images/journal/js-poster2-600.jpg 600w,
-            {{siteurl}}/assets/images/journal/js-poster2-800.jpg 800w,
-            {{siteurl}}/assets/images/journal/js-poster2-1000.jpg 1000w,
-            {{siteurl}}/assets/images/journal/js-poster2-1400.jpg 1400w"
+            {{siteurl}}/assets/images/dist/js-poster2-400.jpg 400w,
+            {{siteurl}}/assets/images/dist/js-poster2-600.jpg 600w,
+            {{siteurl}}/assets/images/dist/js-poster2-800.jpg 800w,
+            {{siteurl}}/assets/images/dist/js-poster2-1000.jpg 1000w,
+            {{siteurl}}/assets/images/dist/js-poster2-1400.jpg 1400w"
             src="{{siteurl}}/assets/images/spacer.png"
             alt="Poster"
         >
@@ -43,11 +43,11 @@ I was quite intrigued, I haven’t been doing print work in years and thought it
     <a href="http://coderprint.com">
         <img 
             srcset="
-            {{siteurl}}/assets/images/journal/js-poster3-400.jpg 400w,
-            {{siteurl}}/assets/images/journal/js-poster3-600.jpg 600w,
-            {{siteurl}}/assets/images/journal/js-poster3-800.jpg 800w,
-            {{siteurl}}/assets/images/journal/js-poster3-1000.jpg 1000w,
-            {{siteurl}}/assets/images/journal/js-poster3-1400.jpg 1400w"
+            {{siteurl}}/assets/images/dist/js-poster3-400.jpg 400w,
+            {{siteurl}}/assets/images/dist/js-poster3-600.jpg 600w,
+            {{siteurl}}/assets/images/dist/js-poster3-800.jpg 800w,
+            {{siteurl}}/assets/images/dist/js-poster3-1000.jpg 1000w,
+            {{siteurl}}/assets/images/dist/js-poster3-1400.jpg 1400w"
             src="{{siteurl}}/assets/images/spacer.png"
             alt="Poster"
         >

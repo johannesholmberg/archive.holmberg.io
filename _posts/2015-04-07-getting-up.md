@@ -16,11 +16,11 @@ Then I realized that the value for this thing laid in the reverse of that last s
 <figure>
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/up-bracelet-400.jpg 400w,
-        {{siteurl}}/assets/images/journal/up-bracelet-600.jpg 600w,
-        {{siteurl}}/assets/images/journal/up-bracelet-800.jpg 800w,
-        {{siteurl}}/assets/images/journal/up-bracelet-1000.jpg 1000w,
-        {{siteurl}}/assets/images/journal/up-bracelet-1400.jpg 1400w"
+        {{siteurl}}/assets/images/dist/up-bracelet-400.jpg 400w,
+        {{siteurl}}/assets/images/dist/up-bracelet-600.jpg 600w,
+        {{siteurl}}/assets/images/dist/up-bracelet-800.jpg 800w,
+        {{siteurl}}/assets/images/dist/up-bracelet-1000.jpg 1000w,
+        {{siteurl}}/assets/images/dist/up-bracelet-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         sizes="(min-width: 74em) 49em, 100%"
         alt="UP activity tracker from Jawbone"
@@ -43,11 +43,11 @@ The greatest benefit of the UP bracelet is that it features no screen. You can a
 <figure>
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/up-bracelet-2-400.jpg 400w,
-        {{siteurl}}/assets/images/journal/up-bracelet-2-600.jpg 600w,
-        {{siteurl}}/assets/images/journal/up-bracelet-2-800.jpg 800w,
-        {{siteurl}}/assets/images/journal/up-bracelet-2-1000.jpg 1000w,
-        {{siteurl}}/assets/images/journal/up-bracelet-2-1400.jpg 1400w"
+        {{siteurl}}/assets/images/dist/up-bracelet-2-400.jpg 400w,
+        {{siteurl}}/assets/images/dist/up-bracelet-2-600.jpg 600w,
+        {{siteurl}}/assets/images/dist/up-bracelet-2-800.jpg 800w,
+        {{siteurl}}/assets/images/dist/up-bracelet-2-1000.jpg 1000w,
+        {{siteurl}}/assets/images/dist/up-bracelet-2-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         sizes="(min-width: 74em) 49em, 100%"
         alt="UP activity tracker from Jawbone"

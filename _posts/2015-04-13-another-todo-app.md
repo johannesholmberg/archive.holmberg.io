@@ -15,11 +15,11 @@ In the past, I think I’ve tried out everything there is in the industry but th
     <a href="https://en.todoist.com/">
         <img 
             srcset="
-            {{siteurl}}/assets/images/journal/todoist-banner-400.jpg 400w,
-            {{siteurl}}/assets/images/journal/todoist-banner-600.jpg 600w,
-            {{siteurl}}/assets/images/journal/todoist-banner-800.jpg 800w,
-            {{siteurl}}/assets/images/journal/todoist-banner-1000.jpg 1000w,
-            {{siteurl}}/assets/images/journal/todoist-banner-1400.jpg 1400w"
+            {{siteurl}}/assets/images/dist/todoist-banner-400.jpg 400w,
+            {{siteurl}}/assets/images/dist/todoist-banner-600.jpg 600w,
+            {{siteurl}}/assets/images/dist/todoist-banner-800.jpg 800w,
+            {{siteurl}}/assets/images/dist/todoist-banner-1000.jpg 1000w,
+            {{siteurl}}/assets/images/dist/todoist-banner-1400.jpg 1400w"
             src="{{siteurl}}/assets/images/spacer.png"
             alt="Todoist"
         >
@@ -34,11 +34,11 @@ Todoist comes with the standard Mac/iPhone/iPad app setup but it also has a usef
 <figure>
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/todoist-quick-access-400.png 400w,
-        {{siteurl}}/assets/images/journal/todoist-quick-access-600.png 600w,
-        {{siteurl}}/assets/images/journal/todoist-quick-access-800.png 800w,
-        {{siteurl}}/assets/images/journal/todoist-quick-access-1000.png 1000w,
-        {{siteurl}}/assets/images/journal/todoist-quick-access-1400.png 1400w"
+        {{siteurl}}/assets/images/dist/todoist-quick-access-400.png 400w,
+        {{siteurl}}/assets/images/dist/todoist-quick-access-600.png 600w,
+        {{siteurl}}/assets/images/dist/todoist-quick-access-800.png 800w,
+        {{siteurl}}/assets/images/dist/todoist-quick-access-1000.png 1000w,
+        {{siteurl}}/assets/images/dist/todoist-quick-access-1400.png 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         alt="Todoist in the toolbar"
     >
@@ -64,11 +64,11 @@ My favorite thing in Todoist is the way it handle agendas. Every morning I get a
 <figure>
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/todoist-mail-400.png 400w,
-        {{siteurl}}/assets/images/journal/todoist-mail-600.png 600w,
-        {{siteurl}}/assets/images/journal/todoist-mail-800.png 800w,
-        {{siteurl}}/assets/images/journal/todoist-mail-1000.png 1000w,
-        {{siteurl}}/assets/images/journal/todoist-mail-1400.png 1400w"
+        {{siteurl}}/assets/images/dist/todoist-mail-400.png 400w,
+        {{siteurl}}/assets/images/dist/todoist-mail-600.png 600w,
+        {{siteurl}}/assets/images/dist/todoist-mail-800.png 800w,
+        {{siteurl}}/assets/images/dist/todoist-mail-1000.png 1000w,
+        {{siteurl}}/assets/images/dist/todoist-mail-1400.png 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         sizes="(min-width: 74em) 49em, 100%"
         alt="Todoist"

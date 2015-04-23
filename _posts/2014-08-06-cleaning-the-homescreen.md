@@ -8,14 +8,14 @@ comments: false
 
 A couple of weeks ago I did a little decluttering of my iPhone’s homescreen and I’m pretty happy with the outcome.
 
-<a href="{{siteurl}}/assets/images/journal/homescreen-1400.jpg">
+<a href="{{siteurl}}/assets/images/dist/homescreen-1400.jpg">
     <img 
         srcset="
-        {{siteurl}}/assets/images/journal/homescreen-400.jpg 400w,
-        {{siteurl}}/assets/images/journal/homescreen-600.jpg 600w,
-        {{siteurl}}/assets/images/journal/homescreen-800.jpg 800w,
-        {{siteurl}}/assets/images/journal/homescreen-1000.jpg 1000w,
-        {{siteurl}}/assets/images/journal/homescreen-1400.jpg 1400w"
+        {{siteurl}}/assets/images/dist/homescreen-400.jpg 400w,
+        {{siteurl}}/assets/images/dist/homescreen-600.jpg 600w,
+        {{siteurl}}/assets/images/dist/homescreen-800.jpg 800w,
+        {{siteurl}}/assets/images/dist/homescreen-1000.jpg 1000w,
+        {{siteurl}}/assets/images/dist/homescreen-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
         sizes="(min-width: 74em) 49em, 100%"
         alt="iPhone Homescreen"
