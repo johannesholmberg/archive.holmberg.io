@@ -34,16 +34,32 @@
     @media (min-width: 84em) { @content; }
   }
 
+  @else if $point == desktop-lg-max {
+    @media (max-width: 84em) { @content; }
+  }
+
   @else if $point == desktop-xl {
     @media (min-width: 118em) { @content; }
   }
 
+  @else if $point == desktop-xl-max {
+    @media (max-width: 118em) { @content; }
+  }
+
   @else if $point == tv-sm {
-    @media (min-width: 122em) { @content; }
+    @media (min-width: 130em) { @content; }
+  }
+
+  @else if $point == tv-sm-max {
+    @media (max-width: 130em) { @content; }
   }
 
   @else if $point == tv-lg {
     @media (min-width: 142em) { @content; }
+  }
+
+  @else if $point == tv-lg-max {
+    @media (max-width: 142em) { @content; }
   }
 }
 
