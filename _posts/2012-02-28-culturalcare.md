@@ -18,10 +18,13 @@ In 2012 I designed and developed the responsive frontend for Cultural Care Au Pa
 <img 
 src="{{siteurl}}/assets/images/spacer.png"
 sizes="
-(min-width: 38em) 600px, 
+(min-width: 38em) 900px, 
 100%" 
 srcset="
-{{siteurl}}/assets/images{{page.url}}/inline-1-600.jpg 600w,
-{{siteurl}}/assets/images{{page.url}}/inline-1-1000.jpg 1000w"
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-600.jpg 600w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-760.jpg 760w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-1000.jpg 1000w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-1400.jpg 1400w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-1600.jpg 1600w"
 alt="{{page.title}}"
 >

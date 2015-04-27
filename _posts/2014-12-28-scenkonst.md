@@ -25,33 +25,42 @@ The solution is a WordPress Multisite sharing the same base theme with site-spec
 <img 
 src="{{siteurl}}/assets/images/spacer.png"
 sizes="
-(min-width: 38em) 600px, 
+(min-width: 38em) 900px, 
 100%" 
 srcset="
-{{siteurl}}/assets/images{{page.url}}/inline-1-600.jpg 600w,
-{{siteurl}}/assets/images{{page.url}}/inline-1-1000.jpg 1000w"
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-600.jpg 600w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-760.jpg 760w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-1000.jpg 1000w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-1400.jpg 1400w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-1600.jpg 1600w"
 alt="{{page.title}}"
 >
 
 <img 
 src="{{siteurl}}/assets/images/spacer.png"
 sizes="
-(min-width: 38em) 600px, 
+(min-width: 38em) 900px, 
 100%" 
 srcset="
-{{siteurl}}/assets/images{{page.url}}/inline-2-600.jpg 600w,
-{{siteurl}}/assets/images{{page.url}}/inline-2-1000.jpg 1000w"
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-2-600.jpg 600w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-2-760.jpg 760w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-2-1000.jpg 1000w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-2-1400.jpg 1400w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-2-1600.jpg 1600w"
 alt="{{page.title}}"
 >
 
 <img 
 src="{{siteurl}}/assets/images/spacer.png"
 sizes="
-(min-width: 38em) 600px, 
+(min-width: 38em) 900px, 
 100%" 
 srcset="
-{{siteurl}}/assets/images{{page.url}}/inline-3-600.jpg 600w,
-{{siteurl}}/assets/images{{page.url}}/inline-3-1000.jpg 1000w"
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-3-600.jpg 600w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-3-760.jpg 760w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-3-1000.jpg 1000w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-3-1400.jpg 1400w,
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-3-1600.jpg 1600w"
 alt="{{page.title}}"
 >
 

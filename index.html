@@ -10,26 +10,63 @@ description: "Johannes Holmberg is a Front-end Web Developer in Basel, Switzerla
     <div class="wrap">
       <h1 class="title">Hi, I’m Johannes.</h1>
       <p class="meta">Freelance front-end web <span>developer in Basel, Switzerland.</span></p>
-      <a href="{{siteurl}}/info/#contact" class="btn -standard">Available for hire</a>
+      <a href="{{siteurl}}/work" class="btn -standard">View my work</a>
     </div>
   </header>
 
-  <div class="box-wrapper">
-    <div class="wrap">
-      <div class="box">
-        <h2 class="icon icon-code">Front-end Development</h2>
-        <p>I work together with teams from companies all over the world to provide responsive and optimized user interfaces.</p>
+  <div class="section-wrap -light">
+    <div class="wrap -large">
+      <h2 class="title">Selected Work</h2>
+
+      <div class="selected-work">
+        <a href="/work/scenkonst">
+          <img src="/assets/images/work/scenkonst/scenkonst@2x.jpg">
+          <h3 class="title">Scenkonst Västernorrland</h3>
+          <p class="meta">Production Manager, WordPress, Front-end</p>
+        </a>
       </div>
-      <div class="box">
-        <h2 class="icon icon-ia">Information Architecture</h2>
-        <p>I provide methods and guidelines to help organizations streamline their internal processes and information architecture.</p>
+
+      <div class="selected-work">
+        <a href="/work/anna-holmlund">
+          <img src="/assets/images/work/anna-holmlund/anna-holmlund@2x.jpg">
+          <h3 class="title">Anna Holmlund</h3>
+          <p class="meta">Front-end, WordPress</p>
+        </a>
       </div>
-      <div class="box">
-        <h2 class="icon icon-design"><span>Interaction</span> Design</h2>
-        <p>I create mockups and sketch out the user experience design for products, websites and digital services.</p>
+
+      <div class="selected-work">
+        <a href="/work/mio">
+          <img src="/assets/images/work/mio/mio@2x.jpg">
+          <h3 class="title">Mio.se</h3>
+          <p class="meta">Responsive strategy, Front-end</p>
+        </a>
       </div>
-      <div class="btn-holder">
-        <a href="/info" class="btn outline">Want to know more?</a>
+
+    </div>
+  </div>
+
+  <div class="section-wrap -dark">
+    <div class="wrap -small">
+      <div class="book-highlight">
+      <h2 class="title">Reading</h2>
+
+        {% for post in site.categories.reading offset:0 limit:1 %}
+          <p>
+            {{ post.description }}<br>
+            <a href="{{ post.url }}#highlight-{{ post.highlight }}">Highlight</a>
+          </p>
+          <a href="{{ post.url }}">
+          <img 
+            src="/assets/images/spacer.png"
+            sizes="120px"
+            srcset="
+            /assets/images/dist/{{post.cover}}-140.jpg 140w,
+            /assets/images/dist/{{post.cover}}-240.jpg 240w"
+            alt="{{post.title}}"
+          >
+          </a>
+        {% endfor %}
+
       </div>
     </div>
   </div>

@@ -40,11 +40,6 @@
       right: 0;
       top: 20%;
     } 
-
-    @include breakpoint(desktop-lg) {
-      //margin: 0 -9% 0 2em;
-      //max-width: 54%;
-    } 
   }
 
   .title,
@@ -56,6 +51,7 @@
 
   .title {
     margin: 0 0 .25em;
+    font-family: $font-sans;
 
     a:hover,
     a:focus {

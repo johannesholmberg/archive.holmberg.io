@@ -256,6 +256,68 @@ gulp.task('article-images', function() {
 });
 
 /**
+ * Create images sizes for cases
+ */
+gulp.task('case-images', function() {
+
+  var source = 'assets/images/work/_orig/*';
+  var dest = 'assets/images/dist';
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1600,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1600'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1400,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1400'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1000'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 760,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-760'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 600,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-600'
+    }))
+    .pipe(gulp.dest(dest));
+
+
+  console.log('Resized images');
+});
+
+/**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */

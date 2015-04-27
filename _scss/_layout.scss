@@ -6,6 +6,14 @@
   position: relative;
   padding: 0 5%;
 
+  &.-small {
+    max-width: 62em;
+  }
+
+  &.-large {
+    max-width: 130em;
+  }
+
   @include breakpoint(tablet-sm) {
     padding: 0 8%;
   } 
