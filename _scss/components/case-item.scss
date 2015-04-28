@@ -51,7 +51,7 @@
 
   .title {
     margin: 0 0 .25em;
-    font-family: $font-sans;
+    font-family: $font-sans-light;
 
     a:hover,
     a:focus {
@@ -68,7 +68,7 @@
     line-height: 1.4;
 
     .year {
-      font-weight: 600;
+      font-family: $font-sans-bold;
     }
   }
 

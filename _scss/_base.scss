@@ -79,7 +79,6 @@ h3 {
 p {
   font-size: $f20px;
   margin: 1.65em 0;
-  font-weight: 400;
 
   &.lead-text {
     @extend %lead-text;
@@ -166,7 +165,7 @@ figcaption {
   color: $lightdarkgray;
   text-align: center;
   margin: 1.5em 0 1em;
-  font-style: italic;
+  font-family: $font-sans-italic;
 }
 
 .video-wrap {
