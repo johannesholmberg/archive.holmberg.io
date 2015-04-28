@@ -19,13 +19,18 @@ layout: default
 		    	class="{{page.cover}}"
 	        src="{{siteurl}}/assets/images/spacer.png"
 	        sizes="
-	        (min-width: 125em) 1400px,
+	        (min-width: 125em) 1500px,
+	        (min-width: 100em) 1300px,
 	        (min-width: 65em) 1100px,
 	        100%" 
 	        srcset="
-	        {{siteurl}}/assets/images{{page.url}}/{{page.cover}}-640.jpg 640w,
-	        {{siteurl}}/assets/images{{page.url}}/{{page.cover}}-1100.jpg 1100w,
-	        {{siteurl}}/assets/images{{page.url}}/{{page.cover}}-1600.jpg 1600w"
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-320.jpg 320w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-600.jpg 600w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-800.jpg 800w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-1000.jpg 1000w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-1500.jpg 1500w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-2000.jpg 2000w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-3000.jpg 3000w"
 	        alt="{{page.title}}"
 		    >
 			</div>

@@ -25,10 +25,14 @@ description: "Work and projects by Johannes Holmberg."
           <img 
             src="{{siteurl}}/assets/images/spacer.png"
             sizes="
-            (min-width: 38em) 31.2em, 100%"
+            (min-width: 57em) 500px,
+            (min-width: 38em) 300px,
+            100%"
             srcset="
-            {{siteurl}}/assets/images{{post.url}}/{{post.cover}}.jpg 400w,
-            {{siteurl}}/assets/images{{post.url}}/{{post.cover}}@2x.jpg 800w"
+            {{siteurl}}/assets/images/dist/{{post.cover}}-case-320.jpg 320w,
+            {{siteurl}}/assets/images/dist/{{post.cover}}-case-500.jpg 500w,
+            {{siteurl}}/assets/images/dist/{{post.cover}}-case-700.jpg 700w,
+            {{siteurl}}/assets/images/dist/{{post.cover}}-case-1000.jpg 1000w"
             alt="{{post.title}}"
           >
         </a>

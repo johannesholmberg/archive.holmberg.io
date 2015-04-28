@@ -260,9 +260,9 @@ gulp.task('article-images', function() {
  */
 gulp.task('case-images', function() {
 
-  var source = 'assets/images/work/_orig/*';
+  // Inline images
+  var source = 'assets/images/work/inlines/*';
   var dest = 'assets/images/dist';
-
   gulp.src(source)
     .pipe(imageResize({
       width: 1600,
@@ -272,7 +272,6 @@ gulp.task('case-images', function() {
       suffix: '-1600'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 1400,
@@ -282,7 +281,6 @@ gulp.task('case-images', function() {
       suffix: '-1400'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 1000,
@@ -292,7 +290,6 @@ gulp.task('case-images', function() {
       suffix: '-1000'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 760,
@@ -302,7 +299,6 @@ gulp.task('case-images', function() {
       suffix: '-760'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 600,
@@ -313,6 +309,128 @@ gulp.task('case-images', function() {
     }))
     .pipe(gulp.dest(dest));
 
+  // Case images
+  source = 'assets/images/work/cases/*';
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1220,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1220'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1000'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 700,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-700'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 610,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-610'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 500,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-500'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 320,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-320'
+    }))
+    .pipe(gulp.dest(dest));
+
+  // Cover images
+  source = 'assets/images/work/covers/*';
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 3000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-3000'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 2000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-2000'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1500,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1500'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1000'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 800,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-800'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 600,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-600'
+    }))
+    .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 320,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-320'
+    }))
+    .pipe(gulp.dest(dest));
 
   console.log('Resized images');
 });
