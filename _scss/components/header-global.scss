@@ -17,7 +17,6 @@
     line-height: 1;
     font-size: 1.45rem;
     margin: 1.1em 0 .55em;
-    font-weight: 400;
 
     @include breakpoint(mobile-lg) {
       float: left;  
@@ -68,7 +67,6 @@
       margin-top: .25em;
       font-size: .97rem;
       color: $lightdarkgray;
-      font-weight: 400;
       font-family: $font-sans;
 
       .dark & {

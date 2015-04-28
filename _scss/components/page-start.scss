@@ -19,9 +19,8 @@
   .title {
     text-align: center;
     width: 100%;
-    font-weight: 100;
     margin: 0 0 10%;
-    font-family: $font-sans;
+    font-family: $font-sans-light;
     font-size: 1.6em;
 
     @include breakpoint(mobile-lg) {
@@ -53,7 +52,7 @@
       display: block;
       padding: 1.5em 0 .3em;
       margin: 0;
-      font-weight: 100;
+      font-family: $font-sans-light;
 
       @include breakpoint(tablet-lg) {
         font-size: 1.6em;
@@ -121,7 +120,7 @@
 
   p {
     font-size: $f26px;
-    font-weight: 100;
+    font-family: $font-sans-light;
 
     a {
       border-bottom: 0;

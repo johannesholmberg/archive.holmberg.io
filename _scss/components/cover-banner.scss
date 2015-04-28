@@ -39,7 +39,6 @@
     @extend %text-shadow;
     margin-bottom: .05em;
     font-size: 1.5em;
-    font-weight: 300;
     letter-spacing: -.02em;
     color: #fff;
 
@@ -68,7 +67,7 @@
     font-size: 1em;
     margin: .5em 0 .8em;
     line-height: 1.2;
-    font-weight: 200;
+    font-family: $font-sans-light;
 
     @include breakpoint(mobile-lg) {
       font-size: 1em;
