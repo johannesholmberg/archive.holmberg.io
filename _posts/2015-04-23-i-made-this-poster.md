@@ -12,6 +12,11 @@ I was quite intrigued, I haven’t been doing print work in years and thought it
 <figure>
     <a href="http://coderprint.com">
         <img 
+            sizes="
+            ({{site.desktop-xl}}) 850px,
+            ({{site.tablet-lg}}) 770px,
+            ({{site.tablet-sm}}) 660px,
+            100%" 
             srcset="
             {{siteurl}}/assets/images/dist/js-poster1-400.jpg 400w,
             {{siteurl}}/assets/images/dist/js-poster1-600.jpg 600w,

@@ -15,6 +15,11 @@ Then I realized that the value for this thing laid in the reverse of that last s
 
 <figure>
     <img 
+        sizes="
+        ({{site.desktop-xl}}) 850px,
+        ({{site.tablet-lg}}) 770px,
+        ({{site.tablet-sm}}) 660px,
+        100%" 
         srcset="
         {{siteurl}}/assets/images/dist/up-bracelet-400.jpg 400w,
         {{siteurl}}/assets/images/dist/up-bracelet-600.jpg 600w,
@@ -22,7 +27,6 @@ Then I realized that the value for this thing laid in the reverse of that last s
         {{siteurl}}/assets/images/dist/up-bracelet-1000.jpg 1000w,
         {{siteurl}}/assets/images/dist/up-bracelet-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
-        sizes="(min-width: 74em) 49em, 100%"
         alt="UP activity tracker from Jawbone"
     >
     <figcaption>The UP activity tracker from Jawbone.</figcaption>
@@ -41,7 +45,12 @@ I still ended up scrolling away at the blinding light of that screen, hunting do
 The greatest benefit of the UP bracelet is that it features no screen. You can activate reminders on it and it will feed back a gentle vibration. So, instead of the traditional alarm sound in the morning, I now wake up when I feel this slight vibration on my wrist. It’s a really pleasant feeling.
 
 <figure>
-    <img 
+    <img
+        sizes="
+        ({{site.desktop-xl}}) 850px,
+        ({{site.tablet-lg}}) 770px,
+        ({{site.tablet-sm}}) 660px,
+        100%"
         srcset="
         {{siteurl}}/assets/images/dist/up-bracelet-2-400.jpg 400w,
         {{siteurl}}/assets/images/dist/up-bracelet-2-600.jpg 600w,
@@ -49,7 +58,6 @@ The greatest benefit of the UP bracelet is that it features no screen. You can a
         {{siteurl}}/assets/images/dist/up-bracelet-2-1000.jpg 1000w,
         {{siteurl}}/assets/images/dist/up-bracelet-2-1400.jpg 1400w"
         src="{{siteurl}}/assets/images/spacer.png"
-        sizes="(min-width: 74em) 49em, 100%"
         alt="UP activity tracker from Jawbone"
     >
     <figcaption>No more quirky alarm clocks in the morning thanks to this guy.</figcaption>
