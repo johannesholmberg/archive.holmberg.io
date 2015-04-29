@@ -18,6 +18,14 @@ google_analytics: UA-20488297-3
 # Used for Sitemap.xml and your RSS feed
 url: http://holmberg.io
 
+# Global media queries
+mobile-lg:   'min-width: 38em'
+tablet-sm:   'min-width: 45em'
+tablet-lg:   'min-width: 57em'
+desktop-sm:  'min-width: 67em'
+desktop-lg:  'min-width: 84em'
+desktop-xl:  'min-width: 118em'
+
 
 # !! You don't need to change any of the configuration flags below !!
 
