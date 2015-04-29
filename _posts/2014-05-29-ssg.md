@@ -21,6 +21,7 @@ sizes="
 (min-width: 38em) 900px, 
 100%" 
 srcset="
+{{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-320.jpg 320w,
 {{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-600.jpg 600w,
 {{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-760.jpg 760w,
 {{siteurl}}/assets/images/dist/{{page.cover}}-inline-1-1000.jpg 1000w,

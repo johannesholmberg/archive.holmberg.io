@@ -308,6 +308,15 @@ gulp.task('case-images', function() {
       suffix: '-600'
     }))
     .pipe(gulp.dest(dest));
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 320,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-320'
+    }))
+    .pipe(gulp.dest(dest));
 
   // Case images
   source = 'assets/images/work/cases/*';
