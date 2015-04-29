@@ -13,13 +13,24 @@
   } 
 
   img {
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
     display: block;
     margin: 0 auto;
     
+
     @include breakpoint(mobile-lg) {
       float: left;
+      width: 115px;
+      height: 115px;  
     } 
+
+    @include breakpoint(tablet-lg) {
+      width: 130px;
+      height: 130px; 
+    } 
+
   }
 
   p {
