@@ -54,13 +54,13 @@ gulp.task('copystyles', function() {
 });
 
 gulp.task('optimize-images', function() {
-  return gulp.src('assets/images/**/*')
+  return gulp.src('assets/images/dist/*')
     .pipe(imagemin({
       optimizationLevel: 3,
       progressive: true,
       interlaced: true
     }))
-    .pipe(gulp.dest('assets/images'));
+    .pipe(gulp.dest('assets/images/dist'));
 });
 
 gulp.task('scripts', function() {
