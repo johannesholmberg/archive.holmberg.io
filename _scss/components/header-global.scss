@@ -56,6 +56,14 @@
       font-size: 1.05rem;
       transition: all .2s ease-in-out;
 
+      @include breakpoint(tablet-sm) {
+        font-size: 1.15rem;
+      } 
+
+      @include breakpoint(desktop-xl) {
+        font-size: 1.05rem;
+      } 
+
       .dark & {
         color: rgba(255, 255, 255, .95);
         text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
@@ -68,6 +76,14 @@
       font-size: .97rem;
       color: $lightdarkgray;
       font-family: $font-sans;
+
+      @include breakpoint(tablet-sm) {
+        font-size: 1.05rem;
+      } 
+
+      @include breakpoint(desktop-xl) {
+        font-size: .97rem;
+      } 
 
       .dark & {
         color: rgba(255, 255, 255, .65);
