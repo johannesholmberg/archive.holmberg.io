@@ -2,7 +2,7 @@
   
   @extend %clearfix;
   margin: 0 auto;
-  max-width: 80em;
+  max-width: 90em;
   position: relative;
   padding: 0 5%;
 
@@ -11,7 +11,7 @@
   }
 
   &.-large {
-    max-width: 130em;
+    max-width: 124em;
   }
 
   @include breakpoint(tablet-sm) {

@@ -19,7 +19,7 @@ google_analytics: UA-20488297-3
 url: http://holmberg.io
 
 # Global media queries
-mobile-lg:   'min-width: 38em'
+mobile-lg:   'min-width: 34em'
 tablet-sm:   'min-width: 45em'
 tablet-lg:   'min-width: 57em'
 desktop-sm:  'min-width: 67em'

@@ -13,32 +13,37 @@ description: "Work and projects by Johannes Holmberg."
     </div>
   </header>
 
+  <div class="section-wrap">
   <div class="wrap">
     {% for post in site.categories.work %}
-      <article class="case-item">
-        <h2 class="title"><a href="{{post.url}}">{{post.title}}</a></h2>
-        <p class="meta">
-          <span class="year">{{post.year}}</span> 
-          &middot; <span>{{post.responsibilities}}</span>
-        </p>
-        <a href="{{ post.url }}" class="image">
+
+
+      <div class="case-item">
+        <a href="{{ post.url }}">
           <img 
-            src="{{siteurl}}/assets/images/spacer.png"
+            src="{{siteurl}}/assets/images/dist/{{post.cover}}-case-610.jpg"
             sizes="
-            (min-width: 57em) 500px,
-            (min-width: 38em) 300px,
-            100%"
+            ({{site.tablet-sm}}) 38vw,
+            ({{site.mobile-lg}}) 70vw,
+            90vw"
             srcset="
             {{siteurl}}/assets/images/dist/{{post.cover}}-case-320.jpg 320w,
             {{siteurl}}/assets/images/dist/{{post.cover}}-case-500.jpg 500w,
+            {{siteurl}}/assets/images/dist/{{post.cover}}-case-610.jpg 610w,            
             {{siteurl}}/assets/images/dist/{{post.cover}}-case-700.jpg 700w,
-            {{siteurl}}/assets/images/dist/{{post.cover}}-case-1000.jpg 1000w"
+            {{siteurl}}/assets/images/dist/{{post.cover}}-case-1000.jpg 1000w,
+            {{siteurl}}/assets/images/dist/{{post.cover}}-case-1220.jpg 1220w"
             alt="{{post.title}}"
           >
+          <h2 class="title">{{post.title}}</h2>
+          <p class="meta">
+            <span>{{post.responsibilities}}</span>
+          </p>
         </a>
-        <p class="description">{{post.description}}</p>
-      </article>
+      </div>
+
     {% endfor %}
+  </div>
   </div>
 
 </section>

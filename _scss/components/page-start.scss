@@ -34,6 +34,41 @@
 
   .selected-work {
 
+    margin: 0 0 1em;
+
+    @include breakpoint(mobile-lg) {
+      margin: 0 6% 1em;
+    } 
+
+    @include breakpoint(tablet-sm) {
+      margin: 0 10% 1em;
+    } 
+
+    @include breakpoint(tablet-lg) {
+      width: 42%;
+      margin: 0 4% 5%;
+      float: left;
+
+      &:last-of-type {
+        display: none;
+      }
+    } 
+
+    @include breakpoint(desktop-xl) {
+      width: 30%;
+      margin: 0 2.5%;
+      float: left;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+        display: block;
+      } 
+    }
+
     a {
       display: block;
       border-bottom: 1px solid transparent;
@@ -74,40 +109,7 @@
     }
 
 
-    margin: 0 0 1em;
-
-    @include breakpoint(mobile-lg) {
-      margin: 0 6% 1em;
-    } 
-
-    @include breakpoint(tablet-sm) {
-      margin: 0 10% 1em;
-    } 
-
-    @include breakpoint(tablet-lg) {
-      width: 42%;
-      margin: 0 4% 5%;
-      float: left;
-
-      &:last-of-type {
-        display: none;
-      }
-    } 
-
-    @include breakpoint(desktop-xl) {
-      width: 30%;
-      margin: 0 2.5%;
-      float: left;
-
-      &:first-of-type {
-        margin-left: 0;
-      }
-
-      &:last-of-type {
-        margin-right: 0;
-        display: block;
-      } 
-    } 
+ 
 
   }
 }
