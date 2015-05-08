@@ -42,8 +42,14 @@
 
       &:hover,
       &:focus {
-        border-bottom: 1px solid $profile-bg;
+        img {
+          transform: translateY(-6px);
+        }
       }
+    }
+
+    img {
+      transition: all .2s ease-in-out;
     }
 
     .title {
@@ -103,42 +109,5 @@
       } 
     } 
 
-  }
-}
-
-.book-highlight {
-  text-align: center;
-
-  .title {
-    text-transform: uppercase;
-    color: #666;
-  }
-
-  img {
-    max-width: 120px;
-  }
-
-  p {
-    font-size: $f26px;
-    font-family: $font-sans-light;
-
-    a {
-      border-bottom: 0;
-      display: inline-block;
-      border: 2px solid #666;
-      margin: .8em 0 0;
-      font-size: $f20px;
-      //float: right;
-      padding: .2em 1.6em;
-      border-radius: .5em;
-      line-height: 1.4;
-      color: #666;
-
-      &:hover,
-      &:focus {
-        background: #fff;
-        border-color: #fff;
-      }
-    }
   }
 }

@@ -87,30 +87,4 @@ description: "Johannes Holmberg is a Front-end Web Developer in Basel, Switzerla
     </div>
   </div>
 
-  <div class="section-wrap -dark">
-    <div class="wrap -small">
-      <div class="book-highlight">
-      <h2 class="title">Reading</h2>
-
-        {% for post in site.categories.reading offset:0 limit:1 %}
-          <p>
-            {{ post.description }}<br>
-            <a href="{{ post.url }}#highlight-{{ post.highlight }}">Highlight</a>
-          </p>
-          <a href="{{ post.url }}">
-          <img 
-            src="/assets/images/spacer.png"
-            sizes="120px"
-            srcset="
-            /assets/images/dist/{{post.cover}}-140.jpg 140w,
-            /assets/images/dist/{{post.cover}}-240.jpg 240w"
-            alt="{{post.title}}"
-          >
-          </a>
-        {% endfor %}
-
-      </div>
-    </div>
-  </div>
-
 </section>
