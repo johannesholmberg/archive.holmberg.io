@@ -1,7 +1,7 @@
 ---
 layout: book
 title: "Wuthering Heights"
-date: 2015-05-03
+date: 2015-05-17
 category: reading
 permalink: reading/wuthering-heights
 cover: wuthering-heights
@@ -10,7 +10,6 @@ publisher: Dover Publications
 book-url: http://www.amazon.com/Wuthering-Heights-Dover-Thrift-Editions-ebook/dp/B008TVLWEU/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
 description: 'Whatever our souls are made of, his and mine are the same.'
 highlight: 4
-flag: 'current'
 ---
 
 {% assign counter=1 %}
@@ -36,3 +35,17 @@ loc. 1188 &middot; [highlight {{counter}}](#highlight-{{counter}})
 >Whatever our souls are made of, his and mine are the same.
 
 loc. 1205 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Hindley, with apparently the stronger head, has shown himself sadly the worse and the weaker man. When his ship struck, the captain abandoned his post; and the crew, instead of trying to save her, rushed into riot, and confusion, leaving no hope for their luckless vessel. 
+
+loc. 2722 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Have you ever been here in your life before?’ 
+
+loc. 2850 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+
