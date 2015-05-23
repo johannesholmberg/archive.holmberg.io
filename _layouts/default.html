@@ -38,11 +38,10 @@ layout: compress
 
     {% include header.html %}
 
-    <main{% if page.category == 'work' %} class="work-case" {% endif %}>
+    <main class="{{page.active}}">
       {{ content }}
     </main>
 
-    {% include footer.html %}
 
     {% include analytics.html %}
 

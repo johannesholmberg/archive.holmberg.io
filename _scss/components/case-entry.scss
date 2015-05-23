@@ -2,9 +2,12 @@
 
   .case-header {
     text-align: center;
+    padding-top: 2em;
 
     h1 {
       color: $midgray;
+      text-transform: uppercase;
+      letter-spacing: .02em;
 
       .dark & {
         color: #fff;  
@@ -44,7 +47,7 @@
 
       @include breakpoint(desktop-sm) {
         margin-bottom: 5%;
-        padding-bottom: 2%;
+        padding-bottom: 7%;
       } 
 
       &.scenkonst {

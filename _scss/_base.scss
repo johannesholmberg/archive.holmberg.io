@@ -9,7 +9,7 @@
 
 html {
   color: $darkgray;
-  line-height: 1.65;
+  line-height: 1.7;
   font-size: .9em;
 
   @include breakpoint(tablet-sm) {
@@ -55,9 +55,12 @@ h1 {
 h2 {
   font-size: $f26px;
   margin-bottom: .4em;
+  color: #575757;
+  letter-spacing: .03em;
 
   @include breakpoint(tablet-sm) {
-    font-size: $f32px;
+    font-size: 26px;
+    text-transform: uppercase;
   } 
 
   a {
@@ -132,7 +135,6 @@ blockquote {
 
   @include breakpoint(mobile-lg) {
     margin-right: 1em;
-    line-height: 1.6;
   }
 
   p {

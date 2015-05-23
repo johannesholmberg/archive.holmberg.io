@@ -26,12 +26,12 @@
   }
 
   .entry-content {
-    margin: 0 0 10%;
+    margin: 0 auto 10%;
     font-size: 1rem;
 
     @include breakpoint(mobile-lg) {
       max-width: 86%;
-      float: left;    
+      //float: left;    
     } 
 
     @include breakpoint(tablet-lg) {

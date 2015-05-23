@@ -1,15 +1,19 @@
 .header-global {
+  float: left;
+  width: 260px;
+  background: url('../images/noise.jpg');
+  background: #fff;
+  background-size: 25%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 100;
+
+  @include breakpoint(desktop-xl) {
+     width: 290px;
+   }  
   
   .wrap {
-    @include breakpoint(mobile-lg) {
-      padding-top: .5em;
-      padding-bottom: .7em;
-    } 
-
-    @include breakpoint(tablet-sm) {
-      padding-top: 1.5em;
-      padding-bottom: 1.3em;
-    } 
+    padding: 3em 0; 
   }
 
   h1 {
@@ -17,9 +21,9 @@
     line-height: 1;
     font-size: 1.45rem;
     margin: 1.1em 0 .55em;
+    padding: 0 1.7em;
 
     @include breakpoint(mobile-lg) {
-      float: left;  
       font-size: $f20px;
     }
 
@@ -39,56 +43,24 @@
           color: $darkgray;
         }
       }
-
-      .dark & {
-        &:hover,
-        &:focus {
-          .title {
-            color: #fff;
-          }
-        }        
-      }
     }
 
     .title {
       text-transform: uppercase;
       color: #737373;
-      font-size: 1.05rem;
+      font-size: 1rem;
       transition: all .2s ease-in-out;
 
-      @include breakpoint(tablet-sm) {
-        font-size: 1.15rem;
-      } 
 
-      @include breakpoint(desktop-xl) {
-        font-size: 1.05rem;
-      } 
 
-      .dark & {
-        color: rgba(255, 255, 255, .95);
-        text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
-      }
     }
 
     .role {
       display: block;
       margin-top: .25em;
-      font-size: .97rem;
+      font-size: .9rem;
       color: $lightdarkgray;
       font-family: $font-sans;
-
-      @include breakpoint(tablet-sm) {
-        font-size: 1.05rem;
-      } 
-
-      @include breakpoint(desktop-xl) {
-        font-size: .97rem;
-      } 
-
-      .dark & {
-        color: rgba(255, 255, 255, .65);
-        text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
-      }
     }
   }
 }

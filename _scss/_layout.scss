@@ -25,6 +25,12 @@
 
 main {
   position: relative;
+  background: url('../images/noise.jpg');
+  background-size: 3%;
+  background: #fff;
+  float: left;
+  @include calc(500px, 260px, 100%);
+  border-left: 1px solid #ddd;
 
   .wrap {
     padding-top: 1.5em;
@@ -34,6 +40,10 @@ main {
       padding-top: 3.2em;    
       padding-bottom: 7em;
     }
+  }
+
+  &.reading {
+    background: #212121;
   }
 
   a,
@@ -53,6 +63,14 @@ main {
     &:last-child {
       margin-bottom: 0;
     }
+  }
+}
+
+// Ugly hack for using calc in breakpoint
+// tablet-lg
+@media (min-width: 118em) { 
+  main {
+    @include calc(500px, 290px, 100%);
   }
 }
 

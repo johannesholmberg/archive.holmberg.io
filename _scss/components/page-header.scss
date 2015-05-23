@@ -10,22 +10,22 @@
 
   .title {
     @extend %header-style;
-    max-width: 86%;
+    text-align: center;
 
-    @include breakpoint(tablet-sm) {
-      max-width: 76%;  
-    } 
+    .reading & {
+      color: #fff;
+    }
   }
 
   .meta {
     margin: 0;
     color: $midgray;
     line-height: 1.4;
-    max-width: 86%;
+    text-align: center;
 
-    @include breakpoint(tablet-sm) {
-      max-width: 76%;  
-    } 
+    .reading & {
+      color: #fff;
+    }
 
     @include breakpoint(mobile-lg-max) {
       font-size: 1.1rem;      

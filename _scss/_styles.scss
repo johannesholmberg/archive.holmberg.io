@@ -10,21 +10,13 @@
 
 // The header style for pages
 %header-style {
-  border-bottom: 5px solid #ddd;
+  //border-bottom: 5px solid #ddd;
   padding-bottom: .2em;
   margin-bottom: .3em;
   color: $midgray;
+  color: #575757;
+  text-transform: uppercase;
+  letter-spacing: .03em;
   position: relative;
-
-
-  &:before {
-    content: '';
-    display: inline-block;
-    height: 5px;
-    background: #ddd;
-    width: 1000px;
-    position: absolute;
-    bottom: -5px;
-    left: -1000px;
-  }
+  font-size: 42px;
 }

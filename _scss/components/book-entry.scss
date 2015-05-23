@@ -1,5 +1,14 @@
 .book-entry {
 
+  padding-top: 3em;
+
+  .page-header {
+    .title,
+    .meta {
+      text-align: left;
+    }
+  }
+
   header + .wrap {
     @include breakpoint(mobile-lg) {
       padding-top: 1.5em;    
