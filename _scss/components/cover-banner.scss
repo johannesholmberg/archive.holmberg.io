@@ -38,31 +38,32 @@
   .title {
     @extend %text-shadow;
     margin-bottom: .05em;
-    font-size: 1.5em;
-    letter-spacing: -.02em;
+    font-size: 1.3em;
+    letter-spacing: .02em;
+    text-transform: uppercase;
     color: #fff;
 
     @include breakpoint(mobile-lg) {
-      font-size: 2.6em;
+      font-size: 2.4em;
     } 
 
     @include breakpoint(tablet-sm) {
-      font-size: 2.95em;
+      font-size: 2.75em;
     } 
 
     @include breakpoint(tablet-lg) {
-      font-size: 3.4em;
+      font-size: 3.2em;
     } 
 
     @include breakpoint(desktop-sm) {
-      font-size: 4em;
+      font-size: 3.8em;
     }
 
     @include breakpoint(desktop-lg) {
-      font-size: 4.3em;
+      font-size: 4.1em;
     }
     @include breakpoint(desktop-xl) {
-       font-size: 4.8em;
+       font-size: 4.6em;
      }  
   }
 

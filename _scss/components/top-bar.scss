@@ -1,0 +1,54 @@
+.top-bar {
+  position: relative;
+  z-index: 102;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+
+  .menu-active & {
+    transform: translateX(240px);
+  }
+
+  @include breakpoint(tablet-lg) {
+    display: none;  
+  } 
+
+  h1 {
+    letter-spacing: -.005em;
+    line-height: 1;
+    font-size: 1.45rem;
+    margin: 0;
+    padding: .8em 0 1em;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: $darkgray;
+
+
+      &:hover,
+      &:focus {
+        .title {
+          color: $darkgray;
+        }
+      }
+    }
+
+    .title {
+      text-transform: uppercase;
+      color: #737373;
+      font-size: 1rem;
+      transition: all .2s ease-in-out;
+
+
+
+    }
+
+    .role {
+      display: block;
+      margin-top: .25em;
+      font-size: .9rem;
+      color: $lightdarkgray;
+      font-family: $font-sans;
+    }
+  }
+}

@@ -47,22 +47,22 @@
   }
 
   .title {
-    transition: all .2s ease-in-out;
-    font-size: 1.4em;
+    
+    font-size: 1em;
     text-decoration: none;
     display: block;
     padding: 1.5em 0 .3em;
     margin: 0;
     color: $darkgray;
-    font-family: $font-sans-light;
+    font-family: $font-sans-bold;
+    color: #888;
 
     @include breakpoint(tablet-lg) {
-      font-size: 1.6em;
+      font-size: 1.2em;
     } 
   }
 
   .meta {
-    transition: all .2s ease-in-out;
     color: $lightdarkgray;
     margin: 0;
     font-size: 1em;

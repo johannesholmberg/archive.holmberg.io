@@ -1,6 +1,5 @@
 .book-entry {
 
-  padding-top: 3em;
 
   .page-header {
     .title,
@@ -29,7 +28,7 @@
 
     aside {
       @include breakpoint(mobile-lg) {
-        margin-top: -9em;        
+        margin-top: -7em;
       } 
     }
   }

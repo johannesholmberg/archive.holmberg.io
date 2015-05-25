@@ -30,12 +30,11 @@
     font-size: 1rem;
 
     @include breakpoint(mobile-lg) {
-      max-width: 86%;
-      //float: left;    
+      max-width: 88%;  
     } 
 
     @include breakpoint(tablet-lg) {
-      max-width: 63%;
+      max-width: 40em;
     }
 
     > p:first-child {

@@ -1,13 +1,28 @@
 .article-item {
-
+  display: block;
   margin-bottom: 0;
-  padding: 1.2em 0;
+  padding: 1.2em 0 1.4em;
   border-bottom: 1px solid $snow;
+  transition: none;
+
+  &:hover,
+  &:focus {
+    border-color: $snow;
+
+    .title {
+      color: $profile-text;
+      //text-decoration: underline;
+    }
+
+    .date {
+      color: $darkgray;
+    }
+  }
 
   .title {
-    margin: 0 0 0 4em;
-    font-family: $font-sans-light;
-    font-size: $f26px;
+    margin: .2em 0 0 4.8em;
+    font-family: $font-sans;
+    font-size: $f20px;
     text-transform: none;
 
     a {
@@ -20,5 +35,6 @@
     margin: .35em 0;
     text-transform: uppercase;
     font-size: $f16px;
+    color: #aaa;
   }
 }

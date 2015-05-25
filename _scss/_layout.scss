@@ -25,12 +25,31 @@
 
 main {
   position: relative;
+  z-index: 101;
   background: url('../images/noise.jpg');
   background-size: 3%;
   background: #fff;
-  float: left;
-  @include calc(500px, 260px, 100%);
-  border-left: 1px solid #ddd;
+
+  .menu-active & {
+    transform: translateX(240px);
+  }
+  
+
+  @include breakpoint(tablet-lg) {
+    margin-left: 240px;
+    z-index: 99;
+    border-left: 1px solid #eee;
+
+
+  }
+
+  @include breakpoint(desktop-sm) {
+    margin-left: 260px;
+  } 
+
+  @include breakpoint(desktop-xl) {
+    margin-left: 290px;
+  } 
 
   .wrap {
     padding-top: 1.5em;
@@ -67,7 +86,22 @@ main {
 }
 
 // Ugly hack for using calc in breakpoint
+
 // tablet-lg
+@media (min-width: 57em) { 
+  main {
+    @include calc(500px, 240px, 100%);
+  }
+}
+
+// desktop-sm
+@media (min-width: 67em) { 
+  main {
+    @include calc(500px, 260px, 100%);
+  }
+}
+
+// desktop-xl
 @media (min-width: 118em) { 
   main {
     @include calc(500px, 290px, 100%);

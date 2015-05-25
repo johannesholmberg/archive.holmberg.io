@@ -24,19 +24,28 @@
 
     &.active {
       color: $profile-text !important;
-      border-bottom: 0;  
+      border-bottom: 0;
+      border-left: 15px solid $profile-text;
+      margin-left: -15px;
+      padding-left: 2.5em;
 
-      &:after {
-        content: '';
-        display: inline-block;
-        float: right;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 10px 12px 10px 0;
-        margin-right: -1px;
-        border-color: transparent #ddd transparent transparent;
-      }   
+      &:before {
+
+      }  
+
+      @include breakpoint(tablet-lg-max) {
+        &:after {
+          content: '';
+          display: inline-block;
+          float: right;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 10px 12px 10px 0;
+          margin-right: -1px;
+          border-color: transparent #ddd transparent transparent;
+        }  
+      }  
     }
 
     &:hover,
