@@ -7,13 +7,13 @@
   min-height: 100vh;
   z-index: 100;
 
-  @include breakpoint(tablet-lg-max) {
-    box-shadow: inset -3px 0 6px rgba(0, 0, 0, .2);
+  @include breakpoint(desktop-sm-max) {
     background: #222;
+    right: 0;
   } 
 
-  @include breakpoint(tablet-lg) {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  @include breakpoint(desktop-sm) {
+    position: fixed;
   } 
 
   @include breakpoint(desktop-sm) {
@@ -25,31 +25,32 @@
    }  
   
   .wrap {
-    padding: 3em 0; 
+    padding: 1.5em 0;
+
+    @include breakpoint(desktop-sm) {
+      padding: 3em 0;
+    } 
   }
 
   h1 {
     letter-spacing: -.005em;
     line-height: 1;
-    font-size: 1.45rem;
-    margin: 1.1em 0 .55em;
-    padding: 0 1.7em;
+    font-size: $f20px;
+    padding: 0 1.5em;
 
-    @include breakpoint(mobile-lg) {
-      font-size: $f20px;
-    }
-
-    @include breakpoint(tablet-lg) {
+    @include breakpoint(desktop-sm) {
+      display: block;
+      margin-top: 1.3em;
       margin: .8em 0;
       padding: 0 1.4em;
     } 
 
-    @include breakpoint(tablet-lg-max) {
-      display: none;
-    } 
-
     @include breakpoint(desktop-sm) {
       padding: 0 1.7em;
+    }
+
+    @include breakpoint(desktop-xl) {
+      margin-top: 2.5em;
     } 
 
     a {
@@ -60,20 +61,24 @@
 
       &:hover,
       &:focus {
-        .title {
-          color: $darkgray;
-        }
+        @include breakpoint(tablet-lg) {
+          .title {
+            color: $darkgray;
+          }          
+        } 
+
       }
     }
 
     .title {
       text-transform: uppercase;
-      color: #737373;
+      color: #bbb;
       font-size: 1rem;
       transition: all .2s ease-in-out;
 
-
-
+      @include breakpoint(tablet-lg) {
+        color: #737373;
+      } 
     }
 
     .role {

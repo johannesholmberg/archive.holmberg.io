@@ -38,7 +38,7 @@
   .title {
     @extend %text-shadow;
     margin-bottom: .05em;
-    font-size: 1.3em;
+    font-size: 1.4em;
     letter-spacing: .02em;
     text-transform: uppercase;
     color: #fff;
@@ -52,18 +52,18 @@
     } 
 
     @include breakpoint(tablet-lg) {
-      font-size: 3.2em;
+      font-size: 2.6em;
     } 
 
     @include breakpoint(desktop-sm) {
-      font-size: 3.8em;
+      font-size: 3.3em;
     }
 
     @include breakpoint(desktop-lg) {
-      font-size: 4.1em;
+      font-size: 3.8em;
     }
     @include breakpoint(desktop-xl) {
-       font-size: 4.6em;
+       font-size: 4.4em;
      }  
   }
 
@@ -83,18 +83,18 @@
     } 
 
     @include breakpoint(tablet-lg) {
-      font-size: 1.25em;
+      font-size: .95em;
     } 
 
     @include breakpoint(desktop-sm) {
-      font-size: 1.45em;
+      font-size: 1.2em;
     } 
 
     @include breakpoint(desktop-lg) {
-      font-size: 1.55em;
+      font-size: 1.4em;
     }
     @include breakpoint(desktop-xl) {
-      font-size: 1.7em;
+      font-size: 1.6em;
     } 
 
     span {

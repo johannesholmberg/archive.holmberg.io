@@ -19,15 +19,15 @@
     text-align: center;
     width: 100%;
     margin: 0 0 10%;
-    font-family: $font-sans-light;
-    font-size: 1.6em;
+
+    @extend %header-style;
+    
+    @include breakpoint(desktop-lg-max) {
+      font-size: $f26px;
+    } 
 
     @include breakpoint(mobile-lg) {
       margin-bottom: 5%;
-    } 
-
-    @include breakpoint(tablet-lg) {
-      font-size: 2.4em;      
     } 
   }
 
@@ -87,23 +87,24 @@
     }
 
     .title {
-      font-size: 1.4em;
+      font-size: 1em;
       text-decoration: none;
       display: block;
       padding: 1.5em 0 .3em;
       margin: 0;
-      font-family: $font-sans-light;
+      color: $darkgray;
+      font-family: $font-sans-bold;
+      color: #888;
 
       @include breakpoint(tablet-lg) {
-        font-size: 1.6em;
-      } 
+        font-size: 1.2em;
+      }
     }
 
     .meta {
       color: $lightdarkgray;
       margin: 0;
       font-size: 1em;
-      line-height: 1.4;
       padding-bottom: 2.6em;
     }
 

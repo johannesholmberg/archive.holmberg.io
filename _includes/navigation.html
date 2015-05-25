@@ -1,7 +1,25 @@
 <ul>
-  <li><a href="/" {% if page.title == "Front-end Web Developer" %} class="active" {% endif %}>Home</a>
-  <li><a href="/journal"{% if page.title == "Journal" %} class="active" {% elsif page.category == 'article' %} class="active" {% elsif page.category == 'travel' %} class="active" {% elsif page.active == "journal" %} class="active" {% endif %}>Journal</a></li>
-  <li><a href="/work"{% if page.title == "Work" %} class="active" {% elsif page.category == "work" %} class="active" {% endif %}>Work</a></li>
-  <li><a href="/reading"{% if page.active == "reading" %} class="active" {% elsif page.category == "reading" %} class="active" {% endif %}>Reading</a></li>
-  <li><a href="/info"{% if page.title == "About" %} class="active" {% endif %}>About</a></li>
+  <li>
+    <a href="/" {% if page.title == "Front-end Web Developer" %} class="active" {% endif %}>Home</a>
+  </li>
+  
+  <li>
+    <a href="/work"{% if page.title == "Work" %} class="active" {% elsif page.category == "work" %} class="active" {% endif %}>Work</a>
+  </li>
+
+  <li>
+    <a href="/journal"{% if page.title == "Journal" %} class="active" {% elsif page.category == 'article' %} class="active" {% elsif page.category == 'travel' %} class="active" {% elsif page.active == "journal" %} class="active" {% endif %}>Journal</a>
+  </li>
+  
+  <li>
+    <a href="/reading"{% if page.active == "reading" %} class="active" {% elsif page.category == "reading" %} class="active" {% endif %}>Reading</a>
+  </li>
+
+  <li>
+    <a href="/links"{% if page.active == "links" %} class="active" {% endif %}>Links</a>
+  </li>
+  
+  <li>
+    <a href="/info"{% if page.title == "About" %} class="active" {% endif %}>About</a>
+  </li>
 </ul>

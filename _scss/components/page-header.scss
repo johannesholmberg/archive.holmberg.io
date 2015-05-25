@@ -1,7 +1,51 @@
 .page-header {
-
   position: relative;
-  padding-top: 4.5em;
+  padding-top: 2em;
+
+  @include breakpoint(tablet-sm) {
+    padding-top: 3em;    
+  } 
+
+  @include breakpoint(tablet-lg) {
+    padding-top: 4.2em;  
+  } 
+  
+
+  @include breakpoint(desktop-xl) {
+    padding-top: 5.9em;
+  }
+
+  &.-with-icon {
+    .title {
+      position: relative;
+      padding-bottom: .5em;
+      margin-bottom: .6em;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        bottom: -.5em;
+        left: 50%;
+        margin-left: -.4em;
+        width: .8em;
+        height: .8em;
+        background: url('../images/icons/profile.png') #fff center center;
+        background-size: .79em;
+        border-radius: 100%;
+        //background: tomato;
+        border: 3px solid #fff;
+      }
+    }
+  }
+
+  &.-without-border {
+    .title {
+      border-bottom: 0;
+      padding-bottom: .1em;
+      margin-bottom: .2em;
+    }
+  }
 
   .wrap {
     padding-top: 0;
@@ -12,8 +56,27 @@
     @extend %header-style;
     text-align: center;
 
+    @include breakpoint(desktop-sm) {
+      border-bottom: 1px solid rgba(155, 155, 155, .3);      
+    } 
+
+    @include breakpoint(desktop-sm-max) {
+      padding-bottom: .1em;
+      margin-bottom: .2em;
+    } 
+
+
+
+
+
+    @include breakpoint(mobile-lg-max) {
+      font-size: $f32px;
+    } 
+
+    .dark &,
     .reading & {
-      color: #fff;
+      color: #fff;  
+      text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
     }
   }
 
@@ -23,8 +86,10 @@
     line-height: 1.4;
     text-align: center;
 
+    .dark &,
     .reading & {
-      color: #fff;
+      color: #fff;  
+      text-shadow: 0 1px 4px rgba(0, 0, 0, .2);      
     }
 
     @include breakpoint(mobile-lg-max) {

@@ -1,10 +1,8 @@
 .nav-primary {
 
-
   ul {
     list-style: none;
     margin: 2em 0;
-    
   }
     
   li {
@@ -12,39 +10,31 @@
   }
 
   a {
-//    transition: all .2s ease-in-out;
-    color: $lightdarkgray;
+    color: #ddd;
     padding: 1em 0 1em 2em;
     display: block;
     width: 100%;
+    letter-spacing: .03em;
     text-transform: uppercase;
     font-family: $font-sans-bold;
     font-size: $f14px;
     text-decoration: none;
 
+    @include breakpoint(tablet-lg) {
+      color: $lightdarkgray;
+    } 
+
     &.active {
       color: $profile-text !important;
       border-bottom: 0;
-      border-left: 15px solid $profile-text;
-      margin-left: -15px;
-      padding-left: 2.5em;
+      border-right: 15px solid $profile-text;
+      
 
-      &:before {
-
-      }  
-
-      @include breakpoint(tablet-lg-max) {
-        &:after {
-          content: '';
-          display: inline-block;
-          float: right;
-          width: 0;
-          height: 0;
-          border-style: solid;
-          border-width: 10px 12px 10px 0;
-          margin-right: -1px;
-          border-color: transparent #ddd transparent transparent;
-        }  
+      @include breakpoint(tablet-lg) {
+        padding-left: 2.5em;
+        margin-left: -15px;
+        border-right: 0;
+        border-left: 15px solid $profile-text; 
       }  
     }
 

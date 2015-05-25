@@ -4,6 +4,7 @@
     padding-bottom: 0;
     padding-top: 0;
     position: static;
+    //margin-left: 0;
   }
 
   .side-panel {
@@ -29,16 +30,10 @@
     margin: 0 auto 10%;
     font-size: 1rem;
 
-    @include breakpoint(mobile-lg) {
-      max-width: 88%;  
-    } 
-
-    @include breakpoint(tablet-lg) {
-      max-width: 40em;
-    }
-
     > p:first-child {
-      @extend %lead-text;
+      @include breakpoint(mobile-xl) {
+        @extend %lead-text;        
+      } 
     } 
   }
 }

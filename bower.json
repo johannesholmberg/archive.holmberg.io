@@ -1,9 +1,26 @@
 {
-  "name": "holmberg.io",
-  "version": "0.0.1",
+  "name": "html-starter-kit-jekyll",
+  "version": "1.0.0",
+  "authors": [
+    "Johannes Holmberg <johannes@holmberg.io>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "modernizr": "latest",
-    "picturefill": "latest",
-    "loadcss": "latest"
+    "respond": "~1.4.2",
+    "modernizr": "~2.8.3",
+    "picturefill": "~2.3.1",
+    "loadcss": "~0.1.6",
+    "html5shiv": "~3.7.2"
+  },
+  "devDependencies": {
+    "filament-shoestring": "~1.0.2"
   }
 }
