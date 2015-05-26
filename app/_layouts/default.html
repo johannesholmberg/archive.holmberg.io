@@ -1,0 +1,50 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    {% if page.description %}
+      <meta name="description" content="{{page.description}}" />
+    {% endif %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if page.title == "Front-end Web Developer" %}
+      <title>{{ site.name }} &middot; {{ page.title }}</title>
+    {% else %}
+      <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.name }}</title>
+    {% endif %}
+
+    <script>
+      function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("script")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
+      loadCSS( "{{siteurl}}/assets/css/fonts.css" );
+    </script>
+
+    <noscript><link href="{{siteurl}}/assets/css/fonts.css" rel="stylesheet"></noscript>
+    <link href="{{siteurl}}/assets/css/main.min.css" rel="stylesheet">
+
+    <script>
+      document.createElement( "picture" );
+    </script>
+
+    <script src="{{siteurl}}/assets/js/vendor.min.js" async></script>
+  </head>
+
+  <body class="{{page.mode}}" id="body">
+
+    {% include header.html %}
+
+    <main class="{{page.active}}" 
+    {% if page.bg %} style="background-color: {{page.bg}}" {% endif %}>
+        {{ content }}
+    </main>
+
+
+    {% include analytics.html %}
+
+  </body>
+</html>

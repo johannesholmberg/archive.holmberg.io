@@ -8,6 +8,9 @@ name: Johannes Holmberg
 # Name of the author
 author: Johannes Holmberg
 
+# Folder where Jekyll reads
+source: app
+
 # Short bio or description
 description: Johannes Holmberg is a freelance front-end web developer. This is his personal playground with words, design and code.
 

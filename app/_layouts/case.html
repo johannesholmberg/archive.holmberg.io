@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<article class="case-entry">
+
+  <div class="entry-content">
+  	<div style="background-color: {{page.color}}" class="main-section">
+
+			<header class="page-header -without-border">
+				<div class="wrap -small">
+			    <h1 class="title">{{ page.title }}</h1>
+			    <p class="meta"><span class="year">{{page.year}}</span> &middot; {{page.responsibilities}}</p>
+				</div>
+			</header>
+
+			<div class="image">
+		    <img
+		    	class="{{page.cover}}"
+	        src="{{siteurl}}/assets/images/spacer.png"
+	        sizes="
+	        (min-width: 125em) 1500px,
+	        (min-width: 100em) 1300px,
+	        (min-width: 65em) 1100px,
+	        100%" 
+	        srcset="
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-320.jpg 320w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-600.jpg 600w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-800.jpg 800w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-1000.jpg 1000w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-1500.jpg 1500w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-2000.jpg 2000w,
+	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-3000.jpg 3000w"
+	        alt="{{page.title}}"
+		    >
+			</div>
+		</div>
+
+		<div class="wrap -small">
+			<div class="description">
+				{{ content }}
+			</div>
+		</div>
+
+		<div class="btn-holder">
+			<a href="{{page.live}}" class="btn" style="background-color: {{page.color}}">View website</a>
+		</div>
+  </div>
+
+  {% include bio-card.html %}
+
+	<footer class="nav-categories">
+		<div class="wrap">
+			<a href="/work" class="see-all">Browse all work</a>
+			<ul>
+			{% for category in site.categories %}
+			    {% assign catg_name = category.first %}
+			    {% if catg_name == page.category %}
+			        {% assign catg_posts = category.last %}
+			    {% endif %}
+			{% endfor %}
+			{% for post in catg_posts %}
+			    {% if post.title == page.title %}
+			        {% unless forloop.last %}
+			            {% assign next = catg_posts[forloop.index] %}
+			            <li class="previous">
+			            	<a href="{{ site.baseurl }}{{ next.url }}">&larr; <span>{{ next.title }}</span></a>
+			            </li>
+			        {% endunless %}
+			        {% unless forloop.first %}
+			            <li class="next">
+			            	<a href="{{ site.baseurl }}{{ prev.url }}"><span>{{ prev.title }}</span> &rarr;</a>
+			            </li>
+			        {% endunless %}
+			    {% endif %}
+			    {% assign prev = post %}
+			{% endfor %}
+			</ul>
+		</div>
+	</footer>
+
+</article>

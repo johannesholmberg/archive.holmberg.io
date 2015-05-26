@@ -54,24 +54,24 @@ gulp.task('copystyles', function() {
 });
 
 gulp.task('move-images', function() {
-  return gulp.src('assets/images/johannes/*')
-    .pipe(gulp.dest('assets/images/dist'));
+  return gulp.src('app/assets/images/johannes/*')
+    .pipe(gulp.dest('app/assets/images/dist'));
 });
 
 gulp.task('optimize-images', function() {
-  return gulp.src('assets/images/dist/*')
+  return gulp.src('app/assets/images/dist/*')
     .pipe(imagemin({
       optimizationLevel: 3,
       progressive: true,
       interlaced: true
     }))
-    .pipe(gulp.dest('assets/images/dist'));
+    .pipe(gulp.dest('app/assets/images/dist'));
 });
 
 gulp.task('scripts', function() {
   return gulp.src([
-    'assets/js/vendor/picturefill/dist/picturefill.js',
-    'assets/js/app.dev.js'
+    'app/assets/js/vendor/picturefill/dist/picturefill.js',
+    'app/assets/js/app.dev.js'
     ], {
     base: 'assets/'
   })
@@ -82,14 +82,14 @@ gulp.task('scripts', function() {
     .pipe(browserSync.reload({
       stream: true
     }))
-    .pipe(gulp.dest('assets/js'));
+    .pipe(gulp.dest('app/assets/js'));
 });
 
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function() {
-  gulp.src('_scss/main.scss')
+  gulp.src('app/_scss/main.scss')
     .pipe(sass({
       style: 'expanded',
       includePaths: ['scss'],
@@ -107,7 +107,7 @@ gulp.task('sass', function() {
     .pipe(browserSync.reload({
       stream: true
     }))
-    .pipe(gulp.dest('assets/css'));
+    .pipe(gulp.dest('app/assets/css'));
 });
 
 /**
@@ -125,15 +125,15 @@ gulp.task('watch', function() {
   //     enabled: false
   //   }
   // });
-  gulp.watch('_scss/**/*.scss', ['sass']);
-  gulp.watch('assets/js/**/*.js', ['scripts']);
+  gulp.watch('app/_scss/**/*.scss', ['sass']);
+  gulp.watch('app/assets/js/**/*.js', ['scripts']);
   gulp.watch([
-    'index.html',
-    'styleguide/*.html',
-    '_layouts/*.html',
-    '_includes/*.html',
-    '_posts/**/*',
-    '_drafts/*'
+    'app/index.html',
+    'app/styleguide/*.html',
+    'app/_layouts/*.html',
+    'app/_includes/*.html',
+    'app/_posts/**/*',
+    'app/_drafts/*'
   ], ['jekyll-rebuild']);
 });
 
@@ -142,8 +142,8 @@ gulp.task('watch', function() {
  */
 gulp.task('book-images', function() {
 
-  var source = 'assets/images/reading/*';
-  var dest = 'assets/images/dist';
+  var source = 'app/assets/images/reading/*';
+  var dest = 'app/assets/images/dist';
 
   gulp.src(source)
     .pipe(imageResize({
@@ -213,8 +213,8 @@ gulp.task('book-images', function() {
  */
 gulp.task('article-images', function() {
 
-  var source = 'assets/images/journal/*';
-  var dest = 'assets/images/dist';
+  var source = 'app/assets/images/journal/*';
+  var dest = 'app/assets/images/dist';
 
   gulp.src(source)
     .pipe(imageResize({
@@ -275,8 +275,8 @@ gulp.task('article-images', function() {
 gulp.task('case-images', function() {
 
   // Inline images
-  var source = 'assets/images/work/inlines/*';
-  var dest = 'assets/images/dist';
+  var source = 'app/assets/images/work/inlines/*';
+  var dest = 'app/assets/images/dist';
   gulp.src(source)
     .pipe(imageResize({
       width: 1600,

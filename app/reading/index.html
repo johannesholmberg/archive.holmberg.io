@@ -1,0 +1,24 @@
+---
+layout: default
+title: Reading
+active: reading
+bg: '#222'
+description: "Books worth reading."
+---
+
+<section class="main-section">
+
+  {% include reader-header.html %}
+
+  <div class="books">
+    <div class="wrap">
+      {% for post in site.categories.reading offset:0 limit:30 %}
+        {% include book-item.html %}
+      {% endfor %}
+      <div class="pagination-block">
+        <a href="/reading/2" class="pagination">Next page &raquo;</a>
+      </div>
+    </div>
+  </div>
+
+</section>
