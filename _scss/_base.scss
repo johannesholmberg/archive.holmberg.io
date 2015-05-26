@@ -43,16 +43,24 @@ h1, h2, h3 {
   line-height: 1.3;
   font-weight: 300;
   font-family: $font-header;
+  text-transform: uppercase;
+  color: #575757;
+  margin-bottom: .3em;
+
+  & + p {
+    margin-top: 0;
+  }
+
+  // article > &:first-child,
+  // div > &:first-child {
+  //   margin-top: 0;
+  // }
 }
 
 h1 {
   font-size: $f36px;
-  margin: 0;
-  letter-spacing: -.015em;
-
-  @include breakpoint(tablet-sm) {
-    font-size: $f52px;
-  } 
+  letter-spacing: .03em;
+  margin-top: 0;
 
   a {
     border-bottom: 0;
@@ -61,36 +69,19 @@ h1 {
 
 h2 {
   font-size: $f20px;
-  margin-bottom: .4em;
-  color: #575757;
+  
   letter-spacing: .03em;
   text-transform: uppercase;
-
-  @include breakpoint(tablet-sm) {
-    //font-size: 26px;
-    
-  } 
 
   a {
     border-bottom: 0;
   }
 
-  & + p {
-    margin-top: 0;
-  }
+
 }
 
 h3 {
-  font-size: $f20px;
-
-  @include breakpoint(tablet-sm) {
-    font-size: $f26px;
-  } 
-  margin-bottom: .3em;
-
-  & + p {
-    margin-top: 0;
-  }
+  font-size: $f16px;
 }
 
 p {

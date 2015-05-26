@@ -33,4 +33,13 @@ markdown: kramdown
 highlighter: pygments
 permalink: /journal/:title
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", 'bower.json', 'assets/js/vendor/', 'holmberg.io.sublime-workspace', 'holmberg.io.sublime-project']
+exclude: [
+  "node_modules", 
+  "gulpfile.js", 
+  "package.json", 
+  "Gemfile", 
+  'bower.json', 
+  'app/assets/js/app.dev.js',
+  '*.sublime-workspace', 
+  '*.sublime-project'
+]

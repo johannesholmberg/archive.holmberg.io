@@ -2,91 +2,21 @@
   position: absolute;
   width: 240px;
   background: url('../images/noise.jpg');
-  background: #fff;
+  background: #222;
   background-size: 25%;
   min-height: 100vh;
   z-index: 100;
-
-  @include breakpoint(desktop-sm-max) {
-    background: #222;
-    right: 0;
-  } 
-
-  @include breakpoint(desktop-sm) {
-    position: fixed;
-  } 
+  padding: 4em 0;
+  right: 0; 
 
   @include breakpoint(desktop-sm) {
     width: 260px;
+    position: fixed;
+    background: #fff;
+    right: auto;
   } 
 
   @include breakpoint(desktop-xl) {
      width: 290px;
-   }  
-  
-  .wrap {
-    padding: 1.5em 0;
-
-    @include breakpoint(desktop-sm) {
-      padding: 3em 0;
-    } 
-  }
-
-  h1 {
-    letter-spacing: -.005em;
-    line-height: 1;
-    font-size: $f20px;
-    padding: 0 1.5em;
-
-    @include breakpoint(desktop-sm) {
-      display: block;
-      margin-top: 1.3em;
-      margin: .8em 0;
-      padding: 0 1.4em;
-    } 
-
-    @include breakpoint(desktop-sm) {
-      padding: 0 1.7em;
-    }
-
-    @include breakpoint(desktop-xl) {
-      margin-top: 2.5em;
-    } 
-
-    a {
-      display: block;
-      text-decoration: none;
-      color: $darkgray;
-
-
-      &:hover,
-      &:focus {
-        @include breakpoint(tablet-lg) {
-          .title {
-            color: $darkgray;
-          }          
-        } 
-
-      }
-    }
-
-    .title {
-      text-transform: uppercase;
-      color: #bbb;
-      font-size: 1rem;
-      transition: all .2s ease-in-out;
-
-      @include breakpoint(tablet-lg) {
-        color: #737373;
-      } 
-    }
-
-    .role {
-      display: block;
-      margin-top: .25em;
-      font-size: .9rem;
-      color: $lightdarkgray;
-      font-family: $font-sans;
-    }
   }
 }

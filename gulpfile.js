@@ -128,7 +128,8 @@ gulp.task('watch', function() {
   gulp.watch('_scss/**/*.scss', ['sass']);
   gulp.watch('assets/js/**/*.js', ['scripts']);
   gulp.watch([
-    '**/*.html',
+    'index.html',
+    'styleguide/*.html',
     '_layouts/*.html',
     '_includes/*.html',
     '_posts/**/*',

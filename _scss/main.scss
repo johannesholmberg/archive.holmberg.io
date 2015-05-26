@@ -11,6 +11,7 @@
 @import "icons/icons.svg.scss";
 
 @import "components/header-global";
+@import "components/header-brand";
 @import "components/top-bar";
 @import "components/footer-global";
 @import "components/nav-primary";
@@ -30,5 +31,7 @@
 @import "components/bio-card";
 @import "components/content-card";
 @import "components/pagination-block";
+
+@import "_styleguide";
 
 @import "__utilities";

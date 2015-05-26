@@ -5,7 +5,7 @@ active: journal
 description: "Writing by Johannes Holmberg."
 ---
 
-<section>
+<section class="main-section">
 
   <header class="page-header">
     <div class="wrap -small">
@@ -14,19 +14,21 @@ description: "Writing by Johannes Holmberg."
     </div>
   </header>
 
-  <div class="wrap -small">
-    {% for post in site.posts %}
-      {% if post.category == "reading" %}
-      {% elsif post.category == "work" %}
-      {% else if %}
-        
-        <a href="{{ post.url }}" class="article-item">
-          <p class="date">{{ post.date | date: '%b %Y' }}</p>
-          <h2 class="title">{{ post.title }}</h2>
-        </a>
-        
-        {% endif %}
-    {% endfor %}
+  <div class="container">
+    <div class="wrap -small">
+      {% for post in site.posts %}
+        {% if post.category == "reading" %}
+        {% elsif post.category == "work" %}
+        {% else if %}
+          
+          <a href="{{ post.url }}" class="article-item">
+            <p class="date">{{ post.date | date: '%b %Y' }}</p>
+            <h2 class="title">{{ post.title }}</h2>
+          </a>
+          
+          {% endif %}
+      {% endfor %}
+    </div>
   </div>
 
 </section>

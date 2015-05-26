@@ -20,7 +20,7 @@
     font-size: $f14px;
     text-decoration: none;
 
-    @include breakpoint(tablet-lg) {
+    @include breakpoint(desktop-sm) {
       color: $lightdarkgray;
     } 
 
@@ -29,8 +29,7 @@
       border-bottom: 0;
       border-right: 15px solid $profile-text;
       
-
-      @include breakpoint(tablet-lg) {
+      @include breakpoint(desktop-sm) {
         padding-left: 2.5em;
         margin-left: -15px;
         border-right: 0;

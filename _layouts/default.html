@@ -38,8 +38,9 @@ layout: compress
 
     {% include header.html %}
 
-    <main class="{{page.active}}">
-      {{ content }}
+    <main class="{{page.active}}" 
+    {% if page.color %} style="background-color: {{page.color}}" {% endif %}>
+        {{ content }}
     </main>
 
 

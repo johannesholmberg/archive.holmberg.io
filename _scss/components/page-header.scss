@@ -1,19 +1,5 @@
 .page-header {
   position: relative;
-  padding-top: 2em;
-
-  @include breakpoint(tablet-sm) {
-    padding-top: 3em;    
-  } 
-
-  @include breakpoint(tablet-lg) {
-    padding-top: 4.2em;  
-  } 
-  
-
-  @include breakpoint(desktop-xl) {
-    padding-top: 5.9em;
-  }
 
   &.-with-icon {
     .title {
@@ -47,11 +33,6 @@
     }
   }
 
-  .wrap {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
   .title {
     @extend %header-style;
     text-align: center;
@@ -64,10 +45,6 @@
       padding-bottom: .1em;
       margin-bottom: .2em;
     } 
-
-
-
-
 
     @include breakpoint(mobile-lg-max) {
       font-size: $f32px;

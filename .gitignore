@@ -1,5 +1,6 @@
 .jekyll-metadata
 node_modules
+assets/js/vendor/**/*
 _site
 *main.min.css
 assets/images/dist/*
