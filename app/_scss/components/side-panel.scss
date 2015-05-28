@@ -12,12 +12,6 @@
 }
 
 aside {
-  margin-bottom: 1em;
-
-  @include breakpoint(mobile-lg) {
-    border-left: 1em solid #fff;    
-  } 
-
   p {
     font-size: $f16px;
   }

@@ -33,14 +33,9 @@
     @include breakpoint(mobile-lg) {
       margin: 0 6% 1em;
     } 
-
     @include breakpoint(tablet-sm) {
-      margin: 0 10% 1em;
-    } 
-
-    @include breakpoint(tablet-lg) {
       width: 42%;
-      margin: 0 4% 5%;
+      margin: 0 4% 1em;
       float: left;
 
       &:last-of-type {
@@ -83,7 +78,7 @@
     }
 
     .title {
-      font-size: 1em;
+      font-size: 1.2em;
       text-decoration: none;
       display: block;
       padding: 1.5em 0 .3em;
@@ -92,10 +87,6 @@
       font-family: $font-sans-bold;
       color: #888;
       text-transform: none;
-
-      @include breakpoint(tablet-lg) {
-        font-size: 1.2em;
-      }
     }
 
     .meta {

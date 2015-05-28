@@ -51,7 +51,7 @@ This takes seconds.
 
 It won’t deviate from the course of the meeting, it doesn’t disturb anyone and I won’t forget to do it later on. It’s out of my head, my mental space is saved up. Perfect.
 
-Same goes for if I’m in the middle of a coding session. “I should definitely not forget to pick this package up for Linda tomorrow morning”. `SHITF + CMD + U` — write it down — go back to work.
+Same goes for if I’m in the middle of a coding session. “I should definitely not forget to pick this package up for Linda tomorrow morning”. `SHIFT + CMD + U` — write it down — go back to work.
 
 **I love it.**
 

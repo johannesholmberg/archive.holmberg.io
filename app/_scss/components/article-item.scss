@@ -5,13 +5,16 @@
   border-bottom: 1px solid $snow;
   transition: none;
 
+  &:last-child {
+    border-bottom: 0;
+  }
+
   &:hover,
   &:focus {
     border-color: $snow;
 
     .title {
       color: $profile-text;
-      //text-decoration: underline;
     }
 
     .date {

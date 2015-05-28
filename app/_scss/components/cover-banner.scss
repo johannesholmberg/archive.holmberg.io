@@ -68,10 +68,10 @@
   }
 
   .meta {
-    font-size: 1em;
+    font-size: .9em;
     margin: .5em 0 .8em;
-    line-height: 1.2;
-    font-family: $font-sans-light;
+    line-height: 1.4;
+    //font-family: $font-sans-light;
 
     @include breakpoint(mobile-lg) {
       font-size: 1em;

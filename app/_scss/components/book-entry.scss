@@ -1,6 +1,5 @@
 .book-entry {
 
-
   .page-header {
     .title,
     .meta {
@@ -10,14 +9,8 @@
     }
   }
 
-  header + .wrap {
-    @include breakpoint(mobile-lg) {
-      //padding-top: 1.5em;    
-    }
-  }
-
   .side-panel {
-    margin: 0;
+    margin: 5% 0 0;
 
     .img-holder {
       display: block;

@@ -1,0 +1,24 @@
+<ul>
+{% for category in site.categories %}
+    {% assign catg_name = category.first %}
+    {% if catg_name == page.category %}
+        {% assign catg_posts = category.last %}
+    {% endif %}
+{% endfor %}
+{% for post in catg_posts %}
+    {% if post.title == page.title %}
+        {% unless forloop.last %}
+            {% assign next = catg_posts[forloop.index] %}
+            <li class="previous">
+              <a href="{{ site.baseurl }}{{ next.url }}">&larr; <span>{{ next.title }}</span></a>
+            </li>
+        {% endunless %}
+        {% unless forloop.first %}
+            <li class="next">
+              <a href="{{ site.baseurl }}{{ prev.url }}"><span>{{ prev.title }}</span> &rarr;</a>
+            </li>
+        {% endunless %}
+    {% endif %}
+    {% assign prev = post %}
+{% endfor %}
+</ul>

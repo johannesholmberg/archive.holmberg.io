@@ -18,9 +18,24 @@
     display: inline-block;
     width: 2.6em;
     height: 2.6em;
+    margin-top: -.15em;
     border: 2px solid #ccc;
     border-radius: .4em;
     float: right;
+    background: url('../images/icons/icon-menu.svg') no-repeat center center;
+    background-size: 1.2em;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      background-color: #222;
+      border-color: #222;
+    }
+
+    .menu-active & {
+      background-image: url('../images/icons/icon-close.svg');
+      background-size: .9em;
+    }
   }
 
   h1 {

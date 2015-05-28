@@ -31,10 +31,6 @@ body {
     min-height: 100vh;
     border-left: 10px solid #222;    
   }
-
-  @include breakpoint(desktop-xl) {
-    border-left-width: 15px;
-  } 
 }
 
 b,
