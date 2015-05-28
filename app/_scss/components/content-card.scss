@@ -8,6 +8,7 @@
     margin-bottom: .8em;
     font-size: $f20px;
     margin-left: -1em;
+    text-transform: none;
 
     @include breakpoint(desktop-xl) {
       margin: 0 0 0 -18em;  

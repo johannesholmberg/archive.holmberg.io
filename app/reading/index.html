@@ -10,13 +10,15 @@ description: "Books worth reading."
 
   {% include reader-header.html %}
 
-  <div class="books">
-    <div class="wrap">
-      {% for post in site.categories.reading offset:0 limit:30 %}
-        {% include book-item.html %}
-      {% endfor %}
-      <div class="pagination-block">
-        <a href="/reading/2" class="pagination">Next page &raquo;</a>
+  <div class="container">
+    <div class="books">
+      <div class="wrap">
+        {% for post in site.categories.reading offset:0 limit:40 %}
+          {% include book-item.html %}
+        {% endfor %}
+        <div class="pagination-block">
+          <a href="/reading/2" class="pagination">Next page &raquo;</a>
+        </div>
       </div>
     </div>
   </div>

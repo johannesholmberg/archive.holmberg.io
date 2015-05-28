@@ -11,7 +11,7 @@ description: "Books worth reading."
 
   <div class="books">
     <div class="wrap">
-      {% for post in site.categories.reading offset:30 limit:30 %}
+      {% for post in site.categories.reading offset:40 limit:40 %}
         {% include book-item.html %}
       {% endfor %}
       <div class="pagination-block">

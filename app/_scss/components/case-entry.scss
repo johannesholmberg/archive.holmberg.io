@@ -42,17 +42,15 @@
 
       @include breakpoint(tablet-sm) {
         margin-bottom: 6%;
-        padding-bottom: 6%;        
+        padding-bottom: 6%;
+        padding-left: 4%;
+        padding-right: 4%;    
       } 
 
       @include breakpoint(desktop-sm) {
         margin-bottom: 5%;
         padding-bottom: 7%;
         padding-top: 1.5%;
-      } 
-
-      &.scenkonst {
-        //padding-bottom: 0;
       }
     }
   }
@@ -69,12 +67,6 @@
     text-align: left;
     margin: 0 auto;
     max-width: 61em;
-
-    //padding: 0 5%;
-
-    @include breakpoint(tablet-sm) {
-      //padding: 0 8%;
-    } 
 
     @include breakpoint(desktop-lg) {
       border-radius: .3em;

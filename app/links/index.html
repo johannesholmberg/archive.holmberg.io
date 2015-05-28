@@ -10,29 +10,30 @@ description: "Links from Johannes Holmberg."
   <header class="page-header">
     <div class="wrap -small">
       <h1 class="title">Links</h1>
-      <p class="meta">My collection of links.</p>
+      <p class="meta">Things on the internet that reinforces what I believe in.</p>
     </div>
   </header>
 
-  <div class="wrap -small">
+  <div class="container">
+    <div class="wrap -small">
 
-    <ul>
-    {% for link in site.data.links %}
+      <ul>
+      {% for link in site.data.links %}
 
-      <li class="content-card">
-        {% capture currentyear %}{{link.date | date: "%A, %B %-d, %Y"}}{% endcapture %}
-        {% if currentyear != year %}
-          <h3 class="date">{{ link.date | date: '%A, %B %-d, %Y' }}</h3>
-        {% capture year %}{{currentyear}}{% endcapture %} 
-        {% endif %}
-        
-        <a href="{{ link.link }}" class="title">
-          {{ link.title }}
-        </a>
-        <p class="desc">{{ link.desc }}</p>
-      </li>
-    {% endfor %}
-    </ul>
+        <li class="content-card">
+          {% capture currentyear %}{{link.date | date: "%A, %B %-d, %Y"}}{% endcapture %}
+          {% if currentyear != year %}
+            <h3 class="date">{{ link.date | date: '%B %-d, %Y' }}</h3>
+          {% capture year %}{{currentyear}}{% endcapture %} 
+          {% endif %}
+          
+          <a href="{{ link.link }}" class="title">
+            {{ link.title }}
+          </a>
+          <p class="desc">{{ link.desc }}</p>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
   </div>
-
 </section>

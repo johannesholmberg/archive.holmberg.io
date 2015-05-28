@@ -3,7 +3,11 @@
   letter-spacing: -.005em;
   line-height: 1;
   font-size: $f20px;
-  padding: 0 1.4em;
+  padding: 0 1.1em;
+
+  @include breakpoint(desktop-lg) {
+    padding: 0 1.4em;
+  } 
 
   a {
     display: block;
@@ -22,17 +26,29 @@
 
   .title {
     color: #bbb;
-    font-size: 1rem;
+    font-size: .95rem;
     transition: all .2s ease-in-out;
     color: #737373;
+
+    @include breakpoint(desktop-lg) {
+      font-size: 1rem;
+    } 
   }
 
   .role {
     display: block;
     text-transform: none;
     margin-top: .25em;
-    font-size: .9rem;
+    font-size: .83rem;
     color: $lightdarkgray;
     font-family: $font-sans;
+
+    @include breakpoint(desktop-lg) {
+      font-size: .9rem;
+    } 
   }
+}
+
+.top-bar h1 {
+  padding: 0;
 }

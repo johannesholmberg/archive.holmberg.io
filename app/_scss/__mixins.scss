@@ -45,6 +45,11 @@
   @else if $point == desktop-xl-max {
     @media (max-width: 118em) { @content; }
   }
+
+
+  @else if $point == low {
+    @media (max-height: 40em) { @content; }
+  }
 }
 
 // Calc

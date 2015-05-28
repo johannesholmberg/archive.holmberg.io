@@ -79,6 +79,7 @@
 
     img {
       transition: all .2s ease-in-out;
+      -webkit-backface-visibility: hidden;
     }
 
     .title {
@@ -90,6 +91,7 @@
       color: $darkgray;
       font-family: $font-sans-bold;
       color: #888;
+      text-transform: none;
 
       @include breakpoint(tablet-lg) {
         font-size: 1.2em;

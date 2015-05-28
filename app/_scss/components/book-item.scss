@@ -1,5 +1,4 @@
 .books > .wrap {
-  //max-width: 102em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -11,14 +10,18 @@
   text-decoration: none;
   border-bottom: 0;
   line-height: 1.2;
-  float: left;  
+  float: left;
+
+  &:first-child {
+    margin-top: 2.5em;
+  }
 
   @include breakpoint(mobile-lg) {
     width: 32.8%;      
-  } 
+  }
 
-  @include breakpoint(desktop-sm) {
-    width: 24.8%;      
+  @include breakpoint(tablet-lg) {
+    width: 24.8%;
   } 
 
   @include breakpoint(desktop-lg) {
@@ -53,16 +56,18 @@
     left: 1em;
     width: 62%;
     transition: opacity .1s ease-in-out;
+    -webkit-backface-visibility: hidden;
   }
 
   .title {
     padding: .7em 1em 0;
     margin-top: 0;
+    line-height: 1.4;
     margin-bottom: .2em;
     border-top: .6em solid #666666;
     font-family: $font-sans;
     color: #fff;
-    //transition: all .2s ease-in-out;
+    text-transform: none;
     font-size: $f16px; 
   }
 
@@ -70,7 +75,6 @@
     margin: 0;
     padding: 0 1em;
     color: $lightdarkgray;
-    //transition: all .2s ease-in-out;
     font-size: $f14px;
   }
 }

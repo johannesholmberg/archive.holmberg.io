@@ -8,15 +8,6 @@
 .nav-item {
   margin: 0;
 
-  &.-small {
-    a {
-      text-transform: none;
-      font-family: $font-sans;
-      font-size: $f12px;
-      padding: .5em 0 .5em 2.5em;
-    }
-  }
-
   a {
     color: #ddd;
     padding: .9em 0 .9em 2em;
@@ -30,6 +21,13 @@
 
     @include breakpoint(desktop-sm) {
       color: $lightdarkgray;
+      padding: .9em 0 .9em 1.65em;
+      font-size: .9rem;
+    }
+
+    @include breakpoint(desktop-lg) {
+      padding: .9em 0 .9em 2em;
+      font-size: $f14px;
     } 
 
     &.active {
@@ -48,6 +46,23 @@
     &:hover,
     &:focus {
       text-decoration: underline;
+    }
+  }
+
+  &.-small {
+    a {
+      text-transform: none;
+      font-family: $font-sans;
+      font-size: $f12px;
+      padding: .5em 0 .5em 2.5em;
+
+      @include breakpoint(desktop-sm) {
+        padding: .5em 0 .5em 2em;
+      } 
+
+      @include breakpoint(desktop-lg) {
+        padding: .5em 0 .5em 2.5em;
+      } 
     }
   }
 }
