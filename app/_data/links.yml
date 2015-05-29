@@ -2,25 +2,3 @@
   link: https://www.baldurbjarnason.com/notes/media-websites-vs-facebook/
   title: 'Facebook and the media: united, they attack the web'
   desc: '“And web developers? Stop buying into the ‘native is better’ myth. (It’s just different.) Progressive enhancement has never been an optional extra and it’s high time you make sure that your managers and your CEOs know that.”'
-
-- date: 2015-05-25
-  link: http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html
-  title: 'Monica at Mozilla: Tracking Protection for Firefox at Web 2.0 Security and Privacy 2015'
-  desc: The movement toward toolchains and ever more libraries to do ever less useful things has become hysterical, and with every day that passes I’m more happy with my 2006 decision to ignore tools and just carry on. Tools don’t solve problems any more, they have become the problem. There’s just too many of them and they all include an incredible amount of features that you don’t use on your site — but that users are still required to download and execute.
-
-- date: 2015-05-25
-  link: http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.ht
-  title: Grant Morrison | Starting Over
-  desc: "Why all these tools? I see two related reasons: emulating native, and the fact that people with a server-side background coming to JavaScript development take existing tools because they do not have the training to recognise their drawbacks. Thus, the average web site has become way overtooled, which exacts a price when it comes to speed."
-
-
-- date: 2015-01-21
-  link: http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.ht
-  title: Grant Morrison | Starting Over
-  desc: "Why all these tools? I see two related reasons: emulating native, and the fact that people with a server-side background coming to JavaScript development take existing tools because they do not have the training to recognise their drawbacks. Thus, the average web site has become way overtooled, which exacts a price when it comes to speed."
-
-
-- date: 2014-03-25
-  link: http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html
-  title: "Monica at Mozilla: Tracking Protection for Firefox at Web 2.0 Security and Privacy 2015"
-  desc: The movement toward toolchains and ever more libraries to do ever less useful things has become hysterical, and with every day that passes I’m more happy with my 2006 decision to ignore tools and just carry on. Tools don’t solve problems any more, they have become the problem. There’s just too many of them and they all include an incredible

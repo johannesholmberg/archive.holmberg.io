@@ -21,12 +21,12 @@ Then I realized that the value for this thing laid in the reverse of that last s
         ({{site.tablet-sm}}) 660px,
         100%" 
         srcset="
-        {{siteurl}}/assets/images/dist/up-bracelet-400.jpg 400w,
-        {{siteurl}}/assets/images/dist/up-bracelet-600.jpg 600w,
-        {{siteurl}}/assets/images/dist/up-bracelet-800.jpg 800w,
-        {{siteurl}}/assets/images/dist/up-bracelet-1000.jpg 1000w,
-        {{siteurl}}/assets/images/dist/up-bracelet-1400.jpg 1400w"
-        src="{{siteurl}}/assets/images/spacer.png"
+        /assets/images/dist/up-bracelet-400.jpg 400w,
+        /assets/images/dist/up-bracelet-600.jpg 600w,
+        /assets/images/dist/up-bracelet-800.jpg 800w,
+        /assets/images/dist/up-bracelet-1000.jpg 1000w,
+        /assets/images/dist/up-bracelet-1400.jpg 1400w"
+        src="/assets/images/dist/up-bracelet-600.jpg"
         alt="UP activity tracker from Jawbone"
     >
     <figcaption>The UP activity tracker from Jawbone.</figcaption>
@@ -52,12 +52,12 @@ The greatest benefit of the UP bracelet is that it features no screen. You can a
         ({{site.tablet-sm}}) 660px,
         100%"
         srcset="
-        {{siteurl}}/assets/images/dist/up-bracelet-2-400.jpg 400w,
-        {{siteurl}}/assets/images/dist/up-bracelet-2-600.jpg 600w,
-        {{siteurl}}/assets/images/dist/up-bracelet-2-800.jpg 800w,
-        {{siteurl}}/assets/images/dist/up-bracelet-2-1000.jpg 1000w,
-        {{siteurl}}/assets/images/dist/up-bracelet-2-1400.jpg 1400w"
-        src="{{siteurl}}/assets/images/spacer.png"
+        /assets/images/dist/up-bracelet-2-400.jpg 400w,
+        /assets/images/dist/up-bracelet-2-600.jpg 600w,
+        /assets/images/dist/up-bracelet-2-800.jpg 800w,
+        /assets/images/dist/up-bracelet-2-1000.jpg 1000w,
+        /assets/images/dist/up-bracelet-2-1400.jpg 1400w"
+        src="/assets/images/dist/up-bracelet-2-600.jpg"
         alt="UP activity tracker from Jawbone"
     >
     <figcaption>No more quirky alarm clocks in the morning thanks to this guy.</figcaption>
