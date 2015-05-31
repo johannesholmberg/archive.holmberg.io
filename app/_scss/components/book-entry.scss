@@ -24,6 +24,7 @@
     aside {
       @include breakpoint(mobile-lg) {
         margin-top: -7em;
+        position: fixed;
       } 
     }
   }

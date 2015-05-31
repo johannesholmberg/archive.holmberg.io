@@ -22,12 +22,12 @@ html {
 }
 
 body {
-  background: #222;
+  background: #333;
   font-family: $font-sans;
   overflow-x: hidden;
 
   @include breakpoint(desktop-sm) {
-    background: #fff;
+    background: #000;
     min-height: 100vh;
     border-left: 10px solid #222;    
   }

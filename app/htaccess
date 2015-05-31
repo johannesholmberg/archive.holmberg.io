@@ -19,7 +19,7 @@ BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 Header append Vary User-Agent
 
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|woff)$">
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|svg|gif|js|css|swf|woff)$">
 Header set Cache-Control "max-age=290304000, public"
 </FilesMatch>
 
