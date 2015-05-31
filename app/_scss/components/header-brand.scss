@@ -5,10 +5,20 @@
   font-size: $f20px;
   padding: 0 1.1em;
   display: inline-block;
-  //text-transform: none;
+
+  @include breakpoint(desktop-sm) {
+  padding-top: .5em;
+  padding-bottom: .5em; 
+
+    &.active {
+      border-left: 10px solid $profile-text;
+      margin-left: -10px;
+    }
+  } 
 
   @include breakpoint(desktop-lg) {
-    padding: 0 1.4em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
   } 
 
   a {
@@ -29,27 +39,22 @@
   }
 
   .title {
-    font-size: 1rem;
+    font-size: 1.3rem;
     transition: all .2s ease-in-out;
     color: #fff;
-    //text-transform: none;
+    font-family: $font-sans;
+
+
+
+    .last {
+      font-size: .97em;
+      font-family: $font-sans-bold;
+    }
 
     @include breakpoint(desktop-sm) {
-      font-size: .95rem;
-      font-family: $font-sans;
-
-      .first {
-
-      }
-
-      .last {
-        //color: $profile-text;
-        font-family: $font-sans-bold;
-      }
-    } 
-
-    @include breakpoint(desktop-lg) {
-      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: .3em;
+      display: block;
     } 
   }
 
@@ -58,11 +63,12 @@
     text-transform: none;
     margin-top: .25em;
     font-size: .9rem;
-    color: #bbb;
+    color: #888;
     font-family: $font-sans;
 
     @include breakpoint(desktop-sm) {
       font-size: .83rem;
+      color: #bbb;
     } 
 
     @include breakpoint(desktop-lg) {
@@ -73,4 +79,14 @@
 
 .top-bar h1 {
   padding: 0;
+
+  .title {
+    font-family: $font-header;
+    color: #777;
+    font-size: 1rem;
+
+    .last {
+      font-family: $font-header;
+    }
+  }
 }

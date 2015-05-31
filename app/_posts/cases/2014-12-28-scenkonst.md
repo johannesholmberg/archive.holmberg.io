@@ -7,7 +7,7 @@ permalink: work/scenkonst
 cover: scenkonst
 year: 2014
 responsibilities: 'Production Manager, WordPress, Front-end'
-color: '#258084'
+color: '#3a77b8'
 mode: 'dark'
 live: 'http://scenkonstvasternorrland.se'
 description: 'Scenkonst Västernorrland (The Stage Company) was in great need of refurbishing their digital presence to reach a wider audience. The challenge was to have all their 6 sub departments in music, film, theater and dance (each with its own brand) to play together and be part of the whole solution.'

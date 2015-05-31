@@ -333,7 +333,7 @@ gulp.task('case-images', function() {
     .pipe(gulp.dest(dest));
 
   // Case images
-  source = 'assets/images/work/cases/*';
+  source = 'app/assets/images/work/cases/*';
   gulp.src(source)
     .pipe(imageResize({
       width: 1220,
@@ -390,7 +390,7 @@ gulp.task('case-images', function() {
     .pipe(gulp.dest(dest));
 
   // Cover images
-  source = 'assets/images/work/covers/*';
+  source = 'app/assets/images/work/covers/*';
   gulp.src(source)
     .pipe(imageResize({
       width: 3000,
