@@ -15,6 +15,7 @@
     padding-right: 1.1em;
 
     &.active {
+      border-right: 0;
       border-left: 10px solid $profile-text;
       margin-left: -10px;
     }

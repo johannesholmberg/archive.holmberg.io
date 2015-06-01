@@ -1,7 +1,7 @@
 ---
 layout: book
 title: "Farmer in the Sky"
-date: 2015-05-24
+date: 2015-05-25
 category: reading
 permalink: reading/farmer-in-the-sky
 cover: farmer-in-the-sky
@@ -10,7 +10,6 @@ publisher: Baen Books
 book-url: http://www.amazon.com/Farmer-Sky-Heinleins-Juveniles-Book-ebook/dp/B00APAEDBW/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
 description: "People have a funny habit of taking as 'natural' whatever they are used to—but there hasn't been any 'natural' environment, the way they mean it, since men climbed down out of trees."
 highlight: 2
-flag: 'current'
 ---
 
 {% assign counter=1 %}
@@ -73,3 +72,48 @@ loc. 2062 &middot; [highlight {{counter}}](#highlight-{{counter}})
 
 loc. 2122 &middot; [highlight {{counter}}](#highlight-{{counter}})
 
+>"Survivors survive. I guess that is the only way to tell the survivor type for certain." 
+
+loc. 2384 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>Horses can manufacture more horses and that is one trick that tractors have never learned. 
+
+loc. 2463 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>In any case, we weren't the first colony to be two-thirds wiped out—and we wouldn't be the last. You can grieve only so much; after that it's self pity. So George says. 
+
+loc. 2472 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>How can you describe what you've never seen before and have no words for? Shucks, you can't even see a thing properly the first time you see it; your eye doesn't take in the pattern. 
+
+loc. 2725 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>The important thing, as Mr. Seymour would say, they had—they controlled their environment. They weren't animals, pushed around and forced to accept what nature handed them; they took nature and bent it to their will. I guess they were men. 
+
+loc. 2865 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>"A new colony is always a new hope." 
+
+loc. 2887 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>It was my kind of a place—it was my place. 
+
+loc. 2923 &middot; [highlight {{counter}}](#highlight-{{counter}})
+
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>"I am where I belong. And I'm going to stay!" 
+
+loc. 2932 &middot; [highlight {{counter}}](#highlight-{{counter}})
