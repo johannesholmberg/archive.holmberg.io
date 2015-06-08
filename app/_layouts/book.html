@@ -29,7 +29,7 @@ layout: default
 		
     <div role="complementary" class="side-panel">
 			<aside>
-				<a href="/reading" class="img-holder">
+				<a href="{{ page.book-url }}" class="img-holder">
           <img
             src="/assets/images/dist/{{page.cover}}-200.jpg"
             sizes="
@@ -43,7 +43,7 @@ layout: default
 				</a>
 				<p>
           Publisher: {{page.publisher}}<br>
-				  Buy: <a href="{{page.book-url}}">Amazon</a>
+				  Buy: <a href="{{ page.book-url }}">Amazon</a>
         </p>
 			</aside>
 		</div>
