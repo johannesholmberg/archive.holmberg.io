@@ -47,6 +47,11 @@
     &:focus {
       text-decoration: underline;
     }
+
+    &:active {
+      color: $profile-text;
+      transition: none;
+    }
   }
 
   &.-small {
