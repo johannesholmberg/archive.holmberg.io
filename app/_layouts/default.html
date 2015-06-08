@@ -3,17 +3,20 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-
-    {% if page.description %}
-      <meta name="description" content="{{page.description}}" />
-    {% endif %}
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page.title == "Front-end Web Developer" %}
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+    {% endif %}
+
+    {% if page.cover %}
+      <meta property="og:image" content="{{ site.url }}/assets/images/dist/{{page.cover}}-400.jpg" />
+    {% endif %}
+
+    {% if page.active == "index" %}
       <title>{{ site.name }} &middot; {{ page.title }}</title>
     {% else %}
       <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.name }}</title>

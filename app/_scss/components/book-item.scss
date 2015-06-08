@@ -3,6 +3,44 @@
   flex-wrap: wrap;
 }
 
+.books .year {
+  display: block;
+  width: 100%;
+  margin-right: -5em;
+  color: #ccc;
+  margin: 0;
+  text-align: center;
+  font-size: 1.6em;
+  margin: 1.5em .2em;
+  //padding: 1.6em .5em 1.2em;
+  flex: 0 1 auto;
+  position: relative;
+  z-index: 90;
+  
+  &:after {
+    content: '';
+    height: 1px;
+    background: #333;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    right: 0;
+    z-index: 90;
+  }
+  span {
+    background: #222;
+    position: relative;
+    z-index: 99;
+    padding: 0 .4em;
+  }
+}
+
+.books .year:first-of-type {
+  margin-top: 0;
+}
+
 .book-item {
   margin: 2.5em 0 0;
   width: 49.8%;
@@ -13,7 +51,7 @@
   float: left;
 
   &:first-child {
-    margin-top: 2.5em;
+    //margin-top: 2.5em;
   }
 
   @include breakpoint(mobile-lg) {

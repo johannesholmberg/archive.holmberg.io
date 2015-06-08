@@ -6,7 +6,7 @@ category: reading
 permalink: reading/between-planets
 cover: between-planets
 author: Robert A. Heinlein
-publisher: 
+publisher: Baen Books
 book-url: http://www.amazon.com/Between-Planets-Heinleins-Juveniles-Book-ebook/dp/B00AP9D5GM/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
 description: 'Time? What is time? Each hour ahead is as fresh as was the one we just used.'
 highlight: 2
@@ -19,10 +19,13 @@ highlight: 2
 loc. 130 &middot; [highlight {{counter}}](#highlight-{{counter}})
 
 {% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
 >Time? What is time? Each hour ahead is as fresh as was the one we just used. 
 
 loc. 341 &middot; [highlight {{counter}}](#highlight-{{counter}})
 
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
 >His couch was comfortable enough and a space voyage, dull under any circumstances, is less dull in the noise and gossip of a bunkroom than it is in the quiet of a first-class stateroom. 
 
 loc. 1231 &middot; [highlight {{counter}}](#highlight-{{counter}})

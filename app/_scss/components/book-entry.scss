@@ -4,9 +4,17 @@
     .title,
     .meta {
       text-align: left;
-      max-width: 24em;
-      width: 74%;
+
+      @include breakpoint(mobile-lg) {
+        max-width: 28em;
+        width: 74%;        
+      } 
+
     }
+  }
+
+  .container {
+    padding-top: 0;
   }
 
   .side-panel {
@@ -24,6 +32,8 @@
     aside {
       @include breakpoint(mobile-lg) {
         margin-top: -7em;
+      } 
+      @include breakpoint(tablet-sm) {
         position: fixed;
       } 
     }

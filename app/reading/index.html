@@ -13,12 +13,16 @@ description: "Books worth reading."
   <div class="container">
     <div class="books">
       <div class="wrap">
-        {% for post in site.categories.reading offset:0 limit:40 %}
+        {% for post in site.categories.reading offset:0 %}
+          
+          {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+          {% if currentyear != year %}
+            <h2 class="year book-item"><span>{{ post.date | date: '%Y' }}</span></h2>
+          {% capture year %}{{currentyear}}{% endcapture %} 
+          {% endif %}
+
           {% include book-item.html %}
         {% endfor %}
-        <div class="pagination-block">
-          <a href="/reading/2" class="pagination">Next page &raquo;</a>
-        </div>
       </div>
     </div>
   </div>
