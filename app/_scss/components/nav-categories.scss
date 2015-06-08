@@ -34,12 +34,6 @@
       padding: 1.5em 1em;
       border-right: 1px solid $gray;
       border-bottom: 0;
-
-      span {
-        @include breakpoint(mobile-lg-max) {
-          display: none;
-        } 
-      }
     }
   }
 }
