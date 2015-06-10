@@ -1,8 +1,9 @@
 .error-404 {
   text-align: center;
+  padding: 3em 0 4.5em;
 
   @include breakpoint(mobile-lg) {
-    padding: 4.5em 0;
+    padding: 7.5em 0 9em;
   } 
 
   h1 {

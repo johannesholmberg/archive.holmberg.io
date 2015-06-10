@@ -3,6 +3,8 @@ layout: none
 permalink: .htaccess
 ---
 
+ErrorDocument 404 /404.html
+
 # compress text, HTML, JavaScript, CSS, and XML
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
