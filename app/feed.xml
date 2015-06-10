@@ -8,6 +8,15 @@ layout:
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    {% for link in site.data.links limit:10 %}
+      <item>
+        <title>{{ link.title | xml_escape }}</title>
+        <description>{{ link.desc | xml_escape }}</description>
+        <pubDate>{{ link.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ link.link }}</link>
+        <guid isPermaLink="true">{{ link.link }}</guid>
+      </item>
+    {% endfor %}
     {% for post in site.posts limit:10 %}
       {% if post.category == "work" %}
 
