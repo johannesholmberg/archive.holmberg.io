@@ -125,6 +125,23 @@ iframe {
   height: 100%;
 }
 
+hr {
+  font-size: 3em;
+  line-height: 1;
+  text-align: center;
+  margin: 1em 0 2em;
+  border: 0;
+
+  &:after {
+    font-family: sans-serif;
+    content: '···';
+    color: #bbb;
+    letter-spacing: .6em;
+    padding-left: 1em;
+    height: 0;
+  }
+}
+
 blockquote {
   color: $midgray;
   border-left: 4px double $profile-bg;
