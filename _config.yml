@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Johannes Holmberg
+name: holmberg.io
 
 # Name of the author
 author: Johannes Holmberg
@@ -12,7 +12,7 @@ author: Johannes Holmberg
 source: app
 
 # Short bio or description
-description: Johannes Holmberg is a freelance front-end web developer. This is his personal playground with words, design and code.
+description: "Johannes Holmberg is a freelance front-end web developer. This is his personal playground with words, design and code."
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-20488297-3
@@ -29,12 +29,12 @@ desktop-sm:  'min-width: 67em'
 desktop-lg:  'min-width: 84em'
 desktop-xl:  'min-width: 118em'
 
-
-# !! You don't need to change any of the configuration flags below !!
-
 markdown: kramdown
 highlighter: pygments
 permalink: /journal/:title
+
+gems:
+  - jekyll-redirect-from
 
 exclude: [
   "node_modules", 

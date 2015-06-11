@@ -17,18 +17,18 @@ layout: compress
     {% endif %}
 
     {% if page.active == "index" %}
-      <title>{{ site.name }} &middot; {{ page.title }}</title>
+      <title>{{ site.author }} - {{ page.title }}</title>
     {% else %}
-      <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.name }}</title>
+      <title>{{ page.title }} - {{ site.name }}</title>
     {% endif %}
 
     <script>
       function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("script")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
-      loadCSS( "{{siteurl}}/assets/css/fonts.css" );
+      loadCSS( "/assets/css/fonts.css" );
     </script>
 
-    <noscript><link href="{{siteurl}}/assets/css/fonts.css" rel="stylesheet"></noscript>
-    <link href="{{siteurl}}/assets/css/main.min.css" rel="stylesheet">
+    <noscript><link href="/assets/css/fonts.css" rel="stylesheet"></noscript>
+    <link href="/assets/css/main.min.css" rel="stylesheet">
 
     <script>
       document.createElement( "picture" );
@@ -51,8 +51,6 @@ layout: compress
         {{ content }}
     </main>
 
-
     {% include analytics.html %}
-
   </body>
 </html>

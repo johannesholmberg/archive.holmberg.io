@@ -1,22 +1,23 @@
 <ul>
 
   <li class="nav-item">
-    <a href="/journal"{% if page.title == "Journal" %} class="active" {% elsif page.category == 'article' %} class="active" {% elsif page.category == 'travel' %} class="active" {% elsif page.active == "journal" %} class="active" {% endif %}>Journal</a>
+    <a href="/journal" {% if page.active == "journal" or page.category == "article" %} class="active" {% endif %}>Journal</a>
   </li>
 
   <li class="nav-item">
-    <a href="/work"{% if page.title == "Work" %} class="active" {% elsif page.category == "work" %} class="active" {% endif %}>Work</a>
+    <a href="/work" {% if page.active == "work" or page.category == "work" %} class="active" {% endif %}>Work</a>
   </li>
   
   <li class="nav-item">
-    <a href="/reading"{% if page.active == "reading" %} class="active" {% elsif page.category == "reading" %} class="active" {% endif %}>Reading</a>
+    <a href="/reading" {% if page.active == "reading" or page.category == "reading" %} class="active" {% endif %}>Reading</a>
   </li>
 
   <li class="nav-item">
-    <a href="/links"{% if page.active == "links" %} class="active" {% endif %}>Links</a>
+    <a href="/links" {% if page.active == "links" %} class="active" {% endif %}>Links</a>
   </li>
   
   <li class="nav-item">
-    <a href="/info"{% if page.title == "About" %} class="active" {% endif %}>About</a>
+    <a href="/about" {% if page.active == "about" %} class="active" {% endif %}>About</a>
   </li>
+
 </ul>
