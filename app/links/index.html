@@ -21,16 +21,23 @@ description: "Links from Johannes Holmberg."
       {% for link in site.data.links %}
 
         <li class="content-card">
+
           {% capture currentyear %}{{link.date | date: "%A, %B %-d, %Y"}}{% endcapture %}
           {% if currentyear != year %}
             <h3 class="date">{{ link.date | date: '%B %-d, %Y' }}</h3>
           {% capture year %}{{currentyear}}{% endcapture %} 
           {% endif %}
           
-          <a href="{{ link.link }}" class="title">
+          <a href="{{ link.link }}" title="{{ link.link }}" class="title">
             {{ link.title }}
           </a>
-          <p class="desc">{{ link.desc }}</p>
+
+          <blockquote class="quote">{{ link.desc }}</blockquote>
+
+          {% if link.footnote %}
+            <p class="footnote">{{ link.footnote }}</p>
+          {% endif %}
+
         </li>
       {% endfor %}
       </ul>

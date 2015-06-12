@@ -1,7 +1,13 @@
+- date: 2015-06-12
+  link: http://alistapart.com/column/no-good-can-come-of-bad-code
+  title: 'No Good Can Come of Bad Code'
+  desc: '“I feel your pain every time I encounter a shop or company that brags about its full-stack expertise but writes markup like it’s 1999. Or, just as bad, like it’s 2003: all meaningless spans and divs, half of them there purely as visual hooks, and the other half there because the developers didn’t know what to cut out of the framework they used (and didn’t consider that a problem, figuring that gzipping everything would take care of the performance aspects).”'
+  footnote: 'Thank you Jeffrey.'
+
 - date: 2015-06-08
   link: http://alistapart.com/article/resetting-agency-culture
   title: 'Resetting Agency Culture'
-  desc: 'For many agencies, what I’m advocating represents a shift in thinking, a shift in process, a shift in how we track and value employees’ time. But we’ve made similar shifts before—like when we had to begin advocating for the user at the discovery level, bringing UX into the forefront of our approaches. Today, it’s exceedingly evident that time spent on UX is vital for a digital project’s livelihood; we need to apply that same reevaluation to time spent on employee success.'
+  desc: '“For many agencies, what I’m advocating represents a shift in thinking, a shift in process, a shift in how we track and value employees’ time. But we’ve made similar shifts before—like when we had to begin advocating for the user at the discovery level, bringing UX into the forefront of our approaches. Today, it’s exceedingly evident that time spent on UX is vital for a digital project’s livelihood; we need to apply that same reevaluation to time spent on employee success.”'
 
 - date: 2015-05-27
   link: https://www.baldurbjarnason.com/notes/media-websites-vs-facebook/
