@@ -2,15 +2,25 @@
 
   <div class="cover">
     <div class="container">
-  <img 
-    src="/assets/images/dist/{{post.cover}}-140.jpg"
-    sizes="190px"
-    srcset="
-    /assets/images/dist/{{post.cover}}-140.jpg 140w,
-    /assets/images/dist/{{post.cover}}-240.jpg 240w,
-    /assets/images/dist/{{post.cover}}-240.jpg 400w"
-    alt="{{post.title}}"
-  >
+      <img 
+        src="/assets/images/dist/{{post.cover}}-140.jpg"
+        sizes="190px"
+        srcset="
+        /assets/images/dist/{{post.cover}}-140.jpg 140w,
+        /assets/images/dist/{{post.cover}}-240.jpg 240w,
+        /assets/images/dist/{{post.cover}}-240.jpg 400w"
+        alt="{{post.title}}"
+      >
+    </div>
+    <div class="date">
+      {{ post.date | date: '%B' }}
+      {% assign d = post.date | date: "%-d" %} 
+      {% case d %}
+        {% when '1' or '21' or '31' %}{{ d }}st
+        {% when '2' or '22' %}{{ d }}nd
+        {% when '3' or '23' %}{{ d }}rd
+        {% else %}{{ d }}th
+        {% endcase %}
     </div>
   </div>
   <h3 class="title">{{ post.title }}</h3>

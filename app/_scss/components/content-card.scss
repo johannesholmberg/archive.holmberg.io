@@ -1,14 +1,23 @@
 .content-card {
 
   list-style: none;
-  margin: 0 1em 2.4em;
+  margin: 0 0 2.4em;
+
+  @include breakpoint(tablet-sm) {
+    margin-left: 1em;
+    margin-right: 1em;
+  } 
 
   .date {
     color: #575757;
     margin-bottom: .8em;
     font-size: $f20px;
-    margin-left: -1em;
+    margin-left: -.5em;
     text-transform: none;
+
+    @include breakpoint(tablet-sm) {
+      margin-left: -1em;
+    } 
 
     @include breakpoint(desktop-xl) {
       margin: 0 0 0 -18em;  
@@ -31,6 +40,5 @@
 
   .footnote {
     margin: 0 0 1em;
-    //font-size: $f16px;
   }
 }

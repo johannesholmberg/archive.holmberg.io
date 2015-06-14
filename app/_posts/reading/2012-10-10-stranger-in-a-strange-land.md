@@ -1,15 +1,20 @@
 ---
 layout: book
 title: "Stranger in a Strange Land"
-date: 2012-10-10
 category: reading
 permalink: reading/stranger-in-a-strange-land
 author: Robert A. Heinlein
 cover: stranger-in-a-strange-land
 publisher: Ace
 book-url: http://www.amazon.com/Stranger-Strange-Land-Remembering-Tomorrow/dp/0441790348
-intro: "“Jill, of all the nonsense that twists the world, the concept of ‘altruism’ is the worst. People do what they want to do, every time. If it sometimes pains them to make a choice—if the choice turns out to look like a ‘noble sacrifice—’ you can be sure that it is in no wise nobler than the discomfort caused by greediness . . . the unpleasant necessity of having to decide between two things both of which you would like to do when you can’t do both.”"
+intro: "The reason I first picked up Stranger in a Strange Land was because it was a Lost reference. This started my bond with Robert Heinlein. What is so magical about his books is that they're not just thrilling and well structured from a fiction point of view, they also contain so much political philosophy. This book got me started exploring my own worldview. It was also the book that gave birth to the word 'grok' which made it into the English dictionary."
 ---
+
+The reason I first picked up [Stranger in a Strange Land](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land) was because it was a [Lost reference](http://coyotemercury.com/2007/03/21/the-lost-book-club-stranger-in-a-strange-land/). This started my bond with Robert Heinlein. What is so magical about his books is that they're not just thrilling and well structured from a fiction point of view, they also contain so much political philosophy. This book got me started exploring my own worldview. It was also the book that gave birth to the word [‘grok’](https://en.wikipedia.org/wiki/Grok) which made it into the English dictionary.
+
+Here are my highlights.
+
+***
 
 {% assign counter=1 %}
 ### highlight {{counter}}

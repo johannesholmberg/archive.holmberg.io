@@ -13,6 +13,10 @@ intro: 'The only thing that makes life possible is permanent, intolerable uncert
 
 A read that beautifully draws the picture of Gethen, a planet in the far corner of the universe where winter is the default state and its inhabitants are sexless. Both philosophically interesting, and adventurous.
 
+Here are my highlights.
+
+***
+
 {% assign counter=1 %}
 #### highlight {{counter}}
 >‘I’m not sure I’ve ever served the king,’ said the king’s prime minister. ‘Or ever intended to. I’m not anyone’s servant. A man must cast his own shadow …’

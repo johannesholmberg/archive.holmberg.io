@@ -32,7 +32,7 @@
     padding: 0 7.5rem;
   } 
 
-  *:first-child {
+  > *:first-child {
     margin-top: 0;
   }
 }
@@ -98,11 +98,11 @@ main {
   a,
   .link {
     border-bottom: 1px solid $profile-text;
+    transition: none;
 
     &:hover,
     &:focus {
-      color: darken($profile-text, 10%);
-      border-bottom-color: darken($profile-text, 10%);
+      color: $profile-text;
     }
   }
 

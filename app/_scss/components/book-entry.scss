@@ -9,7 +9,6 @@
         max-width: 28em;
         width: 74%;        
       } 
-
     }
   }
 
@@ -35,6 +34,9 @@
       } 
       @include breakpoint(tablet-sm) {
         position: fixed;
+      }
+      @include breakpoint(low) {
+        margin-top: -10em;
       } 
     }
   }
