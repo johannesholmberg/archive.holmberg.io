@@ -10,7 +10,7 @@
 
   a {
     color: #ddd;
-    padding: .9em 0 .9em 2em;
+    padding: .8em 0 .8em 2em;
     display: block;
     width: 100%;
     letter-spacing: .03em;
@@ -21,12 +21,12 @@
 
     @include breakpoint(desktop-sm) {
       color: #eee;
-      padding: .9em 0 .9em 1.65em;
+      padding-left: 1.65em;
       font-size: .85rem;
     }
 
     @include breakpoint(desktop-lg) {
-      padding: .9em 0 .9em 2em;
+      padding-left: 2em;
       font-size: $f14px;
     } 
 

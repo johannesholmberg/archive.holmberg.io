@@ -1,13 +1,35 @@
+.top-bar-fixed {
+  background: #fff;
+
+  position: relative;
+  padding: 2em 0;
+
+  @include breakpoint(tablet-sm) {
+    padding: 2.3em 0;
+  }
+
+  @include breakpoint(desktop-sm) {
+    display: none;
+  } 
+}
+
 .top-bar {
   position: relative;
   z-index: 102;
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  padding: 1.5em 0;
   transition: all .2s ease-in-out;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  background: rgba(255, 255, 255, .95);
+  border-bottom: 1px solid #eee;
+  padding: .7em 0;
+
+  @include breakpoint(tablet-sm) {
+    padding: 1em 0;
+  } 
 
   .menu-active & {
-    box-shadow: 4px -5px 10px rgba(0, 0, 0, .95);
     transform: translateX(-232px);
   }
 
@@ -17,9 +39,9 @@
 
   .menu-trigger {
     display: inline-block;
-    width: 2.6em;
-    height: 2.6em;
-    margin-top: -.15em;
+    width: 2.8em;
+    height: 2.8em;
+    margin-top: -.1em;
     border: 2px solid #ccc;
     border-radius: .4em;
     float: right;
@@ -29,8 +51,8 @@
 
     &:hover,
     &:focus {
-      background-color: #222;
-      border-color: #222;
+      //background-color: #222;
+      //border-color: #222;
     }
 
     .menu-active & {
