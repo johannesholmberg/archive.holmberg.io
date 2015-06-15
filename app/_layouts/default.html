@@ -44,9 +44,12 @@ layout: compress
 
   <body class="{{page.mode}}" id="body">
 
+    <a href="#main-navigation" class="visuallyhidden">Skip to navigation</a>
+    <a href="#main-content" class="visuallyhidden">Skip to content</a>
+
     {% include header.html %}
 
-    <main class="{{page.active}}" 
+    <main id="main-content" class="{{page.active}}" 
     {% if page.bg %} style="background-color: {{page.bg}}" {% endif %}>
         {{ content }}
     </main>

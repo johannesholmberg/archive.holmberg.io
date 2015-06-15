@@ -1,9 +1,10 @@
-.header-global h1,
-.top-bar h1 {
+.header-global .brand,
+.top-bar .brand {
   letter-spacing: -.005em;
   line-height: 1;
   font-size: $f20px;
   padding: .5em 1.3em;
+  text-transform: uppercase;
   display: inline-block;
 
   &.active {
@@ -82,7 +83,7 @@
   }
 }
 
-.top-bar h1 {
+.top-bar .brand {
   padding: 0;
 
   .title {

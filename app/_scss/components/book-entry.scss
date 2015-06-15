@@ -35,9 +35,6 @@
       @include breakpoint(tablet-sm) {
         position: fixed;
       }
-      @include breakpoint(low) {
-        margin-top: -10em;
-      } 
     }
   }
 

@@ -1,7 +1,6 @@
 .header-global {
   position: absolute;
   width: 232px;
-  background: url('../images/noise.jpg');
   background: #333;
   background-size: 25%;
   min-height: 100vh;
@@ -12,7 +11,6 @@
   @include breakpoint(desktop-sm) {
     width: 220px;
     position: fixed;
-    background: #333;
     right: auto;
     padding: 4em 0;
   }

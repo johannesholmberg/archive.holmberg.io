@@ -22,7 +22,7 @@
     @include breakpoint(desktop-sm) {
       color: #eee;
       padding: .9em 0 .9em 1.65em;
-      font-size: .9rem;
+      font-size: .85rem;
     }
 
     @include breakpoint(desktop-lg) {
@@ -36,11 +36,15 @@
       border-right: 10px solid $profile-text;
       
       @include breakpoint(desktop-sm) {
-        padding-left: 2.5em;
+        padding-left: 2em;
         margin-left: -10px;
         border-right: 0;
         border-left: 10px solid $profile-text; 
-      }  
+      }
+
+      @include breakpoint(desktop-lg) {
+        padding-left: 2.4em;
+      } 
     }
 
     &:hover,
@@ -51,23 +55,6 @@
     &:active {
       color: $profile-text;
       transition: none;
-    }
-  }
-
-  &.-small {
-    a {
-      text-transform: none;
-      font-family: $font-sans;
-      font-size: $f12px;
-      padding: .5em 0 .5em 2.5em;
-
-      @include breakpoint(desktop-sm) {
-        padding: .5em 0 .5em 2em;
-      } 
-
-      @include breakpoint(desktop-lg) {
-        padding: .5em 0 .5em 2.5em;
-      } 
     }
   }
 }

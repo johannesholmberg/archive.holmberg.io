@@ -16,18 +16,20 @@ description: "Writing by Johannes Holmberg."
 
   <div class="container">
     <div class="wrap -small">
-      {% for post in site.posts %}
-        {% if post.category == "reading" %}
-        {% elsif post.category == "work" %}
-        {% else if %}
-          
-          <a href="{{ post.url }}" class="article-item">
-            <p class="date">{{ post.date | date: '%b %Y' }}</p>
-            <h2 class="title">{{ post.title }}</h2>
-          </a>
-          
-          {% endif %}
-      {% endfor %}
+      <ul class="article-list">
+        {% for post in site.posts %}
+          {% if post.category == "article" %}
+            
+            <li>
+              <a href="{{ post.url }}" class="article-item">
+                <h2 class="title">{{ post.title }}</h2>
+                <p class="date">{{ post.date | date: '%b %Y' }}</p>
+              </a>
+            </li>
+            
+            {% endif %}
+        {% endfor %}
+      </ul>
     </div>
   </div>
 

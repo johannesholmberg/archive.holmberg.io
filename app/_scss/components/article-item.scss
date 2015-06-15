@@ -1,13 +1,26 @@
+.article-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin: 0;
+
+    &:last-child a {
+      border-bottom: 0;
+    }
+  }
+}
+
 .article-item {
   display: block;
   margin-bottom: 0;
   padding: 1.2em 0 1.4em;
   border-bottom: 1px solid $snow;
   transition: none;
+  position: relative;
 
-  &:last-child {
-    border-bottom: 0;
-  }
+
 
   &:hover,
   &:focus {
@@ -35,6 +48,7 @@
 
   .date {
     position: absolute;
+    top: 1.1em;
     margin: .35em 0;
     text-transform: uppercase;
     font-size: $f16px;

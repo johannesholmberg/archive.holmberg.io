@@ -1,23 +1,23 @@
 .cover-banner {
   background-position: 62% center;
   background-size: cover;
-  background-image: url('../images/johannes-wide-900.jpg');
+  background-image: url('../images/johannes/johannes-wide-900.jpg');
 
   @include breakpoint(mobile-lg) {
-    background-image: url('../images/johannes-wide-1100.jpg');
+    background-image: url('../images/johannes/johannes-wide-1100.jpg');
     background-position: center center;
   } 
 
   @include breakpoint(tablet-sm) {
-    background-image: url('../images/johannes-wide-1500.jpg');
+    background-image: url('../images/johannes/johannes-wide-1500.jpg');
   } 
 
   @include breakpoint(desktop-sm) {
-    background-image: url('../images/johannes-wide-2600.jpg');
+    background-image: url('../images/johannes/johannes-wide-2600.jpg');
   } 
 
   @include breakpoint(desktop-xl) {
-    background-image: url('../images/johannes-wide-3000.jpg');
+    background-image: url('../images/johannes/johannes-wide-3000.jpg');
   }
 
   .wrap {

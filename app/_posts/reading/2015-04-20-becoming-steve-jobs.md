@@ -101,7 +101,9 @@ loc. 946 &middot; [highlight {{counter}}](#highlight-{{counter}})
 
 loc. 1204 &middot; [highlight {{counter}}](#highlight-{{counter}})
 
-For all its beauty, from the lush landscaping out front to the meticulously crafted wheeled tables on which the computer components rolled through the assembly process, the NeXT factory turned out to be a sinkhole. Forget producing 600 computers a day: the factory never produced more than 600 machines in a single month. 
+{% assign counter=counter | plus:1 %}
+#### highlight {{counter}}
+>For all its beauty, from the lush landscaping out front to the meticulously crafted wheeled tables on which the computer components rolled through the assembly process, the NeXT factory turned out to be a sinkhole. Forget producing 600 computers a day: the factory never produced more than 600 machines in a single month. 
 
 loc. 1759 &middot; [highlight {{counter}}](#highlight-{{counter}})
 

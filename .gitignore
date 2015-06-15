@@ -1,6 +1,10 @@
-.jekyll-metadata
 node_modules
-app/assets/js/vendor/**/*
 _site
-*main.min.css
+
+**/*.jekyll-metadata
+**/*.DS_Store
+Gemfile.lock
+
+app/assets/js/vendor/**/*
 app/assets/images/dist/*
+app/assets/css/main.min.css
