@@ -5,6 +5,9 @@ permalink: .htaccess
 
 ErrorDocument 404 /404.html
 
+AddType image/svg+xml .svg
+AddOutputFilterByType DEFLATE image/svg+xml
+
 # compress text, HTML, JavaScript, CSS, and XML
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
