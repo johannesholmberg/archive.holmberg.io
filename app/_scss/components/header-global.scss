@@ -19,9 +19,9 @@
     width: 220px;
     transform: translateX(0);
     overflow-y: visible;
-    
     right: auto;
     padding: 4em 0;
+    border-left: 10px solid #222;  
   }
 
   @include breakpoint(desktop-lg) {
