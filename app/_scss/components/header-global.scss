@@ -13,6 +13,17 @@
 
   .menu-active & {
     transform: translateX(0);
+    box-shadow: inset 3px -25px 10px rgba(0, 0, 0, .6);  
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: #333;
+    }
   }
 
   @include breakpoint(desktop-sm) {

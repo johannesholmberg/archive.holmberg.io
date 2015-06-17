@@ -1,24 +1,65 @@
 .page-wrap-outer {
-  background-color: #407998;
-  //@extend %clearfix;
+  background-color: $profile-bg;
 }
 
 .page-wrap {
-  
-  margin-top: -6.5%;
+
+  @include breakpoint(tablet-sm) {
+    margin-top: -7.2%;    
+  }
+
+  @include breakpoint(tablet-lg) {
+    margin-top: -5.5%;
+  } 
+
+  @include breakpoint(desktop-sm) {
+    margin-top: -6.5%;  
+  } 
 
   .article {
-    float: left;
-    display: inline-block;
     background-color: #fff;
-    margin: 6% 3% 8% 8%;
-    padding: 6em 0;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    padding: 7% 0;
+
+    .wrap {
+      @include breakpoint(tablet-sm) {
+        padding: 0 10%;        
+      } 
+
+    }
+
+    @include breakpoint(tablet-sm) {
+      float: left;
+      display: inline-block;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+      max-width: 71%;
+      margin: 6% 3% 6% 0;
+      
+    } 
+
+    @include breakpoint(tablet-lg) {
+      margin-left: 6%;
+      max-width: 66%;
+    } 
+
+    @include breakpoint(desktop-xl) {
+      padding: 5em 0;
+    } 
+
+
+    h1 {
+      font-size: $f32px;
+    }
+
   }
 
   .aside {
-    padding: 6.5% 3% 3%;
-    vertical-align: top;
+    padding: 0 2em 4em;
+
+    @include breakpoint(tablet-sm) {
+      display: table;
+      padding: 8% 0 3.5%;      
+    } 
+
     
     a {
       color: #fff;
@@ -35,7 +76,11 @@
 
     h4 {
       color: #fff;
+      color: rgba(255, 255, 255, .6);
       margin: 0 0 .6em;
+      text-transform: uppercase;
+      font-weight: 300;
+
     }
 
     li {
@@ -44,13 +89,26 @@
 
       a {
         opacity: .8;
-        display: inline-block;
+        display: block;
         border: 0;
-        padding: .1em 0;
+        padding: .25em 1.2em;
+        border-left: 2px solid transparent;
+        //margin: .2em 0;
 
         &:hover,
         &:focus {
           opacity: 1;
+          background: rgba(0, 0, 0, .1);
+        }
+
+        &:active {
+          background: transparent;
+        }
+
+        &.active {
+          opacity: 1;
+          border-left: 2px solid #fff;
+          margin: 0em;
         }
       }
     }
