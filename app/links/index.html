@@ -38,6 +38,12 @@ description: "Links from Johannes Holmberg."
             <p class="footnote">{{ link.footnote }}</p>
           {% endif %}
 
+          {% if link.video %}
+          <div class="video-wrap">
+            <iframe src="{{ link.video }}" allowfullscreen></iframe>
+          </div>
+          {% endif %}
+
         </li>
       {% endfor %}
       </ul>
