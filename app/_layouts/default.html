@@ -56,7 +56,10 @@ layout: compress
 
     <main id="main-content" class="{{page.active}} {{page.class}}">
         {{ content }}
+        {% include footer.html %}
     </main>
+
+    
 
     {% include analytics.html %}
   </body>

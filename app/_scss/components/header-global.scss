@@ -13,7 +13,7 @@
 
   .menu-active & {
     transform: translateX(0);
-    box-shadow: inset 3px -25px 10px rgba(0, 0, 0, .6);  
+    box-shadow: inset 2px -25px 10px rgba(0, 0, 0, .4);  
 
     &:after {
       content: '';

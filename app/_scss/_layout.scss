@@ -43,15 +43,6 @@ main {
   z-index: 101;
   background: #fff;
 
-  &:after {
-    // content: '';
-    // display: block;
-    // background: url('../images/layout/giphy.gif') center center no-repeat #000;
-    // background-size: 40px;
-    // width: 100%;
-    // height: 4em;
-  }
-
   .menu-active & {
     @include breakpoint(desktop-sm-max) {
       transform: translateX(-232px);
@@ -62,7 +53,7 @@ main {
   @include breakpoint(desktop-sm) {
     margin-left: 220px;
     z-index: 99;
-    box-shadow: inset 1px -10px 10px rgba(0, 0, 0, .1);
+    //box-shadow: inset 1px -10px 10px rgba(0, 0, 0, .1);
   }
 
   @include breakpoint(desktop-lg) {
@@ -103,14 +94,6 @@ main {
     &:hover,
     &:focus {
       color: $profile-text;
-    }
-  }
-
-  article {
-    margin: 0 0 4em;
-
-    &:last-child {
-      margin-bottom: 0;
     }
   }
 }
