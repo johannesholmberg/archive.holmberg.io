@@ -1,0 +1,81 @@
+.paper-aside {
+  padding: 3.5em 2em 4em;
+
+  @include breakpoint(tablet-sm) {
+    display: table;
+    padding: 8% 0 3.5%;      
+  }
+
+  .nav-list {
+    margin: 0 0 2.2em;
+    list-style: none;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.-social {
+      a {
+        padding-left: 2.1em;
+        padding-right: 2.1em;
+      }
+    }
+
+    .title {
+      color: #fff;
+      color: rgba(255, 255, 255, .6);
+      margin: 0 0 .6em;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+    li {
+      margin: 0;
+      font-size: .9em;
+    }
+
+    a {
+      opacity: .8;
+      display: block;
+      border: 0;
+      color: #fff;
+      padding: .4em 6em .4em 1em;
+      border-left: 2px solid transparent;
+      background-repeat: no-repeat;
+      background-position: .4em center;
+      background-size: 1.2em;
+
+      &:hover,
+      &:focus {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, .1);
+      }
+
+      &.active {
+        opacity: 1;
+        border-left: 2px solid #fff;
+        margin: 0em;
+      }
+
+      &.rss {
+        background-image: url('../images/icons/github.png');
+      }
+
+      &.twitter {
+        background-image: url('../images/icons/twitter.png');
+      }
+
+      &.linkedin {
+        background-image: url('../images/icons/linkedin.png');
+      }
+
+      &.github {
+        background-image: url('../images/icons/github.png');
+      }
+
+      &.google-plus {
+        background-image: url('../images/icons/linkedin.png');
+      }
+    }
+  }
+}
