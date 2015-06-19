@@ -67,6 +67,10 @@
     width: 19.8%;      
   } 
 
+  &:active {
+    top: 0;
+  }
+
   &:hover,
   &:focus {
     .title {
