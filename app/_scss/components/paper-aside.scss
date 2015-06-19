@@ -23,7 +23,7 @@
 
     .title {
       color: #fff;
-      color: rgba(255, 255, 255, .6);
+      color: rgba(255, 255, 255, .7);
       margin: 0 0 .6em;
       text-transform: uppercase;
       font-weight: 300;
@@ -31,19 +31,27 @@
 
     li {
       margin: 0;
-      font-size: .9em;
+
+
+      @include breakpoint(desktop-sm) {
+        font-size: .9em;
+      } 
     }
 
     a {
-      opacity: .8;
+      opacity: .9;
       display: block;
       border: 0;
       color: #fff;
-      padding: .4em 6em .4em 1em;
+      padding: .4em 5em .4em 1em;
       border-left: 2px solid transparent;
       background-repeat: no-repeat;
       background-position: .4em center;
       background-size: 1.2em;
+
+      @include breakpoint(desktop-lg) {
+        padding-right: 7em;
+      } 
 
       &:hover,
       &:focus {
@@ -57,10 +65,6 @@
         margin: 0em;
       }
 
-      &.rss {
-        background-image: url('../images/icons/github.png');
-      }
-
       &.twitter {
         background-image: url('../images/icons/twitter.png');
       }
@@ -71,10 +75,6 @@
 
       &.github {
         background-image: url('../images/icons/github.png');
-      }
-
-      &.google-plus {
-        background-image: url('../images/icons/linkedin.png');
       }
     }
   }
