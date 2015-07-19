@@ -1,3 +1,18 @@
+- date: 2015-07-19
+  link: http://blog.chartbeat.com/2013/08/12/scroll-behavior-across-the-web/
+  title: 'Scroll behavior across the web'
+  desc: '“Many visitors scroll down the page before it finishes loading, which means that no portion of a typical article is viewed by 100% of viewers and the very top of the top of the page actually has about a 20% lower view rate than slightly farther down.”'
+  footnote: 'Let’s kill the discussion that all important content needs to go above the ‘fold’. This article shows proof that people like to scroll.'
+- date: 2015-07-19
+  link: http://www.markboulton.co.uk/journal/theinbetween
+  title: 'The In-Between'
+  desc: '“Break. Points. Points at which things break in your design. But, at what point did they start becoming ‘the point at which I will create a new layout entirely’, or ‘the point at which I introduce a new canvas’. What started out as a method to optimise your designs for various screen widths has turned, ever so slowly, into multiple canvas design. We’re creating pages again, and we probably need to stop it.”'
+  footnote: ''
+- date: 2015-07-19
+  link: http://seesparkbox.com/foundry/there_is_no_breakpoint
+  title: 'There Is No Breakpoint'
+  desc: '“When the nav component needs to change, we change it — independent of when the footer component needs to change. Obviously, this applies to any components in your site/system. And isn’t this how it should be? Building stronger component independence makes for more modular code. Modular code is more maintainable and more extendable.”'
+  footnote: ''
 - date: 2015-07-18
   link: https://www.uie.com/articles/short_form_creative_brief/
   title: 'The Magical Short-Form Creative Brief'
