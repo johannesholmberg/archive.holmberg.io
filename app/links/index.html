@@ -18,33 +18,22 @@ description: "Links from Johannes Holmberg."
     <div class="wrap -small">
 
       <ul>
-      {% for link in site.data.links %}
+        {% for post in site.posts %}
+          {% if post.category == "link" %}
 
         <li class="content-card">
 
-          {% capture currentyear %}{{link.date | date: "%A, %B %-d, %Y"}}{% endcapture %}
+          {% capture currentyear %}{{post.date | date: "%A, %B %-d, %Y"}}{% endcapture %}
           {% if currentyear != year %}
-            <h3 class="date">{{ link.date | date: '%B %-d, %Y' }}</h3>
+            <h3 class="date">{{ post.date | date: '%B %-d, %Y' }}</h3>
           {% capture year %}{{currentyear}}{% endcapture %} 
           {% endif %}
           
-          <a href="{{ link.link }}" title="{{ link.link }}" class="title">
-            {{ link.title }}
-          </a>
-
-          <blockquote class="quote">{{ link.desc }}</blockquote>
-
-          {% if link.footnote %}
-            <p class="footnote">{{ link.footnote }}</p>
-          {% endif %}
-
-          {% if link.video %}
-          <div class="video-wrap">
-            <iframe src="{{ link.video }}" allowfullscreen></iframe>
-          </div>
-          {% endif %}
+          <a href="{{ post.link }}" title="{{ post.link }}" class="title">{{ post.title }}</a>
+          {{ post.content }}
 
         </li>
+        {% endif %}
       {% endfor %}
       </ul>
     </div>

@@ -1,5 +1,4 @@
 .content-card {
-
   list-style: none;
   margin: 0 0 2.4em;
 
@@ -31,14 +30,18 @@
     font-size: $f18px;
   }
 
-  .quote {
+  blockquote {
     font-size: $f16px;
     margin: .6em 0 1em;
     padding: 0;
     border: 0;
+
+    > p {
+      font-size: 1em;
+    }
   }
 
-  .footnote {
+  > p {
     margin: 0 0 1em;
   }
 }
