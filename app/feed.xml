@@ -8,32 +8,33 @@ layout:
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for link in site.data.links limit:10 %}
-      <item>
-        <title>{{ link.title | xml_escape }}</title>
-        <description><p>{{ link.desc | xml_escape }}</p> <p>{{ link.footnote | xml_escape }}</p></description>
-        <pubDate>{{ link.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ link.link }}</link>
-        <guid isPermaLink="true">{{ link.link }}</guid>
-      </item>
-    {% endfor %}
     {% for post in site.posts limit:10 %}
       {% if post.category == "work" %}
-      {% elsif post.category == "reading" %}
-        <item>
-          <title>Highlights from: {{ post.title | xml_escape }}</title>
-          <description>{{ post.content | xml_escape }}</description>
-          <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-          <link>{{ site.url }}{{ post.url }}</link>
-          <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        </item>
       {% else if %}
         <item>
-          <title>{{ post.title | xml_escape }}</title>
+          <title>
+            {% if post.category == "work" %}
+              Highlights from: {{ post.title | xml_escape }}
+            {% else if %}
+              {{ post.title | xml_escape }}
+            {% endif %}
+          </title>
           <description>{{ post.content | xml_escape }}</description>
           <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-          <link>{{ site.url }}{{ post.url }}</link>
-          <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+          <link>
+            {% if post.category == "link" %}
+              {{ post.link }}
+            {% else if %}
+              {{ site.url }}{{ post.url }}
+            {% endif %}
+          </link>
+          <guid isPermaLink="true">
+            {% if post.category == "link" %}
+              {{ post.link }}
+            {% else if %}
+              {{ site.url }}{{ post.url }}
+            {% endif %}
+          </guid>
         </item>
       {% endif %} 
     {% endfor %}
