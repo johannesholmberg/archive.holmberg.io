@@ -18,7 +18,7 @@ description: "Writing by Johannes Holmberg."
     <div class="wrap -small">
       <ul class="article-list">
         {% for post in site.posts %}
-          {% if post.category == "article" %}
+          {% if post.category == "article" or post.category == "journal" %}
             
             <li>
               <a href="{{ post.url }}" class="article-item">
