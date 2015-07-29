@@ -1,45 +1,11 @@
 .header-global {
-  width: 232px;
-  background: #333;
-  min-height: 100vh;
-  z-index: 100;
-  padding: 2.2em 0;
-  right: 0;
-  position: fixed;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  transition: all .2s ease-in-out;
-  transform: translateX(232px);
+  background: rgba(255, 255, 255, .9);
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+  position: relative;
 
-  .menu-active & {
-    transform: translateX(0);
-    box-shadow: inset 2px -25px 10px rgba(0, 0, 0, .4);  
-
-    &:after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 60px;
-      background: #333;
-    }
-  }
-
-  @include breakpoint(desktop-sm) {
-    width: 220px;
-    transform: translateX(0);
-    overflow-y: visible;
-    right: auto;
-    padding: 4em 0;
-    border-left: 10px solid #222;  
-  }
-
-  @include breakpoint(desktop-lg) {
-    width: 240px;
+  @include breakpoint(tablet-lg) {
+    position: absolute;
   } 
-
-  @include breakpoint(desktop-xl) {
-     width: 290px;
-  }
 }

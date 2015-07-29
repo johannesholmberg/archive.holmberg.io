@@ -1,91 +1,12 @@
-.header-global .brand,
-.top-bar .brand {
+.header-global .brand {
   letter-spacing: -.005em;
   line-height: 1;
-  font-size: $f20px;
-  padding: .5em 1.3em;
-  text-transform: uppercase;
+  font-size: $f16px;
+  width: 4em;
+  padding: 1em 0;
   display: inline-block;
-
-  &.active {
-    border-right: 10px solid $profile-text;
-  }
-
-  &:hover,
-  &:focus {     
-    @include breakpoint(desktop-sm) {
-      .title {
-        .last {
-          color: $profile-text;
-        }
-      }          
-    } 
-  }
-
-  @include breakpoint(desktop-sm) {
-    padding-left: 1.1em;
-    padding-right: 1.1em;
-
-    &.active {
-      border-right: 0;
-      border-left: 10px solid $profile-text;
-      margin-left: -10px;
-    }
-  } 
-
-  @include breakpoint(desktop-lg) {
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-  } 
-
-
-  .title {
-    font-size: 1.3rem;
-    transition: all .2s ease-in-out;
-    color: #fff;
-    font-family: $font-sans;
-
-    .last {
-      font-size: .97em;
-      font-family: $font-sans-bold;
-    }
-
-    @include breakpoint(desktop-sm) {
-      color: #fff;
-      margin-bottom: .3em;
-      display: block;
-    } 
-  }
-
-  .role {
-    display: block;
-    text-transform: none;
-    margin-top: .25em;
-    font-size: .9rem;
-    color: #888;
-    font-family: $font-sans;
-
-    @include breakpoint(desktop-sm) {
-      font-size: .83rem;
-      color: #bbb;
-    } 
-
-    @include breakpoint(desktop-lg) {
-      font-size: .9rem;
-    } 
-  }
-}
-
-.top-bar .brand {
-  padding: 0;
-
-  .title {
-    font-family: $font-header;
-    color: #777;
-    font-size: 1rem;
-
-    .last {
-      font-family: $font-header;
-    }
-  }
+  text-align: center;
+  background: url('../images/layout/logo.png') center center no-repeat;
+  background-size: 2.2em;
+  text-indent: -9999px;
 }

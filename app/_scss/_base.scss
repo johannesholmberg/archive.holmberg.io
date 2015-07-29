@@ -9,7 +9,7 @@
 
 html {
   color: $darkgray;
-  line-height: 1.7;
+  line-height: 1.65;
   font-size: .9em;
 
   @include breakpoint(tablet-sm) {
@@ -17,12 +17,11 @@ html {
   }
 
   @include breakpoint(desktop-xl) {
-    font-size: 1.1em;
+    //font-size: 1.1em;
   } 
 }
 
 body {
-  background: #000;
   font-family: $font-sans;
   overflow-x: hidden;
 
@@ -33,8 +32,7 @@ body {
 
 b,
 strong {
-  font-family: $font-sans-bold;
-  font-weight: 300;
+
 }
 
 h1, h2, h3 {
@@ -42,7 +40,6 @@ h1, h2, h3 {
   font-weight: 300;
   font-family: $font-header;
   text-transform: uppercase;
-  color: #575757;
   margin-bottom: .3em;
 
   & + p {
@@ -142,6 +139,7 @@ blockquote {
   margin: 1.1em 0;
   padding: .7em 1em .8em;
   font-size: $f18px;
+  font-style: italic;
 
   @include breakpoint(mobile-lg) {
     margin-right: 1em;

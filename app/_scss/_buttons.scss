@@ -16,7 +16,7 @@
   margin: .8em 0 0;
   padding: .8em 1.6em;
   font-size: $f16px;
-  font-family: $font-sans;
+  font-family: $font-sans-rale;
   
   border-radius: .25em;
   letter-spacing: .02em;
@@ -25,11 +25,10 @@
   &:hover,
   &:focus {
     text-decoration: none;
+    border: 0 !important;
   }
 
   &.-standard {
-    //background: rgba(20, 153, 208, .5);
-    //border: 1px solid rgba(20, 153, 208, 1);
 
     &:hover,
     &:focus {

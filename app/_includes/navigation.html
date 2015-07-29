@@ -1,7 +1,22 @@
 <ul>
 
+  <li class="logo nav-item">
+    <a href="/" class="brand">
+      <span class="title">
+        <span class="first">Johannes</span> 
+        <span class="last">Holmberg</span>
+      </span> 
+      <span class="role">Front-end Web Developer</span>
+    </a>
+  </li>
+
   <li class="nav-item">
-    <a href="/journal" {% if page.active == "journal" or page.category == "article" or page.category == "journal" %} class="active" {% endif %}>Journal</a>
+    <a href="/journal" {% if page.active == "journal" or page.category == "article" or page.category == "journal" %} class="active" {% endif %}>Writing</a>
+  </li>
+
+
+  <li class="nav-item">
+    <a href="/links" {% if page.active == "links" %} class="active" {% endif %}>Links</a>
   </li>
 
   <li class="nav-item">
@@ -12,9 +27,7 @@
     <a href="/reading" {% if page.active == "reading" or page.category == "reading" %} class="active" {% endif %}>Reading</a>
   </li>
 
-  <li class="nav-item">
-    <a href="/links" {% if page.active == "links" %} class="active" {% endif %}>Links</a>
-  </li>
+
   
   <li class="nav-item">
     <a href="/about" {% if page.active == "about" %} class="active" {% endif %}>About</a>

@@ -11,6 +11,8 @@
     float: left;
     padding: 1.5em 0;
     border-bottom: 0;
+    font-family: $font-sans-rale;
+    color: $profile-text;
   }
 
   ul {
@@ -34,6 +36,8 @@
       padding: 1.5em 1em;
       border-right: 1px solid $gray;
       border-bottom: 0;
+      font-family: $font-sans-rale;
+      color: $profile-text;
     }
   }
 }

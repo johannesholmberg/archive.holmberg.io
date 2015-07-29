@@ -9,13 +9,13 @@
     max-width: 56em; 
 
     @include breakpoint(desktop-lg) {
-      max-width: 62em;
+      max-width: 64em;
     } 
 
     .wrap {
       padding: 0;
       @include breakpoint(mobile-lg) {
-        width: 92%;
+        //width: 92%;
       } 
     }
   }
@@ -43,36 +43,19 @@ main {
   z-index: 101;
   background: #fff;
 
-  .menu-active & {
-    @include breakpoint(desktop-sm-max) {
-      transform: translateX(-232px);
-      //box-shadow: 0 4px 10px rgba(0, 0, 0, .95);  
-    }
-  }
-
-  @include breakpoint(desktop-sm) {
-    margin-left: 220px;
-    z-index: 99;
-    //box-shadow: inset 1px -10px 10px rgba(0, 0, 0, .1);
-  }
-
-  @include breakpoint(desktop-lg) {
-    margin-left: 240px;
-  } 
-
-  @include breakpoint(desktop-xl) {
-    margin-left: 290px;
-  }
-
   .main-section {
-    padding-top: 7.5%;
+    padding-top: 10%;
+
+    @include breakpoint(tablet-sm) {
+      padding-top: 8%;
+    } 
 
     @include breakpoint(tablet-lg) {
-      padding-top: 5.5%;
+      padding-top: 10%;
     } 
 
     @include breakpoint(desktop-xl) {
-      padding-top: 6%;  
+      padding-top: 7%;  
     } 
   }
 
@@ -86,41 +69,26 @@ main {
     }
   }
 
-  a,
-  .link {
-    border-bottom: 1px solid $profile-text;
-    transition: none;
-
-    &:hover,
-    &:focus {
+  .entry-content,
+  .content-card,
+  .book-entry,
+  .paper-article {
+    a,
+    .link {
+      //border-bottom: 1px solid $profile-text;
+      transition: none;
       color: $profile-text;
+
+      &:hover,
+      &:focus {
+        color: $profile-text;
+        border-bottom: 1px solid $profile-text;
+      }
     }
   }
+
 }
 
-// Ugly hack for using calc in breakpoint
-
-// desktop-sm
-@media (min-width: 67em) { 
-  main {
-    @include calc(90%, 220px, 100%);
-  }
-}
-
-//desktop-lg
-@media (min-width: 86em) { 
-  main {
-    @include calc(90%, 240px, 100%);
-  }
-}
-
-
-// desktop-xl
-@media (min-width: 118em) { 
-  main {
-    @include calc(90%, 290px, 100%);
-  }
-}
 
 
 div[role=main] {

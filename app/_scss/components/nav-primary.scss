@@ -1,55 +1,87 @@
 .nav-primary {
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
+  box-shadow: inset -12px 0 8px -7px rgba(0, 0, 0, .3);
+
+  @include breakpoint(mobile-lg) {
+    box-shadow: none;
+    overflow: visible;
+    margin: 0 auto;
+    max-width: 52em;
+  } 
+
   ul {
     list-style: none;
-    margin: 1.2em 0;
+    margin: 0;
+    width: 30em;
+
+    @include breakpoint(mobile-lg) {
+      display: flex; 
+      width: auto; 
+      //text-align: center;
+      justify-content: space-around;
+      max-width: 52em;
+      margin-left: -.5em;
+    } 
+  }
+
+  .logo {
+    position: relative;
+    order: 0;
+
+    @include breakpoint(mobile-lg) {
+      //order: 1;
+    } 
   }
 }
 
 .nav-item {
   margin: 0;
+  order: 0;
+  display: inline-block;
+
+  &:nth-child(n+5) { 
+    order: 2;
+  }
+￼￼￼￼￼￼￼￼￼￼￼￼￼
+  &:nth-child(5) { 
+    margin-left: auto;
+  }
 
   a {
-    color: #ddd;
-    padding: .8em 0 .8em 2em;
-    display: block;
-    width: 100%;
+    color: #333;
+    padding: 1.4em .5em;
+    text-align: center;
+    display: inline-block;
     letter-spacing: .03em;
     text-transform: uppercase;
     font-family: $font-sans-bold;
-    font-size: $f14px;
-    text-decoration: none;
+    font-size: .7rem;
 
-    @include breakpoint(desktop-sm) {
-      color: #eee;
-      padding-left: 1.65em;
+    @include breakpoint(mobile-lg) { 
       font-size: .85rem;
+      padding: 1em .4em 1.1em;
     }
-
-    @include breakpoint(desktop-lg) {
-      padding-left: 2em;
-      font-size: $f14px;
-    } 
 
     &.active {
       color: $profile-text !important;
-      border-bottom: 0;
-      border-right: 10px solid $profile-text;
-      
-      @include breakpoint(desktop-sm) {
-        padding-left: 2em;
-        margin-left: -10px;
-        border-right: 0;
-        border-left: 10px solid $profile-text; 
-      }
+      position: relative;
 
-      @include breakpoint(desktop-lg) {
-        padding-left: 2.4em;
-      } 
+      &:after {
+        content: '';
+        display: block;
+        height: .4em;
+        background: $profile-text;
+        position: absolute;
+        bottom: -.45em;
+        left: 0;
+        right: 0;
+      }
     }
 
     &:hover,
     &:focus {
-      text-decoration: underline;
+      color: $profile-text;
     }
 
     &:active {
