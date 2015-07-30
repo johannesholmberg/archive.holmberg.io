@@ -2,10 +2,6 @@
 
 $profile-light: 	#accce3;
 $profile-bg:      #3997d2;
-//$profile-bg:      #e26458;
-//$profile-text: 		#326891;
-//$profile-text:    #e26458;
-//$profile-text:    #ee423c;
 $profile-text:    #3977b8;
 
 $whitesmoke: 			#f4f4f4;
@@ -18,12 +14,10 @@ $darkgray:        #313131;
 
 // Fonts -------------------------------------------------- */
 
-$font-sans: 			  Georgia, 'ralewayregular', sans-serif;
-$font-sans-rale:    'ralewayregular', sans-serif;
-$font-sans-italic:  'ralewayitalic', sans-serif;
-$font-sans-bold:    'ralewaybold', sans-serif;
-$font-sans-light:   'ralewaylight', sans-serif;
-$font-header:       'ralewayextrabold', sans-serif;
+$font-sans: 			  Georgia, sans-serif;
+$font-sans-rale:    'ralewayregular', Georgia, sans-serif;
+$font-sans-bold:    'ralewaybold', Georgia, sans-serif;
+$font-header:       'ralewayextrabold', Georgia, sans-serif;
 
 
 // Sizes -------------------------------------------------- */
