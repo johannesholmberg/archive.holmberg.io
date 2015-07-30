@@ -7,30 +7,34 @@
     box-shadow: none;
     overflow: visible;
     margin: 0 auto;
-    max-width: 52em;
+    max-width: 49em;
+    padding: 0 3.5%;
+  }
+
+  @include breakpoint(tablet-lg) {
+    padding: 0;
   } 
 
   ul {
     list-style: none;
     margin: 0;
-    width: 30em;
+    width: 26em;
 
     @include breakpoint(mobile-lg) {
       display: flex; 
       width: auto; 
-      //text-align: center;
-      justify-content: space-around;
-      max-width: 52em;
-      margin-left: -.5em;
+      text-align: center;
+      justify-content: space-between;
     } 
   }
 
   .logo {
     position: relative;
+    margin-left: 1em;
     order: 0;
 
     @include breakpoint(mobile-lg) {
-      //order: 1;
+      order: 1;
     } 
   }
 }
@@ -60,23 +64,25 @@
 
     @include breakpoint(mobile-lg) { 
       font-size: .85rem;
-      padding: 1em .4em 1.1em;
+      padding: 1em .6em 1.1em;
     }
 
     &.active {
       color: $profile-text !important;
       position: relative;
 
-      &:after {
-        content: '';
-        display: block;
-        height: .4em;
-        background: $profile-text;
-        position: absolute;
-        bottom: -.45em;
-        left: 0;
-        right: 0;
-      }
+      @include breakpoint(mobile-lg) {
+        &:after {
+          content: '';
+          display: block;
+          height: .4em;
+          background: $profile-text;
+          position: absolute;
+          bottom: -.45em;
+          left: 0;
+          right: 0;
+        }
+      } 
     }
 
     &:hover,

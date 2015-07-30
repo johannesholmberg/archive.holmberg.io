@@ -2,26 +2,12 @@
   position: relative;
   padding: 1em 0 1%;
 
-  &.-with-icon {
+  &.-small {
     .title {
-      position: relative;
-      padding-bottom: .5em;
-      margin-bottom: .6em;
-
-      &:after {
-        content: '';
-        display: inline-block;
-        position: absolute;
-        bottom: -.5em;
-        left: 50%;
-        margin-left: -.4em;
-        width: .8em;
-        height: .8em;
-        background: url('../images/icons/profile.png') #fff center center;
-        background-size: .79em;
-        border-radius: 100%;
-        border: 3px solid #fff;
-      }
+      font-size: $f20px;
+    }
+    .meta {
+      font-size: 1em;
     }
   }
 
@@ -38,7 +24,7 @@
     text-align: center;
 
     @include breakpoint(desktop-sm) {
-      border-bottom: 1px solid rgba(155, 155, 155, .3);      
+      border-bottom: 1px solid rgba(155, 155, 155, .2);      
     } 
 
     @include breakpoint(desktop-sm-max) {
@@ -62,6 +48,7 @@
     color: $midgray;
     line-height: 1.4;
     text-align: center;
+    font-family: $font-sans-rale;
 
     .dark &,
     .reading & {

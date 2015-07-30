@@ -6,29 +6,23 @@
   padding: 0 5%;
 
   &.-small {
-    max-width: 56em; 
-
-    @include breakpoint(desktop-lg) {
-      max-width: 64em;
-    } 
+    max-width: 64em;
 
     .wrap {
       padding: 0;
-      @include breakpoint(mobile-lg) {
-        //width: 92%;
-      } 
     }
   }
 
   &.-large {
-    max-width: 124em;
+    max-width: 114em;
   }
 
+
   @include breakpoint(tablet-sm) {
-    padding: 0 8%;
+    padding: 0 7%;
   } 
 
-  @include breakpoint(desktop-lg) {
+  @include breakpoint(tablet-lg) {
     padding: 0 7.5rem;
   } 
 
@@ -44,18 +38,14 @@ main {
   background: #fff;
 
   .main-section {
-    padding-top: 10%;
-
-    @include breakpoint(tablet-sm) {
-      padding-top: 8%;
-    } 
+    padding-top: 7%;
 
     @include breakpoint(tablet-lg) {
-      padding-top: 10%;
-    } 
+       padding-top: 8%;
+    }
 
-    @include breakpoint(desktop-xl) {
-      padding-top: 7%;  
+    @include breakpoint(desktop-sm) {
+      padding-top: 7%;
     } 
   }
 
@@ -72,7 +62,10 @@ main {
   .entry-content,
   .content-card,
   .book-entry,
-  .paper-article {
+  .paper-article,
+  .bio-card,
+  .article-list,
+  .photo-item {
     a,
     .link {
       //border-bottom: 1px solid $profile-text;

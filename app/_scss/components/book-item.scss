@@ -43,29 +43,23 @@
 }
 
 .book-item {
-  margin: 2.5em 0 0;
-  width: 49.8%;
+  margin: 3.2em 0 0;
+  //width: 49.8%;
   display: block;
   text-decoration: none;
   border-bottom: 0;
   line-height: 1.2;
   float: left;
-
-  &:first-child {
-    //margin-top: 2.5em;
-  }
+  flex: 0 1 50%;
 
   @include breakpoint(mobile-lg) {
-    width: 32.8%;      
+    flex-basis: 25%;     
   }
 
-  @include breakpoint(tablet-lg) {
-    width: 24.8%;
+  @include breakpoint(desktop-sm) {
+    flex-basis: 20%;
   } 
-
-  @include breakpoint(desktop-lg) {
-    width: 19.8%;      
-  } 
+ 
 
   &:active {
     top: 0;

@@ -272,6 +272,77 @@ gulp.task('article-images', function() {
 });
 
 /**
+ * Create images sizes for photos
+ */
+gulp.task('photo-images', function() {
+
+  var source = 'app/assets/images/photos/*';
+  var dest = 'app/assets/images/dist';
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 2000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-2000'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1400,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1400'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1000'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 800,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-800'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 600,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-600'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 400,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-400'
+    }))
+    .pipe(gulp.dest(dest));
+
+  console.log('Resized images');
+});
+
+/**
  * Create images sizes for cases
  */
 gulp.task('case-images', function() {

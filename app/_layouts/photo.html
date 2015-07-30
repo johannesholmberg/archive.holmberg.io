@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<article role="article" class="article-entry main-section">
+
+  <header class="page-header">
+    <div class="wrap -small">
+      <h1 class="title">{{ page.title }}</h1>
+      <p class="meta">
+        {{ page.date | date: '%B' }}
+        {% assign d = page.date | date: "%-d" %} 
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st,
+          {% when '2' or '22' %}{{ d }}nd,
+          {% when '3' or '23' %}{{ d }}rd,
+          {% else %}{{ d }}th,
+          {% endcase %}
+          {{ page.date | date: '%Y' }}
+      </p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="wrap -small">
+      <div class="wrap -narrow">
+        <div class="entry-content photo-item">
+          <a href="/assets/images/dist/{{ page.photo }}-2000.jpg">
+            <img 
+              sizes="
+              ({{site.desktop-xl}}) 850px,
+              ({{site.tablet-lg}}) 820px,
+              ({{site.tablet-sm}}) 660px,
+              100%" 
+              srcset="
+              /assets/images/dist/{{ page.photo }}-400.jpg 400w,
+              /assets/images/dist/{{ page.photo }}-600.jpg 600w,
+              /assets/images/dist/{{ page.photo }}-800.jpg 800w,
+              /assets/images/dist/{{ page.photo }}-1000.jpg 1000w,
+              /assets/images/dist/{{ page.photo }}-1400.jpg 1400w"
+              src="/assets/images/dist/{{ page.photo }}-600.jpg"
+              alt="{{ page.title }}"
+            >
+          </a>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include bio-card.html %}
+
+  <footer class="nav-categories">
+    <div class="wrap">
+      <a href="/photos" class="see-all">Browse all photos</a>
+      {% include case-nav.html %}
+    </div>
+  </footer>
+</article>

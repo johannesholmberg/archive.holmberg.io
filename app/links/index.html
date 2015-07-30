@@ -17,7 +17,7 @@ description: "Links from Johannes Holmberg."
   <div class="container">
     <div class="wrap -small">
 
-      <ul>
+      <ul class="links">
         {% for post in site.posts %}
           {% if post.category == "link" %}
 
@@ -30,6 +30,7 @@ description: "Links from Johannes Holmberg."
           {% endif %}
           
           <a href="{{ post.link }}" title="{{ post.link }}" class="title">{{ post.title }}</a>
+          <span class="url"><a href="{{ post.link }}">&raquo;{{ post.link }}</a></span>
           {{ post.content }}
 
         </li>

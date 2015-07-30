@@ -1,0 +1,21 @@
+.photo-item {
+
+  margin: 0 0 5em;
+
+  img {
+    max-height: 46em;
+    margin-top: 1.65em;
+  }
+
+  .date {
+    top: 1.1em;
+    margin: 0;
+    font-size: $f16px;
+    color: #777;
+  }
+
+  .title {
+    margin: .2em 0 0;
+    font-family: $font-sans-bold;
+  }
+}

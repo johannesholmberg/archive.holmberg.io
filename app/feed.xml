@@ -10,15 +10,10 @@ layout:
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       {% if post.category == "work" %}
+      {% elsif post.category == "photo" %}
       {% else if %}
         <item>
-          <title>
-            {% if post.category == "work" %}
-              Highlights from: {{ post.title | xml_escape }}
-            {% else if %}
-              {{ post.title | xml_escape }}
-            {% endif %}
-          </title>
+          <title>{{ post.title | xml_escape }}</title>
           <description>{{ post.content | xml_escape }}</description>
           <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
           <link>
