@@ -37,18 +37,12 @@
       margin-left: -1em;
       margin-bottom: .8em;
     } 
-
-    @include breakpoint(desktop-xl) {
-      // margin: 0 0 0 -18em;  
-      // text-align: right;
-      // float: left;
-      // width: 16em;
-    } 
   }
 
   .title {
     font-size: $f20px;
     font-family: $font-sans-bold;
+    font-weight: 300;
   }
 
   blockquote {

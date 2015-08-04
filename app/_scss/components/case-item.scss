@@ -56,6 +56,7 @@
     margin: 0;
     color: $darkgray;
     font-family: $font-sans-bold;
+    font-weight: 300;
     color: #888;
 
     @include breakpoint(tablet-lg) {

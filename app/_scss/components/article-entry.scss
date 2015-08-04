@@ -4,7 +4,6 @@
     padding-bottom: 0;
     padding-top: 0;
     position: static;
-    //margin-left: 0;
   }
 
   .side-panel {
@@ -17,13 +16,22 @@
     } 
   }
 
+  h2,
+  h3 {
+    text-transform: uppercase;
+  }
+
   img {
     display: block;
-    margin: 1.65em auto;
+    margin: 0 auto .65em;
 
     &.portrait {
       max-height: 600px;
     }
+  }
+
+  blockquote {
+    border: 0;
   }
 
   .entry-content {
@@ -33,5 +41,6 @@
     > *:first-child {
       margin-top: 0; 
     }
+
   }
 }

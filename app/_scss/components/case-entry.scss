@@ -25,6 +25,11 @@
 
   .entry-content {
     margin-bottom: 12%;
+
+    h2,
+    h3 {
+      text-transform: uppercase;
+    }
   }
 
   .description > *:first-child {

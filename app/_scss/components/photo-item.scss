@@ -1,6 +1,11 @@
 .photo-item {
+  margin: 0 0 3.5em;
+  border-bottom: 1px solid #eee;
 
-  margin: 0 0 5em;
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
 
   img {
     max-height: 46em;
@@ -17,5 +22,27 @@
   .title {
     margin: .2em 0 0;
     font-family: $font-sans-bold;
+    font-weight: 300;
   }
+
+  > a + p {
+    font-size: 1.4em;
+
+    @include breakpoint(tablet-sm) {
+      font-size: 1.6em;
+    } 
+
+    > strong:first-child {
+      text-transform: uppercase;
+    }
+
+    &:first-letter {
+      display: inline;
+      float: left;
+      padding: .25em .09em 0 0;
+      line-height: .4em;
+      font-size: 3.5em;
+    }
+  }
+
 }
