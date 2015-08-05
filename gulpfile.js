@@ -14,6 +14,7 @@ var notify = require('gulp-notify');
 var critical = require('critical');
 var cp = require('child_process');
 
+
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -22,7 +23,7 @@ var messages = {
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function(done) {
-  return cp.spawn('jekyll', ['build'], {
+  return cp.spawn('jekyll', ['build', '--drafts'], {
     stdio: 'inherit'
   }).on('close', done);
 });
@@ -530,6 +531,8 @@ gulp.task('case-images', function() {
 
   console.log('Resized images');
 });
+
+
 
 /**
  * Default task, running just `gulp` will compile the sass,

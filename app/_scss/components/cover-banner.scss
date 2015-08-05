@@ -64,7 +64,11 @@
     } 
 
     @include breakpoint(desktop-sm) {
-      font-size: 4.4em;
+      font-size: 4em;
+    }
+
+    @include breakpoint(desktop-lg) {
+      font-size: 4.5em;
     }
 
     @include breakpoint(desktop-xl) {
@@ -92,7 +96,11 @@
     } 
 
     @include breakpoint(desktop-sm) {
-      font-size: 1.45em;
+      font-size: 1.4em;
+    } 
+
+    @include breakpoint(desktop-lg) {
+      font-size: 1.6em;
     } 
 
     @include breakpoint(desktop-xl) {

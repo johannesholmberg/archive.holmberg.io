@@ -36,6 +36,23 @@
     @include breakpoint(mobile-lg) {
       order: 1;
     } 
+
+    a {
+
+      @include breakpoint(mobile-lg) {
+        position: relative;
+
+        &:hover,
+        &:focus {
+          transform: scale(1.2);
+        }
+
+        &:active {
+          top: 1px;
+        }
+      } 
+
+    }
   }
 }
 
@@ -69,7 +86,7 @@
     }
 
     &.active {
-      color: $profile-text !important;
+      color: $profile-text;
       position: relative;
 
       @include breakpoint(mobile-lg) {
@@ -92,8 +109,7 @@
     }
 
     &:active {
-      color: $profile-text;
-      transition: none;
+      top: 0;
     }
   }
 }
