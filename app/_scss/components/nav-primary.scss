@@ -42,16 +42,10 @@
       @include breakpoint(mobile-lg) {
         position: relative;
 
-        &:hover,
-        &:focus {
-          transform: scale(1.2);
-        }
-
         &:active {
           top: 1px;
         }
       } 
-
     }
   }
 }

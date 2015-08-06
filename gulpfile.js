@@ -136,7 +136,7 @@ gulp.task('watch', function() {
     'app/_layouts/*.html',
     'app/_includes/*.html',
     'app/_posts/**/*',
-    'app/_drafts/*'
+    'app/_drafts/**/*'
   ], ['jekyll-rebuild']);
 });
 

@@ -46,6 +46,10 @@ main {
 
     @include breakpoint(desktop-sm) {
       padding-top: 7%;
+    }
+
+    @include breakpoint(desktop-lg) {
+      padding-top: 7em;
     } 
   }
 
