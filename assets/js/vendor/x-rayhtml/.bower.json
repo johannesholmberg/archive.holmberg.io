@@ -1,0 +1,14 @@
+{
+  "name": "x-rayhtml",
+  "homepage": "https://github.com/filamentgroup/X-rayHTML",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "2c25851c27392bd4e44696f041a7f4ab3a225a14"
+  },
+  "_source": "git://github.com/filamentgroup/X-rayHTML.git",
+  "_target": "~0.1.0",
+  "_originalSource": "x-rayhtml"
+}

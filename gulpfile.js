@@ -72,6 +72,7 @@ gulp.task('optimize-images', function() {
 gulp.task('scripts', function() {
   return gulp.src([
     'app/assets/js/vendor/picturefill/dist/picturefill.js',
+    'app/assets/js/vendor/filament-shoestring/dist/shoestring.js',
     'app/assets/js/app.dev.js'
     ], {
     base: 'assets/'

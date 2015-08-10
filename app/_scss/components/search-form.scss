@@ -1,0 +1,23 @@
+.search-form {
+  //display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 8em;
+
+  &.active {
+    display: block;
+
+  }
+}
+
+.toggle-search {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+
+  &:active {
+    position: absolute;
+    top: 1em;
+  }
+}
