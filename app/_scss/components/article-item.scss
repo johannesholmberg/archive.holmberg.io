@@ -29,5 +29,15 @@
     margin: .2em 0 0;
     font-family: $font-sans-bold;
     font-weight: 300;
+
+    .category {
+      float: right;
+      font-size: .65em;
+      margin-top: .4em;
+      display: block;
+      //margin-left: 1em;
+      text-transform: uppercase;
+      color: #999;
+    }
   }
 }
