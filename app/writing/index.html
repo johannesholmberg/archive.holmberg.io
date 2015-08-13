@@ -8,23 +8,19 @@ redirect_from: journal/
 
 <section class="main-section">
 
-  <header class="page-header">
-    <div class="wrap -small">
-      <h1 class="title">Writing</h1>
-      <p class="meta">Collection of thoughts and reflection over the years.</p>
-    </div>
-  </header>
+  {% assign title = "Writing" %}
+  {% assign subtitle = "Collection of thoughts and reflection over the years." %}
+  {% include page-header.html %}
 
   <div class="container">
+
     <div class="wrap -small">
-      <ul class="article-list">
+
         {% for post in site.posts %}
           {% if post.category == "article" or post.category == "journal" %}
             
-            <li class="article-item">
-              <h2 class="title">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </h2>
+            <div class="article-item">
+              <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
               <p class="date">
                 {{ post.date | date: '%B' }}
                 {% assign d = post.date | date: "%-d" %} 
@@ -37,11 +33,11 @@ redirect_from: journal/
                   {{ post.date | date: '%Y' }}
               </p>
               <p>{{ post.content | strip_html | truncatewords: 50 }}<a href="{{ post.url }}"> Read more &raquo;</a></p>
-            </li>
+            </div>
             
             {% endif %}
         {% endfor %}
-      </ul>
+   
     </div>
   </div>
 

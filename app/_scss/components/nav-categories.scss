@@ -6,6 +6,10 @@
     padding-bottom: 0;
   }
 
+  a:active {
+    position: static;
+  }
+
   .see-all {
     display: inline-block;
     float: left;

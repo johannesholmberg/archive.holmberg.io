@@ -6,9 +6,13 @@
 
   @include breakpoint(mobile-lg) {
     float: right; 
-    width: 21%;
+    width: 22%;
     max-width: none;
   }
+
+  @include breakpoint(desktop-sm) {
+    width: 19%;
+  } 
 }
 
 aside {

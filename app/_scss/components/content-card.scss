@@ -1,61 +1,20 @@
-.links {
-  margin: 0;
-}
-
 .content-card {
-  list-style: none;
-  margin: 0 0 2.2em;
-
-  @include breakpoint(tablet-sm) {
-    margin: 0 1em 2.2em;    
-  } 
-
-
-  .url {
-    display: block;
-    word-wrap: break-word;
-
-    a {
-      color: #999;
-
-      &:hover,
-      &:focus {
-        color: #999;
-        border-bottom-color: #999;
-      }   
-    }
-  }
-
-  .date {
-    color: #575757;
-    margin-bottom: .2em;
-    font-size: $f20px;
-    margin-left: 0;
-    text-transform: none;
-
-    @include breakpoint(tablet-sm) {
-      margin-left: -1em;
-      margin-bottom: .8em;
-    } 
-  }
+  margin: 0 0 2.4em;
 
   .title {
-    font-size: $f20px;
+    margin: .2em 0 0;
     font-family: $font-sans-bold;
     font-weight: 300;
   }
 
-  blockquote {
-    margin: .3em 0 1em;
-    padding: 0;
-    border: 0;
-
-    > p {
-      font-size: .95em;
-    }
+  .date {
+    top: 1.1em;
+    margin: 0 0 1em;
+    font-size: $f16px;
+    color: #777;
   }
 
   > p {
-    margin: 0 0 1em;
+    margin: .2em 0 0;
   }
 }

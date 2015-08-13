@@ -8,18 +8,18 @@
   @include breakpoint(tablet-lg) {
     position: absolute;
   } 
-}
 
-.header-global .brand {
-  letter-spacing: -.005em;
-  line-height: 1;
-  font-size: $f16px;
-  width: 4em;
-  width: 2em;
-  padding: 1em 0;
-  display: inline-block;
-  text-align: center;
-  background: url('../images/layout/logo.png') center center no-repeat;
-  background-size: 2.2em;
-  text-indent: -9999px;
+  .brand {
+    letter-spacing: -.005em;
+    line-height: 1;
+    font-size: $f16px;
+    width: 4em;
+    width: 2em;
+    padding: 1em 0;
+    display: inline-block;
+    text-align: center;
+    background: url('../images/layout/logo.png') center center no-repeat;
+    background-size: 2.2em;
+    text-indent: -9999px;
+  }
 }

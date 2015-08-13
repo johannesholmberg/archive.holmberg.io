@@ -1,14 +1,11 @@
-.article-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.article-item {
+  margin: 0 0 2.4em;
 
-  li {
-    margin: 0;
-
-    &:last-child a {
-      border-bottom: 0;
-    }
+  .title {
+    margin: .2em 0 0;
+    font-family: $font-sans-bold;
+    font-weight: 300;
+    text-transform: none;
   }
 
   .date {
@@ -18,26 +15,7 @@
     color: #777;
   }
 
-  p {
-    margin: .2em 0 2em;
-  }
-}
-
-.article-item {
-
-  .title {
+  > p {
     margin: .2em 0 0;
-    font-family: $font-sans-bold;
-    font-weight: 300;
-
-    .category {
-      float: right;
-      font-size: .65em;
-      margin-top: .4em;
-      display: block;
-      //margin-left: 1em;
-      text-transform: uppercase;
-      color: #999;
-    }
   }
 }

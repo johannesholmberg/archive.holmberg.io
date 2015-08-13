@@ -33,7 +33,7 @@ layout: default
           <img
             src="/assets/images/dist/{{page.cover}}-200.jpg"
             sizes="
-            (min-width: 57em) 200px, 
+            (min-width: 57em) 240px, 
             (min-width: 34em) 140px, 120px"
             srcset="
             /assets/images/dist/{{page.cover}}-200.jpg 200w,
@@ -41,9 +41,9 @@ layout: default
             alt="{{page.title}}"
           >
 				</a>
-				<p>
-          Publisher: {{page.publisher}}<br>
-				  Buy: <a href="{{ page.book-url }}">Amazon</a>
+				<p class="meta">
+          <span class="entry"><strong>Publisher:</strong> {{page.publisher}}</span>
+				  <span class="entry"><strong>Buy:</strong> <a href="{{ page.book-url }}">Amazon</a></span>
         </p>
 			</aside>
 		</div>

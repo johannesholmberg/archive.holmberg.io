@@ -42,7 +42,7 @@
   }
 
   .title {
-    @extend %text-shadow;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
     margin-bottom: .05em;
     font-size: 1.4em;
     letter-spacing: .02em;
@@ -88,7 +88,6 @@
 
     @include breakpoint(tablet-sm) {
       margin: .3em 0 .8em;
-      font-size: 1em;
     } 
 
     @include breakpoint(tablet-lg) {

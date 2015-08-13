@@ -6,51 +6,16 @@
     position: static;
   }
 
-  .side-panel {
-    right: 0;
-    position: absolute;
-    margin-top: -3em;
-
-    @include breakpoint(desktop-lg) {
-      width: 32%;
-    } 
-  }
-
-  h2,
-  h3 {
-    text-transform: uppercase;
-  }
-
   img {
     display: block;
-    margin: 0 auto .65em;
-
-    &.portrait {
-      max-height: 600px;
-      display: inline;
-    }
-  }
-
-  blockquote {
-    border: 0;
+    margin: 0 auto;
   }
 
   .entry-content {
     margin: 0 auto 10%;
-    font-size: 1rem;
 
     > *:first-child {
       margin-top: 0; 
     }
-
-  }
-
-  .container  ul {
-    padding-left: 1.5em;
-  }
-
-  .container li {
-    font-size: $f20px;
-    margin-bottom: .2em;
   }
 }

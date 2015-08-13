@@ -44,14 +44,12 @@ h1, h2, h3 {
 
 h1 {
   font-size: $f36px;
-  letter-spacing: .03em;
   margin-top: 0;
 }
 
 h2 {
   font-size: $f20px;
-  letter-spacing: .03em;
-  text-transform: none;
+  letter-spacing: .02em;
 }
 
 h3 {
@@ -87,12 +85,15 @@ p {
   }
 }
 
-
-a,
-.link {
+a {
+  color: $profile-text;
   text-decoration: none;
-  transition: all .1s ease-in-out;
-  color: $darkgray;
+
+  &:hover,
+  &:focus {
+    color: $profile-text;
+    border-bottom: 1px solid $profile-text;
+  }
 
   &:active {
     position: relative;
@@ -100,19 +101,18 @@ a,
   }
 }
 
+
 img {
   vertical-align: middle;
   max-width: 100%;
 }
 
-ul {
-  list-style: circle;
-  margin: 1.2em auto 1.2em 1em;
+nav ul {
   padding: 0;
-  
-  li {
-    margin-bottom: .5em;
-  }
+}
+
+li p {
+  margin: 0 0 .5em;
 }
 
 iframe {
@@ -139,15 +139,15 @@ hr {
 
 blockquote {
   color: $midgray;
-  border-left: 4px double $profile-bg;
+  border-left: 4px solid #ddd;
+  background: #fafafa;
   margin: 1.1em 0;
-  padding: .7em 1em .8em;
-  font-size: $f18px;
+  padding: 1.2em 1.3em 1.3em;
   font-style: italic;
 
   @include breakpoint(mobile-lg) {
-    margin-right: 1em;
-  }
+    padding: 1.5em 1.7em 1.6em;
+  } 
 
   p {
     margin: 0;
@@ -160,30 +160,15 @@ code {
   font-size: .85em;
   padding: .3em .5em;
   line-height: 1;
-  border-radius: .1em;
+  border-radius: .2em;
   display: inline-block;
   font-family: $font-sans;
-}
-
-figure {
-  @extend %clearfix;
-  margin: 1.65em 0;
-  
-  blockquote.big {
-    text-align: left;
-    font-size: 2.5rem;
-    line-height: 1.4;
-    width: 40%;
-    float: left;
-    margin-top: 0;
-    color: #222;
-  }
 }
 
 figcaption {
   color: $lightdarkgray;
   text-align: center;
-  margin: 1.5em 0 1em;
+  margin: 1.5em 0;
 }
 
 input[type="search"] {

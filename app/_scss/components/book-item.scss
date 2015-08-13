@@ -44,7 +44,6 @@
 
 .book-item {
   margin: 3.2em 0 0;
-  //width: 49.8%;
   display: block;
   text-decoration: none;
   border-bottom: 0;
@@ -60,13 +59,14 @@
     flex-basis: 20%;
   } 
  
-
   &:active {
     top: 0;
   }
 
   &:hover,
   &:focus {
+    border-bottom: 0;
+
     .title {
       color: $profile-text;
     }

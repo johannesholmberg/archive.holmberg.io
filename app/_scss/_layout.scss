@@ -17,7 +17,6 @@
     max-width: 114em;
   }
 
-
   @include breakpoint(tablet-sm) {
     padding: 0 7%;
   } 
@@ -32,11 +31,6 @@
 }
 
 main {
-  position: relative;
-  transition: all .2s ease-in-out;
-  z-index: 101;
-  background: #fff;
-
   .main-section {
     padding-top: 7%;
 
@@ -49,7 +43,7 @@ main {
     }
 
     @include breakpoint(desktop-lg) {
-      padding-top: 7em;
+      padding-top: 6.5em;
     } 
   }
 
@@ -59,34 +53,10 @@ main {
 
     @include breakpoint(mobile-lg) {
       padding-top: 3em;    
-      padding-bottom: 7em;
+      padding-bottom: 5em;
     }
   }
-
-  .entry-content,
-  .content-card,
-  .book-entry,
-  .paper-article,
-  .bio-card,
-  .article-list,
-  .photo-item {
-    a,
-    .link {
-      //border-bottom: 1px solid $profile-text;
-      transition: none;
-      color: $profile-text;
-
-      &:hover,
-      &:focus {
-        color: $profile-text;
-        border-bottom: 1px solid $profile-text;
-      }
-    }
-  }
-
 }
-
-
 
 div[role=main] {
   margin-bottom: 2.5em;

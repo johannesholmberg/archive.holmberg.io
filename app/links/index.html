@@ -7,36 +7,40 @@ description: "Links from Johannes Holmberg."
 
 <section class="main-section">
 
-  <header class="page-header">
-    <div class="wrap -small">
-      <h1 class="title">Links</h1>
-      <p class="meta">Things on the internet that reinforces what I believe in.</p>
-    </div>
-  </header>
+  {% assign title = "Links" %}
+  {% assign subtitle = "Things on the internet that reinforces what I believe in." %}
+  {% include page-header.html %}
 
   <div class="container">
     <div class="wrap -small">
 
-      <ul class="links">
+
         {% for post in site.posts %}
           {% if post.category == "link" %}
 
-        <li class="content-card">
+        <div class="article-item">
 
-          {% capture currentyear %}{{post.date | date: "%A, %B %-d, %Y"}}{% endcapture %}
-          {% if currentyear != year %}
-            <h3 class="date">{{ post.date | date: '%B %-d, %Y' }}</h3>
-          {% capture year %}{{currentyear}}{% endcapture %} 
-          {% endif %}
-          
-          <a href="{{ post.link }}" title="{{ post.link }}" class="title">{{ post.title }}</a>
-          <span class="url"><a href="{{ post.link }}">&raquo;{{ post.link }}</a></span>
+          <h2 class="title">
+            <a href="{{ post.link }}" title="{{ post.link }}">{{ post.title }}</a>
+          </h2>
+          <p class="date">
+            {{ post.date | date: '%B' }}
+            {% assign d = post.date | date: "%-d" %} 
+            {% case d %}
+              {% when '1' or '21' or '31' %}{{ d }}st,
+              {% when '2' or '22' %}{{ d }}nd,
+              {% when '3' or '23' %}{{ d }}rd,
+              {% else %}{{ d }}th,
+              {% endcase %}
+              {{ post.date | date: '%Y' }}
+          </p>
+
           {{ post.content }}
 
-        </li>
+        </div>
         {% endif %}
       {% endfor %}
-      </ul>
+
     </div>
   </div>
 </section>

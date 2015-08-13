@@ -30,29 +30,29 @@
 
     aside {
       @include breakpoint(mobile-lg) {
-        margin-top: -7em;
+        margin-top: -7.5em;
+      }
+
+      .meta {
+        .entry {
+          display: block;
+          border-bottom: 1px solid #eee;
+          padding: .5em 0;
+        }
       }
     }
   }
 
   :target {
     & + blockquote {
-      border-left: 4px solid $gray;
+      border-left-color: #999;
 
       @include breakpoint(tablet-sm) {
         margin-left: -2em;      
       } 
 
       p {
-        font-size: 1.1em;
-
-        @include breakpoint(tablet-sm) {
-          font-size: 1.2em;
-        } 
-
-        @include breakpoint(tablet-lg) {
-          font-size: 1.3em;
-        } 
+        font-size: 1.3em; 
       }
     }
   }
