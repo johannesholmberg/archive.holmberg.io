@@ -1,23 +1,20 @@
 .header-global {
   background: rgba(255, 255, 255, .9);
-  width: 100%;
   border-bottom: 1px solid #eee;
-  z-index: 1000;
-  position: relative;
 
   @include breakpoint(tablet-lg) {
     position: absolute;
+    width: 100%;
+    z-index: 1000;
   } 
 
   .brand {
-    letter-spacing: -.005em;
     line-height: 1;
     font-size: $f16px;
     width: 4em;
     width: 2em;
     padding: 1em 0;
     display: inline-block;
-    text-align: center;
     background: url('../images/layout/logo.png') center center no-repeat;
     background-size: 2.2em;
     text-indent: -9999px;

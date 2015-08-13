@@ -6,16 +6,18 @@
 .books .year {
   display: block;
   width: 100%;
-  margin-right: -5em;
   color: #ccc;
   margin: 0;
   text-align: center;
   font-size: 1.6em;
   margin: 2.5em .2em 1.5em;
-  
   flex: 0 1 auto;
   position: relative;
   z-index: 90;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
   
   &:after {
     content: '';
@@ -36,10 +38,6 @@
     z-index: 99;
     padding: 0 .4em;
   }
-}
-
-.books .year:first-of-type {
-  margin-top: 0;
 }
 
 .book-item {
@@ -84,7 +82,6 @@
     }
   }
 
-
   .cover {
     position: relative;
     padding-bottom: 100%;
@@ -109,7 +106,6 @@
     font-family: $font-sans-rale;
     color: #fff;
     text-transform: none;
-    font-size: $f16px; 
   }
 
   .meta {

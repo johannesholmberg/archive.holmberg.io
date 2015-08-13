@@ -23,11 +23,12 @@
 
   a {
     display: block;
-    border-bottom: 0;
     text-align: center;
 
     &:hover,
     &:focus {
+      border: 0;
+
       img {
         transform: translateY(-6px);
       }
@@ -49,26 +50,17 @@
 
   .title {
     text-transform: none;
-    font-size: 1.2em;
-    text-decoration: none;
-    display: block;
     padding: 1.5em 0 .3em;
     margin: 0;
-    color: $darkgray;
     font-family: $font-sans-bold;
     font-weight: 300;
     color: #888;
-
-    @include breakpoint(tablet-lg) {
-      font-size: 1.2em;
-    } 
+    font-size: 1.2em;
   }
 
   .meta {
     color: $lightdarkgray;
-    margin: 0;
     font-family: $font-sans-rale;
     font-size: 1em;
-    padding-bottom: 2.6em;
   }
 }

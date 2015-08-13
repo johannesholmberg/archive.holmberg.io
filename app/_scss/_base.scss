@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-::selection { 
-  background: $profile-bg;
-  color: #fff;
-}
-
 html {
   color: $darkgray;
   line-height: 1.65;
@@ -19,23 +10,13 @@ html {
 
 body {
   font-family: $font-sans;
-  overflow-x: hidden;
-
-  @include breakpoint(desktop-sm) {
-    min-height: 100vh;  
-  }
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   line-height: 1.3;
   font-weight: 600;
-  font-family: $font-sans;
   text-transform: uppercase;
-  margin-bottom: .3em;
-
-  a {
-    border-bottom: 0;
-  }
+  margin: 1.5em 0 .3em;
 
   & + p {
     margin-top: 0;
@@ -59,30 +40,6 @@ h3 {
 p {
   font-size: $f20px;
   margin: 1.5em 0;
-
-  &.lead-text {
-    @extend %lead-text;
-  }
-}
-
-.intro {
-  font-size: 1.4em;
-
-  @include breakpoint(tablet-sm) {
-    font-size: 1.6em;
-  } 
-
-  > strong:first-child {
-    text-transform: uppercase;
-  }
-
-  &:first-letter {
-    display: inline;
-    float: left;
-    padding: .25em .08em 0 0;
-    line-height: .4em;
-    font-size: 3.4em;
-  }
 }
 
 a {
@@ -101,14 +58,9 @@ a {
   }
 }
 
-
 img {
   vertical-align: middle;
   max-width: 100%;
-}
-
-nav ul {
-  padding: 0;
 }
 
 li p {
@@ -171,6 +123,22 @@ figcaption {
   margin: 1.5em 0;
 }
 
-input[type="search"] {
-  -webkit-appearance: none;
+.intro {
+  font-size: 1.4em;
+
+  @include breakpoint(tablet-sm) {
+    font-size: 1.6em;
+  } 
+
+  > strong:first-child {
+    text-transform: uppercase;
+  }
+
+  &:first-letter {
+    display: inline;
+    float: left;
+    padding: .25em .08em 0 0;
+    line-height: .4em;
+    font-size: 3.4em;
+  }
 }

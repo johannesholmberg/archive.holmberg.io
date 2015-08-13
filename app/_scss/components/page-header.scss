@@ -2,12 +2,10 @@
   position: relative;
   padding: 1em 0 1%;
 
-  &.-small {
-    .title {
-      font-size: $f20px;
-    }
+  &.-left-align {
+    .title,
     .meta {
-      font-size: 1em;
+      text-align: left;
     }
   }
 
@@ -19,12 +17,19 @@
     }
   }
 
+  &.-one-col {
+    .title,
+    .meta {
+      @include breakpoint(mobile-lg) {
+        max-width: 28em;
+        width: 74%;        
+      } 
+    }
+  }
+
   .title {
     padding-bottom: .2em;
-    margin: 0 0 .3em;
     text-transform: none;
-    position: relative;
-    font-size: $f36px;
     text-align: center;
     border-bottom: 1px solid rgba(155, 155, 155, .2);      
 

@@ -1,19 +1,10 @@
 .article-entry {
-
-  .wrap {
-    padding-bottom: 0;
-    padding-top: 0;
-    position: static;
-  }
-
   img {
     display: block;
     margin: 0 auto;
   }
 
   .entry-content {
-    margin: 0 auto 10%;
-
     > *:first-child {
       margin-top: 0; 
     }

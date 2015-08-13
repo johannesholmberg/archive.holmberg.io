@@ -2,9 +2,9 @@
 @import "__mixins";
 @import "__constants";
 
+@import "_custom-normalize";
 @import "_base";
 @import "_layout";
-@import "_variants";
 @import "_forms";
 @import "_buttons";
 
@@ -26,6 +26,7 @@
 @import "components/bio-card";
 @import "components/photo-item";
 @import "components/search-form";
+@import "components/resume-header";
 
 @import "_styleguide";
 

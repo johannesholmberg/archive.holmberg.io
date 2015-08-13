@@ -1,22 +1,46 @@
 .side-panel {
-
-  margin: 0 auto;
-  max-width: 200px;
-  position: relative;
+  margin: 5% 0 0 !important;
 
   @include breakpoint(mobile-lg) {
     float: right; 
-    width: 22%;
+    width: 24%;
+    padding-left: 4%;
     max-width: none;
+    margin: 0 !important;
+
+    @include breakpoint(tablet-lg) {
+      width: 28%;
+      padding-left: 5%;
+    } 
   }
 
-  @include breakpoint(desktop-sm) {
-    width: 19%;
-  } 
-}
+  .img-holder {
+    display: block;
+    border-bottom: 0;
 
-aside {
-  p {
-    font-size: $f16px;
+    @include breakpoint(mobile-lg-max) {
+      max-width: 120px;
+    } 
+  }
+
+  aside {
+
+    &.book {
+      @include breakpoint(mobile-lg) {
+        margin-top: -3.6em;
+      }
+    }
+
+    .meta {
+      .entry {
+        display: block;
+        border-bottom: 1px solid #eee;
+        padding: .5em 0;
+      }
+    }
+
+    p {
+      font-size: $f16px;
+    }
   }
 }

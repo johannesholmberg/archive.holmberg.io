@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<article class="book-entry main-section">
+<article class="main-section">
 
-	<header class="page-header">
+	<header class="page-header -left-align -one-col">
 		<div class="wrap">
 		  <h1 class="title">{{ page.title }}</h1>
 		  <p class="meta">
@@ -27,8 +27,8 @@ layout: default
 
 	<div class="wrap">
 		
-    <div role="complementary" class="side-panel">
-			<aside>
+    <div class="side-panel">
+			<aside class="book">
 				<a href="{{ page.book-url }}" class="img-holder">
           <img
             src="/assets/images/dist/{{page.cover}}-200.jpg"
@@ -48,7 +48,7 @@ layout: default
 			</aside>
 		</div>
 
-		<div role="main" class="container">
+		<div class="main-content book-entry">
 			{{ content }}
 		</div>
 
