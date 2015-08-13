@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article role="article" class="article-entry main-section">
+<article>
 
   <header class="page-header">
     <div class="wrap -small">
@@ -21,31 +21,27 @@ layout: default
     </div>
   </header>
 
-  <div class="container">
-    <div class="wrap -small">
-      <div class="wrap -narrow">
-        <div class="entry-content photo-item">
-          <a href="/assets/images/dist/{{ page.photo }}-2000.jpg">
-            <img 
-              sizes="
-              ({{site.desktop-xl}}) 850px,
-              ({{site.tablet-lg}}) 820px,
-              ({{site.tablet-sm}}) 660px,
-              100%" 
-              srcset="
-              /assets/images/dist/{{ page.photo }}-400.jpg 400w,
-              /assets/images/dist/{{ page.photo }}-600.jpg 600w,
-              /assets/images/dist/{{ page.photo }}-800.jpg 800w,
-              /assets/images/dist/{{ page.photo }}-1000.jpg 1000w,
-              /assets/images/dist/{{ page.photo }}-1400.jpg 1400w"
-              src="/assets/images/dist/{{ page.photo }}-600.jpg"
-              alt="{{ page.title }}"
-            >
-          </a>
-          {{ content }}
-        </div>
-      </div>
-    </div>
+  <div class="container wrap -small entry-content">
+
+    <a href="/assets/images/dist/{{ page.photo }}-2000.jpg">
+      <img 
+        sizes="
+        ({{site.desktop-xl}}) 850px,
+        ({{site.tablet-lg}}) 820px,
+        ({{site.tablet-sm}}) 660px,
+        100%" 
+        srcset="
+        /assets/images/dist/{{ page.photo }}-400.jpg 400w,
+        /assets/images/dist/{{ page.photo }}-600.jpg 600w,
+        /assets/images/dist/{{ page.photo }}-800.jpg 800w,
+        /assets/images/dist/{{ page.photo }}-1000.jpg 1000w,
+        /assets/images/dist/{{ page.photo }}-1400.jpg 1400w"
+        src="/assets/images/dist/{{ page.photo }}-600.jpg"
+        alt="{{ page.title }}"
+      >
+    </a>
+    {{ content }}
+
   </div>
 
   {% include bio-card.html %}
@@ -56,4 +52,5 @@ layout: default
       {% include case-nav.html %}
     </div>
   </footer>
+
 </article>

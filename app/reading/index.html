@@ -6,28 +6,24 @@ class: 'dark'
 description: "Books are where I go for inspiration. This is my treasure trove where I collect the highlights from the books."
 ---
 
-<section class="main-section">
+<section>
   
   {% assign attribute = "-without-border" %}
   {% assign title = "Reading" %}
   {% assign subtitle = "Books are where I go for inspiration. This is my treasure trove." %}
   {% include page-header.html %}
 
-  <div class="container">
-    <div class="books">
-      <div class="wrap">
-        {% for post in site.categories.reading offset:0 %}
-          
-          {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
-          {% if currentyear != year %}
-            <h2 class="year book-item"><span>{{ post.date | date: '%Y' }}</span></h2>
-          {% capture year %}{{currentyear}}{% endcapture %} 
-          {% endif %}
+  <div class="container wrap -books -two-col">
+    {% for post in site.categories.reading offset:0 %}
+      
+      {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+      {% if currentyear != year %}
+        <h2 class="year-divider"><span>{{ post.date | date: '%Y' }}</span></h2>
+      {% capture year %}{{currentyear}}{% endcapture %} 
+      {% endif %}
 
-          {% include book-item.html %}
-        {% endfor %}
-      </div>
-    </div>
+      {% include book-item.html %}
+    {% endfor %}
   </div>
 
 </section>

@@ -52,11 +52,10 @@ layout: compress
     </div>
 
     {% include header.html %}
-
-    <main id="main-content" class="{{page.active}} {{page.class}}">
-        {{ content }}
-        {% include footer.html %}
+    <main id="main-content" class="{{page.active}} {{page.class}} main-section">
+      {{ content }}
     </main>
+    {% include footer.html %}
 
     {% include analytics.html %}
   </body>

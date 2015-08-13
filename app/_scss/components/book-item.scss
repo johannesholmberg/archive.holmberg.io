@@ -1,9 +1,9 @@
-.books > .wrap {
+.wrap.-books {
   display: flex;
   flex-wrap: wrap;
 }
 
-.books .year {
+.year-divider {
   display: block;
   width: 100%;
   color: #ccc;
@@ -14,10 +14,6 @@
   flex: 0 1 auto;
   position: relative;
   z-index: 90;
-
-  &:first-of-type {
-    margin-top: 0;
-  }
   
   &:after {
     content: '';
@@ -102,7 +98,7 @@
     margin-top: 0;
     line-height: 1.4;
     margin-bottom: .2em;
-    border-top: .6em solid #666666;
+    border-top: .6em solid #666;
     font-family: $font-sans-rale;
     color: #fff;
     text-transform: none;

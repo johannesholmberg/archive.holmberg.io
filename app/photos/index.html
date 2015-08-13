@@ -5,55 +5,51 @@ active: photos
 description: "Photos from Johannes Holmberg."
 ---
 
-<section class="main-section">
+{% assign title = "Photos" %}
+{% assign width = "-small" %}
+{% assign subtitle = "Things I’ve seen and would like to share." %}
+{% include page-header.html %}
 
-  {% assign title = "Photos" %}
-  {% assign width = "-small" %}
-  {% assign subtitle = "Things I’ve seen and would like to share." %}
-  {% include page-header.html %}
+<div class="container wrap -small">
 
-  <div class="container">
-    <div class="wrap -small">
+  {% for post in site.posts %}
+    {% if post.category == "photo" %}
 
-      {% for post in site.posts %}
-        {% if post.category == "photo" %}
+      <div class="photo-item">
+        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="date">
+          {{ post.date | date: '%B' }}
+          {% assign d = post.date | date: "%-d" %} 
+          {% case d %}
+            {% when '1' or '21' or '31' %}{{ d }}st,
+            {% when '2' or '22' %}{{ d }}nd,
+            {% when '3' or '23' %}{{ d }}rd,
+            {% else %}{{ d }}th,
+            {% endcase %}
+            {{ post.date | date: '%Y' }}
+        </p>
+        <p>
+          <a href="{{ post.url }}">
+            <img 
+              sizes="
+              ({{site.desktop-xl}}) 850px,
+              ({{site.tablet-lg}}) 820px,
+              ({{site.tablet-sm}}) 660px,
+              100%" 
+              srcset="
+              /assets/images/dist/{{ post.photo }}-400.jpg 400w,
+              /assets/images/dist/{{ post.photo }}-600.jpg 600w,
+              /assets/images/dist/{{ post.photo }}-800.jpg 800w,
+              /assets/images/dist/{{ post.photo }}-1000.jpg 1000w,
+              /assets/images/dist/{{ post.photo }}-1400.jpg 1400w"
+              src="/assets/images/dist/{{ post.photo }}-600.jpg"
+              alt="{{ post.title }}"
+            >
+          </a>
+        </p>
+      {{ post.content }}
+      </div>
 
-          <div class="photo-item">
-            <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="date">
-              {{ post.date | date: '%B' }}
-              {% assign d = post.date | date: "%-d" %} 
-              {% case d %}
-                {% when '1' or '21' or '31' %}{{ d }}st,
-                {% when '2' or '22' %}{{ d }}nd,
-                {% when '3' or '23' %}{{ d }}rd,
-                {% else %}{{ d }}th,
-                {% endcase %}
-                {{ post.date | date: '%Y' }}
-            </p>
-
-            <a href="{{ post.url }}">
-              <img 
-                sizes="
-                ({{site.desktop-xl}}) 850px,
-                ({{site.tablet-lg}}) 820px,
-                ({{site.tablet-sm}}) 660px,
-                100%" 
-                srcset="
-                /assets/images/dist/{{ post.photo }}-400.jpg 400w,
-                /assets/images/dist/{{ post.photo }}-600.jpg 600w,
-                /assets/images/dist/{{ post.photo }}-800.jpg 800w,
-                /assets/images/dist/{{ post.photo }}-1000.jpg 1000w,
-                /assets/images/dist/{{ post.photo }}-1400.jpg 1400w"
-                src="/assets/images/dist/{{ post.photo }}-600.jpg"
-                alt="{{ post.title }}"
-              >
-            </a>
-          {{ post.content }}
-          </div>
-
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
+    {% endif %}
+  {% endfor %}
+</div>

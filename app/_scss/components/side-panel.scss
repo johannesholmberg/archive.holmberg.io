@@ -14,33 +14,23 @@
     } 
   }
 
-  .img-holder {
-    display: block;
-    border-bottom: 0;
+  &.-book {
+    @include breakpoint(mobile-lg) {
+      margin-top: -3.6em !important;
+    }
 
-    @include breakpoint(mobile-lg-max) {
-      max-width: 120px;
+    @include breakpoint(tablet-lg) {
+      width: 27%;
     } 
   }
 
-  aside {
+  p {
+    font-size: $f16px;
+  }
 
-    &.book {
-      @include breakpoint(mobile-lg) {
-        margin-top: -3.6em;
-      }
-    }
-
-    .meta {
-      .entry {
-        display: block;
-        border-bottom: 1px solid #eee;
-        padding: .5em 0;
-      }
-    }
-
-    p {
-      font-size: $f16px;
-    }
+  .entry {
+    display: block;
+    border-bottom: 1px solid #eee;
+    padding: .5em 0;
   }
 }

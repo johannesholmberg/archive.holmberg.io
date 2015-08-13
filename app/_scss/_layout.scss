@@ -3,26 +3,28 @@
   margin: 0 auto;
   max-width: 90em;
   position: relative;
-  padding: 0 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 
   &.-small {
     max-width: 64em;
-
-    .wrap {
-      padding: 0;
-    }
   }
 
-  &.-large {
-    max-width: 114em;
+  &.-two-col {
+    @include breakpoint(tablet-lg) {
+      padding-left: 7%;
+      padding-right: 7%;
+    } 
   }
 
   @include breakpoint(tablet-sm) {
-    padding: 0 7%;
+    padding-left: 7%;
+    padding-right: 7%;
   } 
 
-  @include breakpoint(desktop-sm) {
-    padding: 0 7.5rem;
+  @include breakpoint(tablet-lg) {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
   } 
 
   > *:first-child {

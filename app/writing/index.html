@@ -6,38 +6,33 @@ description: "Writing by Johannes Holmberg."
 redirect_from: journal/
 ---
 
-<section class="main-section">
+{% assign title = "Writing" %}
+{% assign width = "-small" %}
+{% assign subtitle = "Collection of thoughts and reflection over the years." %}
+{% include page-header.html %}
 
-  {% assign title = "Writing" %}
-  {% assign width = "-small" %}
-  {% assign subtitle = "Collection of thoughts and reflection over the years." %}
-  {% include page-header.html %}
+<div class="container wrap -small">
 
-  <div class="container">
-    <div class="wrap -small">
+  {% for post in site.posts %}
+    {% if post.category == "article" or post.category == "journal" %}
+      
+      <div class="article-item">
+        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="date">
+          {{ post.date | date: '%B' }}
+          {% assign d = post.date | date: "%-d" %} 
+          {% case d %}
+            {% when '1' or '21' or '31' %}{{ d }}st,
+            {% when '2' or '22' %}{{ d }}nd,
+            {% when '3' or '23' %}{{ d }}rd,
+            {% else %}{{ d }}th,
+            {% endcase %}
+            {{ post.date | date: '%Y' }}
+        </p>
+        <p>{{ post.content | strip_html | truncatewords: 50 }}<a href="{{ post.url }}"> Read more &raquo;</a></p>
+      </div>
+      
+    {% endif %}
+  {% endfor %}
 
-      {% for post in site.posts %}
-        {% if post.category == "article" or post.category == "journal" %}
-          
-          <div class="article-item">
-            <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="date">
-              {{ post.date | date: '%B' }}
-              {% assign d = post.date | date: "%-d" %} 
-              {% case d %}
-                {% when '1' or '21' or '31' %}{{ d }}st,
-                {% when '2' or '22' %}{{ d }}nd,
-                {% when '3' or '23' %}{{ d }}rd,
-                {% else %}{{ d }}th,
-                {% endcase %}
-                {{ post.date | date: '%Y' }}
-            </p>
-            <p>{{ post.content | strip_html | truncatewords: 50 }}<a href="{{ post.url }}"> Read more &raquo;</a></p>
-          </div>
-          
-        {% endif %}
-      {% endfor %}
-   
-    </div>
-  </div>
-</section>
+</div>

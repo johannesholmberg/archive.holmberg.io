@@ -1,8 +1,36 @@
 .case-entry {
+  margin-top: -7%;
+
+  @include breakpoint(tablet-lg) {
+     margin-top: -8%;
+  }
+
+  @include breakpoint(desktop-sm) {
+    margin-top: -7%;
+  }
+
+  @include breakpoint(desktop-lg) {
+    margin-top: -6.5em;
+  }
+
+  .header-holder {
+    padding-top: 7%;
+
+    @include breakpoint(tablet-lg) {
+       padding-top: 8%;
+    }
+
+    @include breakpoint(desktop-sm) {
+      padding-top: 7%;
+    }
+
+    @include breakpoint(desktop-lg) {
+      padding-top: 6.5em;
+    }
+  }
 
   .image {
     overflow: hidden;
-    margin-bottom: 4%;
     padding: 12% 0 20%;
 
     @include breakpoint(mobile-lg) {
@@ -13,7 +41,6 @@
       display: block;
       margin: 0 -6em;
       transform: scale(1.6);
-      
 
       @include breakpoint(mobile-lg) {
         transform: scale(1);
@@ -21,17 +48,5 @@
         margin-left: auto;
       } 
     }
-  }
-
-  .entry-content {
-    margin-bottom: 10%;
-  }
-
-  .description > *:first-child {
-    margin-top: 0;
-  }
-
-  .container {
-    padding-bottom: 0;
   }
 }
