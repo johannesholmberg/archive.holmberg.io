@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /info/thanks.html
 Disallow: /404.html

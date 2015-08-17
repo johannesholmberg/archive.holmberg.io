@@ -1,5 +1,4 @@
 <ul>
-
   <li class="logo nav-item">
     <a href="/" class="brand">Johannes Holmberg – Front-end Web Developer</a>
   </li>
@@ -15,19 +14,16 @@
   <li class="nav-item">
     <a href="/links" {% if page.active == "links" %} class="active" {% endif %}>Links</a>
   </li>
-
   
   <li class="nav-item">
     <a href="/reading" {% if page.active == "reading" or page.category == "reading" %} class="active" {% endif %}>Reading</a>
   </li>
 
   <li class="nav-item">
-    <a href="/photos" {% if page.active == "photos" or page.category == "photo" %} class="active" {% endif %}>Photos</a>
+    <a href="/photos" {% if page.active == "photos" or page.category == "photos" %} class="active" {% endif %}>Photos</a>
   </li>
-
 
   <li class="nav-item">
     <a href="/about" {% if page.active == "about" %} class="active" {% endif %}>About</a>
   </li>
-
 </ul>

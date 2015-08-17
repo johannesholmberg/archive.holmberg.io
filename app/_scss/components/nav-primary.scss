@@ -7,8 +7,6 @@
     box-shadow: none;
     overflow: visible;
     margin: 0 auto;
-    max-width: 49em;
-    padding: 0 3.5%;
   }
 
   @include breakpoint(tablet-lg) {
@@ -29,12 +27,11 @@
   }
 
   .logo {
-    position: relative;
-    margin-left: 1.1em;
     order: 0;
 
     @include breakpoint(mobile-lg) {
       order: 1;
+      margin-left: 1.1em;
     } 
 
     a {

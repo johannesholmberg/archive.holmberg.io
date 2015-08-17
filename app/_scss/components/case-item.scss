@@ -24,10 +24,7 @@
     &:hover,
     &:focus {
       border: 0;
-
-      img {
-        transform: translateY(-6px);
-      }
+      position: static;
 
       .title {
         color: $profile-text;

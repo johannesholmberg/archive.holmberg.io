@@ -4,30 +4,23 @@
   background-image: url('../images/johannes/johannes-wide-900.jpg');
   margin-top: -7%;
 
+  @include breakpoint(mobile-lg) {
+    background-image: url('../images/johannes/johannes-wide-1100.jpg');
+    background-position: center center;
+  } 
+
   @include breakpoint(tablet-lg) {
-     margin-top: -8%;
-  }
+    background-image: url('../images/johannes/johannes-wide-1500.jpg');
+    margin-top: -8%;
+  } 
 
   @include breakpoint(desktop-sm) {
     margin-top: -7%;
   }
 
   @include breakpoint(desktop-lg) {
-    margin-top: -6.5em;
-  } 
-
-  @include breakpoint(mobile-lg) {
-    background-image: url('../images/johannes/johannes-wide-1100.jpg');
-    background-position: center center;
-    background-size: cover;
-  } 
-
-  @include breakpoint(tablet-sm) {
-    background-image: url('../images/johannes/johannes-wide-1500.jpg');
-  } 
-
-  @include breakpoint(desktop-sm) {
     background-image: url('../images/johannes/johannes-wide-2600.jpg');
+    margin-top: -6.5em;
   } 
 
   @include breakpoint(desktop-xl) {
@@ -44,80 +37,29 @@
     }
 
     @include breakpoint(tablet-lg) {
-      padding-top: 17%;
-      padding-bottom: 13%;
-    } 
-
-    @include breakpoint(desktop-lg) {
       padding-top: 16%;
-      padding-bottom: 14%;
     } 
   }
 
   .title {
     text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
-    margin-bottom: .05em;
-    font-size: 1.4em;
-    letter-spacing: .02em;
+    margin-bottom: 0;
     text-transform: none;
     color: #fff;
     font-family: $font-sans;
     font-weight: bold;
+    font-size: 1.4em;
 
     @include breakpoint(mobile-lg) {
-      font-size: 2.4em;
+      font-size: calc(1.6rem + 2.4vw);
     } 
-
-    @include breakpoint(tablet-sm) {
-      font-size: 2.95em;
-    } 
-
-    @include breakpoint(tablet-lg) {
-      font-size: 3.4em;
-    } 
-
-    @include breakpoint(desktop-sm) {
-      font-size: 4em;
-    }
-
-    @include breakpoint(desktop-lg) {
-      font-size: 4.5em;
-    }
-
-    @include breakpoint(desktop-xl) {
-       font-size: 5.2em;
-     }  
   }
 
   .meta {
-    font-size: .95em;
-    margin: .5em 0 .8em;
+    font-size: 1em;
+    font-size: calc(.6rem + .9vw);
+    margin: .2em 0 .8em;
     line-height: 1.4;
-    font-family: $font-sans;
-
-    @include breakpoint(mobile-lg) {
-      font-size: 1em;
-    } 
-
-    @include breakpoint(tablet-sm) {
-      margin: .3em 0 .8em;
-    } 
-
-    @include breakpoint(tablet-lg) {
-      font-size: 1.15em;
-    } 
-
-    @include breakpoint(desktop-sm) {
-      font-size: 1.4em;
-    } 
-
-    @include breakpoint(desktop-lg) {
-      font-size: 1.6em;
-    } 
-
-    @include breakpoint(desktop-xl) {
-      font-size: 1.8em;
-    } 
 
     span {
       @include breakpoint(mobile-lg-max) {
@@ -128,10 +70,7 @@
 
   .btn {
     margin: 0;
-    font-size: .9em;
-
-    @include breakpoint(tablet-sm) {
-      font-size: $f18px;
-    } 
+    font-size: 1em;
+    font-size: calc(.7rem + .5vw); 
   }
 }
