@@ -20,20 +20,20 @@ layout: default
 			<div class="image">
 		    <img
 		    	class="{{page.cover}}"
-	        src="{{siteurl}}/assets/images/spacer.png"
+	        src="/assets/images/dist/{{page.cover}}-cover-600.jpg"
 	        sizes="
 	        (min-width: 125em) 1500px,
 	        (min-width: 100em) 1300px,
 	        (min-width: 65em) 1100px,
 	        100%" 
 	        srcset="
-	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-320.jpg 320w,
-	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-600.jpg 600w,
-	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-800.jpg 800w,
-	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-1000.jpg 1000w,
-	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-1500.jpg 1500w,
-	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-2000.jpg 2000w,
-	        {{siteurl}}/assets/images/dist/{{page.cover}}-cover-3000.jpg 3000w"
+	        /assets/images/dist/{{page.cover}}-cover-320.jpg 320w,
+	        /assets/images/dist/{{page.cover}}-cover-600.jpg 600w,
+	        /assets/images/dist/{{page.cover}}-cover-800.jpg 800w,
+	        /assets/images/dist/{{page.cover}}-cover-1000.jpg 1000w,
+	        /assets/images/dist/{{page.cover}}-cover-1500.jpg 1500w,
+	        /assets/images/dist/{{page.cover}}-cover-2000.jpg 2000w,
+	        /assets/images/dist/{{page.cover}}-cover-3000.jpg 3000w"
 	        alt="{{page.title}}"
 		    >
 			</div>
@@ -52,7 +52,7 @@ layout: default
 
 	<footer class="nav-categories">
 		<div class="wrap">
-			<a href="/work" class="see-all">Browse all work</a>
+			<a href="/work" class="see-all">Browse all {{page.category}}</a>
 			{% include case-nav.html %}
 		</div>
 	</footer>
