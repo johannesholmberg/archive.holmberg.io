@@ -16,47 +16,10 @@ description: "Johannes Holmberg is a Front-end Web Developer in Basel, Switzerla
 <div class="container wrap">
   <h2 class="title" style="text-align: center;">Selected Work</h2>
 
-  <div class="case-item">
-    <a href="/work/scenkonst">
-      <img 
-        src="{{siteurl}}/assets/images/spacer.png"
-        sizes="
-        (min-width: 57em) 610px,
-        (min-width: 118em) 30%, 
-        100%"
-        srcset="
-        /assets/images/dist/scenkonst-case-320.jpg 320w,
-        /assets/images/dist/scenkonst-case-500.jpg 500w,
-        /assets/images/dist/scenkonst-case-610.jpg 610w,
-        /assets/images/dist/scenkonst-case-700.jpg 700w,
-        /assets/images/dist/scenkonst-case-1000.jpg 1000w,
-        /assets/images/dist/scenkonst-case-1220.jpg 1220w"
-        alt="Scenkonst"
-      >
-      <h3 class="title">Scenkonst Västernorrland</h3>
-      <p class="meta">Production Manager, WordPress, Front-end</p>
-    </a>
-  </div>
+  {% for post in site.categories.work limit:2 %}
 
-  <div class="case-item">
-    <a href="/work/mio">
-      <img 
-        src="{{siteurl}}/assets/images/spacer.png"
-        sizes="
-        (min-width: 57em) 610px,
-        (min-width: 118em) 30%, 
-        100%"
-        srcset="
-        /assets/images/dist/mio-case-320.jpg 320w,
-        /assets/images/dist/mio-case-500.jpg 500w,
-        /assets/images/dist/mio-case-610.jpg 610w,
-        /assets/images/dist/mio-case-700.jpg 700w,
-        /assets/images/dist/mio-case-1000.jpg 1000w,
-        /assets/images/dist/mio-case-1220.jpg 1220w"
-        alt="Mio.se"
-      >
-      <h3 class="title">Mio.se</h3>
-      <p class="meta">Responsive strategy, Front-end</p>
-    </a>
-  </div>
+    {% include case-item.html %}
+
+  {% endfor %}
+
 </div>

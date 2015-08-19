@@ -46,11 +46,7 @@ layout: default
 
   {% include bio-card.html %}
 
-  <footer class="nav-categories">
-    <div class="wrap">
-      <a href="/photos" class="see-all">Browse all photos</a>
-      {% include case-nav.html %}
-    </div>
-  </footer>
+  {% assign url = "/photos" %}
+  {% include case-nav.html %}
 
 </article>

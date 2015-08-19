@@ -6,55 +6,82 @@ layout: default
 
   <div class="entry-content">
 
-  	<div class="header-holder" style="background-color: {{page.color}}">
+  	<div class="header-holder" style="background-color: {{ page.color }}">
 
 			<header class="page-header -without-border">
 				<div class="wrap -small">
 			    <h1 class="title">{{ page.title }}</h1>
-			    <p class="meta">
-			    	<span class="year">{{page.year}}</span> &middot; {{page.responsibilities}}
-			    </p>
+			    <p class="meta">{{ page.slogan }}</p>
 				</div>
 			</header>
 
 			<div class="image">
 		    <img
-		    	class="{{page.cover}}"
-	        src="/assets/images/dist/{{page.cover}}-cover-600.jpg"
+	        src="/assets/images/dist/{{ page.cover }}-cover-600.jpg"
 	        sizes="
 	        (min-width: 125em) 1500px,
 	        (min-width: 100em) 1300px,
 	        (min-width: 65em) 1100px,
 	        100%" 
 	        srcset="
-	        /assets/images/dist/{{page.cover}}-cover-320.jpg 320w,
-	        /assets/images/dist/{{page.cover}}-cover-600.jpg 600w,
-	        /assets/images/dist/{{page.cover}}-cover-800.jpg 800w,
-	        /assets/images/dist/{{page.cover}}-cover-1000.jpg 1000w,
-	        /assets/images/dist/{{page.cover}}-cover-1500.jpg 1500w,
-	        /assets/images/dist/{{page.cover}}-cover-2000.jpg 2000w,
-	        /assets/images/dist/{{page.cover}}-cover-3000.jpg 3000w"
+	        /assets/images/dist/{{ page.cover }}-cover-320.jpg 320w,
+	        /assets/images/dist/{{ page.cover }}-cover-600.jpg 600w,
+	        /assets/images/dist/{{ page.cover }}-cover-800.jpg 800w,
+	        /assets/images/dist/{{ page.cover }}-cover-1000.jpg 1000w,
+	        /assets/images/dist/{{ page.cover }}-cover-1500.jpg 1500w,
+	        /assets/images/dist/{{ page.cover }}-cover-2000.jpg 2000w,
+	        /assets/images/dist/{{ page.cover }}-cover-3000.jpg 3000w"
 	        alt="{{page.title}}"
 		    >
 			</div>
 		</div>
 
-		<div class="container wrap -small">
-			{{ content }}
-			<div class="btn-holder">
-				<a href="{{page.live}}" class="btn" style="background-color: {{page.color}}">View website</a>
+		<div class="wrap container -two-col">
+
+			<div class="main-content">
+				{{ content }}
 			</div>
+
+	    <div class="side-panel">
+	  		<aside>
+	  			<ul class="meta">
+	  				{% if page.period %}
+	  					<li><strong>Production:</strong> {{ page.period }}</li>
+	  				{% endif %}
+
+	  				{% if page.role %}
+	          	<li><strong>Role:</strong> {{ page.role }}</li>
+	          {% endif %}
+
+	  				{% if page.output %}
+	          	<li><strong>Output:</strong> {{ page.output }}</li>
+	          {% endif %}
+
+	          {% if page.techniques %}
+	          	<li><strong>Techniques:</strong> {{ page.techniques }}</li>
+	          {% endif %}
+
+	          {% if page.client %}
+	  			  	<li><strong>Client:</strong> {{ page.client }}</li>
+	  			  {% endif %}
+
+	  			  {% if page.website %}
+	  			  	<li>
+	  			  		<strong>Website:</strong> 
+	  			  		<a href="{{ page.website }}">{{ page.website }}</a>
+	  			  	</li>
+	  			  {% endif %}
+	        </ul>
+	  		</aside>
+	  	</div>
+
 		</div>
 
   </div>
 
   {% include bio-card.html %}
 
-	<footer class="nav-categories">
-		<div class="wrap">
-			<a href="/work" class="see-all">Browse all {{page.category}}</a>
-			{% include case-nav.html %}
-		</div>
-	</footer>
+	{% assign url = "/work" %}
+	{% include case-nav.html %}
 
 </article>
