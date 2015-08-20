@@ -67,17 +67,12 @@
 
   @include breakpoint(mobile-lg) {
     float: left;
-    padding-right: 1em;
-    width: 76%;
+    padding-right: 3%;
+    width: 70%;
 
     &.-border {
       border-right: 1px solid #eee;
     }
-  } 
-
-  @include breakpoint(tablet-lg) {  
-    padding-right: 3em;
-    width: 72%;
   }
 }
 

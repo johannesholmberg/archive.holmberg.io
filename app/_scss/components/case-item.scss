@@ -1,38 +1,36 @@
+.case-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .case-item {
-  @extend %clearfix;
-  margin: 1.5em 2% !important;
-  line-height: 1.2;
+  margin: 1.5em auto;
+  text-align: center;
+  display: block;
 
   @include breakpoint(tablet-sm) {
-    width: 45%;
-    margin: 3.5% 5% !important;
-    float: left;
+    margin: 3.5% auto;
+    flex: 0 1 45%;
 
-    &:nth-of-type(odd) {
-      margin-left: 0 !important;
+    &:nth-child(odd) {
+      margin-left: 0;
     }
-
-    &:nth-of-type(even) {
-      margin-right: 0 !important;
+    &:nth-child(even) {
+      margin-right: 0;
     }
   } 
 
-  a {
-    display: block;
-    text-align: center;
+  &:hover,
+  &:focus {
+    border: 0;
+    position: static;
 
-    &:hover,
-    &:focus {
-      border: 0;
-      position: static;
+    .title {
+      color: $profile-text;
+    }
 
-      .title {
-        color: $profile-text;
-      }
-
-      .meta {
-        color: $darkgray;
-      }
+    .meta {
+      color: $darkgray;
     }
   }
 
@@ -43,8 +41,6 @@
 
   .title {
     text-transform: none;
-    padding: 1.5em 0 .3em;
-    margin: 0;
     font-family: $font-sans-bold;
     font-weight: 300;
     color: #888;

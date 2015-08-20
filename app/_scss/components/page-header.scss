@@ -18,13 +18,12 @@
   }
 
   &.-one-col {
-    .title,
-    .meta {
+
       @include breakpoint(mobile-lg) {
-        max-width: 28em;
-        width: 74%;        
+//        max-width: 28em;
+        width: 70%;
       } 
-    }
+    
   }
 
   .title {

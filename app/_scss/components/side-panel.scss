@@ -1,28 +1,23 @@
 .side-panel {
-  margin: 5% 0 0 !important;
   word-wrap: break-word;
 
   @include breakpoint(mobile-lg) {
     float: right; 
-    width: 24%;
+    width: 30%;
     padding-left: 2.5%;
-    max-width: none;
-    margin: 0 !important;
-
-    @include breakpoint(tablet-lg) {
-      width: 28%;
-      padding-left: 4%;
-    } 
   }
 
   &.-book {
+    margin-top: 5%;
+
     @include breakpoint(mobile-lg) {
       margin-top: -3.6em !important;
     }
+  }
 
-    @include breakpoint(tablet-lg) {
-      width: 27%;
-    } 
+  .img-holder {
+    display: inline-block;
+    border-bottom: 0;
   }
 
   .meta {

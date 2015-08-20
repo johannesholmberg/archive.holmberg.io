@@ -3,7 +3,6 @@ layout: default
 ---
 
 <article>
-
   <div class="wrap -two-col">
 
   	<header class="page-header -left-align -one-col">
@@ -24,7 +23,6 @@ layout: default
         {% endif %}
        — <span>by</span> {{ page.author }}</p>
   	</header>
-
   		
     <div class="side-panel -book">
   		<aside>
@@ -32,8 +30,8 @@ layout: default
           <img
             src="/assets/images/dist/{{page.cover}}-200.jpg"
             sizes="
-            (min-width: 57em) 270px, 
-            (min-width: 34em) 140px, 120px"
+            (min-width: 57em) 280px, 
+            (min-width: 34em) 160px, 120px"
             srcset="
             /assets/images/dist/{{page.cover}}-200.jpg 200w,
             /assets/images/dist/{{page.cover}}-400.jpg 400w"
@@ -41,7 +39,7 @@ layout: default
           >
   			</a>
   			<ul class="meta">
-          <li><strong>Publisher:</strong> {{page.publisher}}</li>
+          <li><strong>Publisher:</strong> {{ page.publisher }}</li>
   			  <li><strong>Buy:</strong> <a href="{{ page.book-url }}">Amazon</a></li>
         </ul>
   		</aside>
@@ -53,11 +51,7 @@ layout: default
 
 	</div>
 
-  <footer class="nav-categories">
-    <div class="wrap">
-      <a href="/reading" class="see-all">Browse all books</a>
-      {% include case-nav.html %}
-    </div>
-  </footer>
+  {% assign url = "/reading" %}
+  {% include case-nav.html %}
 
 </article>
