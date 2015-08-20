@@ -144,10 +144,70 @@ gulp.task('watch', function() {
 /**
  * Create images sizes for books
  */
-gulp.task('book-images', function() {
+gulp.task('resize-images', function() {
 
-  var source = 'app/assets/images/reading/*';
+  var source = 'app/assets/images/content/*';
   var dest = 'app/assets/images/dist';
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 3000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-3000'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 2000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-2000'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1400,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1400'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 1000,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-1000'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 800,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-800'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 600,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-600'
+    }))
+    .pipe(gulp.dest(dest));
 
   gulp.src(source)
     .pipe(imageResize({
@@ -156,6 +216,16 @@ gulp.task('book-images', function() {
     }))
     .pipe(rename({
       suffix: '-400'
+    }))
+    .pipe(gulp.dest(dest));
+
+  gulp.src(source)
+    .pipe(imageResize({
+      width: 320,
+      imageMagick: true
+    }))
+    .pipe(rename({
+      suffix: '-320'
     }))
     .pipe(gulp.dest(dest));
 
@@ -171,26 +241,6 @@ gulp.task('book-images', function() {
 
   gulp.src(source)
     .pipe(imageResize({
-      width: 200,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-200'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 160,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-160'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
       width: 140,
       imageMagick: true
     }))
@@ -199,341 +249,8 @@ gulp.task('book-images', function() {
     }))
     .pipe(gulp.dest(dest));
 
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 100,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-100'
-    }))
-    .pipe(gulp.dest(dest));
-
   console.log('Resized images');
 });
-
-/**
- * Create images sizes for articles
- */
-gulp.task('article-images', function() {
-
-  var source = 'app/assets/images/journal/*';
-  var dest = 'app/assets/images/dist';
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1400,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1400'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1000'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 800,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-800'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 600,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-600'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 400,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-400'
-    }))
-    .pipe(gulp.dest(dest));
-
-  console.log('Resized images');
-});
-
-/**
- * Create images sizes for photos
- */
-gulp.task('photo-images', function() {
-
-  var source = 'app/assets/images/photos/*';
-  var dest = 'app/assets/images/dist';
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 2000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-2000'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1400,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1400'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1000'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 800,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-800'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 600,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-600'
-    }))
-    .pipe(gulp.dest(dest));
-
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 400,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-400'
-    }))
-    .pipe(gulp.dest(dest));
-
-  console.log('Resized images');
-});
-
-/**
- * Create images sizes for cases
- */
-gulp.task('case-images', function() {
-
-  // Inline images
-  var source = 'app/assets/images/work/inlines/*';
-  var dest = 'app/assets/images/dist';
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1600,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1600'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1400,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1400'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1000'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 760,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-760'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 600,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-600'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 320,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-320'
-    }))
-    .pipe(gulp.dest(dest));
-
-  // Case images
-  source = 'app/assets/images/work/cases/*';
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1220,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1220'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1000'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 700,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-700'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 610,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-610'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 500,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-500'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 320,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-320'
-    }))
-    .pipe(gulp.dest(dest));
-
-  // Cover images
-  source = 'app/assets/images/work/covers/*';
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 3000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-3000'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 2000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-2000'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1500,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1500'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 1000,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-1000'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 800,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-800'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 600,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-600'
-    }))
-    .pipe(gulp.dest(dest));
-  gulp.src(source)
-    .pipe(imageResize({
-      width: 320,
-      imageMagick: true
-    }))
-    .pipe(rename({
-      suffix: '-320'
-    }))
-    .pipe(gulp.dest(dest));
-
-  console.log('Resized images');
-});
-
-
 
 /**
  * Default task, running just `gulp` will compile the sass,
