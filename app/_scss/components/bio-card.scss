@@ -13,6 +13,10 @@
 
   > a {
     border: 0;
+    @include breakpoint(mobile-lg) {
+      width: 12%;  
+    } 
+    
   }
 
   img {

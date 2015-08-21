@@ -7,10 +7,11 @@
   margin: 1.5em auto;
   text-align: center;
   display: block;
+  width: 100%;
 
   @include breakpoint(tablet-sm) {
-    margin: 3.5% auto;
-    flex: 0 1 45%;
+    margin: 1.5em auto;
+    width: 45%;
 
     &:nth-child(odd) {
       margin-left: 0;

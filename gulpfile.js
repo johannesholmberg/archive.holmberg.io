@@ -151,11 +151,11 @@ gulp.task('resize-images', function() {
 
   gulp.src(source)
     .pipe(imageResize({
-      width: 3000,
+      width: 2600,
       imageMagick: true
     }))
     .pipe(rename({
-      suffix: '-3000'
+      suffix: '-2600'
     }))
     .pipe(gulp.dest(dest));
 
