@@ -8,12 +8,10 @@ layout: default
 
   	<div class="header-holder" style="background-color: {{ page.color }}">
 
-			<header class="page-header -without-border">
-				<div class="wrap">
-			    <h1 class="title">{{ page.title }}</h1>
-			    <p class="meta">{{ page.slogan }}</p>
-				</div>
-			</header>
+		  {% assign title = page.title %}
+		  {% assign subtitle = page.slogan %}
+			{% assign attribute = "-without-border" %}
+		  {% include page-header.html %}
 
 			<div class="image">
 		    <img
