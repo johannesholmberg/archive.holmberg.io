@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+  {% assign title = page.title %}
+  {% assign width = "-small" %}
+  {% assign subtitle = page.subtitle %}
+  {% include page-header.html %}
+
+  <div class="container wrap -small">
+    {{ content }}
+  </div>
+</article>
