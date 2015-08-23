@@ -1,5 +1,4 @@
 .page-header {
-  position: relative;
   padding: 1em 0 1%;
 
   &.-left-align {
@@ -13,17 +12,14 @@
     .title {
       border-bottom: 0;
       padding-bottom: .1em;
-      margin-bottom: .2em;
+      margin-bottom: .1em;
     }
   }
 
   &.-one-col {
-
-      @include breakpoint(mobile-lg) {
-//        max-width: 28em;
-        width: 70%;
-      } 
-    
+    @include breakpoint(mobile-lg) {
+      width: 70%;
+    } 
   }
 
   .title {
@@ -32,19 +28,8 @@
     text-align: center;
     border-bottom: 1px solid rgba(155, 155, 155, .2);      
 
-    @include breakpoint(desktop-sm-max) {
-      padding-bottom: .1em;
-      margin-bottom: .2em;
-    } 
-
     @include breakpoint(mobile-lg-max) {
       font-size: $f32px;
-    } 
-
-    .dark &,
-    .reading & {
-      color: #fff;  
-      text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
     }
   }
 
@@ -55,12 +40,6 @@
     text-align: center;
     font-family: $font-sans;
 
-    .dark &,
-    .reading & {
-      color: #fff;  
-      text-shadow: 0 1px 4px rgba(0, 0, 0, .2);      
-    }
-
     @include breakpoint(mobile-lg-max) {
       font-size: 1.1rem;      
     }
@@ -68,6 +47,14 @@
     span {
       font-style: italic;
       font-size: .85em;      
+    }
+  }
+
+  .title,
+  .meta {
+    .dark & {
+      color: #fff;  
+      text-shadow: 0 1px 4px rgba(0, 0, 0, .2);       
     }
   }
 }
