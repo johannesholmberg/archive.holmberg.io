@@ -22,12 +22,15 @@
   }
 
   .top-ribbon & {
-    padding-bottom: 2.5em;
-
+    padding-bottom: 2.2em;
 
     @include breakpoint(desktop-sm) {
-      padding-bottom: 4.5em;      
+      padding-bottom: 4em;      
     } 
+
+    &.-no-padding {
+      padding-bottom: 0;
+    }
   }
 
   .title {
