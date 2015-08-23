@@ -1,16 +1,10 @@
-.ribbon-top {
-  margin-top: -9%;
+.top-ribbon {
+  padding-top: 5em;
+  margin-top: -5em;
 
-  @include breakpoint(desktop-lg) {
-    margin-top: -7.5em;
-  }
-
-  .header-holder {
-    padding-top: 9%;
-
-    @include breakpoint(desktop-lg) {
-      padding-top: 7.5em;
-    }
+  @include breakpoint(desktop-sm) {
+    padding-top: 6.5em;
+    margin-top: -6.5em;
   }
 
   .image {

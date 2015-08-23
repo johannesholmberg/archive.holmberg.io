@@ -3,37 +3,30 @@ layout: default
 ---
 
 <article>
-
-	<div class="ribbon-top">
-
-  	<div class="header-holder" style="background-color: {{ page.color }}">
-
-		  {% assign title = page.title %}
-		  {% assign subtitle = page.slogan %}
-			{% assign attribute = "-without-border" %}
-		  {% include page-header.html %}
-
-			<div class="image">
-		    <img
-	        src="/assets/images/dist/{{ page.cover }}-cover-600.jpg"
-	        sizes="
-	        (min-width: 125em) 1500px,
-	        (min-width: 100em) 1300px,
-	        (min-width: 65em) 1100px,
-	        100%" 
-	        srcset="
-	        /assets/images/dist/{{ page.cover }}-cover-320.jpg 320w,
-	        /assets/images/dist/{{ page.cover }}-cover-600.jpg 600w,
-	        /assets/images/dist/{{ page.cover }}-cover-800.jpg 800w,
-	        /assets/images/dist/{{ page.cover }}-cover-1000.jpg 1000w,
-	        /assets/images/dist/{{ page.cover }}-cover-1400.jpg 1400w,
-	        /assets/images/dist/{{ page.cover }}-cover-2000.jpg 2000w,
-	        /assets/images/dist/{{ page.cover }}-cover-2600.jpg 2600w"
-	        alt="{{page.title}}"
-		    >
-			</div>
+	<div class="top-ribbon" style="background-color: {{ page.color }}">
+	  {% assign title = page.title %}
+	  {% assign subtitle = page.slogan %}
+		{% assign attribute = "-without-border" %}
+	  {% include page-header.html %}
+		<div class="image">
+	    <img
+        src="/assets/images/dist/{{ page.cover }}-cover-600.jpg"
+        sizes="
+        (min-width: 125em) 1500px,
+        (min-width: 100em) 1300px,
+        (min-width: 65em) 1100px,
+        100%" 
+        srcset="
+        /assets/images/dist/{{ page.cover }}-cover-320.jpg 320w,
+        /assets/images/dist/{{ page.cover }}-cover-600.jpg 600w,
+        /assets/images/dist/{{ page.cover }}-cover-800.jpg 800w,
+        /assets/images/dist/{{ page.cover }}-cover-1000.jpg 1000w,
+        /assets/images/dist/{{ page.cover }}-cover-1400.jpg 1400w,
+        /assets/images/dist/{{ page.cover }}-cover-2000.jpg 2000w,
+        /assets/images/dist/{{ page.cover }}-cover-2600.jpg 2600w"
+        alt="{{page.title}}"
+	    >
 		</div>
-
 	</div>
 
 	<div class="wrap container -two-col">
@@ -75,10 +68,8 @@ layout: default
   		</aside>
   	</div>
 	</div>
-
   {% include bio-card.html %}
 
 	{% assign url = "/work" %}
 	{% include case-nav.html %}
-
 </article>

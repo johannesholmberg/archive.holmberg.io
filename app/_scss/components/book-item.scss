@@ -10,10 +10,14 @@
   margin: 0;
   text-align: center;
   font-size: 1.6em;
-  margin: 2.5em .2em 1.5em;
+  margin: 2em .2em .5em;
   flex: 0 1 auto;
   position: relative;
   z-index: 90;
+
+  @include breakpoint(mobile-lg) {
+    margin-bottom: 1.5em;
+  } 
   
   &:after {
     content: '';
@@ -37,7 +41,7 @@
 }
 
 .book-item {
-  margin: 3.2em 0 0;
+  margin: 2em 0 0;
   display: block;
   text-decoration: none;
   border-bottom: 0;
@@ -46,7 +50,8 @@
   flex: 0 1 50%;
 
   @include breakpoint(mobile-lg) {
-    flex-basis: 25%;     
+    flex-basis: 25%;
+    margin-top: 3em;
   }
 
   @include breakpoint(desktop-sm) {

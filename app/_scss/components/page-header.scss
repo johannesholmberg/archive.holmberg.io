@@ -21,6 +21,15 @@
     } 
   }
 
+  .top-ribbon & {
+    padding-bottom: 2.5em;
+
+
+    @include breakpoint(desktop-sm) {
+      padding-bottom: 4.5em;      
+    } 
+  }
+
   .title {
     padding-bottom: .2em;
     text-transform: none;

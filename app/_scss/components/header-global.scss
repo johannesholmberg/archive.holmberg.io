@@ -1,12 +1,9 @@
 .header-global {
   background: rgba(255, 255, 255, .9);
   border-bottom: 1px solid #eee;
-
-  @include breakpoint(tablet-lg) {
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
-  } 
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
 
   .brand {
     line-height: 1;
