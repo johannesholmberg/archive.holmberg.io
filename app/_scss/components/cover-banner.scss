@@ -2,7 +2,7 @@
   background-position: 60% center;
   background-size: cover;
   background-image: url('../images/dist/johannes-wide-800.jpg');
-  margin-top: -7%;
+  margin-top: -9%;
 
   @include breakpoint(mobile-lg) {
     background-image: url('../images/dist/johannes-wide-1000.jpg');
@@ -11,16 +11,11 @@
 
   @include breakpoint(tablet-lg) {
     background-image: url('../images/dist/johannes-wide-1400.jpg');
-    margin-top: -8%;
   } 
-
-  @include breakpoint(desktop-sm) {
-    margin-top: -7%;
-  }
 
   @include breakpoint(desktop-lg) {
     background-image: url('../images/dist/johannes-wide-2000.jpg');
-    margin-top: -6.5em;
+    margin-top: -7.5em;
   } 
 
   @include breakpoint(desktop-xl) {

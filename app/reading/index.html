@@ -7,13 +7,12 @@ description: "Books are where I go for inspiration. This is my treasure trove wh
 ---
 
 <section>
-  
   {% assign attribute = "-without-border" %}
   {% assign title = "Reading" %}
   {% assign subtitle = "Books are where I go for inspiration. This is my treasure trove." %}
   {% include page-header.html %}
 
-  <div class="container wrap -books -two-col">
+  <div class="container wrap book-holder">
     {% for post in site.categories.reading offset:0 %}
       
       {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -25,5 +24,4 @@ description: "Books are where I go for inspiration. This is my treasure trove wh
       {% include book-item.html %}
     {% endfor %}
   </div>
-
 </section>

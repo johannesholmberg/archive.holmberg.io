@@ -2,7 +2,6 @@
   @extend %clearfix;
   margin: 0 auto;
   max-width: 90em;
-  position: relative;
   padding-left: 5%;
   padding-right: 5%;
 
@@ -37,18 +36,10 @@
 }
 
 .main-section {
-  padding-top: 7%;
-
-  @include breakpoint(tablet-lg) {
-     padding-top: 8%;
-  }
-
-  @include breakpoint(desktop-sm) {
-    padding-top: 7%;
-  }
+  padding-top: 9%;
 
   @include breakpoint(desktop-lg) {
-    padding-top: 6.5em;
+    padding-top: 7.5em;
   } 
 }
 
@@ -80,9 +71,5 @@ main {
   &.dark {
     background-color: #222;  
     color: #fff;
-  }
-
-  &.light {
-    background-color: #eee;  
   }
 }

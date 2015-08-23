@@ -1,31 +1,15 @@
-.case-entry {
-  margin-top: -7%;
-
-  @include breakpoint(tablet-lg) {
-     margin-top: -8%;
-  }
-
-  @include breakpoint(desktop-sm) {
-    margin-top: -7%;
-  }
+.ribbon-top {
+  margin-top: -9%;
 
   @include breakpoint(desktop-lg) {
-    margin-top: -6.5em;
+    margin-top: -7.5em;
   }
 
   .header-holder {
-    padding-top: 7%;
-
-    @include breakpoint(tablet-lg) {
-       padding-top: 8%;
-    }
-
-    @include breakpoint(desktop-sm) {
-      padding-top: 7%;
-    }
+    padding-top: 9%;
 
     @include breakpoint(desktop-lg) {
-      padding-top: 6.5em;
+      padding-top: 7.5em;
     }
   }
 

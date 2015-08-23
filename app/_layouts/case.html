@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<article class="case-entry">
+<article>
 
-  <div class="entry-content">
+	<div class="ribbon-top">
 
   	<div class="header-holder" style="background-color: {{ page.color }}">
 
@@ -34,48 +34,47 @@ layout: default
 			</div>
 		</div>
 
-		<div class="wrap container -two-col">
+	</div>
 
-			<div class="main-content">
-				{{ content }}
-			</div>
+	<div class="wrap container -two-col">
 
-	    <div class="side-panel">
-	  		<aside>
-	  			<ul class="meta">
-	  				{% if page.period %}
-	  					<li><strong>Production:</strong> {{ page.period }}</li>
-	  				{% endif %}
-
-	  				{% if page.role %}
-	          	<li><strong>Role:</strong> {{ page.role }}</li>
-	          {% endif %}
-
-	  				{% if page.output %}
-	          	<li><strong>Output:</strong> {{ page.output }}</li>
-	          {% endif %}
-
-	          {% if page.techniques %}
-	          	<li><strong>Techniques:</strong> {{ page.techniques }}</li>
-	          {% endif %}
-
-	          {% if page.client %}
-	  			  	<li><strong>Client:</strong> {{ page.client }}</li>
-	  			  {% endif %}
-
-	  			  {% if page.website %}
-	  			  	<li>
-	  			  		<strong>Website:</strong> 
-	  			  		<a href="{{ page.website }}">{{ page.website }}</a>
-	  			  	</li>
-	  			  {% endif %}
-	        </ul>
-	  		</aside>
-	  	</div>
-
+		<div class="main-content">
+			{{ content }}
 		</div>
 
-  </div>
+    <div class="side-panel">
+  		<aside>
+  			<ul class="meta">
+  				{% if page.period %}
+  					<li><strong>Production:</strong> {{ page.period }}</li>
+  				{% endif %}
+
+  				{% if page.role %}
+          	<li><strong>Role:</strong> {{ page.role }}</li>
+          {% endif %}
+
+  				{% if page.output %}
+          	<li><strong>Output:</strong> {{ page.output }}</li>
+          {% endif %}
+
+          {% if page.techniques %}
+          	<li><strong>Techniques:</strong> {{ page.techniques }}</li>
+          {% endif %}
+
+          {% if page.client %}
+  			  	<li><strong>Client:</strong> {{ page.client }}</li>
+  			  {% endif %}
+
+  			  {% if page.website %}
+  			  	<li>
+  			  		<strong>Website:</strong> 
+  			  		<a href="{{ page.website }}">{{ page.website }}</a>
+  			  	</li>
+  			  {% endif %}
+        </ul>
+  		</aside>
+  	</div>
+	</div>
 
   {% include bio-card.html %}
 

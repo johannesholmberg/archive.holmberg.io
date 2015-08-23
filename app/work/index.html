@@ -5,15 +5,17 @@ active: work
 description: "Work and projects by Johannes Holmberg."
 ---
 
-{% assign title = "Work" %}
-{% assign width = "-small" %}
-{% assign subtitle = "My bread and butter. This is what I do." %}
-{% include page-header.html %}
+<section>
+  {% assign title = "Work" %}
+  {% assign width = "-small" %}
+  {% assign subtitle = "My bread and butter. This is what I do." %}
+  {% include page-header.html %}
 
-<div class="wrap">
-  <div class="container case-holder">
-    {% for post in site.categories.work %}
-      {% include case-item.html %}
-    {% endfor %}
+  <div class="wrap">
+    <div class="container case-holder">
+      {% for post in site.categories.work %}
+        {% include case-item.html %}
+      {% endfor %}
+    </div>
   </div>
-</div>
+</section>
