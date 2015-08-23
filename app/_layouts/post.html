@@ -3,29 +3,34 @@ layout: default
 ---
 
 <article>
-  <header class="page-header">
-    <div class="wrap -small">
-      <h1 class="title">{{ page.title }}</h1>
-      <p class="meta">
-        {{ page.date | date: '%B' }}
-        {% assign d = page.date | date: "%-d" %} 
-        {% case d %}
-          {% when '1' or '21' or '31' %}{{ d }}st,
-          {% when '2' or '22' %}{{ d }}nd,
-          {% when '3' or '23' %}{{ d }}rd,
-          {% else %}{{ d }}th,
-          {% endcase %}
-          {{ page.date | date: '%Y' }}
-      </p>
-    </div>
-  </header>
+
+  {% assign title = page.title %}
+  {% assign width = "-small" %}
+
+  {% assign d = page.date | date: "%-d" %} 
+  {% case d %}
+    {% when '1' or '21' or '31' %}
+      {% capture day %}{{ d }}st, {% endcapture %}
+    {% when '2' or '22' %}
+      {% capture day %}{{ d }}nd, {% endcapture %}
+    {% when '3' or '23' %}
+      {% capture day %}{{ d }}rd, {% endcapture %}
+    {% else %}
+      {% capture day %}{{ d }}th, {% endcapture %}
+  {% endcase %}
+  {% capture full %}
+    {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }} 
+  {% endcapture %}
+
+  {% assign subtitle = full %}
+
+  {% include page-header.html %}
 
   <div class="wrap container -small entry-content">
-  	{{ content }}
+    {{ content }}
   </div>
 
-  {% include bio-card.html %}
-  
+  {% include bio-card.html %}  
   {% include case-nav-writing.html %}
 
 </article>
