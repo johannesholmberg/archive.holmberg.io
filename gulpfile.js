@@ -13,6 +13,7 @@ var cache = require('gulp-cache');
 var notify = require('gulp-notify');
 var critical = require('critical');
 var cp = require('child_process');
+var minimist = require('minimist')
 
 
 var messages = {
@@ -117,16 +118,6 @@ gulp.task('sass', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function() {
-  // iconify({
-  //   src: 'assets/images/icons/*.svg',
-  //   pngOutput: 'assets/images/icons/png',
-  //   scssOutput: '_scss/icons',
-  //   cssOutput:  '_scss/icons',
-  //   defaultHeight: '47px',
-  //   svgoOptions: {
-  //     enabled: false
-  //   }
-  // });
   gulp.watch('app/_scss/**/*.scss', ['sass']);
   gulp.watch('app/assets/js/**/*.js', ['scripts']);
   gulp.watch([
@@ -147,7 +138,26 @@ gulp.task('watch', function() {
  */
 gulp.task('resize-images', function() {
 
-  var source = 'app/assets/images/content/*';
+  var options = minimist(process.argv.slice(2));
+
+  var source;
+
+  if ( options.photos ) {
+    source = 'app/assets/images/content/photos/*';
+  }
+  else if ( options.writing ) {
+    source = 'app/assets/images/content/writing/*';
+  }
+  else if ( options.work ) {
+    source = 'app/assets/images/content/work/*';
+  }
+  else if ( options.reading ) {
+    source = 'app/assets/images/content/reading/*';
+  }
+  else {
+    source = 'app/assets/images/content/others/*';
+  }
+
   var dest = 'app/assets/images/dist';
 
   gulp.src(source)

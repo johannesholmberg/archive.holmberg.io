@@ -2,7 +2,7 @@
   "name": "holmberg.io",
   "version": "1.0.0",
   "main": "gulpfile.js",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.8.5",
     "gulp-sass": "^0.7.2",
     "browser-sync": "^1.1.2",
@@ -16,9 +16,8 @@
     "gulp-uglify": "~0.3.1",
     "critical": "~0.1.6",
     "gulp-image-resize": "~0.6.0",
-    "gulp-iconify": "~0.3.0"
-  },
-  "dependencies": {
-    "critical": "^0.5.7"
+    "gulp-iconify": "~0.3.0",
+    "critical": "^0.5.7",
+    "minimist": "^1.2.0"
   }
 }

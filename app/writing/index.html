@@ -29,7 +29,7 @@ redirect_from: journal/
             {% endcase %}
             {{ post.date | date: '%Y' }}
         </p>
-        <p>{{ post.content | strip_html | truncatewords: 50 }}<a href="{{ post.url }}"> Read more &raquo;</a></p>
+        <p class="summary">{{ post.content | strip_html | truncatewords: 50 }}<a href="{{ post.url }}"> Read more &raquo;</a></p>
       </div>
       
     {% endif %}
