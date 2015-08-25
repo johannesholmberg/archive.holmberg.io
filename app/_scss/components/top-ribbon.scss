@@ -1,10 +1,10 @@
 .top-ribbon {
-  padding-top: 5em;
-  margin-top: -5em;
+  padding-top: 6em;
+  margin-top: -6em;
 
   @include breakpoint(desktop-sm) {
-    padding-top: 6.5em;
-    margin-top: -6.5em;
+    padding-top: 7.5em;
+    margin-top: -7.5em;
   }
 
   .image {

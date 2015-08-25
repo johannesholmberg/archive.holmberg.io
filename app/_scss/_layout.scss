@@ -36,10 +36,10 @@
 }
 
 .main-section {
-  padding-top: 5em;
+  padding-top: 6em;
   
   @include breakpoint(desktop-sm) {
-    padding-top: 6.5em;
+    padding-top: 7.5em;
   } 
 }
 

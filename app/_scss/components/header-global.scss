@@ -5,15 +5,36 @@
   width: 100%;
   z-index: 1000;
 
-  .brand {
-    line-height: 1;
-    font-size: $f16px;
-    width: 4em;
-    width: 2em;
-    padding: 1em 0;
-    display: inline-block;
-    background: url('../images/layout/logo.png') center center no-repeat;
-    background-size: 2.2em;
-    text-indent: -9999px;
+  .nav-item {
+    a {
+      display: none;
+      @include breakpoint(mobile-lg) {
+        display: inline-block;    
+      } 
+    }
+    
+    .brand {
+      display: inline-block;
+    }
   }
+}
+
+.menu-trigger {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  padding: .7em 1.2em;
+  font-family: $font-sans-bold;
+  text-transform: uppercase;
+  color: #666;
+
+  &:active {
+    top: 0;
+    position: absolute;
+  }
+
+  @include breakpoint(mobile-lg) {
+    display: none;
+  } 
 }

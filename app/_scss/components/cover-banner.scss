@@ -2,7 +2,7 @@
   background-position: 60% center;
   background-size: cover;
   background-image: url('../images/dist/johannes-wide-800.jpg');
-  margin-top: -5em;
+  margin-top: -6em;
 
   @include breakpoint(mobile-lg) {
     background-image: url('../images/dist/johannes-wide-1000.jpg');
@@ -14,7 +14,7 @@
   } 
 
   @include breakpoint(desktop-sm) {
-    margin-top: -6.5em;
+    margin-top: -7.5em;
   } 
 
   @include breakpoint(desktop-lg) {
@@ -26,7 +26,7 @@
   }
 
   .wrap {
-    padding-top: 26%;
+    padding-top: 28%;
     padding-bottom: 20%;
 
     @include breakpoint(mobile-lg) {

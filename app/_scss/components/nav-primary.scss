@@ -1,13 +1,5 @@
 .nav-primary {
-  overflow: scroll;
-  box-shadow: inset -12px 0 8px -7px rgba(0, 0, 0, .3);
-  -webkit-overflow-scrolling: touch;
-
-  @include breakpoint(mobile-lg) {
-    box-shadow: none;
-    overflow: visible;
-    margin: 0 auto;
-  }
+  margin: 0 auto;
 
   @include breakpoint(tablet-lg) {
     padding: 0;
@@ -16,7 +8,6 @@
   ul {
     list-style: none;
     margin: 0;
-    width: 26em;
 
     @include breakpoint(mobile-lg) {
       display: flex; 
@@ -25,59 +16,66 @@
       justify-content: space-between;
     } 
   }
-
-  .logo {
-    order: 0;
-
-    @include breakpoint(mobile-lg) {
-      order: 1;
-      margin-left: 1.1em;
-    } 
-
-    a {
-      @include breakpoint(mobile-lg) {
-        position: relative;
-
-        &:active {
-          top: 1px;
-        }
-      } 
-    }
-  }
 }
 
 .nav-item {
   margin: 0;
   order: 0;
-  display: inline-block;
+
+  @include breakpoint(mobile-lg) {
+    display: inline-block;
+  }
 
   &:nth-child(n+5) { 
     order: 2;
   }
-￼￼￼￼￼￼￼￼￼￼￼￼￼
-  &:nth-child(5) { 
-    margin-left: auto;
+
+  &:last-child a {
+    border-bottom: 0;
+  }
+
+  .brand {
+    line-height: 1;
+    font-size: $f16px;
+    width: 4em;
+    width: 2em;
+    padding: 1.6em 1.7em;
+    margin-bottom: -2em;
+    display: inline-block;
+    background: url('../images/layout/logo-white.png') center center no-repeat #2a3137;
+    background-size: 2.5em;
+    border-bottom: 0;
+    text-indent: -9999px;
+
+    @include breakpoint(desktop-sm) {
+      padding: 1.7em 1.8em;
+    } 
   }
 
   a {
     color: #333;
-    padding: 1.4em .5em;
-    display: inline-block;
+    padding: 1.4em .1em;
     letter-spacing: .03em;
     text-transform: uppercase;
     font-family: $font-sans-bold;
-    font-size: .7rem;
+    font-size: .9rem;
+    display: block;
     position: static;
+    border-bottom: 1px solid rgba(125, 125, 125, .4);
 
     @include breakpoint(mobile-lg) { 
-      font-size: .85rem;
+      display: inline-block;
       padding: 1em .6em 1.1em;
+      border-bottom: 0;
     }
+
+    @include breakpoint(desktop-sm) {
+      font-size: .95rem;
+    } 
 
     &:hover,
     &:focus {
       color: $profile-text;
-      border-bottom: 0;
     }
 
     &:active {
