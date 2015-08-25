@@ -16,6 +16,8 @@ I created my first personal website in 2003 but it wasn't until 2007 that I made
 ## Johannes Holmberg
 8 years experience of designing and developing usable online solutions. What I do is making design and technology work together on the web. My services include interaction design, information architecture and front-end development. I work together with teams from companies all over the world to provide responsive and optimized user interfaces. I’ve worked on products together with teams from [Valtech](http://www.valtech.com/), [Knowit](http://www.knowit.se/) and [Culturalcare’s in-house team in India](http://culturalcareaupair.com/).
 
+For more info you could check out [my work](/work) or have a look at a more [formal resume](/about/resume).
+
 ## Contact
 The best way to get in touch is definitely by email [johannes@holmberg.io](mailto:johannes@holmberg.io). You’ll also find me on [Twitter](http://twitter.com/holmbergio), [LinkedIn](https://ch.linkedin.com/in/johannesholmberg) and [GitHub](https://github.com/johannesholmberg).
 

@@ -20,6 +20,14 @@
     font-family: $font-sans-bold;
     font-weight: 300;
     text-transform: none;
+    font-size: 1.25em;
+  }
+
+  .subtitle {
+    font-family: $font-sans-rale;
+    margin: .3em 0 0;
+    font-weight: 300;
+    text-transform: none;
   }
 
   .date {
