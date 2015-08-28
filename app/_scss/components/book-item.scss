@@ -51,12 +51,24 @@
 
   @include breakpoint(mobile-lg) {
     flex-basis: 25%;
+    width: 25%;
     margin-top: 3em;
   }
 
   @include breakpoint(desktop-sm) {
     flex-basis: 20%;
-  } 
+    width: 20%;
+  }
+
+  .main-content & {
+    width: 50%;
+    @include breakpoint(mobile-lg) {
+      width: 33%;
+    } 
+    @include breakpoint(desktop-sm) {
+      
+    } 
+  }
  
   &:active {
     top: 0;
@@ -71,7 +83,7 @@
     }
 
     .meta {
-      color: #fff;
+      color: $darkgray;
     }
 
     img {
@@ -80,6 +92,23 @@
 
     .date {
       opacity: 1;
+    }
+  }
+
+  &.-dark {
+    .title {
+      color: #fff;
+    }
+
+    &:hover,
+    &:focus {
+      .title {
+        color: $profile-text;
+      }
+
+      .meta {
+        color: #fff;
+      }
     }
   }
 
@@ -103,10 +132,10 @@
     margin-top: 0;
     line-height: 1.4;
     margin-bottom: .2em;
-    border-top: .6em solid #666;
+    border-top: .6em solid rgba(130, 130, 130, .6);
     font-family: $font-sans-rale;
     font-weight: normal;
-    color: #fff;
+    color: $darkgray;
     text-transform: none;
   }
 
