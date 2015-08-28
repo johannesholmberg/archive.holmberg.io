@@ -14,9 +14,16 @@ redirect_from: journal/
 
 <div class="container wrap -small">
 
+
   {% for post in site.posts %}
     {% if post.category == "article" or post.category == "journal" %}
-      
+
+      {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
+      {% if currentyear != year %}
+        <h2 class="year-divider -left -light"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
+      {% capture year %}{{currentyear}}{% endcapture %} 
+      {% endif %}
+
       <div class="article-item">
         <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="date">
@@ -35,5 +42,7 @@ redirect_from: journal/
       
     {% endif %}
   {% endfor %}
+
+
 
 </div>

@@ -16,6 +16,12 @@ description: "Links from Johannes Holmberg."
 
     {% for post in site.categories.link %}
 
+      {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
+      {% if currentyear != year %}
+        <h2 class="year-divider -light -left"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
+      {% capture year %}{{currentyear}}{% endcapture %} 
+      {% endif %}
+
       <div class="article-item">
 
         <h2 class="title">

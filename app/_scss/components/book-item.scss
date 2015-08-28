@@ -3,6 +3,15 @@
   flex-wrap: wrap;
 }
 
+.month-divider {
+  display: block;
+  border-left: 4px solid #ccc;
+  padding-left: .5em;
+  margin-bottom: 1em;
+  text-transform: none;
+  text-align: left;
+}
+
 .year-divider {
   display: block;
   width: 100%;
@@ -10,9 +19,10 @@
   margin: 0;
   text-align: center;
   font-size: 1.6em;
-  margin: 2em .2em .5em;
+  margin: 2em .2em 1em;
   flex: 0 1 auto;
   position: relative;
+  text-transform: none;
   z-index: 90;
 
   @include breakpoint(mobile-lg) {
@@ -22,7 +32,7 @@
   &:after {
     content: '';
     height: 1px;
-    background: #333;
+    background: rgba(100, 100, 100, .25);
     display: block;
     width: 100%;
     position: absolute;
@@ -37,6 +47,19 @@
     position: relative;
     z-index: 99;
     padding: 0 .4em;
+  }
+
+  &.-light {
+    color: $darkgray;
+
+    span {
+      background: #fff;
+    }
+  }
+
+  &.-left {
+    text-align: left;
+    //padding-left: 5%;
   }
 }
 
