@@ -17,7 +17,7 @@ description: "Books are where I go for inspiration. This is my treasure trove wh
       
       {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
       {% if currentyear != year %}
-        <h2 class="year-divider"><span>{{ post.date | date: '%Y' }}</span></h2>
+        <h2 class="divider"><span>{{ post.date | date: '%Y' }}</span></h2>
       {% capture year %}{{currentyear}}{% endcapture %} 
       {% endif %}
 

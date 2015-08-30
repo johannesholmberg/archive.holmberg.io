@@ -3,22 +3,13 @@
   flex-wrap: wrap;
 }
 
-.month-divider {
-  display: block;
-  border-left: 4px solid #ccc;
-  padding-left: .5em;
-  margin-bottom: 1em;
-  text-transform: none;
-  text-align: left;
-}
-
-.year-divider {
+.divider {
   display: block;
   width: 100%;
   color: #ccc;
   margin: 0;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.55em;
   margin: 2em .2em 1em;
   flex: 0 1 auto;
   position: relative;
@@ -59,7 +50,10 @@
 
   &.-left {
     text-align: left;
-    //padding-left: 5%;
+
+    span {
+      padding-left: 0;
+    }
   }
 }
 

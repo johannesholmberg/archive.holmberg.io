@@ -3,13 +3,15 @@ layout: default
 title: Links
 active: links
 description: "Links from Johannes Holmberg."
+mode: dark
 ---
 
-{% assign title = "Links" %}
-{% assign width = "-small" %}
-{% assign attribute = "-left-align -without-border" %}
-{% assign subtitle = "Things on the internet that reinforces what I believe in." %}
-{% include page-header.html %}
+<div class="top-ribbon" style="background: steelblue;">
+  {% assign title = "Links" %}
+  {% assign attribute = "-left-align -without-border" %}
+  {% assign subtitle = "Words and ideas on the internet that reinforces what I believe in." %}
+  {% include page-header.html %}
+</div>
 
 <div class="container">
   <div class="wrap -small">
@@ -18,7 +20,7 @@ description: "Links from Johannes Holmberg."
 
       {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
       {% if currentyear != year %}
-        <h2 class="year-divider -light -left"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
+        <h2 class="divider -left -light"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
       {% capture year %}{{currentyear}}{% endcapture %} 
       {% endif %}
 

@@ -4,23 +4,24 @@ title: Writing
 active: writing
 description: "Writing by Johannes Holmberg."
 redirect_from: journal/
+mode: dark
 ---
 
-{% assign title = "Writing" %}
-{% assign width = "-small" %}
-{% assign attribute = "-left-align -without-border" %}
-{% assign subtitle = "Collection of thoughts and reflection over the years." %}
-{% include page-header.html %}
+<div class="top-ribbon" style="background: #af91a7;">
+  {% assign title = "Writing" %}
+  {% assign attribute = "-left-align -without-border" %}
+  {% assign subtitle = "Collection of thoughts and reflection over the years." %}
+  {% include page-header.html %}
+</div>
 
 <div class="container wrap -small">
-
 
   {% for post in site.posts %}
     {% if post.category == "article" or post.category == "journal" %}
 
       {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
       {% if currentyear != year %}
-        <h2 class="year-divider -left -light"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
+        <h2 class="divider -left -light"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
       {% capture year %}{{currentyear}}{% endcapture %} 
       {% endif %}
 
