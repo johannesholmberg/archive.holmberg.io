@@ -36,8 +36,6 @@
   &.-start {
     position: relative;
     
-
-
     .wrap {
       position: relative;
     }
@@ -47,9 +45,6 @@
       margin-top: 3em;
       display: block;
       transform: scale(1.13);
-      
-
-      
 
       @include breakpoint(mobile-lg) {
         //position: absolute;
@@ -124,7 +119,7 @@
 
   .title,
   .meta {
-    .dark & {
+    body.dark & {
       color: #fff;  
       text-shadow: 0 1px 4px rgba(0, 0, 0, .2);       
     }

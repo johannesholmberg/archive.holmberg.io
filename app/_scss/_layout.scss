@@ -70,6 +70,10 @@
 main {
   &.dark {
     background-color: #222;  
-    color: #fff;
+
+
+    .container {
+      color: #fff;      
+    }
   }
 }

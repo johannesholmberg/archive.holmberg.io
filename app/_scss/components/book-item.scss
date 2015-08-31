@@ -6,7 +6,7 @@
 .divider {
   display: block;
   width: 100%;
-  color: #ccc;
+  color: #ddd;
   margin: 0;
   text-align: center;
   font-size: 1.55em;
@@ -58,7 +58,7 @@
 }
 
 .book-item {
-  margin: 2em 0 0;
+  margin: 1em 0 0;
   display: block;
   text-decoration: none;
   border-bottom: 0;
@@ -69,7 +69,7 @@
   @include breakpoint(mobile-lg) {
     flex-basis: 25%;
     width: 25%;
-    margin-top: 3em;
+    margin-top: 2em;
   }
 
   @include breakpoint(desktop-sm) {

@@ -1,11 +1,10 @@
 .cover-banner {
-  background-position: 60% center;
+  background-position: 64% center;
   background-size: cover;
-  background-image: url('../images/dist/johannes-wide-800.jpg');
+  background-image: url('../images/dist/johannes-wide-1000.jpg');
   margin-top: -6em;
 
   @include breakpoint(mobile-lg) {
-    background-image: url('../images/dist/johannes-wide-1000.jpg');
     background-position: center center;
   }
 
@@ -26,16 +25,21 @@
   }
 
   .wrap {
-    padding-top: 28%;
-    padding-bottom: 20%;
+    padding-top: 26%;
+    padding-bottom: 16%;
 
     @include breakpoint(mobile-lg) {
-      padding-top: 22%;
-      padding-bottom: 16%;
+      padding-top: 18%;
+      padding-bottom: 12%;
     }
 
     @include breakpoint(tablet-lg) {
-      padding-top: 16%;
+      padding-top: 12%;
+      padding-bottom: 8%;
+    }
+
+    @include breakpoint(desktop-lg) {
+      padding-top: 10%;
     } 
   }
 
@@ -46,18 +50,24 @@
     color: #fff;
     font-family: $font-sans;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.8em;
+    max-width: 65%;
 
     @include breakpoint(mobile-lg) {
-      font-size: calc(1.6rem + 2.4vw);
+      font-size: calc(1.6rem + 2.1vw);
     } 
   }
 
   .meta {
-    font-size: 1em;
-    font-size: calc(.6rem + .9vw);
+    font-size: .9em;
     margin: .2em 0 .8em;
     line-height: 1.4;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+
+    @include breakpoint(mobile-lg) {
+      font-size: calc(.6rem + .85vw);
+    } 
 
     span {
       @include breakpoint(mobile-lg-max) {
@@ -68,7 +78,11 @@
 
   .btn {
     margin: 0;
-    font-size: 1em;
-    font-size: calc(.7rem + .5vw); 
+    font-size: .9em;
+    
+
+    @include breakpoint(mobile-lg) {
+      font-size: calc(.7rem + .4vw);  
+    } 
   }
 }
