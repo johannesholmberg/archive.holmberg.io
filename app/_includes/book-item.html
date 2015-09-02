@@ -1,12 +1,13 @@
+{% assign cover = post.url | replace: '/reading/', '' | replace: '/', '' %}
 <a href="{{ post.url }}" class="book-item {{ attribute }}">
   <div class="cover">
     <div class="container">
       <img 
-        src="/assets/images/dist/{{post.cover}}-140.jpg"
+        src="/assets/images/dist/{{ cover }}-140.jpg"
         sizes="190px"
         srcset="
-        /assets/images/dist/{{post.cover}}-140.jpg 140w,
-        /assets/images/dist/{{post.cover}}-240.jpg 240w"
+        /assets/images/dist/{{ cover }}-140.jpg 140w,
+        /assets/images/dist/{{ cover }}-240.jpg 240w"
         alt="{{post.title}}"
       >
     </div>

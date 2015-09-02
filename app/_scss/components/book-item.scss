@@ -67,10 +67,15 @@
   flex: 0 1 50%;
 
   @include breakpoint(mobile-lg) {
-    flex-basis: 25%;
-    width: 25%;
+    flex-basis: 33%;
+    width: 33%;
     margin-top: 2em;
   }
+
+  @include breakpoint(tablet-sm) {
+    flex-basis: 25%;
+    width: 25%;
+  } 
 
   @include breakpoint(desktop-sm) {
     flex-basis: 20%;

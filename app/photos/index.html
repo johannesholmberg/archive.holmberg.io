@@ -33,25 +33,6 @@ description: "Photos from Johannes Holmberg."
           {% endcase %}
           {{ post.date | date: '%Y' }}
       </p>
-      <p>
-        <a href="{{ post.url }}">
-          <img 
-            sizes="
-            ({{site.desktop-xl}}) 850px,
-            ({{site.tablet-lg}}) 820px,
-            ({{site.tablet-sm}}) 660px,
-            100%" 
-            srcset="
-            /assets/images/dist/{{ post.photo }}-400.jpg 400w,
-            /assets/images/dist/{{ post.photo }}-600.jpg 600w,
-            /assets/images/dist/{{ post.photo }}-800.jpg 800w,
-            /assets/images/dist/{{ post.photo }}-1000.jpg 1000w,
-            /assets/images/dist/{{ post.photo }}-1400.jpg 1400w"
-            src="/assets/images/dist/{{ post.photo }}-600.jpg"
-            alt="{{ post.title }}"
-          >
-        </a>
-      </p>
     {{ post.content }}
     </div>
 

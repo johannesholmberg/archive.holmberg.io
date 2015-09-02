@@ -3,10 +3,8 @@ layout: default
 ---
 
 <article>
-
   {% assign title = page.title %}
   {% assign width = "-small" %}
-
   {% assign d = page.date | date: "%-d" %} 
   {% case d %}
     {% when '1' or '21' or '31' %}
@@ -18,40 +16,18 @@ layout: default
     {% else %}
       {% capture day %}{{ d }}th, {% endcapture %}
   {% endcase %}
-  {% capture full %}
+  {% capture fulldate %}
     {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }} 
   {% endcapture %}
-
-  {% assign subtitle = full %}
-
+  {% assign subtitle = fulldate %}
   {% include page-header.html %}
 
   <div class="container wrap -small">
-
-    <a href="/assets/images/dist/{{ page.photo }}-2000.jpg">
-      <img 
-        sizes="
-        ({{site.desktop-xl}}) 850px,
-        ({{site.tablet-lg}}) 820px,
-        ({{site.tablet-sm}}) 660px,
-        100%" 
-        srcset="
-        /assets/images/dist/{{ page.photo }}-400.jpg 400w,
-        /assets/images/dist/{{ page.photo }}-600.jpg 600w,
-        /assets/images/dist/{{ page.photo }}-800.jpg 800w,
-        /assets/images/dist/{{ page.photo }}-1000.jpg 1000w,
-        /assets/images/dist/{{ page.photo }}-1400.jpg 1400w"
-        src="/assets/images/dist/{{ page.photo }}-600.jpg"
-        alt="{{ page.title }}"
-      >
-    </a>
     {{ content }}
-
   </div>
 
   {% include bio-card.html %}
 
   {% assign url = "/photos" %}
   {% include case-nav.html %}
-
 </article>

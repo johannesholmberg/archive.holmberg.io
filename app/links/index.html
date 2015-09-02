@@ -15,7 +15,6 @@ mode: dark
 
 <div class="container">
   <div class="wrap -small">
-
     {% for post in site.categories.link %}
 
       {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
@@ -44,6 +43,5 @@ mode: dark
       </div>
 
     {% endfor %}
-
   </div>
 </div>

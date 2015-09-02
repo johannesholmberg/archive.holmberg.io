@@ -27,14 +27,15 @@ layout: default
     <div class="side-panel -book">
   		<aside>
   			<a href="{{ page.book-url }}" class="img-holder">
+          {% assign cover = page.url | replace: '/reading/', '' | replace: '/', '' %}
           <img
-            src="/assets/images/dist/{{page.cover}}-240.jpg"
+            src="/assets/images/dist/{{ cover }}-240.jpg"
             sizes="
             (min-width: 57em) 280px, 
             (min-width: 34em) 160px, 120px"
             srcset="
-            /assets/images/dist/{{page.cover}}-240.jpg 200w,
-            /assets/images/dist/{{page.cover}}-400.jpg 400w"
+            /assets/images/dist/{{ cover }}-240.jpg 200w,
+            /assets/images/dist/{{ cover }}-400.jpg 400w"
             alt="{{page.title}}"
           >
   			</a>
