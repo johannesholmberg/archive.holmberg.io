@@ -55,11 +55,6 @@ gulp.task('copystyles', function() {
     .pipe(gulp.dest('_site/assets/css'));
 });
 
-gulp.task('move-images', function() {
-  return gulp.src('app/assets/images/johannes/*')
-    .pipe(gulp.dest('app/assets/images/dist'));
-});
-
 gulp.task('optimize-images', function() {
   return gulp.src('app/assets/images/dist/*')
     .pipe(imagemin({
@@ -122,14 +117,7 @@ gulp.task('watch', function() {
   gulp.watch('app/assets/js/**/*.js', ['scripts']);
   gulp.watch([
     'app/**/*.html',
-    'app/**/*.md',
-    'app/_data/*',
-    'app/index.html',
-    'app/styleguide/*.html',
-    'app/_layouts/*.html',
-    'app/_includes/*.html',
-    'app/_posts/**/*',
-    'app/_drafts/**/*'
+    'app/**/*.md'
   ], ['jekyll-rebuild']);
 });
 
@@ -267,4 +255,4 @@ gulp.task('resize-images', function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['watch', 'scripts', 'move-images', 'optimize-images', 'browser-sync']);
+gulp.task('default', ['watch', 'scripts', 'optimize-images', 'browser-sync']);
