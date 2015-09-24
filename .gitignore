@@ -7,4 +7,5 @@ Gemfile.lock
 
 app/assets/js/vendor/**/*
 app/assets/images/dist/*
+app/assets/js/vendor.min.js
 app/assets/css/main.min.css
