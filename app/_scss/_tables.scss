@@ -1,0 +1,29 @@
+.table-holder {
+  width: 100%;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  width: 100%;
+  font-size: $f20px;
+
+
+  th,
+  td {
+    padding: .35em .5em;
+    line-height: 1.5;
+    border-right: 1px solid #eee;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  tr {
+    border-bottom: 1px solid #eee;
+    &:nth-child(even) {
+      background: #f9f9f9;
+    }
+  }
+}

@@ -38,9 +38,19 @@ h3 {
 }
 
 p,
-ul {
+ul,
+ol {
   font-size: $f20px;
   margin: 1.5em 0;
+}
+
+ol {
+  font-size: $f26px;
+  font-style: italic;
+
+  p {
+    font-style: normal;
+  }
 }
 
 li {
