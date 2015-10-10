@@ -1,29 +1,50 @@
 .table-holder {
-  width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  //box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, .2);
+  margin: 1.5em 0;
+
+  @include breakpoint(desktop-lg) {
+    width: 130%;  
+  } 
+  
 }
 
 table {
   width: 100%;
-  font-size: $f20px;
+  min-width: 700px;
+  font-size: $f18px;
+
+  table-layout: fixed;
 
 
   th,
   td {
     padding: .35em .5em;
-    line-height: 1.5;
-    border-right: 1px solid #eee;
+    line-height: 1.4;
+    border-right: 1px solid #ddd;
+
+    &:last-child {
+      border-right: 0;
+    }
   }
 
   th {
     text-align: left;
+    font-size: $f18px;
+    font-weight: normal;
+    vertical-align: bottom;
+    background: #2a3137;
+    color: #fff;
+  }
+
+  td {
+    vertical-align: top;
   }
 
   tr {
-    border-bottom: 1px solid #eee;
-    &:nth-child(even) {
-      background: #f9f9f9;
+    td {
+      border-bottom: 1px solid #ddd;  
     }
   }
 }
