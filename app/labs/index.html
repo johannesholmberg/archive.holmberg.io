@@ -1,0 +1,42 @@
+---
+layout: default
+title: Labs
+active: labs
+description: "Creations by Johannes Holmberg."
+mode: dark
+---
+
+<section>
+  <div class="top-ribbon" style="background: tan;">
+    {% assign title = "Labs" %}
+    {% assign attribute = "-left-align -without-border" %}
+    {% assign subtitle = "Things I make and like to share." %}
+    {% include page-header.html %}
+  </div>
+
+  <div class="wrap">
+    <div class="container case-holder">
+      {% for post in site.categories.labs %}
+        <a href="{{ post.url }}" class="case-item">
+          <img 
+            src="/assets/images/dist/{{post.cover}}-600.jpg"
+            sizes="
+            ({{site.tablet-sm}}) 38vw,
+            ({{site.mobile-lg}}) 70vw,
+            90vw"
+            srcset="
+            /assets/images/dist/{{post.cover}}-320.jpg 320w,
+            /assets/images/dist/{{post.cover}}-600.jpg 600w,
+            /assets/images/dist/{{post.cover}}-800.jpg 800w,
+            /assets/images/dist/{{post.cover}}-1000.jpg 1000w"
+            alt="{{post.title}}"
+          >
+          <h2 class="title">{{ post.title }}</h2>
+          <p class="meta">
+            <span>{{ post.meta }}</span>
+          </p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

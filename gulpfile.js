@@ -140,6 +140,9 @@ gulp.task('resize-images', function() {
   else if ( options.reading ) {
     source = 'app/assets/images/content/reading/*';
   }
+  else if ( options.labs ) {
+    source = 'app/assets/images/content/labs/*';
+  }
   else {
     source = 'app/assets/images/content/others/*';
   }
