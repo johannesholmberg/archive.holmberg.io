@@ -16,7 +16,7 @@ redirect_from: journal/
 <div class="container wrap -small">
 
   {% for post in site.posts %}
-    {% if post.category == "article" or post.category == "journal" or post.category == "labs" or post.category == "writing" %}
+    {% if post.category == "article" or post.category == "journal" or post.category == "writing" %}
 
       {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
       {% if currentyear != year %}
