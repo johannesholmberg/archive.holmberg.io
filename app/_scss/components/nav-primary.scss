@@ -32,6 +32,7 @@
 
   &:last-child a {
     border-bottom: 0;
+    margin-right: 2em;
   }
 
   .brand {
@@ -41,11 +42,19 @@
     width: 2em;
     padding: 1.6em 1.7em;
     margin-bottom: -2em;
+    margin-left: -1px;
+    margin-top: -1px;
     display: inline-block;
     background: url('../images/layout/logo-white.png') center center no-repeat #2a3137;
     background-size: 2.5em;
     border-bottom: 0;
     text-indent: -9999px;
+
+    &:hover,
+    &:focus {
+      background: url('../images/layout/logo-white.png') center center no-repeat #2a3137;
+      background-size: 2.5em;
+    }
 
     @include breakpoint(desktop-sm) {
       padding: 1.7em 1.8em;
@@ -53,7 +62,7 @@
   }
 
   a {
-    color: #333;
+    color: #fff;
     padding: 1.4em .1em;
     letter-spacing: .03em;
     text-transform: uppercase;
@@ -63,9 +72,11 @@
     position: static;
     border-bottom: 1px solid rgba(125, 125, 125, .4);
 
+    transition: all .2s ease-in-out;
+
     @include breakpoint(mobile-lg) { 
       display: inline-block;
-      padding: 1em .6em 1.1em;
+      padding: 1em 1em 1.1em;
       border-bottom: 0;
     }
 
@@ -75,7 +86,9 @@
 
     &:hover,
     &:focus {
-      color: $profile-text;
+      //color: rgba(0, 0, 0, .6);
+      background: rgba(0, 0, 0, .1);
+      text-shadow: none; 
     }
 
     &:active {
@@ -83,7 +96,7 @@
     }
 
     &.active {
-      color: $profile-text;
+      color: #fff;
       position: relative;
 
       @include breakpoint(mobile-lg) {

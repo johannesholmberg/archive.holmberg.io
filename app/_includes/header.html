@@ -1,10 +1,18 @@
-<header class="header-global">
-  
-  <nav class="nav-primary" id="header">
-    <div class="wrap -two-col">
-      {% include navigation.html %}
-      <a href="#nav" class="menu-trigger">Menu</a>
-    </div>
-  </nav>
+<div class="top-ribbon" style="background: {{ page.top-bg }};">
+  {% assign title = page.title %}
+  {% assign attribute = '-without-border' %}
+  {% assign subtitle = page.top-subtitle %}
+  {% include page-header.html %}
 
-</header>
+  <header class="header-global">
+    <div class="wrap -two-col">
+    <nav class="nav-primary" id="header">
+      
+        {% include navigation.html %}
+        <a href="#nav" class="menu-trigger">Menu</a>
+      
+    </nav>
+    </div>
+
+  </header>
+</div>

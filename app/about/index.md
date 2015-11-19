@@ -5,6 +5,9 @@ subtitle: On the subject of me.
 active: about
 description: "Johannes Holmberg is a Freelance Front-end Web Developer. This is his personal playground with words, design and code."
 redirect_from: info/
+mode: dark
+top-bg: "#bca899"
+top-subtitle: "On the subject of me"
 ---
 
 <p class="intro" markdown="1">**Hello there**, and thanks for checking by.
