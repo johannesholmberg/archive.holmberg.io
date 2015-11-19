@@ -36,15 +36,15 @@
 }
 
 .main-section {
-  padding-top: 6em;
-  //margin-top: -1px;
+  padding-top: 2em;
+  margin-top: -1px;
   position: relative;
   z-index: 100;
   background: #fff;
   box-shadow: 0 -1px 3px rgba(0, 0, 0, .2);
   
   @include breakpoint(desktop-sm) {
-    padding-top: 7.5em;
+    //padding-top: 7.5em;
   } 
 }
 

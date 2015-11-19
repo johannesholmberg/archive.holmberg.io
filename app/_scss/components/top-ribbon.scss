@@ -3,15 +3,16 @@
   //margin-top: -6em;
   position: relative;
   border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding-bottom: 10.7em;
+  padding-top: 1.2em;
 
   @include breakpoint(desktop-sm) {
-    padding-bottom: 10.7em;
-    padding-top: 1.2em;
+
     //margin-top: -7.5em;
   }
 
   .page-header {
-    position: absolute;
+    position: fixed;
     width: 100%;
   }
 
