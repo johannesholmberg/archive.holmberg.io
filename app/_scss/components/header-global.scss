@@ -9,7 +9,8 @@
 
     nav {
       background: #2a3137;
-      background: rgba(255, 255, 255, .1);
+      background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
+      // box-shadow:  0 0 0 1px rgba(0, 0, 0, .1);
       -webkit-backdrop-filter: blur(8px);
       border: 1px solid rgba(255, 255, 255, .2);  
       border-bottom: 0;    

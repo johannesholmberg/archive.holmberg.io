@@ -1,17 +1,16 @@
 <div class="top-ribbon" style="background: {{ page.top-bg }};">
-  {% assign title = page.title %}
+
+  {% assign title = page.top-title %}
   {% assign attribute = '-without-border' %}
   {% assign subtitle = page.top-subtitle %}
   {% include page-header.html %}
 
   <header class="header-global">
     <div class="wrap -two-col">
-    <nav class="nav-primary" id="header">
-      
+      <nav class="nav-primary" id="header">
         {% include navigation.html %}
         <a href="#nav" class="menu-trigger">Menu</a>
-      
-    </nav>
+      </nav>
     </div>
 
   </header>
