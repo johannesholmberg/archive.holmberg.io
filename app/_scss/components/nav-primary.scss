@@ -42,7 +42,7 @@
     width: 2em;
     padding: 1.6em 1.7em;
     margin-bottom: -2em;
-    margin-left: -1px;
+    
     margin-top: -1px;
     display: inline-block;
     background: url('../images/layout/logo-white.png') center center no-repeat #2a3137;
@@ -76,7 +76,7 @@
 
     @include breakpoint(mobile-lg) { 
       display: inline-block;
-      padding: 1em 1em 1.1em;
+      padding: .7em 0 .8em;
       border-bottom: 0;
     }
 
@@ -84,14 +84,31 @@
       font-size: .95rem;
     } 
 
+    span {
+      display: inline-block;
+      padding: .3em 1em;
+      border-radius: 10em;
+      transition: all .2s ease-in-out;
+      //background: rgba(0, 0, 0, .1);
+    }
+
     &:hover,
     &:focus {
       //color: rgba(0, 0, 0, .6);
-      background: rgba(0, 0, 0, .15);
+      
+
+      span {
+        transition: none;
+        background: rgba(0, 0, 0, .15);
+      }
     }
 
     &:active {
       top: 0;
+
+      span {
+        background: rgba(0, 0, 0, .2);
+      }
     }
 
     &.active {
@@ -108,6 +125,13 @@
           bottom: -.3em;
           left: 0;
           right: 0;
+        }
+      }
+
+      &:hover,
+      &:focus {
+        span {
+          background: none;
         }
       } 
     }

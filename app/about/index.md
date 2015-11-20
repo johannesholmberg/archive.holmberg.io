@@ -6,6 +6,8 @@ active: about
 description: "Johannes Holmberg is a Freelance Front-end Web Developer. This is his personal playground with words, design and code."
 redirect_from: info/
 mode: dark
+hasHeader: true
+top-title: About
 top-bg: "#bca899"
 top-subtitle: "On the subject of me"
 ---

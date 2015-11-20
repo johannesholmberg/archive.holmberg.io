@@ -4,40 +4,40 @@ title: Links
 active: links
 description: "Links from Johannes Holmberg."
 mode: dark
+hasHeader: true
 top-title: Links
 top-bg: "steelblue"
-top-subtitle: "Words and ideas on the internet that reinforces what I believe in."
+top-subtitle: "Ideas on the web that reinforces what I believe in."
 ---
 
-<div class="container">
-  <div class="wrap -small">
-    {% for post in site.categories.link %}
 
-      {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
-      {% if currentyear != year %}
-        <h2 class="divider -left -light"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
-      {% capture year %}{{currentyear}}{% endcapture %} 
-      {% endif %}
+<div class="wrap -small">
+  {% for post in site.categories.link %}
 
-      <div class="article-item">
+    {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
+    {% if currentyear != year %}
+      <h2 class="divider -left -light"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
+    {% capture year %}{{currentyear}}{% endcapture %} 
+    {% endif %}
 
-        <h2 class="title">
-          <a href="{{ post.link }}" title="{{ post.link }}">{{ post.title }}</a>
-        </h2>
-        <p class="date">
-          {{ post.date | date: '%B' }}
-          {% assign d = post.date | date: "%-d" %} 
-          {% case d %}
-            {% when '1' or '21' or '31' %}{{ d }}st,
-            {% when '2' or '22' %}{{ d }}nd,
-            {% when '3' or '23' %}{{ d }}rd,
-            {% else %}{{ d }}th,
-            {% endcase %}
-            {{ post.date | date: '%Y' }}
-        </p>
-        {{ post.content }}
-      </div>
+    <div class="article-item">
 
-    {% endfor %}
-  </div>
+      <h2 class="title">
+        <a href="{{ post.link }}" title="{{ post.link }}">{{ post.title }}</a>
+      </h2>
+      <p class="date">
+        {{ post.date | date: '%B' }}
+        {% assign d = post.date | date: "%-d" %} 
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st,
+          {% when '2' or '22' %}{{ d }}nd,
+          {% when '3' or '23' %}{{ d }}rd,
+          {% else %}{{ d }}th,
+          {% endcase %}
+          {{ post.date | date: '%Y' }}
+      </p>
+      {{ post.content }}
+    </div>
+
+  {% endfor %}
 </div>

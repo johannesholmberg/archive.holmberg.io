@@ -1,7 +1,7 @@
 .wrap {
   @extend %clearfix;
   margin: 0 auto;
-  max-width: 90em;
+  max-width: 86em;
   padding-left: 5%;
   padding-right: 5%;
 
@@ -36,16 +36,21 @@
 }
 
 .main-section {
-  padding-top: 2em;
-  margin-top: -1px;
+  padding-top: 4em;
+  //padding-bottom: 4em;
+  //margin-top: -1px;
   position: relative;
   z-index: 100;
   background: #fff;
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, .2);
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, .1);
   
   @include breakpoint(desktop-sm) {
     //padding-top: 7.5em;
   } 
+
+  > .wrap {
+    padding-bottom: 4em;
+  }
 }
 
 .container {
@@ -56,6 +61,10 @@
     padding-top: 3em;    
     padding-bottom: 5em;
   }
+}
+
+.container-tall {
+
 }
 
 .main-content {

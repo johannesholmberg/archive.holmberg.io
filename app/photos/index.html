@@ -4,12 +4,13 @@ title: Photos
 active: photos
 description: "Photos from Johannes Holmberg."
 mode: dark
+hasHeader: true
 top-title: Photos
-top-bg: "#b28287"
+top-bg: "#A399A1"
 top-subtitle: "Things I’ve seen and would like to share."
 ---
 
-<div class="container wrap -small">
+<div class="wrap -small">
   {% for post in site.categories.photos %}
 
     {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}

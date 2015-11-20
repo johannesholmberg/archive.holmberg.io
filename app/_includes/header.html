@@ -1,11 +1,15 @@
-<div class="top-ribbon" style="background: {{ page.top-bg }};">
-
-  {% assign title = page.top-title %}
-  {% assign attribute = '-without-border' %}
-  {% assign subtitle = page.top-subtitle %}
-  {% include page-header.html %}
+<div class="top-ribbon" style="background: {{ page.top-bg }}; background: linear-gradient(-45deg, {{ page.top-bg }}, rgba(255, 255, 255, .3)) {{ page.top-bg }};"> 
 
   <header class="header-global">
+    
+    {% assign title = page.top-title %}
+    {% assign attribute = '-without-border' %}
+    {% assign subtitle = page.top-subtitle %}
+
+    {% if page.hasHeader %}
+      {% include page-header.html %}
+    {% endif %}
+
     <div class="wrap -two-col">
       <nav class="nav-primary" id="header">
         {% include navigation.html %}

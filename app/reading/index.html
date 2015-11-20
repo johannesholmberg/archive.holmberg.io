@@ -3,26 +3,24 @@ layout: default
 title: Reading
 active: reading
 class: 'dark'
-description: "Books are where I go for inspiration. This is my treasure trove where I collect the highlights from the books."
+description: "Books are where I go for inspiration."
 mode: dark
+hasHeader: true
 top-title: Reading
-top-bg: "#5B5B5B"
-top-subtitle: "Books are where I go for inspiration. This is my treasure trove."
+top-bg: "#1f1f1f"
+top-subtitle: "Books are where I go for inspiration."
 ---
 
-<section>
+<div class="wrap book-holder">
+  {% for post in site.categories.reading %}
+    
+    {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
+    {% if currentyear != year %}
+      <h2 class="divider -left"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
+    {% capture year %}{{currentyear}}{% endcapture %} 
+    {% endif %}
 
-  <div class="container wrap book-holder">
-    {% for post in site.categories.reading %}
-      
-      {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
-      {% if currentyear != year %}
-        <h2 class="divider -left"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
-      {% capture year %}{{currentyear}}{% endcapture %} 
-      {% endif %}
-
-      {% assign attribute = '-dark' %}
-      {% include book-item.html %}
-    {% endfor %}
-  </div>
-</section>
+    {% assign attribute = '-dark' %}
+    {% include book-item.html %}
+  {% endfor %}
+</div>

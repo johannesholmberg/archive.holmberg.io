@@ -1,15 +1,17 @@
 ---
 layout: default
 mode: dark
-top-title: Photos
-top-bg: "#b28287"
-top-subtitle: "Things I’ve seen and would like to share."
 hasHeader: true
+top-title: Labs
+top-bg: "#BDA888"
+top-subtitle: "Things I make and like to share."
 ---
 
 <article>
+
   {% assign title = page.title %}
   {% assign width = "-small" %}
+
   {% assign d = page.date | date: "%-d" %} 
   {% case d %}
     {% when '1' or '21' or '31' %}
@@ -21,18 +23,21 @@ hasHeader: true
     {% else %}
       {% capture day %}{{ d }}th, {% endcapture %}
   {% endcase %}
-  {% capture fulldate %}
+  {% capture full %}
     {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }} 
   {% endcapture %}
-  {% assign subtitle = fulldate %}
+
+  {% assign subtitle = full %}
+
   {% include page-header.html %}
 
-  <div class="container wrap -small">
+
+  <div class="wrap container -small">
     {{ content }}
   </div>
 
-  {% include bio-card.html %}
 
-  {% assign url = "/photos" %}
-  {% include case-nav.html %}
+  {% include bio-card.html %}  
+  {% include case-nav-writing.html %}
+
 </article>

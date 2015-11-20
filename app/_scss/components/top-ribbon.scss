@@ -1,20 +1,72 @@
+.main-section .top-ribbon {
+  margin-top: -7.5em;
+  padding-top: 7.5em;
+}
+
+.top-ribbon .header-global .page-header {
+  //position: fixed;
+  width: 100%;
+  //background: red;
+  padding: .2em 0 0;
+
+  .title {
+    text-align: left !important;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: -.275em;
+    color: rgba(255, 255, 255, .8) !important;
+    z-index: 100;
+    position: relative;
+    float: left;
+
+    @include breakpoint(tablet-sm) {
+      font-size: 4em;
+    } 
+  }
+
+  .meta {
+    //display: inline-block;
+    float: left;
+    margin: 2.3em 0 0;
+    font-size: 1em;
+    text-align: left;
+    color: rgba(255, 255, 255, .9) !important;
+    //vertical-align: 3px;
+    margin-left: .3em;
+    font-family: $font-sans-rale;
+
+    &:before {
+      content: '–';
+      display: inline-block;
+      margin-right: .3em;
+
+    }
+    //display: none;
+  }
+
+  .title,
+  .meta {
+    body.dark & {
+      color: #fff;  
+      text-shadow: 0 0 3px rgba(0, 0, 0, .2);       
+    }
+  }
+}
+
 .top-ribbon {
   //padding-top: 2em;
   //margin-top: -6em;
   position: relative;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding-bottom: 10.7em;
-  padding-top: 1.2em;
+  //border-bottom: 1px solid rgba(0, 0, 0, .1);
+  //padding-bottom: 10.1em;
+  //padding-top: .9em;
 
   @include breakpoint(desktop-sm) {
 
     //margin-top: -7.5em;
   }
 
-  .page-header {
-    position: fixed;
-    width: 100%;
-  }
+
 
   .image {
     overflow: hidden;

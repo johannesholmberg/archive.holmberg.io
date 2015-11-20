@@ -7,10 +7,11 @@ redirect_from: journal/
 mode: dark
 top-title: Writing
 top-bg: "#BCA7A3"
-top-subtitle: "Collection of thoughts and reflection over the years."
+top-subtitle: "Collection of thoughts over the years."
+hasHeader: true
 ---
 
-<div class="container wrap -small">
+<div class="wrap -small">
 
   {% for post in site.posts %}
     {% if post.category == "article" or post.category == "journal" or post.category == "writing" %}

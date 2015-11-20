@@ -11,7 +11,15 @@
     .title {
       border-bottom: 0;
       padding-bottom: .1em;
-      margin-bottom: .1em;
+      margin-bottom: 0;
+    }
+  }
+
+  &.-light {
+    .title,
+    .meta {
+      color: #fff;  
+      text-shadow: 0 0 3px rgba(0, 0, 0, .2); 
     }
   }
 
@@ -21,17 +29,17 @@
     } 
   }
 
-  .top-ribbon & {
-    padding-bottom: 2.2em;
+  // .top-ribbon & {
+  //   padding-bottom: 2.2em;
 
-    @include breakpoint(desktop-sm) {
-      padding-bottom: 4em;      
-    } 
+  //   @include breakpoint(desktop-sm) {
+  //     padding-bottom: 4em;      
+  //   } 
 
-    &.-no-padding {
-      padding-bottom: 0;
-    }
-  }
+  //   &.-no-padding {
+  //     padding-bottom: 0;
+  //   }
+  // }
 
   &.-start {
     position: relative;
@@ -114,14 +122,6 @@
     span {
       font-style: italic;
       font-size: .85em;      
-    }
-  }
-
-  .title,
-  .meta {
-    body.dark & {
-      color: #fff;  
-      text-shadow: 0 1px 4px rgba(0, 0, 0, .2);       
     }
   }
 }

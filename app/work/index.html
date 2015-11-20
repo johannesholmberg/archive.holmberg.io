@@ -4,18 +4,16 @@ title: Work
 active: work
 description: "Work and projects by Johannes Holmberg."
 mode: dark
+hasHeader: true
 top-title: Work
 top-bg: "cadetblue"
 top-subtitle: "My bread and butter. This is what I do."
 ---
 
-<section>
-
-  <div class="wrap">
-    <div class="container case-holder">
-      {% for post in site.categories.work %}
-        {% include case-item.html %}
-      {% endfor %}
-    </div>
+<div class="wrap">
+  <div class="case-holder">
+    {% for post in site.categories.work %}
+      {% include case-item.html %}
+    {% endfor %}
   </div>
-</section>
+</div>

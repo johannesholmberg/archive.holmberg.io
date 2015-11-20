@@ -2,11 +2,13 @@
 layout: default
 mode: dark
 top-title: Writing
-top-bg: "#bca899"
+top-bg: "#BCA7A3"
 top-subtitle: "Collection of thoughts and reflection over the years."
+hasHeader: true
 ---
 
 <article>
+
 
   {% assign title = page.title %}
   {% assign width = "-small" %}
@@ -34,6 +36,7 @@ top-subtitle: "Collection of thoughts and reflection over the years."
   <div class="wrap container -small">
     {{ content }}
   </div>
+
 
   {% include bio-card.html %}  
   {% include case-nav-writing.html %}
