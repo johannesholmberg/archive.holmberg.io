@@ -8,7 +8,7 @@ redirect_from: info/
 mode: dark
 hasHeader: true
 top-title: About
-top-bg: "#bca899"
+top-bg: "#B8897F"
 top-subtitle: "On the subject of me"
 ---
 
