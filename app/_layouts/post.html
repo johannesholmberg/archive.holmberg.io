@@ -1,14 +1,11 @@
 ---
 layout: default
 mode: dark
-top-title: Writing
-top-bg: "#BCA7A3"
-top-subtitle: "Collection of thoughts and reflection over the years."
-hasHeader: true
+top-bg: "#fff"
+mode: light
 ---
 
-<article>
-
+<article class="container">
 
   {% assign title = page.title %}
   {% assign width = "-small" %}
@@ -32,13 +29,12 @@ hasHeader: true
 
   {% include page-header.html %}
 
-
   <div class="wrap container -small">
     {{ content }}
   </div>
 
-
   {% include bio-card.html %}  
-  {% include case-nav-writing.html %}
 
 </article>
+
+{% include case-nav-writing.html %}

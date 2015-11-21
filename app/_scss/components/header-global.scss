@@ -1,6 +1,8 @@
-.header-global {
+.top-ribbon {
+  position: relative;
+}
 
-  //position: absolute;
+.header-global {
   width: 100%;
   z-index: 1000;
   position: relative;
@@ -9,29 +11,145 @@
   .wrap {
 
     nav {
-      background: #2a3137;
-      background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
-      // box-shadow:  0 0 0 1px rgba(0, 0, 0, .1);
-      -webkit-backdrop-filter: blur(8px);
-      border-top: 1px solid rgba(255, 255, 255, .2);  
-      border-bottom: 0;    
+      background: rgba(255, 255, 255, .1);
+      -webkit-backdrop-filter: blur(4px);
+      border-top: 1px solid rgba(255, 255, 255, .2);
+
+      @include breakpoint(mobile-lg) {
+          
+        }   
+
+      .light & {
+        border-top: 1px solid rgba(0, 0, 0, .1); 
+        background: rgba(0, 0, 0, .02);
+      }
+
+      .start & {
+        background: rgba(255, 255, 255, .2);
+        background: linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .1) );
+        //border-bottom: 1px solid rgba(0, 0, 0, .1);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+      } 
     }
 
   }
 
   .nav-item {
+
+    display: inline-block;
+
     a {
-      display: none;
+      //display: none;
+
       @include breakpoint(mobile-lg) {
         display: inline-block;    
       } 
     }
     
     .brand {
+
+      line-height: 1;
+      font-size: $f16px;
+      width: 4em;
+      width: 2em;
+      padding: 1.6em 1.7em;
+      margin-bottom: -2em;
+      margin-top: -1px;
       display: inline-block;
+      background: url('../images/layout/logo-white.png') center center no-repeat #2a3137;
+      background-size: 2.5em;
+      border-bottom: 0;
+      text-indent: -9999px;
+
+      &:hover,
+      &:focus {
+        background: url('../images/layout/logo-white.png') center center no-repeat #2a3137;
+        background-size: 2.5em;
+      }
+
+      @include breakpoint(desktop-sm) {
+        padding: 1.7em 1.8em;
+      } 
     }
   }
 }
+
+.top-header {
+  //position: fixed;
+  width: 100%;
+  //background: red;
+  padding: .2em 0 0;
+  margin-bottom: -.3em;
+
+  .title {
+    text-align: left !important;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: -.275em;
+    color: rgba(255, 255, 255, .8);
+    z-index: 100;
+    position: relative;
+    display: inline-block;
+
+    text-transform: none;
+
+    @include breakpoint(mobile-lg) {
+      
+    } 
+
+    @include breakpoint(tablet-sm) {
+      font-size: 3.8em;
+      margin-left: 10%;
+    } 
+
+    @include breakpoint(tablet-lg) {
+      font-size: 4.6em;
+      // margin-left: 11%;
+      
+    } 
+  }
+
+  .meta {
+    display: inline-block;
+    margin: 0;
+    font-size: 1em;
+    color: rgba(255, 255, 255, .95);
+    vertical-align: .6em;
+    margin-left: .3em;
+    font-family: $font-sans-rale;
+
+    &:before {
+      content: '–';
+      display: inline-block;
+      margin-right: .3em;
+
+    }
+
+    @include breakpoint(tablet-lg) {
+      font-size: 1.1em;
+    } 
+
+  }
+
+  .title,
+  .meta {
+    body.dark & {
+      color: rgba(255, 255, 255, .8); 
+      text-shadow: 0 0 3px rgba(0, 0, 0, .2);       
+    }
+    body.light & {
+      color: #555;  
+      text-shadow: none;       
+    }
+  }
+
+  .meta {
+    body.dark & {
+      color: rgba(255, 255, 255, .9);       
+    }
+  }
+}
+
 
 .menu-trigger {
   position: absolute;
@@ -41,7 +159,7 @@
   padding: .7em 1.2em;
   font-family: $font-sans-bold;
   text-transform: uppercase;
-  color: #666;
+  color: #fff;
 
   &:active {
     top: 0;

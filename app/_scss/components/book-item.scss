@@ -10,14 +10,14 @@
   margin: 0;
   text-align: center;
   font-size: 1.55em;
-  margin: 2em .2em 1em;
+  margin: 2em .2em .8em;
   flex: 0 1 auto;
   position: relative;
   text-transform: none;
   z-index: 90;
 
   @include breakpoint(mobile-lg) {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
   } 
   
   &:after {

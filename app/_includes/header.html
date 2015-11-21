@@ -1,13 +1,17 @@
-<div class="top-ribbon" style="background: {{ page.top-bg }}; background: linear-gradient(-45deg, {{ page.top-bg }}, rgba(255, 255, 255, .3)) {{ page.top-bg }};"> 
+<header class="top-ribbon" style="background: linear-gradient(-45deg, {{ page.top-bg }}, rgba(255, 255, 255, .2)) {{ page.top-bg }};"> 
 
-  <header class="header-global">
+  <div class="header-global">
     
     {% assign title = page.top-title %}
-    {% assign attribute = '-without-border' %}
     {% assign subtitle = page.top-subtitle %}
 
     {% if page.hasHeader %}
-      {% include page-header.html %}
+      <div class="wrap -two-col">
+        <div class="top-header">
+          <h1 class="title">{{ title }}</h1>
+          <p class="meta">{{ subtitle }}</p>
+        </div>
+      </div>
     {% endif %}
 
     <div class="wrap -two-col">
@@ -16,6 +20,6 @@
         <a href="#nav" class="menu-trigger">Menu</a>
       </nav>
     </div>
+  </div>
 
-  </header>
-</div>
+</header>

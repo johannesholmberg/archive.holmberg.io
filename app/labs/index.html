@@ -10,31 +10,10 @@ top-bg: "#BDA888"
 top-subtitle: "Experiments and small projects."
 ---
 
-<section>
-
-  <div class="wrap">
-    <div class="case-holder">
-      {% for post in site.categories.labs %}
-        <a href="{{ post.url }}" class="case-item">
-          <img 
-            src="/assets/images/dist/{{post.cover}}-600.jpg"
-            sizes="
-            ({{site.tablet-sm}}) 38vw,
-            ({{site.mobile-lg}}) 70vw,
-            90vw"
-            srcset="
-            /assets/images/dist/{{post.cover}}-320.jpg 320w,
-            /assets/images/dist/{{post.cover}}-600.jpg 600w,
-            /assets/images/dist/{{post.cover}}-800.jpg 800w,
-            /assets/images/dist/{{post.cover}}-1000.jpg 1000w"
-            alt="{{post.title}}"
-          >
-          <h2 class="title">{{ post.title }}</h2>
-          <p class="meta">
-            <span>{{ post.meta }}</span>
-          </p>
-        </a>
-      {% endfor %}
-    </div>
+<div class="wrap -two-col">
+  <div class="case-holder">
+    {% for post in site.categories.labs %}
+      {% include case-item.html %}
+    {% endfor %}
   </div>
-</section>
+</div>

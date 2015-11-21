@@ -1,19 +1,19 @@
 <a href="{{ post.url }}" class="case-item">
   <img 
-    src="/assets/images/dist/{{post.cover}}-case-600.jpg"
+    src="/assets/images/dist/{{post.cover}}-600.jpg"
     sizes="
-    ({{site.tablet-sm}}) 38vw,
+    ({{site.tablet-sm}}) 42vw,
     ({{site.mobile-lg}}) 70vw,
     90vw"
     srcset="
-    /assets/images/dist/{{post.cover}}-case-320.jpg 320w,
-    /assets/images/dist/{{post.cover}}-case-600.jpg 600w,
-    /assets/images/dist/{{post.cover}}-case-800.jpg 800w,
-    /assets/images/dist/{{post.cover}}-case-1000.jpg 1000w"
+    /assets/images/dist/{{post.cover}}-320.jpg 320w,
+    /assets/images/dist/{{post.cover}}-600.jpg 600w,
+    /assets/images/dist/{{post.cover}}-800.jpg 800w,
+    /assets/images/dist/{{post.cover}}-1000.jpg 1000w"
     alt="{{post.title}}"
   >
   <h2 class="title">{{ post.title }}</h2>
   <p class="meta">
-    <span>{{ post.period }}</span>
+    <span>{{ post.meta }}</span>
   </p>
 </a>
