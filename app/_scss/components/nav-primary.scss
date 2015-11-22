@@ -1,5 +1,23 @@
 .nav-primary {
   margin: 0 auto;
+  position: relative;
+
+  .header-global & {
+    background: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(4px);
+    border-top: 1px solid rgba(255, 255, 255, .2);
+
+    .light & {
+      border-top: 1px solid rgba(0, 0, 0, .1); 
+      background: rgba(0, 0, 0, .02);
+    }
+
+    .start & {
+      background: rgba(255, 255, 255, .2);
+      background: linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .1) );
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+    } 
+  }
 
   @include breakpoint(tablet-lg) {
     padding: 0;
@@ -9,39 +27,177 @@
     list-style: none;
     margin: 0;
 
+    .header-global & {
+      overflow: hidden;
+      height: 2.6em;
+      padding-right: 4.2em;
+
+      @include breakpoint(mobile-lg) {
+        height: auto;
+        overflow: visible;
+        padding-right: 0;
+        justify-content: space-around;
+        margin-left: 7%;
+      } 
+    }
+
     @include breakpoint(mobile-lg) {
       display: flex; 
       width: auto; 
       text-align: center;
-      justify-content: space-between;
+      justify-content: space-around;
     } 
+  }
+
+  .item-holder {
+    margin: 0;
+    order: 0;
+
+    .header-global & {
+      display: inline-block;
+    }
+    
+
+    @include breakpoint(mobile-lg) {
+      display: inline-block;  
+    }
+
+    &:nth-child(n+5) { 
+      order: 2;
+    }
+
+    &:last-child a {
+      margin-right: 1em;  
+
+      @include breakpoint(tablet-lg) {
+        margin-right: 2em;
+      } 
+      
+    }
   }
 }
 
 .nav-item {
-  margin: 0;
-  order: 0;
+  color: #fff;
+  padding: .7em .1em;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  font-family: $font-sans-bold;
+  font-size: .9rem;
+  display: block;
+  position: static;
+  
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .2); 
+  transition: all .2s ease-in-out;
 
-  @include breakpoint(mobile-lg) {
+  .footer-global & {
+    border-bottom: 1px solid rgba(125, 125, 125, .4);
+
+    @include breakpoint(mobile-lg) { 
+      border-bottom: 0;
+    }
+  }
+
+  @include breakpoint(mobile-lg) { 
     display: inline-block;
+    padding: .7em 0 .8em;
+
   }
 
-  &:nth-child(n+5) { 
-    order: 2;
+  @include breakpoint(desktop-sm) {
+    font-size: .95rem;
+  } 
+
+  .header-global & {
+    .light & {
+      color: #555;
+      text-shadow: none;
+
+      &.active {
+        color: #555;
+      }
+    }
   }
 
-  &:last-child a {
-    margin-right: 1em;  
+  span {
+    display: inline-block;
+    padding: .3em .6em;
+    border-radius: 10em;
+    transition: all .2s ease-in-out;
 
-    @include breakpoint(tablet-lg) {
-      margin-right: 2em;
+    .footer-global & {
+      padding: .9em .7em;
+
+      @include breakpoint(mobile-lg) {
+        padding: .3em .85em;
+      } 
+    }
+
+    @include breakpoint(tablet-sm) {
+      padding-left: .85em;
+      padding-right: .85em;
     } 
-    
+
   }
 
-  .brand {
+  &:hover,
+  &:focus {
+    color: #fff;     
+
+    .header-global & {
+      border-bottom: 0;      
+    }
+
+    span {
+      transition: none;
+      background: rgba(0, 0, 0, .15);
+    }
+  }
+
+  &:active {
+    top: 0;
+
+    span {
+      background: rgba(0, 0, 0, .2);
+    }
+  }
+
+  &.active {
+    color: #fff;
+    position: relative;
+
+
+    &:after {
+      content: '';
+      display: block;
+      height: .4em;
+      background: $profile-text;
+      position: absolute;
+      bottom: -.3em;
+      left: 0;
+      right: 0;
+    }
+
+    .footer-global & {
+      @include breakpoint(mobile-lg-max) {
+        &:after {
+          display: none;
+        }
+      } 
+    }
+    
+    &:hover,
+    &:focus {
+      span {
+        background: none;
+      }
+    } 
+  }
+
+  &.brand {
     line-height: 1;
     font-size: $f16px;
+    float: left;
     width: 4em;
     width: 2em;
     padding: 1.6em 1.7em;
@@ -52,6 +208,15 @@
     background-size: 2.5em;
     border-bottom: 0;
     text-indent: -9999px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-left: 1px solid rgba(0, 0, 0, .1);
+
+    .footer-global & {
+      @include breakpoint(mobile-lg-max) {
+        float: none;
+        margin-bottom: 0;
+      } 
+    }
 
     &:hover,
     &:focus {
@@ -64,95 +229,21 @@
     } 
   }
 
-  a {
-    color: #fff;
-    padding: 1.4em .1em;
-    letter-spacing: .03em;
-    text-transform: uppercase;
-    font-family: $font-sans-bold;
-    font-size: .9rem;
-    display: block;
-    position: static;
-    border-bottom: 1px solid rgba(125, 125, 125, .4);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .2); 
-    transition: all .2s ease-in-out;
+  &.mobile-menu-trigger {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    padding-right: .5em;
+    padding-left: .5em;
 
-    @include breakpoint(mobile-lg) { 
-      display: inline-block;
-      padding: .7em 0 .8em;
-      border-bottom: 0;
+    .light & {
+      border-left: 1px solid rgba(0, 0, 0, .1);
     }
 
-    @include breakpoint(desktop-sm) {
-      font-size: .95rem;
+    @include breakpoint(mobile-lg-max) {
+      display: block;
     } 
-
-    .header-global & {
-
-      .light & {
-        color: #555;
-        text-shadow: none;
-
-        &.active {
-          color: #555;
-        }
-      }
-
-    }
-
-    span {
-      display: inline-block;
-      padding: .3em .6em;
-      border-radius: 10em;
-      transition: all .2s ease-in-out;
-
-      @include breakpoint(desktop-sm) {
-        padding: .3em 1em;
-      } 
-    }
-
-    &:hover,
-    &:focus {
-      //color: rgba(0, 0, 0, .6);
-      
-
-      span {
-        transition: none;
-        background: rgba(0, 0, 0, .15);
-      }
-    }
-
-    &:active {
-      top: 0;
-
-      span {
-        background: rgba(0, 0, 0, .2);
-      }
-    }
-
-    &.active {
-      color: #fff;
-      position: relative;
-
-      @include breakpoint(mobile-lg) {
-        &:after {
-          content: '';
-          display: block;
-          height: .4em;
-          background: $profile-text;
-          position: absolute;
-          bottom: -.3em;
-          left: 0;
-          right: 0;
-        }
-      }
-
-      &:hover,
-      &:focus {
-        span {
-          background: none;
-        }
-      } 
-    }
   }
 }

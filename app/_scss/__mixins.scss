@@ -5,7 +5,7 @@
     @media (min-width: 34em) { @content; }
   }
   @else if $point == mobile-lg-max {
-    @media (max-width: 34em) { @content; }
+    @media (max-width: 33.999em) { @content; }
   }
 
   @else if $point == tablet-sm {

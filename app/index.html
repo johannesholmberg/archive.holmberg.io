@@ -2,7 +2,7 @@
 layout: default
 title: "Front-end Web Developer"
 active: "index"
-mode: start
+mode: start soft-background
 description: "Johannes Holmberg is a Front-end Web Developer in Basel, Switzerland."
 ---
 
@@ -15,13 +15,11 @@ description: "Johannes Holmberg is a Front-end Web Developer in Basel, Switzerla
 </header>
 
 <div class="container wrap">
-  <h2 class="title" style="text-align: center; margin-bottom: 1em;">Latest work</h2>
+  <h2 class="title" style="text-align: center; margin-bottom: 1em;">Work</h2>
 
   <div class="case-holder">
-    {% for post in site.categories.work limit:2 %}
-
+    {% for post in site.categories.work limit:6 %}
       {% include case-item.html %}
-
     {% endfor %}
   </div>
 

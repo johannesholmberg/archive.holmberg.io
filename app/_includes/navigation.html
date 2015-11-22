@@ -1,33 +1,31 @@
 <ul>
-  <li class="logo nav-item">
-    <a href="/" class="brand">Johannes Holmberg – Front-end Web Developer</a>
+  <li class="item-holder">
+    <a href="/writing/" class="nav-item {% if page.active == "writing" or page.category == "article" or page.category == "writing" or page.category == "journal" %} active {% endif %}"><span>Writing</span></a>
   </li>
 
-  <li class="nav-item">
-    <a href="/writing/" {% if page.active == "writing" or page.category == "article" or page.category == "writing" or page.category == "journal" %} class="active" {% endif %}><span>Writing</span></a>
+  <li class="item-holder">
+    <a href="/work/" class="nav-item {% if page.active == "work" or page.category == "work" %} active {% endif %}"><span>Work</span></a>
   </li>
 
-  <li class="nav-item">
-    <a href="/work/" {% if page.active == "work" or page.category == "work" %} class="active" {% endif %}><span>Work</span></a>
+  <li class="item-holder">
+    <a href="/reading/" class="nav-item {% if page.active == "reading" or page.category == "reading" %} active {% endif %}"><span>Reading</span></a>
   </li>
 
-  <li class="nav-item">
-    <a href="/links/" {% if page.active == "links" %} class="active" {% endif %}><span>Links</span></a>
+  <li class="item-holder">
+    <a href="/links/" class="nav-item {% if page.active == "links" %} active {% endif %}"><span>Links</span></a>
   </li>
   
-  <li class="nav-item">
-    <a href="/reading/" {% if page.active == "reading" or page.category == "reading" %} class="active" {% endif %}><span>Reading</span></a>
+  <li class="item-holder">
+    <a href="/labs/" class="nav-item {% if page.active == "labs" or page.category == "labs" %} active {% endif %}"><span>Labs</span></a>
   </li>
 
-  <li class="nav-item">
-    <a href="/labs/" {% if page.active == "labs" or page.category == "labs" %} class="active" {% endif %}><span>Labs</span></a>
+  <li class="item-holder">
+    <a href="/photos/" class="nav-item {% if page.active == "photos" or page.category == "photos" %} active {% endif %}"><span>Photos</span></a>
   </li>
 
-  <li class="nav-item">
-    <a href="/photos/" {% if page.active == "photos" or page.category == "photos" %} class="active" {% endif %}><span>Photos</span></a>
+  <li class="item-holder">
+    <a href="/about/" class="nav-item {% if page.active == "about" %} active {% endif %}"><span>About</span></a>
   </li>
 
-  <li class="nav-item">
-    <a href="/about/" {% if page.active == "about" %} class="active" {% endif %}><span>About</span></a>
-  </li>
+
 </ul>

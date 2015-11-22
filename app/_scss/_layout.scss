@@ -1,22 +1,33 @@
 .wrap {
   @extend %clearfix;
   margin: 0 auto;
-  max-width: 88em;
-  padding-left: 5%;
-  padding-right: 5%;
+  max-width: 82em;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
 
   &.-small {
-    max-width: 64em;
+    max-width: 58em;
+  }
+
+  &.-header {
+    padding-left: 0;
+    padding-right: 0;
+
+    @include breakpoint(desktop-sm) {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    } 
   }
 
   &.-two-col {
+
     @include breakpoint(tablet-lg) {
       padding-left: 7%;
       padding-right: 7%;
     }
     @include breakpoint(desktop-sm) {
-      padding-left: 7.5rem;
-      padding-right: 7.5rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
     } 
   }
 
@@ -26,8 +37,8 @@
   } 
 
   @include breakpoint(tablet-lg) {
-    padding-left: 7.5rem;
-    padding-right: 7.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   } 
 
   > *:first-child {
@@ -36,9 +47,7 @@
 }
 
 .main-section {
-  padding-top: 4em;
-  //padding-bottom: 4em;
-  //margin-top: -1px;
+  padding-top: 3.5em;
   position: relative;
   z-index: 100;
   background: #fff;
@@ -94,4 +103,8 @@ main {
       color: #fff;      
     }
   }
+}
+
+.image-box {
+  //margin: 0 -2em;
 }

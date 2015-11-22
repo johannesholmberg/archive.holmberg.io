@@ -4,17 +4,15 @@
 }
 
 .case-item {
-  margin: 1.5em auto;
+  margin: 0 auto 2.5em;
   text-align: center;
   display: block;
   width: 100%;
   box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
   background: #fff;
-  transition: all .4s ease-in;
-  //border: 1px solid #ddd;
 
   @include breakpoint(mobile-lg) {
-    margin: 1.5em 3%;
+    margin: 0 3% 6%;
     width: 47%;
     float: left;
 
@@ -28,7 +26,7 @@
   }
 
   @include breakpoint(desktop-sm) {
-    margin: 1.5em 2.6%;
+    margin: 0 2.6% 5%;
     width: 29.8%;
     float: left;
 
