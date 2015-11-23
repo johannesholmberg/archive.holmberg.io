@@ -1,3 +1,6 @@
+.preload * {
+  transition: none !important;
+}
 @import "__normalize";
 @import "__mixins";
 @import "_fonts";
@@ -9,6 +12,7 @@
 @import "_forms";
 @import "_tables";
 @import "_buttons";
+@import "_extensions";
 
 @import "components/header-global";
 @import "components/footer-global";

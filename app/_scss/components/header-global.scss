@@ -37,8 +37,8 @@
   }
 
   .meta {
-    display: inline-block;
-    margin: 0;
+    display: block;
+    margin: 0 0 .5em;
     font-size: 1em;
     color: rgba(255, 255, 255, 1);
     vertical-align: .6em;
@@ -53,6 +53,7 @@
 
     @include breakpoint(mobile-lg) {
       margin-left: 0;
+      display: inline-block;
     }
 
     @include breakpoint(tablet-lg) {

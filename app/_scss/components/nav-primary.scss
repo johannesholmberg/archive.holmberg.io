@@ -1,10 +1,12 @@
 .nav-primary {
   margin: 0 auto;
   position: relative;
+  //display: flex;
 
   .header-global & {
     background: rgba(255, 255, 255, .1);
     -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     border-top: 1px solid rgba(255, 255, 255, .2);
 
     .light & {
@@ -28,17 +30,32 @@
     margin: 0;
 
     .header-global & {
-      overflow: hidden;
-      height: 2.6em;
-      padding-right: 4.2em;
 
-      @include breakpoint(mobile-lg) {
-        height: auto;
-        overflow: visible;
-        padding-right: 0;
-        justify-content: space-around;
-        margin-left: 7%;
-      } 
+        overflow: hidden;
+        max-height: 2.6em;
+
+
+      .enhanced & {
+        transition: max-height .4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+
+        @include breakpoint(mobile-lg) {
+          overflow: visible;
+          transition: none;
+          max-height: inherit;
+          padding-right: 0;
+          justify-content: space-around;
+          margin-left: 7%;
+          width: auto;
+          float: none;
+        }
+      }
+
+      &.open {
+        max-height: 20em;
+      }
+
+ 
     }
 
     @include breakpoint(mobile-lg) {
@@ -173,9 +190,13 @@
       height: .4em;
       background: $profile-text;
       position: absolute;
-      bottom: -.3em;
+      bottom: 0;
       left: 0;
       right: 0;
+
+      @include breakpoint(mobile-lg) {
+        bottom: -.3em;
+      } 
     }
 
     .footer-global & {
@@ -210,6 +231,11 @@
     text-indent: -9999px;
     border-top: 1px solid rgba(0, 0, 0, .1);
     border-left: 1px solid rgba(0, 0, 0, .1);
+    margin-right: .5em;
+
+    @include breakpoint(mobile-lg) {
+      margin-right: 0;
+    } 
 
     .footer-global & {
       @include breakpoint(mobile-lg-max) {
@@ -230,11 +256,13 @@
   }
 
   &.mobile-menu-trigger {
-    position: absolute;
+    //position: absolute;
     display: none;
     top: 0;
+    float: right;
     right: 0;
     border-left: 1px solid rgba(255, 255, 255, .2);
+    //border-bottom: 1px solid rgba(255, 255, 255, .2);
     padding-right: .5em;
     padding-left: .5em;
 

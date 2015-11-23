@@ -24,7 +24,7 @@
       document.createElement( "picture" );
     </script>
 
-    <script src="/assets/js/vendor.min.js" async></script>
+    <script src="/assets/js/app.min.js" async></script>
 
     <!--[if lt IE 9]>
       <script src="/assets/js/vendor/html5shiv/dist/html5shiv.min.js"></script>
@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body {% if page.mode %} class="{{page.mode}}" {% endif %} id="body">
+  <body class="{% if page.mode %} {{page.mode}} {% endif %}" id="body">
 
     <div class="visuallyhidden">
       <a href="#main-content">Skip to content</a>
