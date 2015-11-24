@@ -47,7 +47,8 @@
     color: #fff;
     font-family: $font-sans;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 2em;
+    line-height: 1.2;
     max-width: 65%;
 
     @include breakpoint(mobile-lg) {
@@ -56,7 +57,7 @@
   }
 
   .meta {
-    font-size: .9em;
+    font-size: 1.05em;
     margin: .2em 0 .8em;
     line-height: 1.4;
     color: #fff;

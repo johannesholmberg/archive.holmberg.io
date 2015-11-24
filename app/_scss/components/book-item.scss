@@ -63,7 +63,6 @@
   text-decoration: none;
   border-bottom: 0;
   line-height: 1.2;
-  float: left;
   flex: 0 1 50%;
 
   @include breakpoint(mobile-lg) {
@@ -80,16 +79,6 @@
   @include breakpoint(desktop-sm) {
     flex-basis: 20%;
     width: 20%;
-  }
-
-  .main-content & {
-    width: 50%;
-    @include breakpoint(mobile-lg) {
-      width: 33%;
-    } 
-    @include breakpoint(desktop-sm) {
-      
-    } 
   }
  
   &:active {

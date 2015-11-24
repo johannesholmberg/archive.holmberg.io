@@ -31,24 +31,20 @@
 
     .header-global & {
 
-        overflow: hidden;
-        max-height: 2.6em;
+      overflow: hidden;
+      max-height: 2.6em;
+      //transition: max-height .4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
 
-      .enhanced & {
-        transition: max-height .4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-
-
-        @include breakpoint(mobile-lg) {
-          overflow: visible;
-          transition: none;
-          max-height: inherit;
-          padding-right: 0;
-          justify-content: space-around;
-          margin-left: 7%;
-          width: auto;
-          float: none;
-        }
+      @include breakpoint(mobile-lg) {
+        overflow: visible;
+        transition: none;
+        max-height: inherit;
+        padding-right: 0;
+        justify-content: space-around;
+        margin-left: 7%;
+        width: auto;
+        float: none;
       }
 
       &.open {
@@ -61,7 +57,7 @@
     @include breakpoint(mobile-lg) {
       display: flex; 
       width: auto; 
-      text-align: center;
+      //text-align: center;
       justify-content: space-around;
     } 
   }
@@ -103,9 +99,7 @@
   font-size: .9rem;
   display: block;
   position: static;
-  
   text-shadow: 0 1px 2px rgba(0, 0, 0, .2); 
-  transition: all .2s ease-in-out;
 
   .footer-global & {
     border-bottom: 1px solid rgba(125, 125, 125, .4);
@@ -140,7 +134,7 @@
     display: inline-block;
     padding: .3em .6em;
     border-radius: 10em;
-    transition: all .2s ease-in-out;
+    transition: background .2s ease-in-out;
 
     .footer-global & {
       padding: .9em .7em;
@@ -166,7 +160,7 @@
     }
 
     span {
-      transition: none;
+      
       background: rgba(0, 0, 0, .15);
     }
   }
@@ -175,6 +169,7 @@
     top: 0;
 
     span {
+      transition: none;
       background: rgba(0, 0, 0, .2);
     }
   }
@@ -187,15 +182,16 @@
     &:after {
       content: '';
       display: block;
-      height: .4em;
+      height: .3em;
       background: $profile-text;
       position: absolute;
-      bottom: 0;
+      bottom: -.05em;
       left: 0;
       right: 0;
 
       @include breakpoint(mobile-lg) {
         bottom: -.3em;
+        height: .4em;
       } 
     }
 
@@ -232,6 +228,11 @@
     border-top: 1px solid rgba(0, 0, 0, .1);
     border-left: 1px solid rgba(0, 0, 0, .1);
     margin-right: .5em;
+
+    // .start & {
+    //   @extend .animated;
+    //   @extend .bounceInDown;
+    // }
 
     @include breakpoint(mobile-lg) {
       margin-right: 0;

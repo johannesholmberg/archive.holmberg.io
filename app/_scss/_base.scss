@@ -128,10 +128,15 @@ code {
   font-family: $font-sans;
 }
 
+figure {
+  margin: 1.5em auto;
+}
+
 figcaption {
   color: $lightdarkgray;
   text-align: center;
-  margin: 1.5em 0;
+  margin: 1em 0 1.5em;
+  font-style: italic;
 }
 
 .intro {

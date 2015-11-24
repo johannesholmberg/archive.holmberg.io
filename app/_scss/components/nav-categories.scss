@@ -25,11 +25,15 @@
   .see-all {
     display: inline-block;
     float: left;
-    padding: 1.5em .9em;
+    padding: 1.5em .6em;
     border-bottom: 0;
     font-family: $font-sans-rale;
     color: $profile-text;
-    //margin-left: -.8em;
+
+    @include breakpoint(mobile-lg) {
+      padding-left: .9em;
+      padding-right: .9em;
+    } 
   }
 
   ul {
@@ -52,11 +56,16 @@
     a {
       display: block;
       float: left;
-      padding: 1.5em 1em;
+      padding: 1.5em .75em;
       border-right: 1px solid $gray;
       border-bottom: 0;
       font-family: $font-sans-rale;
       color: $profile-text;
+
+      @include breakpoint(mobile-lg) {
+        padding-left: 1em;
+        padding-right: 1em;
+      } 
     }
   }
 }

@@ -19,7 +19,7 @@ google_analytics: UA-20488297-3
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
-#url: http://localhost:3000
+#url: http://192.168.1.106:3000
 url: http://holmberg.io
 
 # Global media queries

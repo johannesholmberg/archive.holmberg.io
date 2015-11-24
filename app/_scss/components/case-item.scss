@@ -12,7 +12,7 @@
   background: #fff;
 
   @include breakpoint(mobile-lg) {
-    margin: 0 3% 6%;
+    margin: 0 3% 2.5em;
     width: 47%;
     float: left;
 
@@ -26,7 +26,7 @@
   }
 
   @include breakpoint(desktop-sm) {
-    margin: 0 2.6% 5%;
+    margin: 0 2.6% 2.5em;
     width: 29.8%;
     float: left;
 
