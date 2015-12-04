@@ -13,12 +13,16 @@
           {% unless forloop.last %}
             {% assign next = catg_posts[forloop.index] %}
             <li class="previous">
-              <a href="{{ next.url }}" title="{{ next.title }}">&larr; <span>Previous</span></a>
+              <a href="{{ next.url }}" title="{{ next.title }}">
+                &larr; <span>Previous</span>
+              </a>
             </li>
           {% endunless %}
           {% unless forloop.first %}
             <li class="next">
-              <a href="{{ prev.url }}" title="{{ prev.title }}"><span>Next</span> &rarr;</a>
+              <a href="{{ prev.url }}" title="{{ prev.title }}">
+                <span>Next</span> &rarr;
+              </a>
             </li>
           {% endunless %}
         {% endif %}

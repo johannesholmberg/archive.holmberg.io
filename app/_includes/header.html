@@ -1,7 +1,9 @@
-<header class="header-wrap" style="background-color: {{ page.top-bg }}; background-image: linear-gradient(-45deg, {{ page.top-bg }}, rgba(255, 255, 255, .2));"> 
+<header class="header-wrap"
+  style="background-color: {{ page.top-bg }};
+        background-image: linear-gradient(-45deg, {{ page.top-bg }}, rgba(255, 255, 255, .2));">
 
   <div class="header-global">
-    
+
     {% assign title = page.top-title %}
     {% assign subtitle = page.top-subtitle %}
 
@@ -16,12 +18,9 @@
 
     <div class="wrap -header">
       <nav class="nav-primary" id="header">
-
         <a href="/" class="nav-item brand">Home</a>
         <a href="#nav" class="nav-item mobile-menu-trigger js-mobile-menu-trigger"><span>Menu</span></a>
         {% include navigation.html %}
-        
-
       </nav>
     </div>
   </div>

@@ -1,6 +1,11 @@
 <ul>
   <li class="item-holder">
-    <a href="/writing/" class="nav-item {% if page.active == "writing" or page.category == "article" or page.category == "writing" or page.category == "journal" %} active {% endif %}"><span>Writing</span></a>
+    <a href="/writing/" class="nav-item
+      {% if page.active == "writing" or page.category == "article" or page.categories[0] == "writing" or page.category == "journal" %}
+          active
+      {% endif %}">
+      <span>Writing</span>
+    </a>
   </li>
 
   <li class="item-holder">
@@ -14,7 +19,7 @@
   <li class="item-holder">
     <a href="/links/" class="nav-item {% if page.active == "links" %} active {% endif %}"><span>Links</span></a>
   </li>
-  
+
   <li class="item-holder">
     <a href="/labs/" class="nav-item {% if page.active == "labs" or page.category == "labs" %} active {% endif %}"><span>Labs</span></a>
   </li>

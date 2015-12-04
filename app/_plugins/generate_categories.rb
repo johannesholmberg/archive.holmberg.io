@@ -66,14 +66,31 @@
 #     #
 #     #  +category+ is the category currently being processed.
 #     def write_category_index(category)
-#       target_dir = GenerateCategories.category_dir(self.config['category_dir'], category)
-#       index      = CategoryIndex.new(self, self.source, target_dir, category)
-#       if index.render?
-#         index.render(self.layouts, site_payload)
-#         index.write(self.dest)
-#         # Record the fact that this pages has been added, otherwise Site::cleanup will remove it.
-#         self.pages << index
-#       end
+
+# # If category is with questions...
+# # if self.categories[index.data['category']].select { |post| post.categories[0] == 'writing' }.length != 0
+
+#   # Specify a unique folder for /categories based on post type. In this case, /questions/categories
+#   target_dir = '/' + GenerateCategories.category_dir(self.config['category_question_dir'], category)
+ 
+#   # Use a unique layout file for this post type. In this case, question_category_index.html
+#   index = CategoryIndex.new(self, self.source, target_dir, category)
+
+#   # Add category page to queue for export
+#   if index.render?
+#     self.pages << index
+#   end       
+
+# # end
+
+#       # target_dir = GenerateCategories.category_dir(self.config['category_dir'], category)
+#       # index      = CategoryIndex.new(self, self.source, target_dir, category)
+#       # if index.render?
+#       #   index.render(self.layouts, site_payload)
+#       #   index.write(self.dest)
+#       #   # Record the fact that this pages has been added, otherwise Site::cleanup will remove it.
+#       #   self.pages << index
+#       # end
 #     end
 
 #     # Loops through the list of category pages and processes each one.

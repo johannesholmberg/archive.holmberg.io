@@ -14,19 +14,19 @@ hasHeader: true
 <div class="wrap -small">
 
   {% for post in site.posts %}
-    {% if post.category == "article" or post.category == "journal" or post.category == "writing" %}
+    {% if post.categories[0] == "writing" or post.category == "journal" or post.category == "article"%}
 
       {% capture currentyear %}{{post.date | date: "%B"}}{% endcapture %}
       {% if currentyear != year %}
         <h2 class="divider -left -light"><span>{{ post.date | date: '%B, %Y' }}</span></h2>
-      {% capture year %}{{currentyear}}{% endcapture %} 
+      {% capture year %}{{currentyear}}{% endcapture %}
       {% endif %}
 
       <div class="article-item">
         <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="date">
           {{ post.date | date: '%B' }}
-          {% assign d = post.date | date: "%-d" %} 
+          {% assign d = post.date | date: "%-d" %}
           {% case d %}
             {% when '1' or '21' or '31' %}{{ d }}st,
             {% when '2' or '22' %}{{ d }}nd,
@@ -37,10 +37,8 @@ hasHeader: true
         </p>
         <p class="summary">{{ post.content | strip_html | truncatewords: 50 }}<a href="{{ post.url }}"> Read more &raquo;</a></p>
       </div>
-      
+
     {% endif %}
   {% endfor %}
-
-
 
 </div>
