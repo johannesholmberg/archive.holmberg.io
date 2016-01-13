@@ -3,6 +3,10 @@ layout: none
 permalink: .htaccess
 ---
 
+# add trailing slash
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*[^/]$ /$0/ [L,R=301]
+
 ErrorDocument 404 /404.html
 
 AddType image/svg+xml .svg

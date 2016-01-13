@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body class="{% if page.mode %} {{page.mode}} {% endif %}" id="body">
+  <body class="{% if page.mode %} {{page.mode}} {% endif %} {% if layout.mode %} {{layout.mode}} {% endif %}" id="body">
 
     <div class="visuallyhidden">
       <a href="#main-content">Skip to content</a>

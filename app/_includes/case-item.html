@@ -1,5 +1,5 @@
 <a href="{{ post.url }}" class="case-item">
-  <img 
+  <img
     src="/assets/images/dist/{{post.cover}}-600.jpg"
     sizes="
     ({{site.tablet-sm}}) 43vw,
@@ -15,7 +15,7 @@
   <h2 class="title">{{ post.title }}</h2>
   <p class="meta">
     {% if post.meta == 'date' %}
-      {% assign d = post.date | date: "%-d" %} 
+      {% assign d = post.date | date: "%-d" %}
       {% case d %}
         {% when '1' or '21' or '31' %}
           {% capture day %}{{ d }}st, {% endcapture %}
@@ -27,7 +27,7 @@
           {% capture day %}{{ d }}th, {% endcapture %}
       {% endcase %}
       {% capture fulldate %}
-        {{ post.date | date: '%B' }} {{ day }} {{ post.date | date: '%Y' }} 
+        {{ post.date | date: '%B' }} {{ day }} {{ post.date | date: '%Y' }}
       {% endcapture %}
       <span>{{ fulldate }}</span>
     {% else %}

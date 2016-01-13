@@ -8,7 +8,7 @@ top-bg: "#AE8B53"
   {% assign title = page.title %}
   {% assign width = "-small" %}
 
-  {% assign d = page.date | date: "%-d" %} 
+  {% assign d = page.date | date: "%-d" %}
   {% case d %}
     {% when '1' or '21' or '31' %}
       {% capture day %}{{ d }}st, {% endcapture %}
@@ -20,7 +20,7 @@ top-bg: "#AE8B53"
       {% capture day %}{{ d }}th, {% endcapture %}
   {% endcase %}
   {% capture full %}
-    {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }} 
+    {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }}
   {% endcapture %}
 
   {% assign subtitle = full %}
@@ -33,7 +33,7 @@ top-bg: "#AE8B53"
   </div>
 
 
-  {% include bio-card.html %}  
+  {% include bio-card.html %}
   {% include case-nav.html %}
 
 </article>

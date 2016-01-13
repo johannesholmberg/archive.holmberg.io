@@ -1,7 +1,7 @@
 ---
 layout: default
 mode: dark
-top-bg: "#fff"
+top-bg: "#fafafa"
 mode: light
 ---
 
@@ -10,7 +10,7 @@ mode: light
   {% assign title = page.title %}
   {% assign width = "-small" %}
 
-  {% assign d = page.date | date: "%-d" %} 
+  {% assign d = page.date | date: "%-d" %}
   {% case d %}
     {% when '1' or '21' or '31' %}
       {% capture day %}{{ d }}st, {% endcapture %}
@@ -22,7 +22,7 @@ mode: light
       {% capture day %}{{ d }}th, {% endcapture %}
   {% endcase %}
   {% capture full %}
-    {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }} 
+    {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }}
   {% endcapture %}
 
   {% assign subtitle = full %}
@@ -33,7 +33,7 @@ mode: light
     {{ content }}
   </div>
 
-  {% include bio-card.html %}  
+  {% include bio-card.html %}
 
 </article>
 

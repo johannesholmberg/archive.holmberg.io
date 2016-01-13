@@ -19,7 +19,7 @@ google_analytics: UA-20488297-3
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
-#url: http://192.168.1.106:3000
+# url: http://192.168.1.106:3002
 url: http://holmberg.io
 
 # Global media queries
@@ -34,16 +34,13 @@ markdown: kramdown
 highlighter: pygments
 permalink: /:categories/:title/
 
-gems:
-  - jekyll-redirect-from
-
 exclude: [
-  "node_modules", 
-  "gulpfile.js", 
-  "package.json", 
-  "Gemfile", 
-  'bower.json', 
+  "node_modules",
+  "gulpfile.js",
+  "package.json",
+  "Gemfile",
+  'bower.json',
   'app/assets/js/app.dev.js',
-  '*.sublime-workspace', 
+  '*.sublime-workspace',
   '*.sublime-project'
 ]
