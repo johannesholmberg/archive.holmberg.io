@@ -1,0 +1,23 @@
+- text: Notebook
+  url: /notebook/
+  active: notebook
+
+- text: Work
+  url: /work/
+  active: work
+
+- text: Reading
+  url: /reading/
+  active: reading
+
+- text: Labs
+  url: /labs/
+  active: labs
+
+- text: Photos
+  url: /photos/
+  active: photos
+
+- text: About
+  url: /about/
+  active: about

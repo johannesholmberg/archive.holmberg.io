@@ -1,6 +1,6 @@
 {
-  "name": "html-starter-kit-jekyll",
-  "version": "1.0.0",
+  "name": "holmberg.io",
+  "version": "1.2.0",
   "authors": [
     "Johannes Holmberg <johannes@holmberg.io>"
   ],
@@ -9,16 +9,15 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
     "test",
     "tests"
   ],
   "dependencies": {
     "html5shiv": "~3.7.2",
-    "loadcss": "~0.1.6",
-    "picturefill": "~2.3.1",
+    "loadcss": "~1.2.0",
+    "picturefill": "~3.0.2",
     "prism": "*",
     "respond": "~1.4.2",
-    "x-rayhtml": "~0.1.0",
+    "normalize-scss": "normalize.scss#^5.0.3"
   }
 }

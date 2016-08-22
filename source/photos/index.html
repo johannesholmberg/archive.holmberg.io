@@ -1,0 +1,19 @@
+---
+layout: default
+title: Photos by
+active: photos
+description: "Photos from Johannes Holmberg."
+body_class: dark soft-background
+hasHeader: true
+top-title: Photos
+top-bg: "#7D9161"
+top-subtitle: "Things I’ve seen and would like to share."
+---
+
+<div class="wrap -two-col">
+  <div class="case-holder">
+    {% for post in site.categories.photos %}
+      {% include case-item.html %}
+    {% endfor %}
+  </div>
+</div>

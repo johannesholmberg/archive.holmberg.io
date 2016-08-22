@@ -1,0 +1,103 @@
+.wrap {
+  @extend %clearfix;
+  margin: 0 auto;
+  max-width: 82em;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+
+  &.-small {
+    max-width: 58em;
+  }
+
+  &.-header {
+    padding-left: 0;
+    padding-right: 0;
+
+    @include breakpoint(tablet-lg) {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+
+  &.-two-col {
+
+    @include breakpoint(tablet-lg) {
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+    @include breakpoint(desktop-sm) {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+
+  @include breakpoint(tablet-sm) {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  @include breakpoint(tablet-lg) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  > *:first-child {
+    margin-top: 0;
+  }
+}
+
+.main-section {
+  padding-top: 3.5em;
+  position: relative;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, .1);
+  flex: 1;
+
+  @include breakpoint(desktop-sm) {
+    //padding-top: 7.5em;
+  }
+
+  .soft-background & {
+    background: #f1f1f1;
+  }
+
+  > .wrap {
+    padding-bottom: 4em;
+  }
+}
+
+.container {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+
+  @include breakpoint(mobile-lg) {
+    padding-top: 3em;
+    padding-bottom: 5em;
+  }
+}
+
+.main-content {
+  margin-bottom: 2.5em;
+
+  @include breakpoint(mobile-lg) {
+    float: left;
+    padding-right: 3%;
+    width: 70%;
+
+    &.-border {
+      border-right: 1px solid #eee;
+    }
+  }
+}
+
+main {
+  &.dark {
+    background-color: #222;
+
+
+    .container {
+      color: #fff;
+    }
+  }
+}

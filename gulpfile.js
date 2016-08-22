@@ -1,20 +1,19 @@
-var gulp = require('gulp');
-var browserSync = require('browser-sync');
-var imageResize = require('gulp-image-resize');
-var iconify = require('gulp-iconify');
-var sass = require('gulp-sass');
-var minifycss = require('gulp-minify-css');
-var rename = require('gulp-rename');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var prefix = require('gulp-autoprefixer');
-var imagemin = require('gulp-imagemin');
-var cache = require('gulp-cache');
-var notify = require('gulp-notify');
-var critical = require('critical');
-var cp = require('child_process');
-var minimist = require('minimist')
-
+var gulp = require('gulp'),
+    gutil = require('gulp-util'),
+    browserSync = require('browser-sync'),
+    imageResize = require('gulp-image-resize'),
+    iconify = require('gulp-iconify'),
+    sass = require('gulp-sass'),
+    cleanCSS = require('gulp-clean-css'),
+    rename = require('gulp-rename'),
+    concat = require('gulp-concat'),
+    uglify = require('gulp-uglify'),
+    prefix = require('gulp-autoprefixer'),
+    cache = require('gulp-cache'),
+    notify = require('gulp-notify'),
+    critical = require('critical'),
+    cp = require('child_process'),
+    minimist = require('minimist');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -24,7 +23,7 @@ var messages = {
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function(done) {
-  return cp.spawn('jekyll', ['build', '--drafts'], {
+  return cp.spawn('jekyll', ['build'], {
     stdio: 'inherit'
   }).on('close', done);
 });
@@ -47,64 +46,68 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
   });
 });
 
-gulp.task('copystyles', function() {
-  return gulp.src(['_site/assets/css/main.min.css'])
-    .pipe(rename({
-      basename: "site"
-    }))
-    .pipe(gulp.dest('_site/assets/css'));
-});
-
+/**
+ * Optimize all images before releasing them
+ */
 gulp.task('optimize-images', function() {
-  return gulp.src('app/assets/images/dist/*')
+  return gulp.src('_site/uploads/dist/*')
     .pipe(imagemin({
       optimizationLevel: 3,
       progressive: true,
       interlaced: true
     }))
-    .pipe(gulp.dest('app/assets/images/dist'));
+    .pipe(gulp.dest('_site/uploads/dist'));
 });
 
+/**
+ * Concatenate javascripts
+ */
 gulp.task('scripts', function() {
   return gulp.src([
-    'app/assets/js/vendor/picturefill/dist/picturefill.js',
-    'app/assets/js/app.dev.js'
-    ], {
-    base: 'assets/'
-  })
-    .pipe(concat('app.min.js'))
-    .pipe(gulp.dest('_site/assets/js'))
-    //.pipe(uglify())
-    .pipe(gulp.dest('_site/assets/js'))
-    .pipe(browserSync.reload({
-      stream: true
-    }))
-    .pipe(gulp.dest('app/assets/js'));
+    'source/assets/vendor/picturefill/dist/picturefill.js',
+    'source/assets/js/source.dev.js'
+  ])
+  .pipe(concat('source.min.js'))
+  .pipe(gulp.dest('_site/assets/js'))
+  .pipe(browserSync.reload({
+    stream: true
+  }))
+  .pipe(gulp.dest('source/assets/js'));
+});
+
+/**
+ * Minify javascripts
+ */
+gulp.task('minify-scripts', function() {
+  return gulp.src('source/assets/js/source.min.js')
+  .pipe(concat('source.min.js'))
+  .pipe(uglify())
+  .pipe(gulp.dest('_site/assets/js'))
 });
 
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function() {
-  gulp.src('app/_scss/main.scss')
+  gulp.src('source/_scss/config.imports.scss')
     .pipe(sass({
       style: 'expanded',
       includePaths: ['scss'],
       onError: browserSync.notify
     }))
-    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
+    .pipe(prefix(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
       cascade: true
     }))
-    .pipe(gulp.dest('_site/assets/css'))
     .pipe(rename({
+      basename: 'styles',
       suffix: '.min'
     }))
-    .pipe(minifycss())
+    .pipe(cleanCSS())
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload({
       stream: true
     }))
-    .pipe(gulp.dest('app/assets/css'));
+    .pipe(gulp.dest('source/assets/css'));
 });
 
 /**
@@ -112,12 +115,9 @@ gulp.task('sass', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function() {
-  gulp.watch('app/_scss/**/*.scss', ['sass']);
-  gulp.watch('app/assets/js/**/*.js', ['scripts']);
-  gulp.watch([
-    'app/**/*.html',
-    'app/**/*.md'
-  ], ['jekyll-rebuild']);
+  gulp.watch('source/_scss/**/*.scss', ['sass']);
+  gulp.watch('source/assets/js/**/*.js', ['scripts']);
+  gulp.watch(['source/**/*.html','source/**/*.md'], ['jekyll-rebuild']);
 });
 
 /**
@@ -130,25 +130,25 @@ gulp.task('resize-images', function() {
   var source;
 
   if ( options.photos ) {
-    source = 'app/assets/images/content/photos/*';
+    source = 'source/uploads/content/photos/*';
   }
   else if ( options.writing ) {
-    source = 'app/assets/images/content/writing/*';
+    source = 'source/uploads/content/writing/*';
   }
   else if ( options.work ) {
-    source = 'app/assets/images/content/work/*';
+    source = 'source/uploads/content/work/*';
   }
   else if ( options.reading ) {
-    source = 'app/assets/images/content/reading/*';
+    source = 'source/uploads/content/reading/*';
   }
   else if ( options.labs ) {
-    source = 'app/assets/images/content/labs/*';
+    source = 'source/uploads/content/labs/*';
   }
   else {
-    source = 'app/assets/images/content/others/*';
+    source = 'source/uploads/content/others/*';
   }
 
-  var dest = 'app/assets/images/dist';
+  var dest = 'source/uploads/dist';
 
   gulp.src(source)
     .pipe(imageResize({
@@ -257,4 +257,7 @@ gulp.task('resize-images', function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['watch', 'scripts', 'optimize-images', 'browser-sync']);
+gulp.task('default', ['watch', 'browser-sync']);
+
+gulp.task('jekyll', ['jekyll-build']);
+gulp.task('release', ['move', 'minify-scripts']);

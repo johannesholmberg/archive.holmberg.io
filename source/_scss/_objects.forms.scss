@@ -1,0 +1,30 @@
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  margin: 1em 0 1.5em;
+
+  span {
+    display: block;
+    margin-bottom: .4em;
+  }
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+  width: 100%;
+  padding: .8em .7em .7em;
+  border-radius: 0;
+  border: 1px solid #cccccc;
+  font-size: 1.25em;
+
+}
+
+textarea {
+  resize: vertical;
+  min-height: 10em;
+}

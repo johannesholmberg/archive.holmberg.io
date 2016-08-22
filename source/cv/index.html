@@ -1,0 +1,103 @@
+---
+layout: cv
+title: The CV of
+description: "Johannes Holmberg CV."
+redirect_from:
+ - /about/resume/
+---
+
+<div class="cover-header">
+  <h1>Johannes Holmberg</h1>
+  <h2>Front-end Web Developer based in Basel, Switzerland</h2>
+  <p>
+    I’ve been working on the web for the last 9 years. My professional skills range from front and back-end development to design and project management. My day can include scoping a project, fixing a CSS issue on a site, designing an iOS application and developing a WordPress theme in PHP. My focus is on how to always create a delightful digital experience.
+  </p>
+</div>
+
+<div class="main-content">
+
+  <h2>Experience</h2>
+
+  {% for experience in site.data.cv.experience %}
+    <div class="article-item">
+      <h3>{{ experience.period }}</h3>
+      <h4>
+        <strong>{{ experience.title }}</strong>,
+        {{ experience.company }} - {{ experience.location }}
+      </h4>
+      <p class="summary">
+        {{ experience.summary }}
+      </p>
+    </div>
+	{% endfor %}
+
+  <h2>Education</h2>
+
+  {% for education in site.data.cv.education %}
+    <div class="article-item">
+      <h3>{{ education.period }}</h3>
+      <h4>{{ education.school }}</h4>
+      <p class="summary">
+        {{ education.summary }}
+      </p>
+    </div>
+	{% endfor %}
+
+  <h2>Skills</h2>
+
+  <h3>Web stack</h3>
+
+  <ul>
+    {% for skill in site.data.cv.skills.webstack %}
+      <li><strong>{{ skill.name }}</strong></li>
+  	{% endfor %}
+  </ul>
+
+  <h3>Environments</h3>
+
+  <ul>
+    {% for skill in site.data.cv.skills.environments %}
+      <li><strong>{{ skill.name }}</strong></li>
+  	{% endfor %}
+  </ul>
+
+  <h3>Software</h3>
+
+  <ul>
+    {% for skill in site.data.cv.skills.software %}
+      <li><strong>{{ skill.name }}</strong></li>
+  	{% endfor %}
+  </ul>
+
+  <h3>Languages</h3>
+
+  <ul>
+    {% for skill in site.data.cv.skills.languages %}
+      <li><strong>{{ skill.name }}:</strong> {{ skill.level }}</li>
+  	{% endfor %}
+  </ul>
+
+  <h3>Process</h3>
+
+  <ul>
+    {% for skill in site.data.cv.skills.processes %}
+      <li><strong>{{ skill.name }}</strong></li>
+  	{% endfor %}
+  </ul>
+
+  <h2>References</h2>
+
+  {% for reference in site.data.cv.references %}
+    <blockquote>
+      <p>
+        <q>{{ reference.quote }}</q>
+      </p>
+      <cite>
+        <a href="{{ reference.url }}">
+          {{ reference.name }}
+        </a>
+      </cite>
+    </blockquote>
+	{% endfor %}
+
+</div>

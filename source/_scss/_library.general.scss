@@ -1,0 +1,28 @@
+html {
+  background: #fff;
+  color: $darkgray;
+}
+
+body {
+  font-family: $font-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav ul {
+  padding: 0;
+}
+
+audio, canvas, img, svg, video {
+  vertical-align: middle;
+}
+
+img, video, object, svg, iframe {
+  max-width: 100%;
+  border: none;
+}

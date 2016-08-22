@@ -1,0 +1,65 @@
+- quote: "Our smaller screens reminded us that the web is the first truly fluid design medium: one that can be digested on nearly infinite combinations of browsers, display resolutions, input types, and device classes."
+  loc:
+
+- quote: "I’d argue that we’re no longer building pages at all—instead, we need to think of our responsive designs as a network of small layout systems."
+  loc:
+
+- quote: "So while it may feel like a change to those of us working on the web, it’s also incredibly useful: we can build complex, responsive interfaces in a content-focused, device-agnostic way, readying our designs for an ever-increasing number of browsing contexts."
+  loc:
+
+- quote: "After all, the only constant about our odd little medium is just how quickly everything changes."
+  loc:
+
+- quote: "In other words, it’s not about removing or hiding extra information on smaller screens. Instead, try thinking about your content through this three-part framework: Identify the content critical to the smaller screen. Once you’ve done that, consider that content to be the information accessible to all your readers, regardless of how wide (or small) their screen happens to be. If there’s additional information you’d like to include on wider viewports, consider it an enhancement."
+  loc:
+
+- quote: "“You have to prioritize.” That’s the key point—we should use small screens as a lens through which we view every aspect of our designs, including our navigation. And if we’re collapsing or hiding something because it doesn’t “fit,” let’s instead see that as an opportunity to stop and ask if there’s a larger issue at play: that is, if we’re hiding or removing an element because it doesn’t have value on smaller screens, can we simplify the design and content of that element until it works on smaller screens? Or, alternately, maybe it doesn’t have value for any screen?"
+  loc:
+
+- quote: "And really, I think that’s the primary reason it feels so difficult to work with responsive navigation systems: they’re often designed from a desktop-first mindset, and we’re left to make them “fit” on smaller screens."
+  loc:
+
+- quote: "But if our users are opening our navigation drawers and finding all the junk we didn’t want to sift through in our redesign, is that show/hide toggle really benefiting anyone?"
+  loc:
+
+- quote: "After all, if our audiences are becoming predominantly mobile, we should stop trying to make complex, widescreen-designed elements play nice on smaller screens—instead, we should consider the small-screen user’s needs first."
+  loc:
+
+- quote: "Now, to be clear: “small screen” does not imply “slow connection.” Far from it. In fact, there is no correlation between the width of a screen and the amount of bandwidth available to it. My laptop could be tethered to a phone’s 3G connection, on a steady ethernet connection, or on a hotel’s barely-functioning Wi-Fi network; conversely, my phone could just as easily be on a fast, reliable Wi-Fi network as it could be connected to a flaky cellular signal."
+  loc:
+
+- quote: "More than any coding technique, that feels like the biggest challenge: to reframe the discussion to focus not on a specific technology, but on relinquishing perfect control over the experience."
+  loc:
+
+- quote: "But whether we’re designing text, video, imagery, or advertising, we should be looking for opportunities to simplify our designs, rather than suppressing information."
+  loc:
+
+- quote: "As responsive designers, we need to focus not just on the individual bits of a design, but also the relationship between those elements within a larger layout system."
+  loc:
+
+- quote: "As extensible and well-engineered as these frameworks are, their breakpoints are a snapshot of the web as we currently understand it. With the increasing proliferation of browsers, screen sizes, and device classes, we need lighter frameworks—frameworks that can adapt as nimbly as our designs themselves, ensuring they survive beyond just “mobile, tablet, and desktop.”"
+  loc:
+
+- quote: "If each part of your responsive interface is more or less self-contained—with its own layout rules, content needs, and breakpoints—then the code behind each element’s design is far less important than thinking carefully about how and why an element should adapt. In other words, how do we move beyond thinking in terms of columns and rows, and start talking about the quality of our responsive designs?"
+  loc:
+
+- quote: "There’s nary a mention of grids. For Vox, the design process begins with content priority and evolves into a layout. By understanding the weight and importance of each piece of content that flows through the river, the Vox team can algorithmically generate a responsive layout that best reflects the importance of the information within it."
+  loc:
+
+- quote: "Starting with an abstract system of columns and rows would be wrong for them—and, I’d argue, for every web designer."
+  loc:
+
+- quote: "A grid for the web should be defined by the content, not the edge of an imaginary page."
+  loc:
+
+- quote: "As we move away from device- specific breakpoints, and adapt our layout systems according to the location of their seams, we’ll be creating more robust, more future-friendly layouts. In other words, we’ll be better prepared for the devices and browsers we haven’t even imagined yet."
+  loc:
+
+- quote: "We’ve moved far beyond the desktop, but we’re still trying to find the right words to encompass the scope of what we’re designing and where it’ll appear."
+  loc:
+
+- quote: "Despite that shift, the three words I hear most often on a responsive project—“mobile,” “tablet,” and “desktop”—are also the least helpful. They’re not bad as such, but they’re shorthand and often obscure the design challenges we face."
+  loc:
+
+- quote: "As our layouts become more flexible and device-agnostic, the words we use to talk about our responsive designs should follow suit. Because when we’re accounting for the conditions under which our responsive designs might be viewed—the myriad network conditions, input modes, and screen sizes—we need a design language that’s as nimble and modular as our layout systems are becoming."
+  loc:

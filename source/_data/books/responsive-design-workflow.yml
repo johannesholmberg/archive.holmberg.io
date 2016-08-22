@@ -1,0 +1,50 @@
+- quote: "The responsive web is the web as it was intended. It’s not the desktop web. It’s not the newest Safari browser web or the mobile web or the iOS web. It’s not the tablet web. It’s the universal web of information that should be universally accessible to everyone regardless of device or physical limitation."
+  loc: 257
+
+- quote: "Visual designers are often required to base their work on these wireframes, changing typography and positioning things to an invisible grid, adding color and imagery, basically pouring decoration sauce onto the wireframe dish."
+  loc: 293
+
+- quote: "In this scenario, the real design work is done by interaction designers. They’re the ones solving problems, while the visual designers are left to color within the lines. This hardly seems fair, as designers who don’t solve problems are merely decorators. And decoration is not design."
+  loc: 298
+
+- quote: "It’s time to stop designing pictures of websites and start designing all aspects of the user experience simultaneously and in a practical way."
+  loc: 324
+
+- quote: "Websites should not be built as automobiles on an assembly line. We need to accept that our disciplines overlap, and that we should embrace this overlap and work together."
+  loc: 558
+
+- quote: "If the wireframe does represent the design, then it’s a design, not a wireframe. If it doesn’t, then why so much detail?"
+  loc: 591
+
+- quote: "Stop seeing wireframes as a polished client deliverable and start seeing them as a tool for thinking rather than the end result of thinking."
+  loc: 1025
+
+- quote: "Designing in text utilizes one of the most important building blocks of the web: HTML."
+  loc: 1131
+
+- quote: "The deliverables in each step are primarily meant to aid the design process as opposed to being client-centric deliverables based on a hidden design process."
+  loc: 1765
+
+- quote: "When designing responsively, consider using ems as opposed to pixels for your scale (and thus for your media queries later on)."
+  loc: 1938
+
+- quote: "The point is this: sketching is thinking on a surface."
+  loc: 2074
+
+- quote: "As with anything, the more you know about how the web is made, the more you’ll be able to create a mental map of what’s possible, the more you’ll be able to educate your clients and stakeholders, and the less time you’ll spend revising things in layered pictures across tens or hundreds of documents."
+  loc: 2430
+
+- quote: "Including browser chrome on a design, though a common practice, serves little purpose and doesn’t improve the perception of the design."
+  loc: 3110
+
+- quote: "Everything you do successfully with a piece of technology in the presence of your client will either add or subtract from the perception of your competence."
+  loc: 3244
+
+- quote: "Perhaps most importantly, discussions about “the website not looking like the design” should be virtually eliminated, since the design itself is in the very medium for which it was designed."
+  loc: 3315
+
+- quote: "It’s a combination of visual elements, content, and interaction; it’s an experience."
+  loc: 3328
+
+- quote: "Web design is system design."
+  loc: 3590

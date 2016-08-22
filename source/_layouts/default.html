@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body class="{% if page.body_class %}{{page.body_class}} {% endif %} {% if layout.body_class %}{{layout.body_class}} {% endif %}" id="body">
+
+    <div class="visuallyhidden">
+      <a href="#main-content">Skip to content</a>
+    </div>
+
+    {% include header.html %}
+    <main id="main-content" class="{{page.class}} main-section">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+
+    {% include analytics.html %}
+  </body>
+</html>

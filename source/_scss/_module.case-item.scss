@@ -1,0 +1,83 @@
+.case-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case-item {
+  margin: 0 auto 2.5em;
+  text-align: center;
+  display: block;
+  width: 100%;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
+  background: #fff;
+
+  @include breakpoint(mobile-lg) {
+    margin: 0 3% 2.5em;
+    width: 47%;
+    float: left;
+
+    &:nth-child(odd) {
+      margin-left: 0;
+    }
+
+    &:nth-child(even) {
+      margin-right: 0;
+    }
+  }
+
+  @include breakpoint(desktop-sm) {
+    margin: 0 2.6% 2.5em;
+    width: 29.8%;
+    float: left;
+
+    &:nth-child(odd) {
+      margin-left: 2.6%;
+    }
+
+    &:nth-child(even) {
+      margin-right: 2.6%;
+    }
+
+    &:nth-child(3n+1) {
+      margin-left: 0;
+    }
+
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    border: 0;
+    position: static;
+
+    .title {
+      color: $profile-text;
+    }
+
+    .meta {
+      color: $darkgray;
+    }
+  }
+
+  img {
+    transition: transform .2s ease-in-out;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .title {
+    text-transform: none;
+    font-family: $font-sans;
+    font-weight: 700;
+    color: #888;
+    font-size: 1.1em;
+    margin-bottom: .1em;
+  }
+
+  .meta {
+    color: $lightdarkgray;
+    font-family: $font-sans;
+    font-size: 1em;
+  }
+}

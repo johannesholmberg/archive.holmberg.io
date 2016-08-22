@@ -1,0 +1,44 @@
+webstack:
+  - name: HTML5
+    level: Fluent
+  - name: CSS3
+    level: Fluent
+  - name: JavaScript
+    level: Familiar
+  - name: Sass
+    level: Fluent
+  - name: Less
+    level: Proficient
+  - name: Responsive techniques
+    level: Fluent
+  - name: W3C Standards
+  - name: jQuery
+  - name: AngularJS
+  - name: Knockout.js
+  - name: React.js
+  - name: Twitter Bootstrap
+  - name: XML
+  - name: JSON
+  - name: Gulp
+
+environments:
+  - name: .NET MVC - Visual Studio (C#)
+  - name: PHP - WordPress CMS
+
+software:
+  - name: Photoshop
+  - name: Illustrator
+  - name: Sketch
+  - name: Microsoft Office
+
+languages:
+  - name: English
+    level: Professional
+  - name: Swedish
+    level: Native
+  - name: German
+    level: Elementary
+
+processes:
+  - name: Scrum
+  - name: Kanban

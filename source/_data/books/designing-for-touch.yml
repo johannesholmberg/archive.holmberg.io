@@ -1,0 +1,71 @@
+- quote: "Thumbs drive 75% of all phone interactions."
+  loc: 128-128
+
+- quote: "Hoober and Shank found that 88% of tablet use happens while seated, compared to 19% of phone use."
+  loc: 197-198
+
+- quote: "One reported that people attach more value to products they “touch” on a website versus click with a mouse."
+  loc: 238-239
+
+- quote: "When touch is introduced, cold pixels somehow take on the warmth and emotional investment of physical objects."
+  loc: 239-240
+
+- quote: "And that’s the most striking consistency across the form factors we’ve reviewed: thumbs do the driving no matter how large the screen."
+  loc: 266-267
+
+- quote: "Don’t pin web navigation to screen bottom."
+  loc: 369-370
+
+- quote: "The resulting stomach acid isn’t worth the effort, since pinned navigation on phones is a bad idea to begin with."
+  loc: 374-375
+
+- quote: "Gluing a fixed toolbar anywhere on the screen is lousy on phones. Because the browser’s buttons already eat real estate, the last thing you should do is crowd out more content by cramming the top of the page with your own buttons."
+  loc: 379-381
+
+- quote: "You can’t assume every screen has the generous dimensions of the most popular smartphones."
+  loc: 384-385
+
+- quote: "When controls browse or change content, place them below or to the side of that content, never above."
+  loc: 540-541
+
+- quote: "We need to change the way we think about designing for larger screens. We need to change our thinking about screens, period. They deceive and distract us."
+  loc: 577-578
+
+- quote: "Turns out that pixels don’t work the way most of us think they do, screen size has nothing to do with touch, and browsers don’t even know what gadgets are connected to them."
+  loc: 579-580
+
+- quote: "Unfortunately, carousels are more fool’s gold than silver bullet, because they demand those rarest of commodities: patience and attention."
+  loc: 1040-1041
+
+- quote: "When the goal is to optimize click-throughs or fast page scans, carousels let us down."
+  loc: 1042-1042
+
+- quote: "When there’s no organizing relationship to the collection, people don’t know what’s next in the carousel and lose interest."
+  loc: 1045-1046
+
+- quote: "Carousels also work well for PowerPoint-style slide shows that tell a yarn, make an argument, or provide a product tour; any logical progression of content is an array of linear data and a good carousel candidate"
+  loc: 1082-1083
+
+- quote: "No need to ask for city and state/region if you have the postal code. No need to ask what type of credit card they’ve provided, since that’s embedded in the account number."
+  loc: 1124-1126
+
+- quote: "When we design for sensors, not just screens, the whole world becomes a digital canvas."
+  loc: 1343-1343
+
+- quote: "Every digital interface is an illusion, a thin layer of magic atop a churn of ones and zeroes. For the first time, though, touchscreens present the opportunity to create the illusion that there is no illusion, that there’s nothing between you and the content."
+  loc: 1491-1493
+
+- quote: "As you borrow from the real world, remember that it’s the physical action you seek to import, not the original object; it’s about the crank, not the knob."
+  loc: 1574-1575
+
+- quote: "The simplest example is painting a color on the photo, using your finger as a brush. But what if you want to change the brush size? That’s easy, right? After all, desktop apps always address this by offering either a slider or a brush palette to choose a new brush size. Thing is, you already have a brush—your finger—and it doesn’t change size. Changing the size of your finger’s impression on the screen to anything other than the size of your fingertip introduces uncertainty. You have no idea how large a mark you’ll leave. You shift from direct interaction to abstract guesswork."
+  loc: 1616-1620
+
+- quote: "Making browser gestures work inconsistently across websites undermines user confidence when we still need to shore up gestural interactions and establish standards. Let browsers have their gestures and work with what’s left."
+  loc: 1684-1686
+
+- quote: "The illusion of physicality does not rely on things looking real, only acting real."
+  loc: 2191-2192
+
+- quote: "We have the chance right now to invent more humane ways to interact with information."
+  loc: 2348-2348

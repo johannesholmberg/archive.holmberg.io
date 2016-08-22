@@ -1,0 +1,75 @@
+.year {
+  @extend %clearfix;
+}
+
+.article-list {
+  padding: 0;
+  float: right;
+  width: 75%;
+  margin: 0;
+}
+
+.article-divider {
+  float: left;
+  width: 25%;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  padding: .2em 0;
+  font-size: 1.8em;
+}
+
+.article-item {
+  margin: 0;
+  display: block;
+  list-style: none;
+  position: relative;
+
+
+  > a {
+    display: block;
+    padding: .75em .4em;
+    border-top: 1px solid #ddd;
+    @extend %clearfix;
+    color: #444;
+
+    &:hover,
+    &:focus {
+      color: $profile-text;
+      border-bottom: 0;
+    }
+  }
+
+  strong {
+    position: absolute;
+    top: 0;
+    left: -4rem;
+    width: 4rem;
+    height: 3.5rem;
+    //border-top: 1px solid #ddd;
+    //background: #fafafa;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: .75em;
+  }
+
+  .title {
+    margin: 0;
+    font-family: $font-sans;
+    font-weight: 400;
+    text-transform: none;
+    font-size: .85em;
+    float: left;
+    width: 75%;
+  }
+
+  .date {
+    margin: 0;
+    font-size: $f14px;
+    color: #777;
+    float: right;
+    font-family: $font-sans;
+  }
+}

@@ -1,0 +1,77 @@
+- quote: "Indeed, most organizations that have implemented a responsive design report that the design and development decisions were the easy part. The hard part is getting the organization aligned on what it means to design for all devices equally."
+  loc:
+
+- quote: "Flabby old content can’t be shoved into stretchy new responsive clothes, so your editorial process and workflow must evolve."
+  loc:
+
+- quote: "Unfortunately, no magic wand can take an existing website and automagically make it work across platforms and devices."
+  loc:
+
+- quote: "Time we spend with mobile devices has taken away from time we spend with print media—and probably family time, exercise, and sleep—but not desktop computers."
+  loc:
+
+- quote: "“What are the three most common words used during a responsive design project?” The answer: mobile, tablet, and desktop. Teams can easily spend hours obsessing over these form factors. But, Ethan goes on to say, these are the three least helpful words to use during the design process."
+  loc:
+
+- quote: "Physical screen size does not necessarily tell us what type of device it is. It’s tempting to assume that smaller screens are smartphones and larger screens are desktops or laptops, but with larger phones becoming more popular, where do you draw the line between a smartphone and a tablet?"
+  loc:
+
+- quote: "If you think you can design for a fixed-width screen size on smartphones, just remember all the times you’ve rotated your phone."
+  loc:
+
+- quote: "For many executives, the argument that responsive design streamlines internal processes or makes for a better user experience will never be as persuasive as the argument that responsive design produces better business results."
+  loc:
+
+- quote: "The advantage to building with adaptive grids is that teams can focus their design process on creating layouts aimed at specific device types. It should be clear why that’s also the disadvantage of adaptive grids. Because screen sizes vary so widely, most devices will not perfectly match one of the anticipated sizes. The whole point of going responsive is that the design will fluidly cover all screen sizes."
+  loc:
+
+- quote: "Rather than having content styled for (and locked up in) a big blob of a field—like a wiki page or PDF—adaptive content is stored as smaller, presentation-independent chunks."
+  loc:
+
+- quote: "Responsive projects aren’t just about building a website. They’re about training your team. Implementing a new process. Educating the organization on new ways to solve problems."
+  loc:
+
+- quote: "Companies that have delivered a successful responsive redesign say they got much more from the initiative than a website that works on smartphones—they got an organization that thinks and works differently. The real value from responsive design comes from the organizational change that happens behind the scenes."
+  loc:
+
+- quote: "Doing a responsive retrofit means recoding the front end of the website with little or no change to the existing content and design."
+  loc:
+
+- quote: "“A responsive design approach really wasn’t a design approach, it was an organizational approach to thinking and aligning everything else about how we worked and how we built things together.”"
+  loc:
+
+- quote: "Designs can’t simply be documented in comps or specs and then “thrown over the wall” to developers."
+  loc:
+
+- quote: "After all the design decisions have been made and all the pages built, we discover that the website is too damn slow. Performance optimization is done in retrospect as a belated attempt to fix what’s already broken. When you’re going responsive, that doesn’t work anymore."
+  loc:
+
+- quote: "Because performance is so technical, conversations about how to improve it are typically left to engineers. This needs to change. Designers, marketers, and stakeholders must understand how their decisions will affect the speed of the website, and how tradeoffs will be negotiated."
+  loc:
+
+- quote: "Performance suffers because stakeholders insist they must have everything but the kitchen sink on the website."
+  loc:
+
+- quote: "Full-bleed images, giant carousels, web fonts, social widgets—each of these comes at a cost, and the user pays for it in download speed."
+  loc:
+
+- quote: "So, you’ve got some large images, and you wonder, “How can I pack the biggest performance hit into the smallest amount of space?” A carousel may be for you."
+  loc:
+
+- quote: "Marketers and stakeholders love carousels. Rather than make tough decisions about how to allocate precious real estate, people shove everything into a rotator and call it a day."
+  loc:
+
+- quote: "“Mobile first” has become such a buzzword that its definition has expanded to mean very different things to different people. At its core, mobile-first means using the constraints of a smaller, less-capable device to identify what matters most on each screen."
+  loc:
+
+- quote: "Pictures of web pages, constructed in Photoshop and distributed as PDFs—or worse, hard copies—seem like vestiges of another era, like watching a television broadcast of actors in a radio program speaking their lines."
+  loc:
+
+- quote: "Breakpoints do not and should not neatly map to device sizes."
+  loc:
+
+- quote: "Responsive means adopting a new definition of support, one that aims to make sure the widest possible audience can use the website, without expecting every user will see the exact same thing. This new definition of support changes how teams think about testing, because rather than looking for pixel-perfect layouts on every platform and screen size, they’re focused on making sure users can complete their tasks—even if the presentation is different on different devices."
+  loc:
+
+- quote: "Rather than wasting time on ensuring pixel-perfect layouts across devices—an activity that never resulted in much tangible business value—teams focus on building a site that works on every device."
+  loc:

@@ -1,0 +1,70 @@
+.page-header {
+
+  &.-left-align {
+    .title,
+    .meta {
+      text-align: left;
+    }
+  }
+
+  &.-special-meta {
+    margin-bottom: -1em;
+    
+    .meta {
+      transform: translateY(-1.5em);
+      background: #fff;
+      padding-right: .7em;
+      display: inline-block;
+    }
+  }
+
+  &.-without-border {
+    .title {
+      border-bottom: 0;
+      padding-bottom: .1em;
+      margin-bottom: 0;
+    }
+  }
+
+  .dark & {
+    .title,
+    .meta {
+      color: #fff;
+      text-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    }
+  }
+
+  &.-one-col {
+    @include breakpoint(mobile-lg) {
+      width: 70%;
+    }
+  }
+
+  .title {
+    padding-bottom: .4em;
+    text-transform: none;
+    text-align: center;
+    border-bottom: 1px solid rgba(155, 155, 155, .2);
+
+    @include breakpoint(mobile-lg-max) {
+      font-size: $f32px;
+    }
+  }
+
+  .meta {
+    margin: 0;
+    color: #666;
+    line-height: 1.4;
+    text-align: center;
+    font-family: $font-serif;
+
+    @include breakpoint(mobile-lg-max) {
+      font-size: 1.1rem;
+    }
+
+    span {
+      font-style: italic;
+      font-size: .85em;
+    }
+  }
+}

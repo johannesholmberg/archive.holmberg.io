@@ -1,0 +1,20 @@
+- quote: "Abstractions, in the software sense, are things that make a task conceptually easier to handle by covering up the elements that make them hard."
+  loc: 103-104
+
+- quote: "Interfaces are abstractions: there’s absolutely no relationship between dragging a file to a trash can icon to delete it and actually removing the file from your hard drive, except that a designer thought it would make the concept of deleting files easier to understand. And it works!"
+  loc: 104-106
+
+- quote: "Git doesn’t know anything about job titles, and can’t write HTML. It’s relying on you, its human operator, to step in and craft the merged version."
+  loc: 1421-1422
+
+- quote: "Most of the time, if you’re judicious about merging, this kind of thing will never come up. Still, despite your best efforts, merge conflicts sometimes happen anyway. This scenario, where two different members of your team each make well-intentioned changes that happen to conflict with each other, is always possible. So it can be comforting to know that Git has a solution—and, as always, Git’s solution is a commit."
+  loc: 1451-1454
+
+- quote: "There’s an old saying (which, like the word “bug,” is popularly attributed to Grace Hopper): A ship in port is safe, but that’s not what ships were built for. Right now, all these commits you’ve been making are safe in the proverbial harbor that is your computer. Let’s send them on a voyage."
+  loc: 1460-1463
+
+- quote: "For us humans, the job of a commit is to bundle changes into logical chunks."
+  loc: 2164-2164
+
+- quote: "Sometimes, the logic behind a particular set of changes is as simple as: “This is when I, the developer, felt it made sense to save my progress”. But sometimes there’s more of a story—more meaning—behind a change."
+  loc: 2164-2166

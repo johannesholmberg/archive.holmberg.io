@@ -1,0 +1,13 @@
+{% assign data = page.url | replace: '/reading/', '' | replace: '/', '' | replace: '-read-2', '' %}
+
+{% for highlight in site.data.books.[data] %}
+
+  > {{ highlight.quote }}
+  {: #highlight{{forloop.index}}}
+
+  {% assign separator = "&middot;" %}
+
+  {% if highlight.loc %} loc. {{ highlight.loc }} {{ separator }} {% elsif highlight.page %} Page {{ highlight.page }} {{ separator }} {% endif %} [highlight {{forloop.index}}](#highlight{{forloop.index}})
+  {: .meta}
+
+{% endfor %}

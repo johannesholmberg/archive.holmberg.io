@@ -1,0 +1,10 @@
+a {
+  color: $profile-text;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $profile-text;
+    border-bottom: 1px solid $profile-text;
+  }
+}

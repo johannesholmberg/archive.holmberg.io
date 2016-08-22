@@ -1,0 +1,5 @@
+{% assign full_url = page.ref_url | remove: "http://" | remove: "https://" %}
+{% assign url = full_url | split: "/" %}
+<p>
+  <a href="{{ page.ref_url }}">Read on {{ url[0] }}</a>
+</p>

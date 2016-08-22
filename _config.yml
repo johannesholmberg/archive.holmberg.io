@@ -1,27 +1,18 @@
-#
-# This file contains configuration flags to customize your site
-#
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 
-# Name of your site (displayed in the header)
+url: http://holmberg.io
 name: holmberg.io
-
-# Name of the author
 author: Johannes Holmberg
-
-# Folder where Jekyll reads
-source: app
-
-# Short bio or description
+email: johannes@holmberg.io
 description: "Johannes Holmberg is a freelance front-end web developer. This is his personal playground with words, design and code."
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-20488297-3
 
-# Your website URL
-# Used for Sitemap.xml and your RSS feed
-url: http://holmberg.io
+# ----------------------- #
+#   Global media queries  #
+# ----------------------- #
 
-# Global media queries
 mobile-lg:   'min-width: 34em'
 tablet-sm:   'min-width: 45em'
 tablet-lg:   'min-width: 57em'
@@ -29,17 +20,33 @@ desktop-sm:  'min-width: 67em'
 desktop-lg:  'min-width: 84em'
 desktop-xl:  'min-width: 118em'
 
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+safe: true
+
+source: source
+destination: _site
+
 markdown: kramdown
 highlighter: pygments
 permalink: /:categories/:title/
 
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 exclude: [
-  "node_modules",
-  "gulpfile.js",
-  "package.json",
-  "Gemfile",
-  'bower.json',
-  'app/assets/js/app.dev.js',
-  '*.sublime-workspace',
-  '*.sublime-project'
+  'source/assets/js/app.dev.js'
 ]
+
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+google_analytics: UA-20488297-3

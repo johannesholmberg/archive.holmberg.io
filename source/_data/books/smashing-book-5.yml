@@ -1,0 +1,38 @@
+- quote: "The flourishing diversity of web landscape — from form factors to connection types to input modes to browsers — has only amplified the unpredictability of user experiences on the web. This unpredictability is remarkably difficult to tackle unless you embrace the inherent fluidity of the web as a guiding principle in your work."
+  loc:
+
+- quote: "The third goal was to ensure that during the process, all deliverables would come with conversation."
+  loc:
+
+- quote: "Knowing that I can use six images and four web fonts before jumping into Photoshop means that I’m using performance as an ingredient in the design process, rather than trying to squeeze it in afterwards. We do our best work under constraints, and knowing this constraint up-front is invaluable."
+  loc:
+
+- quote: "“Language was invented to ask questions. Answers may be given in grunts and gestures, but questions must be spoken. Humanness came of age when man asked the first question.”"
+  loc:
+
+- quote: "If you sense that there might be political challenges in shifting how your client works, here’s a pro tip (and I sense this in every project we do): working iteratively can help turn skeptics into advocates."
+  loc:
+
+- quote: "How could we perfect the interface design without experimenting with some front-end code?"
+  loc:
+
+- quote: "If we’re building responsively, we need to focus on testing a single-site solution across viewport widths. We need to measure the usability of the whole, not just the breakpoints. This will help us create the most usable experience for the most people."
+  loc:
+
+- quote: "If a picture is worth a thousand words, a prototype is worth a thousand pictures."
+  loc:
+
+- quote: "If you’ve ever spent hours tweaking a PSD, handed it over to a dev to build, and then checked back in a week or two, you have experienced this pain. All the effort you took to refine and refine by pushing static pixels around is wasted. As soon as the design changes media (from static design in Photoshop or some other tool to HTML and CSS in the browser) another pass of refinement is needed. The idea behind the switching point is to recognize how inefficient this is. Instead of refining with static tools, get the basic design coded as soon as possible and handle the refinement in the end medium — the web."
+  loc:
+
+- quote: "The content deserves room to breathe and the closer we can get to all of the space being reserved for content, the better the experience will be. It often means that the logo gets smaller in narrow viewports and the navigation button either disappears or floats with scrolling while fixed headers, footers or pop-ups are avoided at all costs."
+  loc:
+
+- quote: "Almost every single meeting I find myself sitting in involves an uncomfortable, toxic ingredient with a lingering and irritating bitter aftertaste. Yes, somebody sparks an endlessly painful conversation about the almighty fold, or more specifically, important interface elements that should stay above the fold. These conversations are remarkably misleading and counter-productive, and usually lack any user research data to prove… well, pretty much anything. When somebody raises a question about the fold and call-to-action buttons, it’s usually a warning sign that things are about to go south. Whenever it happens, (rather than freaking out and leave the room) you could question the validity of their arguments and request actual data."
+  loc:
+
+- quote: "People do use keyboards on mobile devices, as well as other input devices that simulate tabbing. You still need to ensure keyboard navigation is usable on mobile sites."
+  loc:
+
+- quote: "Most folks in our industry have accepted that all browsers and devices are going to display our webpages somewhat differently no matter how hard we try for things to look identical between browsers."
+  loc:

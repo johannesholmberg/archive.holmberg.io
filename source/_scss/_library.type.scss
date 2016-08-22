@@ -1,0 +1,135 @@
+html {
+  line-height: 1.65;
+  font-size: .9em;
+
+  @include breakpoint(tablet-sm) {
+    font-size: 1em;
+  }
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.3;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 1.5em 0 .3em;
+
+  & + p {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: $f52px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: $f20px;
+  letter-spacing: .02em;
+}
+
+h3 {
+  font-size: $f16px;
+}
+
+p,
+ul,
+ol {
+  font-size: $f20px;
+  margin: 1.5em 0;
+}
+
+ol {
+  font-size: $f26px;
+  font-style: italic;
+
+  p {
+    font-style: normal;
+  }
+}
+
+li {
+  margin: 0 0 .2em;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+}
+
+hr {
+  font-size: 3em;
+  line-height: 1;
+  text-align: center;
+  margin: 1em 0 2em;
+  border: 0;
+
+  &:after {
+    font-family: sans-serif;
+    content: '\00b7\00b7\00b7';
+    color: #bbb;
+    letter-spacing: .6em;
+    padding-left: 1em;
+    height: 0;
+  }
+}
+
+blockquote {
+  color: $midgray;
+  border-left: 4px solid #ddd;
+  background: #fafafa;
+  margin: 1.1em 0;
+  padding: 1.2em 1.3em 1.3em;
+  font-style: italic;
+
+  @include breakpoint(mobile-lg) {
+    padding: 1.5em 1.7em 1.6em;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+code {
+  background: $snow;
+  color: #444;
+  font-size: .85em;
+  padding: .3em .5em;
+  line-height: 1;
+  border-radius: .2em;
+  display: inline-block;
+  font-family: $font-serif;
+}
+
+figure {
+  margin: 1.5em auto;
+}
+
+figcaption {
+  color: $lightdarkgray;
+  //text-align: center;
+  margin: .5em 0 1.5em;
+  font-style: italic;
+}
+
+
+.intro {
+  font-size: 1.4em;
+
+  @include breakpoint(tablet-sm) {
+    font-size: 1.6em;
+  }
+
+  > strong:first-child {
+    text-transform: uppercase;
+  }
+
+  &:first-letter {
+    display: inline;
+    float: left;
+    padding: .15em .08em 0 0;
+    line-height: .65em;
+    font-size: 3.4em;
+  }
+}

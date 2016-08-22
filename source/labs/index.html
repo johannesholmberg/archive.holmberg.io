@@ -1,0 +1,19 @@
+---
+layout: default
+title: The Playground of
+active: labs
+description: "Creations by Johannes Holmberg."
+body_class: dark soft-background
+hasHeader: true
+top-title: Labs
+top-bg: "#AE8B53"
+top-subtitle: "Experiments and small projects."
+---
+
+<div class="wrap -two-col">
+  <div class="case-holder">
+    {% for post in site.categories.labs %}
+      {% include case-item.html %}
+    {% endfor %}
+  </div>
+</div>

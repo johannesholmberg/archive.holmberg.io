@@ -1,0 +1,86 @@
+.cover-banner {
+  background-position: 64% center;
+  background-size: cover;
+  background-image: url('../../uploads/dist/johannes-wide-1000.jpg');
+  margin-top: -6.9em;
+
+  @include breakpoint(mobile-lg) {
+    background-position: center center;
+  }
+
+  @include breakpoint(tablet-lg) {
+    background-image: url('../../uploads/dist/johannes-wide-1400.jpg');
+    margin-top: -7.4em;
+  }
+
+  @include breakpoint(desktop-lg) {
+    background-image: url('../../uploads/dist/johannes-wide-2000.jpg');
+  }
+
+  @include breakpoint(desktop-xl) {
+    background-image: url('../../uploads/dist/johannes-wide-2600.jpg');
+  }
+
+  .wrap {
+    padding-top: 26%;
+    padding-bottom: 16%;
+
+    @include breakpoint(mobile-lg) {
+      padding-top: 18%;
+      padding-bottom: 12%;
+    }
+
+    @include breakpoint(tablet-lg) {
+      padding-top: 12%;
+      padding-bottom: 8%;
+    }
+
+    @include breakpoint(desktop-lg) {
+      padding-top: 10%;
+    }
+  }
+
+  .title {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 0;
+    text-transform: none;
+    color: #fff;
+    font-family: $font-serif;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.2;
+    max-width: 65%;
+
+    @include breakpoint(mobile-lg) {
+      font-size: calc(1.6rem + 2.1vw);
+    }
+  }
+
+  .meta {
+    font-size: 1.05em;
+    margin: .2em 0 .8em;
+    line-height: 1.4;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+
+    @include breakpoint(mobile-lg) {
+      font-size: calc(.6rem + .85vw);
+    }
+
+    span {
+      @include breakpoint(mobile-lg-max) {
+        display: block;
+      }
+    }
+  }
+
+  .btn {
+    margin: 0;
+    font-size: .9em;
+
+
+    @include breakpoint(mobile-lg) {
+      font-size: calc(.7rem + .4vw);
+    }
+  }
+}

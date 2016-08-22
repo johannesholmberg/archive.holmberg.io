@@ -1,11 +1,16 @@
-node_modules
+# Compiled source #
+###################
 _site
+source/assets/css/main.min.css
+source/uploads/dist
 
+# Packages #
+############
+node_modules
+source/assets/vendor/**/*
+
+# Logs #
+########
 **/*.jekyll-metadata
 **/*.DS_Store
 Gemfile.lock
-
-app/assets/js/vendor/**/*
-app/assets/images/dist/*
-app/assets/js/vendor.min.js
-app/assets/css/main.min.css

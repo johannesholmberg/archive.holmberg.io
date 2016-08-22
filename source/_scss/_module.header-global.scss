@@ -1,0 +1,105 @@
+.header-global {
+  width: 100%;
+  z-index: 1000;
+  position: relative;
+  top: 0;
+}
+
+.top-header {
+  width: 100%;
+  padding: .2em 0 0;
+  margin-bottom: -.3em;
+  //display: none;
+
+  .title {
+    text-align: left !important;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: -.18em;
+    color: rgba(255, 255, 255, .8);
+    z-index: 100;
+    position: relative;
+    display: inline-block;
+    text-transform: none;
+    margin-left: 4%;
+
+    @include breakpoint(mobile-lg) {
+      margin-left: 9.5%;
+    }
+
+    @include breakpoint(tablet-sm) {
+      font-size: 3.8em;
+
+    }
+
+    @include breakpoint(desktop-sm) {
+      font-size: 4.6em;
+    }
+  }
+
+  .meta {
+    display: block;
+    margin: 0 0 .5em;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 1);
+    vertical-align: .6em;
+    margin-left: .3em;
+    font-family: $font-sans;
+
+    &:before {
+      content: '–';
+      display: inline-block;
+      margin-right: .3em;
+    }
+
+    @include breakpoint(mobile-lg) {
+      margin-left: 0;
+      display: inline-block;
+    }
+
+    @include breakpoint(tablet-lg) {
+      font-size: 1.1em;
+    }
+
+  }
+
+  .title,
+  .meta {
+    body.dark & {
+      color: #fff;
+      color: rgba(255, 255, 255, .8);
+      text-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    }
+    body.light & {
+      color: #555;
+      text-shadow: none;
+    }
+  }
+
+  .meta {
+    body.dark & {
+      color: rgba(255, 255, 255, .95);
+    }
+  }
+}
+
+.menu-trigger {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  padding: .7em 1.2em;
+  font-family: $font-sans;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+
+  &:active {
+    top: 0;
+    position: absolute;
+  }
+
+  @include breakpoint(mobile-lg) {
+    display: none;
+  }
+}
