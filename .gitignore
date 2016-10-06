@@ -1,13 +1,13 @@
 # Compiled source #
 ###################
 _site
-source/assets/css/main.min.css
-source/uploads/dist
+assets/css/main.min.css
+uploads/dist
 
 # Packages #
 ############
 node_modules
-source/assets/vendor/**/*
+assets/vendor/**/*
 
 # Logs #
 ########
