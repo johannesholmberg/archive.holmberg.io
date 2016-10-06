@@ -2,7 +2,6 @@
 ###################
 _site
 assets/css/main.min.css
-uploads/dist
 
 # Packages #
 ############
