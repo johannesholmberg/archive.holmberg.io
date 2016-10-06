@@ -6,7 +6,7 @@ redirect_from:
   - /article/drop-the-controls/
 ---
 
-<p class="intro" markdown="1">**I’ve** gotten a lot of questions from curious readers lately, regarding to *what* it actually is I'm doing right now, *why* I’m doing it and *how* I’m doing it.</p>
+I’ve gotten a lot of questions from curious readers lately, regarding to *what* it actually is I'm doing right now, *why* I’m doing it and *how* I’m doing it.
 
 Instead of answering every request individually I thought it would be fair to combine the questions and try to straighten out the answers in a letter.
 

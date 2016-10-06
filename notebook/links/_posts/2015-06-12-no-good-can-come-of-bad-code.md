@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "No Good Can Come of Bad Code"
 ref_url: http://alistapart.com/column/no-good-can-come-of-bad-code
 ---

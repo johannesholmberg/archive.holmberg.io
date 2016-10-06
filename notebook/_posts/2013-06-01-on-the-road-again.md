@@ -5,7 +5,7 @@ redirect_from:
   - /journal/on-the-road-again/
 ---
 
-<p class="intro" markdown="1">**Last week** I spent in Kochi, a picturesque little fishing town on the southwest coast of India. What hit me as most fascinating was the [Chinese fishing nets](https://www.google.se/search?q=chinese+fishing+nets+kochi&es_sm=91&source=lnms&tbm=isch&sa=X&ei=V4lyU7beEaGTywOppYDwBA&ved=0CAgQ_AUoAQ&biw=1440&bih=802) standing in line like soldiers in the harbor.</p>
+Last week I spent in Kochi, a picturesque little fishing town on the southwest coast of India. What hit me as most fascinating was the [Chinese fishing nets](https://www.google.se/search?q=chinese+fishing+nets+kochi&es_sm=91&source=lnms&tbm=isch&sa=X&ei=V4lyU7beEaGTywOppYDwBA&ved=0CAgQ_AUoAQ&biw=1440&bih=802) standing in line like soldiers in the harbor.
 
 The nets are fastened on enormous “forks” made out of wood. It works almost like a catapult and the fork is dropped in the water for a few minutes, then being hauled up with the new fresh catch.
 

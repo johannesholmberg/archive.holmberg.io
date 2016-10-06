@@ -2,7 +2,7 @@
 layout: post
 title: "January Roundup"
 redirect_from:
-- /writing/69/
+  - /writing/69/
 ---
 
 It's been a little bit of a vacuum month for me. I feel like January just sailed by. It’s been more of a cleanup month than anything else. It was so much happening around Christmas, and so much baggage that followed over New Years, that this month's purpose was mostly for tying up loose ends.
@@ -29,8 +29,8 @@ As I mentioned previously, I will have some time back in my life for this month.
 - CSS Grid, CSS Regions and also a deeper understanding of Flexbox are things I want to experiment with this month.
 - I will try forging my morning routine back into shape. I've been a bit in hibernation over the winter, but I will try to leave that now as the days are getting brighter again.
 
-[Die Entdeckung Der Langsamkeit]: http://holmberg.io/reading/die-entdeckung-der-langsamkeit/
+[Die Entdeckung Der Langsamkeit]: {{ site.url }}/reading/die-entdeckung-der-langsamkeit/
 [Blinkist]: https://www.blinkist.com/en/
 [Lifesum]: https://lifesum.com/
-[UP bracelet]: http://holmberg.io/article/getting-up/
-[Circling The Sun]: http://holmberg.io/reading/circling-the-sun/
+[UP bracelet]: {{ site.url }}/article/getting-up/
+[Circling The Sun]: {{ site.url }}/reading/circling-the-sun/

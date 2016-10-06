@@ -12,7 +12,7 @@ redirect_from:
 
 _This post was first published for a course project over at [Skillshare][skillshare]. The assignment was to write a 500-word essay about one of my objects._
 
-**When** I was 16 years old I was rummaging around in the cellar of my diseased grandparents. I was searching for something that could tell me more of their time. Something that would help me keep the connection.
+When I was 16 years old I was rummaging around in the cellar of my diseased grandparents. I was searching for something that could tell me more of their time. Something that would help me keep the connection.
 {: .intro }
 
 I found a couple of strange hats, purses and piles of clothes. But this was not what I was after, I wanted an object, something that I could keep and make mine. In one dark corner of the room, on the top shelf, I found a brown box labeled “Photos”. I dusted it off and within found an old camera. This was it!

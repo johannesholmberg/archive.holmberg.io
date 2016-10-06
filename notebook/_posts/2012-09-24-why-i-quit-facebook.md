@@ -6,7 +6,7 @@ redirect_from:
 - /article/why-i-quit-facebook/
 ---
 
-<p class="intro" markdown="1">**In** March this year I pulled the plug on Facebook. It was a big decision, and one that had to be taken. It wasn't working for me anymore.</p>
+In March this year I pulled the plug on Facebook. It was a big decision, and one that had to be taken. It wasn't working for me anymore.
 
 I spent way too much of my time hanging around on that social network, and the value I got back was very small. It wasn't worth it anymore. Real life had become boring. There was no need to talk with friends any longer since I always already knew what they were up to. I wanted the excitement back.
 

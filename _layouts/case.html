@@ -1,75 +1,57 @@
 ---
 layout: default
+body_class: post
 ---
 
-<article>
-	<div class="case-image" style="background-color: {{ page.color }}">
-	  {% assign title = page.title %}
-	  {% assign subtitle = page.subtitle %}
-		{% assign attribute = "-without-border -no-padding" %}
-	  {% include page-header.html %}
-		<div class="image">
-	    <img
-        src="/uploads/dist/{{ page.cover }}-cover-600.jpg"
-        sizes="
-        (min-width: 125em) 1500px,
-        (min-width: 100em) 1300px,
-        (min-width: 65em) 1100px,
-        100%"
-        srcset="
-        /uploads/dist/{{ page.cover }}-cover-320.jpg 320w,
-        /uploads/dist/{{ page.cover }}-cover-600.jpg 600w,
-        /uploads/dist/{{ page.cover }}-cover-800.jpg 800w,
-        /uploads/dist/{{ page.cover }}-cover-1000.jpg 1000w,
-        /uploads/dist/{{ page.cover }}-cover-1400.jpg 1400w,
-        /uploads/dist/{{ page.cover }}-cover-2000.jpg 2000w,
-        /uploads/dist/{{ page.cover }}-cover-2600.jpg 2600w"
-        alt="{{page.title}}"
-	    >
-		</div>
+<article class="has-intro">
+	{% assign title = page.title %}
+	{% assign subtitle = page.subtitle %}
+	{% include page-header.html %}
+
+	<div class="main-content">
+		{% assign filename = page.cover | append: '-cover' %}
+		{% assign alt = page.title %}
+		{% include responsive-image.html %}
+
+		{{ content }}
 	</div>
 
-	<div class="wrap container -two-col">
+  <aside class="sidebar">
+		{% include bio-card.html %}
 
-		<div class="main-content">
-			{{ content }}
-		</div>
+		<aside>
+			<ul class="meta">
+				{% if page.meta %}
+					<li><strong>Production:</strong> {{ page.meta }}</li>
+				{% endif %}
 
-    <div class="side-panel">
-  		<aside>
-  			<ul class="meta">
-  				{% if page.meta %}
-  					<li><strong>Production:</strong> {{ page.meta }}</li>
-  				{% endif %}
+				{% if page.role %}
+        	<li><strong>Role:</strong> {{ page.role }}</li>
+        {% endif %}
 
-  				{% if page.role %}
-          	<li><strong>Role:</strong> {{ page.role }}</li>
-          {% endif %}
+				{% if page.output %}
+        	<li><strong>Output:</strong> {{ page.output }}</li>
+        {% endif %}
 
-  				{% if page.output %}
-          	<li><strong>Output:</strong> {{ page.output }}</li>
-          {% endif %}
+        {% if page.techniques %}
+        	<li><strong>Techniques:</strong> {{ page.techniques }}</li>
+        {% endif %}
 
-          {% if page.techniques %}
-          	<li><strong>Techniques:</strong> {{ page.techniques }}</li>
-          {% endif %}
+        {% if page.client %}
+			  	<li><strong>Client:</strong> {{ page.client }}</li>
+			  {% endif %}
 
-          {% if page.client %}
-  			  	<li><strong>Client:</strong> {{ page.client }}</li>
-  			  {% endif %}
+			  {% if page.website %}
+			  	<li>
+			  		<strong>Website:</strong>
+			  		<a href="{{ page.website }}">{{ page.website | replace: 'http://', '' }}</a>
+			  	</li>
+			  {% endif %}
+      </ul>
+		</aside>
 
-  			  {% if page.website %}
-  			  	<li>
-  			  		<strong>Website:</strong>
-  			  		<a href="{{ page.website }}">{{ page.website | replace: 'http://', '' }}</a>
-  			  	</li>
-  			  {% endif %}
-        </ul>
-  		</aside>
-  	</div>
+		{% assign cat = "work" %}
+		{% include case-nav.html %}
 	</div>
-  {% include bio-card.html %}
 
-	{% assign url = "/work" %}
-	{% include case-nav.html %}
 </article>

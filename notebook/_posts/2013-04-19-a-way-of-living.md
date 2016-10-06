@@ -6,7 +6,7 @@ redirect_from:
   - /article/a-way-of-living/
 ---
 
-<p class="intro" markdown="1">**I** live by experimenting. By that I mean I’m continuously observing different parts of my life that I’d like to challenge or improve upon. It may be to get healthier, to gather self-esteem, to change a preconception, to prove a point.</p>
+I live by experimenting. By that I mean I’m continuously observing different parts of my life that I’d like to challenge or improve upon. It may be to get healthier, to gather self-esteem, to change a preconception, to prove a point.
 
 I am constantly experimenting in order to keep growing. And I keep doing it in order to avoid getting settled; in my footsteps, by my thinking or through my actions.
 

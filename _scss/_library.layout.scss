@@ -1,103 +1,194 @@
-.wrap {
-  @extend %clearfix;
-  margin: 0 auto;
-  max-width: 82em;
-  padding-left: 3.5%;
-  padding-right: 3.5%;
-
-  &.-small {
-    max-width: 58em;
-  }
-
-  &.-header {
-    padding-left: 0;
-    padding-right: 0;
-
-    @include breakpoint(tablet-lg) {
-      padding-left: 5rem;
-      padding-right: 5rem;
-    }
-  }
-
-  &.-two-col {
-
-    @include breakpoint(tablet-lg) {
-      padding-left: 7%;
-      padding-right: 7%;
-    }
-    @include breakpoint(desktop-sm) {
-      padding-left: 5rem;
-      padding-right: 5rem;
-    }
-  }
-
-  @include breakpoint(tablet-sm) {
-    padding-left: 7%;
-    padding-right: 7%;
-  }
-
-  @include breakpoint(tablet-lg) {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  > *:first-child {
-    margin-top: 0;
-  }
-}
-
-.main-section {
-  padding-top: 3.5em;
-  position: relative;
-  z-index: 100;
-  background: #fff;
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, .1);
-  flex: 1;
-
-  @include breakpoint(desktop-sm) {
-    //padding-top: 7.5em;
-  }
-
-  .soft-background & {
-    background: #f1f1f1;
-  }
-
-  > .wrap {
-    padding-bottom: 4em;
-  }
-}
-
-.container {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-
-  @include breakpoint(mobile-lg) {
-    padding-top: 3em;
-    padding-bottom: 5em;
-  }
-}
-
-.main-content {
-  margin-bottom: 2.5em;
-
-  @include breakpoint(mobile-lg) {
-    float: left;
-    padding-right: 3%;
-    width: 70%;
-
-    &.-border {
-      border-right: 1px solid #eee;
-    }
-  }
-}
-
 main {
-  &.dark {
-    background-color: #222;
+  position: relative;
+  padding-top: 2.5em;
 
+  @include supportsFlex() {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .container {
-      color: #fff;
+  > h1 {
+    padding: 0 5.5vw;
+    margin: 0 0 1.8rem 0;
+  }
+}
+
+.start {
+  main {
+    padding-top: 0;
+  }
+}
+
+.post {
+
+  main {
+    padding-top: 0;
+  }
+
+  article {
+    width: 100%;
+
+    @include supportsFlex() {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
     }
   }
+
+  .main-content {
+    background: #fff;
+    max-width: 68em;
+    padding: 3vw 0 8%;
+    background-clip: padding-box;
+    margin-bottom: -4%;
+    flex: 4 1 40em;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+
+    > *,
+    > figure.margins {
+      padding-left: 5.5vw;
+      padding-right: 5.5vw;
+
+      figcaption {
+        padding: 0;
+      }
+    }
+
+    > figure,
+    > iframe,
+    > div {
+      padding: 0;
+
+      figcaption {
+        padding-left: 5.5vw;
+        padding-right: 5.5vw;
+      }
+    }
+
+    > blockquote {
+      padding: .8em 7vw .8em 1.8em;
+
+      @include breakpoint(mobile-xl) {
+        margin-left: calc(5.5vw - .3em);
+      }
+    }
+
+    > figure:first-child {
+      margin-top: -3vw;
+    }
+
+  }
+}
+
+.book {
+
+  article {
+    max-width: 92em;
+    display: block;
+  }
+
+  .page-header {
+
+  }
+
+  .main-content {
+
+    > p {
+      max-width: 44em;
+    }
+
+    blockquote {
+      border-left-color: #ddd;
+      max-width: 52em;
+      padding-right: 6vw;
+
+      p {
+        margin: 1em 0;
+      }
+
+      > p:last-of-type {
+        margin-bottom: .4em;
+      }
+
+      .meta {
+        margin: 0 0 .5em;
+        background: #fff;
+        font-size: .9em;
+        display: inline-block;
+        color: $lightdarkgray;
+
+        &:hover,
+        &:focus {
+          color: $profile-text;
+        }
+      }
+    }
+
+    :target {
+      border-left-color: $profile-text;
+    }
+  }
+}
+
+@supports(display: grid) {
+
+  .book {
+    @include breakpoint(tablet-lg) {
+      article {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        max-width: none;
+      }
+
+      .page-header {
+        width: auto;
+        grid-column: 1 / -1;
+        order: 1;
+      }
+
+      .main-content {
+        grid-row: 2 / 5;
+        order: 3;
+      }
+
+      .sidebar {
+        order: 4;
+      }
+
+      .sidebar__book {
+        float: none;
+        width: auto;
+        order: 2;
+      }
+    }
+
+    @include breakpoint(desktop-xl) {
+      article {
+        grid-template-columns: 2fr 1fr 1fr;
+      }
+    }
+
+  }
+
+}
+
+.error-404 {
+  text-align: center;
+  padding: 3em 0 4.5em;
+
+  @include breakpoint(mobile-lg) {
+    padding: 7.5em 0 9em;
+  }
+
+  h1 {
+    margin-bottom: 1em;
+  }
+}
+
+.list {
+  background: #fff;
+  width: 100%;
+  padding: 4em 5%;
+  max-width: 70em;
+  flex: 1 1 40em;
 }

@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "There Is No Breakpoint"
 ref_url: http://seesparkbox.com/foundry/there_is_no_breakpoint
 ---

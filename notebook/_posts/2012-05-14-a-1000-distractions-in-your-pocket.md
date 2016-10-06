@@ -6,7 +6,7 @@ redirect_from:
 - /article/a-1000-distractions-in-your-pocket/
 ---
 
-<p class="intro" markdown="1">**I** have a very close relationship with my iPhone. A deep connection was established from the moment I picked it out of the box. Every time, it's a true joy to use and it doesn't feel like a machine, more like an extension of myself.</p>
+I have a very close relationship with my iPhone. A deep connection was established from the moment I picked it out of the box. Every time, it's a true joy to use and it doesn't feel like a machine, more like an extension of myself.
 
 You feel the same way too? I could almost figure.
 

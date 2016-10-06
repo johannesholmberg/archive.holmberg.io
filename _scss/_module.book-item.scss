@@ -1,94 +1,51 @@
 .book-holder {
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-flow: row wrap;
+  padding: 0 5.5vw;
+  margin-bottom: 4em;
 
-.divider {
-  display: block;
-  width: 100%;
-  color: #ddd;
-  margin: 0;
-  text-align: center;
-  font-size: 1.55em;
-  margin: 2em .2em .8em;
-  flex: 0 1 auto;
-  position: relative;
-  text-transform: none;
-  z-index: 90;
-
-  @include breakpoint(mobile-lg) {
-    margin-bottom: 1em;
-  }
-
-  &:after {
-    content: '';
-    height: 1px;
-    background: rgba(100, 100, 100, .25);
-    display: block;
+  .divider {
     width: 100%;
-    position: absolute;
-    top: 52%;
-    left: 0;
-    right: 0;
-    z-index: 90;
-  }
-
-  span {
-    background: #222;
-    position: relative;
-    z-index: 99;
-    padding: 0 .4em;
-  }
-
-  &.-light {
     color: $darkgray;
+    margin: 2em .2em .8em 0;
+    position: relative;
 
-    span {
-      background: #fff;
+    &:after {
+      content: '';
+      height: 1px;
+      background: rgba(100, 100, 100, .25);
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 52%;
     }
-  }
 
-  &.-left {
-    text-align: left;
+    &:first-of-type {
+      margin-top: 0;
+    }
+
 
     span {
-      padding-left: 0;
+      background: $profile-light;
+      position: relative;
+      z-index: 99;
+      padding: 0 .4em 0 0;
     }
   }
 }
 
 .book-item {
-  margin: 1em 0 0;
-  display: block;
-  text-decoration: none;
-  border-bottom: 0;
+  margin: 2em 0 0;
   line-height: 1.2;
-  flex: 0 1 50%;
+  flex: 1 11.5em;
+  max-width: 22em;
 
-  @include breakpoint(mobile-lg) {
-    flex-basis: 33%;
-    width: 33%;
-    margin-top: 2em;
-  }
-
-  @include breakpoint(tablet-sm) {
-    flex-basis: 25%;
-    width: 25%;
-  }
-
-  @include breakpoint(desktop-sm) {
-    flex-basis: 20%;
-    width: 20%;
-  }
-
-  &:active {
-    top: 0;
+  @include breakpoint(tablet-lg) {
+    max-width: 16em;
   }
 
   &:hover,
   &:focus {
-    border-bottom: 0;
-
     .title {
       color: $profile-text;
     }
@@ -98,28 +55,7 @@
     }
 
     img {
-      opacity: .6;
-    }
-
-    .date {
-      opacity: 1;
-    }
-  }
-
-  &.-dark {
-    .title {
-      color: #fff;
-    }
-
-    &:hover,
-    &:focus {
-      .title {
-        color: $profile-text;
-      }
-
-      .meta {
-        color: #fff;
-      }
+      opacity: .8;
     }
   }
 
@@ -143,11 +79,11 @@
     margin-top: 0;
     line-height: 1.4;
     margin-bottom: .2em;
-    border-top: .6em solid rgba(130, 130, 130, .6);
-    font-family: $font-sans;
-    font-weight: normal;
+    border-top: .5em solid rgba(130, 130, 130, .4);
+    font-weight: 300;
     color: $darkgray;
-    text-transform: none;
+    font-size: 1em;
+    font-family: $font-sans;
   }
 
   .meta {
@@ -156,13 +92,26 @@
     padding: 0 1em;
     color: $lightdarkgray;
     font-family: $font-sans;
-    font-size: $f14px;
+    font-weight: 300;
+    font-size: .85em;
+  }
+}
+
+@supports(display: grid) {
+
+  .book-holder {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));
+    grid-gap: 3em 0px;
+
+    .divider {
+      grid-column: 1 / -1;
+    }
   }
 
-  .date {
-    padding: .55em 1.15em;
-    color: #ccc;
-    font-family: $font-sans;
-    font-size: .8em;
+  .book-item {
+    margin-top: 0;
+    max-width: none;
   }
 }

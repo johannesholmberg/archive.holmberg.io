@@ -5,7 +5,7 @@ redirect_from:
   - /journal/exploration/
 ---
 
-<p class="intro" markdown="1">**Originally**, I had planned to stay in Hua Hin for a couple of more days but yesterday when I was out taking a walk through the city streets I passed the bus station.</p>
+Originally, I had planned to stay in Hua Hin for a couple of more days but yesterday when I was out taking a walk through the city streets I passed the bus station.
 
 I don't know where it emerged from but instantly as I saw that station I just got the intense sensation of wanting to go south the same evening.
 

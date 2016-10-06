@@ -11,17 +11,28 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>
+          {{ post.content | xml_escape }}
+          {% if post.categories contains "links" %}
+            {% assign full_url = post.ref_url | remove: "http://" | remove: "https://" %}
+            {% assign url = full_url | split: "/" %}
+            <p>
+              <a href="{{ post.ref_url }}">
+                Read on {{ url[0] }}
+              </a>
+            </p>
+          {% endif %}
+        </description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>
-          {% if post.category == "links" %}
+          {% if post.categories contains "links" %}
             {{ post.ref_url }}
           {% else %}
             {{ site.url }}{{ post.url }}
           {% endif %}
         </link>
         <guid isPermaLink="true">
-          {% if post.category == "links" %}
+          {% if post.categories contains "links" %}
             {{ post.ref_url }}
           {% else %}
             {{ site.url }}{{ post.url }}

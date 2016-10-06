@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "Give me file hierarchies, or give me chaos."
 ref_url: http://www.zeldman.com/2015/07/10/give-me-file-hierarchies-or-give-me-chaos/
 ---

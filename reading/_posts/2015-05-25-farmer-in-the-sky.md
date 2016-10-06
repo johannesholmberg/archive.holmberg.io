@@ -7,12 +7,11 @@ cover: farmer-in-the-sky
 author: Robert A. Heinlein
 publisher: Baen Books
 book-url: http://www.amazon.com/Farmer-Sky-Heinleins-Juveniles-Book-ebook/dp/B00APAEDBW/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-description: "People have a funny habit of taking as 'natural' whatever they are used to—but there hasn't been any 'natural' environment, the way they mean it, since men climbed down out of trees."
-highlight: 2
+has_intro: true
+has_cover: true
 ---
+{% include book-cover.html %}
 
-<p class="intro" markdown="1">**Here I go again**, reading another Heinlein. Well, it's been like [4 months](/reading/methuselahs-children/) so I don't think anyone can blame me. Farmer in the Sky encapsulates the spirit of man always being on the verge. That essence in humans, driving us to go further and further.</p>
-
-My highlights are below.
+**Here I go again**, reading another Heinlein. Well, it's been like [4 months](/reading/methuselahs-children/) so I don't think anyone can blame me. Farmer in the Sky encapsulates the spirit of man always being on the verge. That essence in humans, driving us to go further and further.
 
 {% include book-highlights.html %}

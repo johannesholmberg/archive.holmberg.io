@@ -6,7 +6,7 @@ redirect_from:
   - /article/designing-in-the-browser/
 ---
 
-<p class="intro" markdown="1">**The** “design in the browser” approach has been widely discussed lately. Some like it. Some don't. I haven't really thought about designing in the browser as a concept until I found myself doing it a lot unintentionally.</p>
+The “design in the browser” approach has been widely discussed lately. Some like it. Some don't. I haven't really thought about designing in the browser as a concept until I found myself doing it a lot unintentionally.
 
 Without even noticing, I'd been transitioning slowly but steady to design more and more in the browser only. Let me tell you why.
 
@@ -40,9 +40,8 @@ When it's required to do some changes, it's so easily done in code and the chang
 
 The most interesting aspect with designing in the browser is that when I do, I can play around with stuff in realtime and find exciting new solutions I'd never discover otherwise. This presentation from Bret Victor shows exactly this.
 
-<div class="video-wrap">
-<iframe src="//www.youtube.com/embed/PUv66718DII" allowfullscreen></iframe>
-</div>
+{% assign video_url = "//www.youtube.com/embed/PUv66718DII" %}
+{% include responsive-video.html %}
 
 ## To the future
 

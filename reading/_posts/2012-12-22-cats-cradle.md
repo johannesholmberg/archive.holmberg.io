@@ -7,11 +7,12 @@ cover: cats-cradle
 author: Kurt Vonnegut
 publisher: RosettaBooks
 book-url: http://www.amazon.com/Cats-Cradle-Kurt-Vonnegut-ebook/dp/B003XRELGQ/
-description: 'New knowledge is the most valuable commodity on earth.'
-highlight: 1
+has_intro: true
+has_cover: true
 ---
+{% include book-cover.html %}
 
-<p class="intro" markdown="1">**Slaughterhouse Five** was the first novel that I read in English. It was like something I'd never read before. That sparked my interest in Kurt Vonnegut and I wanted to try more of his writing.</p>
+**Slaughterhouse Five** was the first novel that I read in English. It was like something I'd never read before. That sparked my interest in Kurt Vonnegut and I wanted to try more of his writing.
 
 I can't say that I was fascinated by this book but there are still parts of the book I take with me.
 

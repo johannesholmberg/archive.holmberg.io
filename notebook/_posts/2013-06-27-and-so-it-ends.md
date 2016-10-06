@@ -5,7 +5,7 @@ redirect_from:
   - /journal/and-so-it-ends/
 ---
 
-<p class="intro" markdown="1">**Since** I wrote last, I’ve been traversing this vast country up north. After spending some time in a desolate Goa I finally hit Bombay.</p>
+Since I wrote last, I’ve been traversing this vast country up north. After spending some time in a desolate Goa I finally hit Bombay.
 
 Bombay is one of those places that you can’t really believe exists until you’re in the middle of it. It’s the first time I experience that kind of compactness from a city.
 

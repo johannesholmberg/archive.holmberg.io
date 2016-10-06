@@ -6,9 +6,12 @@ cover: smashing-book-5
 author: Smashing Magazine
 publisher: Smashing Magazine
 book-url: http://www.amazon.com/Smashing-Book-Real-Life-Responsive-Design-ebook/dp/B010DNT09A
+has_intro: true
+has_cover: yes
 ---
+{% include book-cover.html %}
 
-<p class="intro" markdown="1">**Smashing Magazine** is one of the top distributors of knowledge in my field so when they release a new book with curated top content—of course I pick it up.</p>
+**Smashing Magazine** is one of the top distributors of knowledge in my field so when they release a new book with curated top content—of course I pick it up.
 
 The book, as usual, contains several articles covering the latest methods and techniques available. I didn’t finish all articles but jumped between the ones that will help me in my daily work.
 

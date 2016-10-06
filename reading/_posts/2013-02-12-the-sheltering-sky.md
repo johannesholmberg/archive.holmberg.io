@@ -6,8 +6,8 @@ category: reading
 author: Paul Bowles
 publisher: Ecco
 book-url: http://www.amazon.com/Sheltering-Sky-Paul-Bowles-ebook/dp/B005AJWU7C/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-description: 'How can one be so attached to a thing that ones complete happiness depends upon it? That seems pretty destructive to me.'
-highlight: 10
+has_cover: true
 ---
+{% include book-cover.html %}
 
 {% include book-highlights.html %}

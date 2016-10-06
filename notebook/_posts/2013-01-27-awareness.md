@@ -6,7 +6,7 @@ redirect_from:
   - /article/awareness/
 ---
 
-<p class="intro" markdown="1">**I** think it was around springtime last year when I felt it for the first time. That tingling in my hand, that wavering in my mind telling me something. All of a sudden I noticed. Why hadn't I noticed before?</p>
+I think it was around springtime last year when I felt it for the first time. That tingling in my hand, that wavering in my mind telling me something. All of a sudden I noticed. Why hadn't I noticed before?
 
 When finally realizing, I couldn't help but to find it present everywhere. When out taking a walk, when I had lunch at a restaurant, in conversations, heck; even in the bathroom. It was so commonplace that I hadn't paid it any attention. Yet again my hand reached for my pocket, it was a reflex I had no control over, and it hauled up that black rectangular object.
 

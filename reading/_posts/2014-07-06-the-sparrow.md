@@ -6,6 +6,8 @@ cover: the-sparrow
 author: Mary Doria Russell
 publisher: Transworld Digital
 book-url: http://www.amazon.com/Sparrow-Mary-Doria-Russell-ebook/dp/B003ARUTLA/ref=tmm_kin_swatch_0
+has_cover: true
 ---
+{% include book-cover.html %}
 
 {% include book-highlights.html %}

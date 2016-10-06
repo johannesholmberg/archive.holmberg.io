@@ -6,7 +6,7 @@ redirect_from:
   - /article/noise-reduction/
 ---
 
-<p class="intro" markdown="1">**Lately**, I've been thinking a lot about noise and what to do with it. It's not the sound I'm talking about, more of the things you're surrounded by. For instance there is a lot of noise on the web.</p>
+Lately, I've been thinking a lot about noise and what to do with it. It's not the sound I'm talking about, more of the things you're surrounded by. For instance there is a lot of noise on the web.
 
 As you may well know social media is a pretty big thing, so it has been for a good couple of years. I think social media in general is a good thing. As long as it brings value back to you. Lately, there has been especially one social network that I've found myself thinking doubtfully about. One that I've been on for a very long time and spent countless of hours on. You probably know it, it's Facebook.
 

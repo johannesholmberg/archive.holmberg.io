@@ -1,103 +1,130 @@
 ---
-layout: cv
+layout: compress
 title: The CV of
 description: "Johannes Holmberg CV."
 redirect_from:
  - /about/resume/
 ---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    {% include head-mobile.html %}
+    {% include head-favicons.html %}
+    {% include head-sharing.html %}
 
-<div class="cover-header">
-  <h1>Johannes Holmberg</h1>
-  <h2>Front-end Web Developer based in Basel, Switzerland</h2>
-  <p>
-    I’ve been working on the web for the last 9 years. My professional skills range from front and back-end development to design and project management. My day can include scoping a project, fixing a CSS issue on a site, designing an iOS application and developing a WordPress theme in PHP. My focus is on how to always create a delightful digital experience.
-  </p>
-</div>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Raleway:300,900" rel="stylesheet">
+    <link href="/assets/css/cv.css" rel="stylesheet">
+  </head>
 
-<div class="main-content">
+  <body>
 
-  <h2>Experience</h2>
+    <main>
 
-  {% for experience in site.data.cv.experience %}
-    <div class="article-item">
-      <h3>{{ experience.period }}</h3>
-      <h4>
-        <strong>{{ experience.title }}</strong>,
-        {{ experience.company }} - {{ experience.location }}
-      </h4>
-      <p class="summary">
-        {{ experience.summary }}
-      </p>
-    </div>
-	{% endfor %}
+      <div class="cover-header">
+        <div class="image"></div>
+        <div class="text">
+          <h1>Johannes Holmberg</h1>
+          <h2>Front-end Web Developer based in Basel, Switzerland</h2>
+          <p>
+            I’ve been working on the web for the last 9 years. My professional skills range from front and back-end development to design and project management. My day can include scoping a project, fixing a CSS issue on a site, designing an iOS application and developing a WordPress theme in PHP. My focus is on how to always create a delightful digital experience.
+          </p>
+          <p>
+            <a href="johannes-holmberg-cv.pdf" class="button -pdf">CV in PDF-format</a>
+            <a href="johannes-holmberg-cv.docx" class="button">CV in Word-format</a>
+          </p>
+        </div>
+      </div>
 
-  <h2>Education</h2>
+      <div class="main-content">
 
-  {% for education in site.data.cv.education %}
-    <div class="article-item">
-      <h3>{{ education.period }}</h3>
-      <h4>{{ education.school }}</h4>
-      <p class="summary">
-        {{ education.summary }}
-      </p>
-    </div>
-	{% endfor %}
+        <div class="columns">
 
-  <h2>Skills</h2>
+          <section>
+            <h2>Experience</h2>
+            {% for experience in site.data.cv.experience %}
+              {% if forloop.first %}<ul class="experience-list">{% endif %}
+              <li>
+                <h3>{{ experience.period }}</h3>
+                <h4>
+                  <strong>{{ experience.title }}</strong> —
+                  <a href="{{ experience.url }}">{{ experience.company }}</a>
+                  <em>{{ experience.location }}</em>
+                </h4>
+                <p class="summary">
+                  {{ experience.summary }}
+                </p>
+                {% for project in experience.projects %}
+                  {% if forloop.first %}<ul>{% endif %}
+                    <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+                  {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}
+              </li>
+              {% if forloop.last %}</ul>{% endif %}
+          	{% endfor %}
+          </section>
 
-  <h3>Web stack</h3>
+          <section>
+            <h2>Education</h2>
+            {% for education in site.data.cv.education %}
+              {% if forloop.first %}<ul class="experience-list">{% endif %}
+              <li class="article-item">
+                <h3>{{ education.period }}</h3>
+                <h4>
+                  <strong>{{ education.school }}</strong>
+                  <em>{{ education.location }}</em>
+                </h4>
+                <p class="summary">
+                  {{ education.summary }}
+                </p>
+              </li>
+              {% if forloop.last %}</ul>{% endif %}
+          	{% endfor %}
+          </section>
 
-  <ul>
-    {% for skill in site.data.cv.skills.webstack %}
-      <li><strong>{{ skill.name }}</strong></li>
-  	{% endfor %}
-  </ul>
+          <section>
+            <h2>References</h2>
+            {% for reference in site.data.cv.references %}
+              <blockquote>
+                <p>
+                  <q>{{ reference.quote }}</q>
+                </p>
+                <cite>
+                  <a href="{{ reference.url }}">
+                    {{ reference.name }}
+                  </a>
+                </cite>
+              </blockquote>
+          	{% endfor %}
+          </section>
 
-  <h3>Environments</h3>
+          <section>
+            <h2>Skills</h2>
+            {% for skill in site.data.cv.skills %}
+              <h3>{{ skill.title }}</h3>
+              {% for subskill in skill.subcategories %}
+                {% if forloop.first %}<ul>{% endif %}
+                  <li>
+                    {{ subskill.name }}
+                    {% for subskill in subskill.subcategories %}
+                      {% if forloop.first %}<ul>{% endif %}
+                        <li>
+                          {{ subskill.name }}
+                        </li>
+                      {% if forloop.last %}</ul>{% endif %}
+                    {% endfor %}
+                  </li>
+                {% if forloop.last %}</ul>{% endif %}
+              {% endfor %}
+            {% endfor %}
+          </section>
 
-  <ul>
-    {% for skill in site.data.cv.skills.environments %}
-      <li><strong>{{ skill.name }}</strong></li>
-  	{% endfor %}
-  </ul>
+        </div>
 
-  <h3>Software</h3>
+      </div>
 
-  <ul>
-    {% for skill in site.data.cv.skills.software %}
-      <li><strong>{{ skill.name }}</strong></li>
-  	{% endfor %}
-  </ul>
+    </main>
 
-  <h3>Languages</h3>
-
-  <ul>
-    {% for skill in site.data.cv.skills.languages %}
-      <li><strong>{{ skill.name }}:</strong> {{ skill.level }}</li>
-  	{% endfor %}
-  </ul>
-
-  <h3>Process</h3>
-
-  <ul>
-    {% for skill in site.data.cv.skills.processes %}
-      <li><strong>{{ skill.name }}</strong></li>
-  	{% endfor %}
-  </ul>
-
-  <h2>References</h2>
-
-  {% for reference in site.data.cv.references %}
-    <blockquote>
-      <p>
-        <q>{{ reference.quote }}</q>
-      </p>
-      <cite>
-        <a href="{{ reference.url }}">
-          {{ reference.name }}
-        </a>
-      </cite>
-    </blockquote>
-	{% endfor %}
-
-</div>
+    {% include analytics.html %}
+  </body>
+</html>

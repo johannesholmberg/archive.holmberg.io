@@ -3,17 +3,12 @@ layout: default
 title: Projects by
 active: work
 description: "Work and projects by Johannes Holmberg."
-body_class: dark soft-background
-hasHeader: true
-top-title: Work
-top-bg: "cadetblue"
-top-subtitle: "My bread and butter. This is what I do."
+body_class: index
 ---
 
-<div class="wrap -two-col">
-  <div class="case-holder">
-    {% for post in site.categories.work %}
-      {% include case-item.html %}
-    {% endfor %}
-  </div>
+<h1>Work</h1>
+<div class="case-holder">
+  {% for post in site.categories.work %}
+    {% include case-item.html %}
+  {% endfor %}
 </div>

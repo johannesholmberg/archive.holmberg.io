@@ -1,0 +1,29 @@
+- site: LinkedIn
+  username: johannesholmberg
+  url: https://www.linkedin.com/in/johannesholmberg
+  icon: linkedin
+
+- site: Twitter
+  username: "@holmbergio"
+  url: https://twitter.com/holmbergio
+  icon: twitter
+
+- site: Github
+  username: johannesholmberg
+  url: https://github.com/johannesholmberg
+  icon: github
+
+- site: Codepen
+  username: johannesholmberg
+  url: https://codepen.io/johannesholmberg
+  icon: codepen
+
+- site: Flickr
+  username:
+  url: https://www.flickr.com/photos/138261815@N06/
+  icon: flickr3
+
+- site: Instagram
+  username: johannesholmberg
+  url: https://www.instagram.com/johannesholmberg/
+  icon: instagram

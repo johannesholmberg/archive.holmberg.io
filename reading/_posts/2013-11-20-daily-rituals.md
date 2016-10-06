@@ -7,8 +7,8 @@ cover: daily-rituals
 author: Mason Currey
 publisher: Knopf
 book-url: http://www.amazon.com/gp/product/B009Y4I4OM/ref=kinw_myk_ro_title
-description: 'It has always been a mystery to me how men can feel themselves honoured by the humiliation of their fellow-beings. '
-highlight: 5
+has_cover: true
 ---
+{% include book-cover.html %}
 
 {% include book-highlights.html %}

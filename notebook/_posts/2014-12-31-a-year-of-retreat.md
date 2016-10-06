@@ -5,7 +5,7 @@ redirect_from:
   - /journal/a-year-of-retreat/
 ---
 
-<p class="intro" markdown="1">**The year** 2014 was the year when I didn’t do a thing at all. Of course I did things, but nothing in the big memorable sense.</p>
+The year 2014 was the year when I didn’t do a thing at all. Of course I did things, but nothing in the big memorable sense.
 
 Ever since college there’s alway happened to be at least one big major life-changing event on an annual basis. But not this year. This year I’ve happened to stay holed up in my apartment, no traveling, no big vacation. Just recuperation. Doing my work methodically. Preparing myself mentally.
 

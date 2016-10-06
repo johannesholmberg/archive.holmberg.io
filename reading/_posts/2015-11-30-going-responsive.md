@@ -4,7 +4,7 @@ title: "Going Responsive"
 category: reading
 author: Karen McGrane
 publisher: A Book Apart
-has-own-cover: yes
+has_cover: yes
 book-url: http://abookapart.com/products/going-responsive
 ---
 {% include book-cover.html %}

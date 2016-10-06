@@ -7,7 +7,7 @@ redirect_from:
 
 ---
 
-<p class="intro" markdown="1">**I** don't write down ideas. In some weird way it constrains me more than helping to write it down. As soon as it gets down on paper it narrows my mind in the wrong direction. Let me explain a little bit further.</p>
+I don't write down ideas. In some weird way it constrains me more than helping to write it down. As soon as it gets down on paper it narrows my mind in the wrong direction. Let me explain a little bit further.
 
 If I'd been writing a year ago, I would have kept a list of ideas about articles I could write. So that I wouldn't be finding myself running short on them. The list would surely be pretty long and I would have been totally imprisoned by it. Because of setting up this system I would be focusing on quantity instead of quality, and that is a dangerous approach. There's nothing harder to do than to try work passionately on something that's completely shallow for you today, and that result will benefit no one.
 

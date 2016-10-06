@@ -3,39 +3,56 @@ layout: default
 title: The Notebook of
 active: notebook
 description: "Collection of thoughts, ideas and links over the years."
+body_class: index
 redirect_from:
   - /journal/
   - /writing/
   - /links/
-body_class: light
-top-title: Notebook
-top-bg: "#fafafa"
-top-subtitle: "Collection of thoughts over the years."
-hasHeader: true
 ---
 
-<div class="wrap">
+<h1>Notebook</h1>
 
-  {% for post in site.categories.notebook %}
+  <div class="list">
+{% for post in site.categories.notebook %}
 
-    {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
-    {% if currentyear != year %}
-      {% unless forloop.first %}</ul></div>{% endunless %}
-      <div class="year">
-      <h2 class="article-divider">{{ currentyear }}</h2>
-      <ul class="article-list">
-      {% capture year %}{{currentyear}}{% endcapture %}
-    {% endif %}
-      <li class="article-item">
-        <a href="{{ post.url }}">
-          <h2 class="title">{{ post.title }}</h2>
-          <p class="date">
-            {% if post.categories contains "links" %} <strong>Link</strong> {% endif %}
-            {{ post.date | date: '%b' }} {{ post.date | date: '%Y' }}
-          </p>
-        </a>
-      </li>
+  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if currentyear != year %}
+    {% unless forloop.first %}</ul></div>{% endunless %}
+    <div class="year">
+    <h2 class="article-divider">{{ currentyear }}</h2>
+    <ul class="article-list">
+    {% capture year %}{{currentyear}}{% endcapture %}
+  {% endif %}
 
-  {% endfor %}
+    <li class="article-item">
+      <a href="{{ post.url }}">
+        <h2 class="title">{{ post.title }}</h2>
+        <p class="date">
+          {% if post.categories contains "links" %}
+            <span class="icon-holder">
+              {% assign id = "link" %}
+              {% include icon.html %}
+            </span>
+          {% elsif post.categories contains "labs" %}
+            <span class="icon-holder">
+              {% assign id = "magic-wand" %}
+              {% include icon.html %}
+            </span>
+          {% elsif post.categories contains "photos" %}
+            <span class="icon-holder">
+              {% assign id = "image" %}
+              {% include icon.html %}
+            </span>
+            {% else %}
+              <span class="icon-holder">
+                {% assign id = "pencil2" %}
+                {% include icon.html %}
+              </span>
+          {% endif %}
+          {{ post.date | date: '%b' }} {{ post.date | date: '%Y' }}
+        </p>
+      </a>
+    </li>
 
+{% endfor %}
 </div>

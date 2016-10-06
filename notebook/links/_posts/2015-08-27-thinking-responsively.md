@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "Thinking Responsively: A Framework for Future Learning"
 ref_url: http://alistapart.com/article/thinking-responsively-a-framework-for-future-learning
 ---

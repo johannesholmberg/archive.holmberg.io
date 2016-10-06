@@ -4,7 +4,7 @@ title: "Responsive Design: Patterns & Principles"
 category: reading
 author: Ethan Marcotte
 publisher: A Book Apart
-has-own-cover: yes
+has_cover: yes
 book-url: http://abookapart.com/products/responsive-design-patterns-principles
 ---
 {% include book-cover.html %}

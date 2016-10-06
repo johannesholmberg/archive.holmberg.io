@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "How Designers Destroyed the World"
 ref_url: http://aneventapart.com/news/post/how-designers-destroyed-the-world-by-mike-monteiro-an-aea-video
 ---

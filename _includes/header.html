@@ -1,28 +1,12 @@
-<header class="header-wrap"
-  style="background-color: {{ layout.top-bg }}{{ page.top-bg }};
-        background-image: linear-gradient(-45deg, {{ layout.top-bg }}{{ page.top-bg }}, rgba(255, 255, 255, .2));">
+<header class="header-global">
 
-  <div class="header-global">
+  <nav class="nav-primary">
+    <a href="/" class="brand">
+      {% assign id = "logo" %}
+      {% include icon.html %}
+    </a>
 
-    {% assign title = page.top-title %}
-    {% assign subtitle = page.top-subtitle %}
-
-    {% if page.hasHeader %}
-      <div class="wrap -header">
-        <div class="top-header">
-          <h1 class="title">{{ title }}</h1>
-          <p class="meta">{{ subtitle }}</p>
-        </div>
-      </div>
-    {% endif %}
-
-    <div class="wrap -header">
-      <nav class="nav-primary" id="header">
-        <a href="/" class="nav-item brand">Home</a>
-        <a href="#nav" class="nav-item mobile-menu-trigger js-mobile-menu-trigger"><span>Menu</span></a>
-        {% include navigation.html %}
-      </nav>
-    </div>
-  </div>
+    {% include navigation.html %}
+  </nav>
 
 </header>

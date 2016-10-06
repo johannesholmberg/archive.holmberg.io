@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "German Log: Day 11"
+has_intro: true
 redirect_from:
   - /writing/german-log-day-11/
 ---
@@ -19,4 +20,4 @@ The biggest lesson I think so far is that I’ve realized that it is not importa
 
 [Laura’s German GrammarPod]: https://itunes.apple.com/us/podcast/german-grammarpod/id253979257
 [german.net]: http://german.net/
-[German book]: http://holmberg.io/reading/sudlich-der-grenze-westlich-der-sonne/
+[German book]: {{ site.url }}/reading/sudlich-der-grenze-westlich-der-sonne/

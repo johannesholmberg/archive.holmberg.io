@@ -5,7 +5,7 @@ redirect_from:
   - /journal/know-where-to-look/
 ---
 
-<p class="intro" markdown="1">**I’m** listening to [Jen Simmons and Rachel Andrew](http://thewebahead.net/104) talking about the pace of the web industry these days. About how it’s not possible to know every new tool, process and technique that pops up day in and day out in this field. And that this is okay. I agree.</p>
+I’m listening to [Jen Simmons and Rachel Andrew](http://thewebahead.net/104) talking about the pace of the web industry these days. About how it’s not possible to know every new tool, process and technique that pops up day in and day out in this field. And that this is okay. I agree.
 
 I feel there is this insane pressure now, and has been for a couple of years—that as a web developer—it’s my duty to stay on top of every new framework that’s being thrown out the door. I’m not interested in that. And I can't do that. It's way too much information. I need to prioritize, and right now my priorities are still good ol' HTML and CSS.
 

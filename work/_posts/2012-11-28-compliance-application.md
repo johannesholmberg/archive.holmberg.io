@@ -3,9 +3,7 @@ layout: case
 title: "Redesigning the LCC Compliance Application"
 cover: compliance
 subtitle: "“A more inviting, user-friendly system to handle.”"
-color: '#dadee1'
-body_class: 'light'
-
+permalink: work/compliance-application/
 role: Designer, Front-end Developer
 website:
 meta: August–December, 2012

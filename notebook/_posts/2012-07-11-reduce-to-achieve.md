@@ -6,7 +6,7 @@ redirect_from:
 - /article/reduce-to-achieve/
 ---
 
-<p class="intro" markdown="1">**One** and a half year ago I had a new years resolution to read three books during the coming year. Reading was something I'd lost from my youth and wanted to pick up again. One year later I hadn't completed a single book. How did that happen?</p>
+One and a half year ago I had a new years resolution to read three books during the coming year. Reading was something I'd lost from my youth and wanted to pick up again. One year later I hadn't completed a single book. How did that happen?
 
 Frankly, three books during a whole year isn't really that much and all of you bookworms must be laughing at me by now. I analyzed why I didn't achieve such a simple goal.
 

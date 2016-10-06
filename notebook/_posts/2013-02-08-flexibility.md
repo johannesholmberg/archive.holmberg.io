@@ -6,7 +6,7 @@ redirect_from:
   - /article/flexibility/
 ---
 
-<p class="intro" markdown="1">**Almost** every time I'm sitting in a taxi on my way to some new accommodation the driver laughs at me and every time I'm checking in to that accommodation the receptionist laughs at me.</p>
+Almost every time I'm sitting in a taxi on my way to some new accommodation the driver laughs at me and every time I'm checking in to that accommodation the receptionist laughs at me.
 
 They're not laughing at me because I look or act funny (at least I hope not.) What they're laughing about and simultaneously pointing at; is my luggage, or rather the absence of my luggage.
 

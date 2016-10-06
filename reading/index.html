@@ -2,25 +2,21 @@
 layout: default
 title: Books read by
 active: reading
-class: 'dark'
 description: "Books are where I go for inspiration. These are the books I’ve read and highlighted from throughout the years."
-body_class: dark
-hasHeader: true
-top-title: Reading
-top-bg: "#1f1f1f"
-top-subtitle: "Books are where I go for inspiration."
+body_class: index
 ---
 
-<div class="wrap book-holder">
+<h1>Reading</h1>
+
+<div class="book-holder">
   {% for post in site.categories.reading %}
 
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
-      <h2 class="divider -left"><span>{{ post.date | date: '%Y' }}</span></h2>
+      <h2 class="divider"><span>{{ post.date | date: '%Y' }}</span></h2>
     {% capture year %}{{currentyear}}{% endcapture %}
     {% endif %}
 
-    {% assign attribute = '-dark' %}
     {% include book-item.html %}
   {% endfor %}
 </div>

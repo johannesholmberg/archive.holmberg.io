@@ -6,7 +6,7 @@ category: reading
 author: Aldous Huxley
 publisher: Vintage Digital
 published: 1932
-has-own-cover: yes
+has_cover: yes
 book-url: http://www.amazon.com/Brave-New-World-Aldous-Huxley-ebook/dp/B0031R5K6S/
 ---
 {% include book-cover.html %}
@@ -22,8 +22,6 @@ It's a very interesting topic in today's society where I can draw a lot of paral
 
 I'm thrilled to pick up _1984_ next. It's going to be a complete different view of the totalitarian state.
 
-Highlights below.
-
 {% include book-highlights.html %}
 
-[Island]: http://holmberg.io/reading/island/
+[Island]: {{ site.url }}/reading/island/

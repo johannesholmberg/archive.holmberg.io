@@ -5,7 +5,7 @@ redirect_from:
   - /journal/on-the-road/
 ---
 
-<p class="intro" markdown="1">**The** last days have been turbulent to say at least. Since my 30 days allotment to stay in Thailand was about to tick out I had in mind to move on this Friday.</p>
+The last days have been turbulent to say at least. Since my 30 days allotment to stay in Thailand was about to tick out I had in mind to move on this Friday.
 
 Unfortunately, a tenacious fever rendered me unable to travel. I extended my stay at the hotel for 2 days in hope of some recuperation. That Sunday was my absolute last day before the fees would start to pile up with each day that passed.
 

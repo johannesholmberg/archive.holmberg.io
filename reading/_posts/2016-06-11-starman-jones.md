@@ -6,7 +6,7 @@ category: reading
 author: Robert A. Heinlein
 publisher: Baen Books
 published: 1953
-has-own-cover: yes
+has_cover: yes
 book-url: https://www.amazon.com/Starman-Jones-Heinleins-Juveniles-Book-ebook/dp/B00APA1MLQ?ie=UTF8&ref_=r_soa_w_d
 ---
 {% include book-cover.html %}

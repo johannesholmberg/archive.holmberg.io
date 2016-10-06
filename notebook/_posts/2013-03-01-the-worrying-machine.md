@@ -6,13 +6,15 @@ redirect_from:
   - /article/the-worrying-machine/
 ---
 
-<p class="intro" markdown="1">**When** I access a public computer screen somewhere around, I can't help but to notice the traces of the worrying machine. At internet cafés, technical resellers, hotel lobbies etc. The person using the screen before me have clearly taken a trip there.</p>
+When I access a public computer screen somewhere around, I can't help but to notice the traces of the worrying machine. At internet cafés, technical resellers, hotel lobbies etc. The person using the screen before me have clearly taken a trip there.
 
 When I take a peak over peoples shoulders, to catch a glimpse of their rectangle, curiously interested in getting to know what they so eagerly scrolling away at; I see that the worrying machine is on. It's like a TV-program on standby, the same show wherever you go.
 
 I've tried and tried again to understand, but I still don't fully grasp it. It feels like people can't even take a step out of their own garden without having to check if they're doing the right thing. It feels like it's the uncertainty about maybe doing something wrong that time and time again leads them back to the worrying machine.
 
-The machine gives you its approval or rejection about the things you're doing. It either gives you a thumbs up if you're doing a good thing or it shines with its depressing cloak of invisibility if you're not. It makes for a painful hole in the stomach, not being approved of. So that way I can put value on myself, what I'm doing and how I'm feeling. In the worrying machine there's a lot of filters which I can compare myself against, so even if I'm not actively contributing my own experience, I can still check in with the filters to get a sense of how good off I am. In my turn, I can give my own approval to the filters, so the filters are accurate and up to date. And since the filters are what I'm comparing myself with; the circle is complete.
+The machine gives you its approval or rejection about the things you're doing. It either gives you a thumbs up if you're doing a good thing or it shines with its depressing cloak of invisibility if you're not. It makes for a painful hole in the stomach, not being approved of. So that way I can put value on myself, what I'm doing and how I'm feeling.
+
+In the worrying machine there's a lot of filters which I can compare myself against, so even if I'm not actively contributing my own experience, I can still check in with the filters to get a sense of how good off I am. In my turn, I can give my own approval to the filters, so the filters are accurate and up to date. And since the filters are what I'm comparing myself with; the circle is complete.
 
 Behind those filters though, are real people living real lives. But because of the principal behind the worrying machine they're not reflecting a first hand experience anymore. First, they'll have to get twirled accurately in line with the machine's standards, so to raise the chances of hopefully getting blessed with a tap on the shoulder saying "Hey, great step there buddy!"
 

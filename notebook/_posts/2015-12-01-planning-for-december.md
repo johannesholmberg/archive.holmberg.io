@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Planning for December"
+has_intro: true
 redirect_from:
   - /writing/planning-for-december/
 ---

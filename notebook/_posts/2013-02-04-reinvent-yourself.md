@@ -6,7 +6,7 @@ redirect_from:
   - /article/reinvent-yourself/
 ---
 
-<p class="intro" markdown="1">**What** would it be like if you took everything you knew about yourself up until this point and threw it in the trash bin?</p>
+What would it be like if you took everything you knew about yourself up until this point and threw it in the trash bin?
 
 What would happen if you could discover things about yourself only by imagining it? If you just took away the limitations you’ve been learned to accept, just for a moment, what would happen?
 

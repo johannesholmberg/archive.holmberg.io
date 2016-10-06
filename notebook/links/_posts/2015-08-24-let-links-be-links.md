@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "Let Links Be Links"
 ref_url: http://alistapart.com/article/let-links-be-links
 ---

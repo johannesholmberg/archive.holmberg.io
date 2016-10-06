@@ -6,7 +6,7 @@ redirect_from:
 - /article/the-importance-of-experimentation/
 ---
 
-<p class="intro" markdown="1">**There** are times in my life when I stop and think. About what I'm doing at the moment. About things I have in my life. About how I use them and why. It really helps me to make good decisions.</p>
+There are times in my life when I stop and think. About what I'm doing at the moment. About things I have in my life. About how I use them and why. It really helps me to make good decisions.
 
 It is when I stop and think that I get ideas. About how to try things differently.
 

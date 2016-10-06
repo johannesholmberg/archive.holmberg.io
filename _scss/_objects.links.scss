@@ -1,10 +1,23 @@
 a {
   color: $profile-text;
   text-decoration: none;
+}
+
+.main-content a,
+aside .meta a {
 
   &:hover,
   &:focus {
-    color: $profile-text;
-    border-bottom: 1px solid $profile-text;
+    background: linear-gradient($profile-text, $profile-text) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.1em;
+    text-shadow: .1em 0 #fff, -.1em 0 #fff;
+  }
+}
+
+aside .meta a {
+  &:hover,
+  &:focus {
+    text-shadow: .05em 0 $profile-light, -.05em 0 $profile-light;
   }
 }

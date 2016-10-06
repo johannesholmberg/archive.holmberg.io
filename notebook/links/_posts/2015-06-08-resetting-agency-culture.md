@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "Resetting Agency Culture"
 ref_url: http://alistapart.com/article/resetting-agency-culture
 ---

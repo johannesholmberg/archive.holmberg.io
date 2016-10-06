@@ -5,7 +5,7 @@ category: reading
 author: Haruki Murakami
 publisher: Vintage Digital
 published: 1988
-has-own-cover: yes
+has_cover: yes
 book-url: http://www.amazon.com/Dance-Haruki-Murakami-ebook/dp/B005TKC0V8/ref=tmm_kin_swatch_0
 ---
 {% include book-cover.html %}
@@ -17,8 +17,6 @@ Last week I picked up this one and it has the exact same style as the rest of hi
 
 The book is a spinoff on [A Wild Sheep Chase] so it follows the storyline from there, but it could as well be read completely separate while it doesn't depend too much on its predecessor.
 
-My highlights from the book is below. I read the Kindle version so it's referring to location instead of page number.
-
 {% include book-highlights.html %}
 
-[A Wild Sheep Chase]: http://holmberg.io/reading/a-wild-sheep-chase/
+[A Wild Sheep Chase]: {{ site.url }}/reading/a-wild-sheep-chase/

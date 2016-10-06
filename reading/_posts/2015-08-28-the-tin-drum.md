@@ -6,9 +6,12 @@ cover: the-tin-drum
 author: Günter Grass
 publisher: Mariner Books
 book-url: http://www.amazon.com/Tin-Drum-Gunter-Grass-ebook/dp/B002TJLEXC/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
+has_intro: true
+has_cover: yes
 ---
+{% include book-cover.html %}
 
-<p class="intro" markdown="1">**I've** joined a book club. We had the first get together yesterday and it was a refreshing talk with kind people. The subject for the evening was this German book *The Tin Drum* about the boy Oskar who chooses to stop growing when he's three years old.</p>
+**I've** joined a book club. We had the first get together yesterday and it was a refreshing talk with kind people. The subject for the evening was this German book *The Tin Drum* about the boy Oskar who chooses to stop growing when he's three years old.
 
 Now placed in a mental institution, Oskar recalls his life by drumming up stories on his tin drum. Set in Gdańsk at the beginning of Second World War and the years after it you follow Oskar and the encounters he makes while "growing up".
 

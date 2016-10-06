@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "My definitive guide to why CAPTCHA sucks"
 ref_url: https://boagworld.com/usability/my-definitive-guide-to-why-captcha-sucks
 ---

@@ -6,7 +6,7 @@ redirect_from:
   - /article/adapting-to-new-things/
 ---
 
-<p class="intro" markdown="1">**Adapt** to the new and leave things behind is hard. We tend to stick to what we know, because it feels safe and comfortable. We want things to be as they always have been.</p>
+Adapt to the new and leave things behind is hard. We tend to stick to what we know, because it feels safe and comfortable. We want things to be as they always have been.
 
 But I think instead what this does is to keep us from evolving. I have experimented a lot lately. Experimenting how to try to adapt to new things the best way possible.
 

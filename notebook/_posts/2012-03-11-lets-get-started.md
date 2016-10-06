@@ -5,7 +5,7 @@ redirect_from:
  - /journal/lets-get-started/
 ---
 
-<p class="intro" markdown="1">**Ever since** I was a kid I have always wanted to write. I had a blog once, a blog that slowly faded because I wrote about stuff that didn't really interest me. Engagement is important. You need to be passionate about the things you do.</p>
+Ever since I was a kid I have always wanted to write. I had a blog once, a blog that slowly faded because I wrote about stuff that didn't really interest me. Engagement is important. You need to be passionate about the things you do.
 
 This goes for writing as well. If I'm not interested in what I write no one else will ever be. My name is Johannes Holmberg and the people I know call me a Web Designer. The web is a fantastic place that brings humans together, it connects people. For this to happen, people need something to interact with, they need interfaces. This was an extraordinary interesting field for me and the main reason why I chose to start working with the web.
 

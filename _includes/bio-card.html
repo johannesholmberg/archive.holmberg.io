@@ -1,22 +1,23 @@
-<div class="wrap">
-  <div class="bio-card">
-    <a href="/about" rel="me">
-      <img
-        src="/uploads/dist/johannes-square-140.jpg"
-        sizes="
-        ({{site.tablet-lg}}) 130px,
-        ({{site.mobile-lg}}) 115px,
-        90px"
-        srcset="
-        /uploads/dist/johannes-square-140.jpg 140w,
-        /uploads/dist/johannes-square-320.jpg 320w"
-        alt="Johannes Holmberg"
-      >
-    </a>
-    <p>
-      Hi, I’m Johannes — Freelance front-end web developer based in Basel, Switzerland.
-      <strong>Have a project and think I could help out with it?</strong> Let’s get in touch.
-      Drop me a line at <a href="mailto:{{ site.email }}">{{ site.email }}</a> and I’ll get back to you as soon as possible.
-    </p>
-  </div>
-</div>
+<aside class="bio-card">
+  <a href="{{ site.url }}/">
+    <img
+      src="{{ site.url }}/uploads/dist/johannes-square-140.jpg"
+      sizes="
+      ({{site.tablet-lg}}) 130px,
+      ({{site.mobile-lg}}) 115px,
+      90px"
+      srcset="
+      {{ site.url }}/uploads/dist/johannes-square-140.jpg 140w,
+      {{ site.url }}/uploads/dist/johannes-square-320.jpg 320w"
+      alt="Johannes Holmberg"
+    >
+    <div class="text">
+      <h3 class="title">Johannes Holmberg</h3>
+      <p>
+        I’m a consultant front-end web designer based in Basel, Switzerland.
+        I’m doing design and interaction work for the web.
+        Get in touch if you would like to work together, or just say hi :)
+      </p>
+    </div>
+  </a>
+</aside>

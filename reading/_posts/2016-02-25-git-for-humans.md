@@ -6,7 +6,7 @@ category: reading
 author: David Demaree
 publisher: A Book Apart
 published: 2016
-has-own-cover: yes
+has_cover: yes
 book-url: https://abookapart.com/products/git-for-humans
 ---
 {% include book-cover.html %}
@@ -15,7 +15,5 @@ Git is hard. And it can be a bit messy at times. But it is an essential tool in 
 {: .intro}
 
 It's written in very plain and easy going language. That's refreshing for a book which handles a technical subject. I learned a few new neat tricks and rules that I will incorporate in my own workflow from now on.
-
-I read the Kindle version and the highlights are below.
 
 {% include book-highlights.html %}

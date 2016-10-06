@@ -1,5 +1,8 @@
-{% assign cover = post.url | replace: '/reading/', '' | replace: '/', '' | replace: '-read-2', '' %}
-<a href="{{ post.url }}" class="book-item {{ attribute }}">
+{% assign title = post.url | split: '/' %}
+{% assign titleNew = title | last %}
+{% assign cover = titleNew | replace: '-read-2', '' %}
+
+<a href="{{ post.url }}" class="book-item">
   <div class="cover">
     <div class="container">
       <img
@@ -14,14 +17,4 @@
   </div>
   <h3 class="title">{{ post.title }}</h3>
   <p class="meta">{{ post.author }}</p>
-  <div class="date">
-    {{ post.date | date: '%B' }}
-    {% assign d = post.date | date: "%-d" %}
-    {% case d %}
-      {% when '1' or '21' or '31' %}{{ d }}st
-      {% when '2' or '22' %}{{ d }}nd
-      {% when '3' or '23' %}{{ d }}rd
-      {% else %}{{ d }}th
-      {% endcase %}
-  </div>
 </a>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "German Log: Day 31"
+has_intro: true
 redirect_from:
   - /writing/german-log-day-31/
 ---

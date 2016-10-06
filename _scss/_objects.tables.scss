@@ -1,15 +1,3 @@
-.table-holder {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  //box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, .2);
-  margin: 1.5em 0;
-
-  @include breakpoint(desktop-lg) {
-    width: 130%;  
-  } 
-  
-}
-
 table {
   width: 100%;
   min-width: 700px;
@@ -44,7 +32,7 @@ table {
 
   tr {
     td {
-      border-bottom: 1px solid #ddd;  
+      border-bottom: 1px solid #ddd;
     }
   }
 }

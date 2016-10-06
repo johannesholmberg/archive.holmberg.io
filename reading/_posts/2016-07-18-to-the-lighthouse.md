@@ -6,7 +6,7 @@ category: reading
 author: Virginia Woolf
 publisher: Amazon Digital Services LLC
 published: 1927
-has-own-cover: yes
+has_cover: yes
 book-url: https://www.amazon.com/Lighthouse-Virginia-Woolf-ebook/dp/B00DHT1F2I?ie=UTF8&ref_=r_soa_w_d#nav-subnav
 ---
 {% include book-cover.html %}

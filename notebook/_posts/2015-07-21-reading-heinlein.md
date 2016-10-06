@@ -5,7 +5,7 @@ redirect_from:
   - /journal/reading-heinlein/
 ---
 
-<p class="intro" markdown="1">**What** is it that makes me so fascinated every time I pick up one of Robert Heinlein's books?</p>
+What is it that makes me so fascinated every time I pick up one of Robert Heinlein's books?
 
 I think they have exactly the right mix of ingredients which resonates with my own interests. Technology, politics, philosophy—all packed in an intriguing story with interesting characters. The books format is mainly driven by dialogue, helping to better understand the characters and what drives them. That kind of recipe makes it for me.
 

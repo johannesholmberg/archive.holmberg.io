@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "The Boring Front-end Developer"
 ref_url: http://thebfed.com/
 ---

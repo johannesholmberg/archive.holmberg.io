@@ -6,7 +6,7 @@ category: reading
 author: Josh Clark
 publisher: A Book Apart
 published: 2016
-has-own-cover: yes
+has_cover: yes
 book-url: https://abookapart.com/products/designing-for-touch
 ---
 {% include book-cover.html %}

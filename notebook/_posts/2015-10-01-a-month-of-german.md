@@ -41,6 +41,6 @@ So there we have it, the plan for October. I will continue to report the progres
 
 
 [l1]: http://duolingo.com
-[l2]: http://holmberg.io/reading/tomokos-traume
-[l3]: http://holmberg.io/reading/der-magier-der-erdsee
-[l4]: http://holmberg.io/reading/on-writing-well/#highlight-7
+[l2]: {{ site.url }}/reading/tomokos-traume
+[l3]: {{ site.url }}/reading/der-magier-der-erdsee
+[l4]: {{ site.url }}/reading/on-writing-well/#highlight-7

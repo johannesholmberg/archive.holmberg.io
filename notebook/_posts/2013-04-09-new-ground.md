@@ -5,7 +5,7 @@ redirect_from:
   - /journal/new-ground/
 ---
 
-<p class="intro" markdown="1">**A couple** of hours ago, the plane I boarded early this morning on Bali landed on Australian ground. It’s hard to estimate how long and for how many years I’ve been dreaming about visiting this continent and now it’s finally happening.</p>
+A couple of hours ago, the plane I boarded early this morning on Bali landed on Australian ground. It’s hard to estimate how long and for how many years I’ve been dreaming about visiting this continent and now it’s finally happening.
 
 I’m in Perth, a city I barely knew existed earlier but since that was the place I happened to find an amazingly cheap flight ticket for, that’s where I ended up. Right now I’m trying to get acclimatized to the new environment but it feels like that shouldn’t be too hard. The lack of humidity is a welcoming aspect. That makes the steady 30 Celsius degrees a bit more bearable than they’ve been for the last 3 months in the Southeast Asian countries.
 

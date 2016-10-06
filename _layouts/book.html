@@ -1,42 +1,31 @@
 ---
 layout: default
-top-bg: "#1f1f1f"
+body_class: post book
 ---
 
-<article>
-  <div class="wrap -two-col">
+<article class="has-intro">
 
-  	<header class="page-header -left-align -one-col">
-  	  <h1 class="title">{{ page.title }}</h1>
-  	  <p class="meta">
-        {% if page.flag == 'current' %}
-          Currently reading
-        {% else %}
-        {{ page.date | date: '%B' }}
-        {% assign d = page.date | date: "%-d" %} 
-        {% case d %}
-          {% when '1' or '21' or '31' %}{{ d }}st,
-          {% when '2' or '22' %}{{ d }}nd,
-          {% when '3' or '23' %}{{ d }}rd,
-          {% else %}{{ d }}th,
-          {% endcase %}
-          {{ page.date | date: '%Y' }}
-        {% endif %}
-       — <span>by</span> {{ page.author }}</p>
-  	</header>
+  <header class="page-header">
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="meta">
+      {% assign thedate = page.date %}
+      {% include nice-date.html %} — <span>by</span> {{ page.author }}
+    </p>
+  </header>
 
-    {% if page.has-own-cover %}
-      {{ content }}
-      </div>
-    {% else %}
+    {% if page.has_cover == "" or page.has_cover == nil %}
       {% include book-cover.html %}
-      {{ content }}
-      </div>
     {% endif %}
 
-	</div>
+    {{ content }}
 
-  {% assign url = "/reading" %}
-  {% include case-nav.html %}
+    <aside class="sidebar">
+      {% include bio-card.html %}
+
+      {% assign cat = "reading" %}
+      {% include case-nav.html %}
+    </aside>
+
+  </div>
 
 </article>

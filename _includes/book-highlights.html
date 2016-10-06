@@ -1,13 +1,32 @@
-{% assign data = page.url | replace: '/reading/', '' | replace: '/', '' | replace: '-read-2', '' %}
+{% assign title = page.url | split: '/' %}
+{% assign titleNew = title | last %}
+{% assign data = titleNew | replace: '-read-2', '' %}
+
+<h3>My personal highlights from the book</h3>
+
+<hr>
 
 {% for highlight in site.data.books.[data] %}
+   {% if highlight.loc %}
+     {% assign location = "loc" %}
+   {% elsif highlight.page %}
+     {% assign location = "page" %}
+   {% endif %}
 
-  > {{ highlight.quote }}
-  {: #highlight{{forloop.index}}}
+  <blockquote id="highlight{{ forloop.index }}">
+    {{ highlight.quote | markdownify }}
 
-  {% assign separator = "&middot;" %}
-
-  {% if highlight.loc %} loc. {{ highlight.loc }} {{ separator }} {% elsif highlight.page %} Page {{ highlight.page }} {{ separator }} {% endif %} [highlight {{forloop.index}}](#highlight{{forloop.index}})
-  {: .meta}
-
+    {% assign separator = "&middot;" %}
+    <a href="#highlight{{ forloop.index }}" class="meta">
+      {% if highlight.loc %}
+        loc. {{ highlight.loc }} {{ separator }}
+      {% elsif highlight.page %}
+        Page {{ highlight.page }} {{ separator }}
+      {% endif %}
+      <span class="icon-holder">
+        {% assign id = "link" %}
+        {% include icon.html %}
+      </span>
+    </a>
+  </blockquote>
 {% endfor %}

@@ -5,7 +5,7 @@ redirect_from:
 - /journal/getting-on-that-plane/
 ---
 
-<p class="intro" markdown="1">**When writing this** I'm sitting in an airplane heading towards Bangkok, Thailand. I don't know much about what will happen when I get there but I do know a few things. I do know that I don't have a return ticket back home.</p>
+When writing this I'm sitting in an airplane heading towards Bangkok, Thailand. I don't know much about what will happen when I get there but I do know a few things. I do know that I don't have a return ticket back home.
 
 I do know that everything I currently own is tucked away in my backpack, resting safely beneath the seat in front of me. I also know that in December last year I quit my daily job.
 

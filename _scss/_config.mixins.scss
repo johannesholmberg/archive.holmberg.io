@@ -15,3 +15,8 @@
     width: calc(#{$flexible-width} - #{$fixed-width});
   }
 }
+
+// Check support with native CSS
+@mixin supportsFlex() {
+  @supports (display: flex) { @content; }
+}

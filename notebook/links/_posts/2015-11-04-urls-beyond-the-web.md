@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "URLs Beyond The Web"
 ref_url: http://alistapart.com/blog/post/urls-beyond-the-web
 ---

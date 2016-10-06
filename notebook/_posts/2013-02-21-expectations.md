@@ -6,7 +6,7 @@ redirect_from:
   - /article/expectations/
 ---
 
-<p class="intro" markdown="1">**You** may think that as I'm out traveling I have purposefully planned this whole trip, deliberately made detailed goals for my every destination and that all has been outlined beforehand. It couldn't be much further from the truth.</p>
+You may think that as I'm out traveling I have purposefully planned this whole trip, deliberately made detailed goals for my every destination and that all has been outlined beforehand. It couldn't be much further from the truth.
 
 I picked Bangkok as a destination to get myself on that plane, that's all, I had no idea where to go after that. I don't like to extravagantly allow myself into too much planning because then I'm unconsciously setting up expectations, which can be pretty harmful at times. Expectations locks me in a certain way of thinking, it locks me down a certain path before I've even reached it. I'm oblivious to other ways because I've already settled long ago.
 

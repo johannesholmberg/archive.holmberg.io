@@ -6,7 +6,7 @@ redirect_from:
 - /article/learning-and-unlearning/
 ---
 
-<p class="intro" markdown="1">**To learn** something new and explore the world around us is important for everyone. There is so much new to face everyday and learning itself is a life long task. Learning is one of the assets of adapting. So is unlearning.</p>
+To learn something new and explore the world around us is important for everyone. There is so much new to face everyday and learning itself is a life long task. Learning is one of the assets of adapting. So is unlearning.
 
 Every time you learn something new, it takes the place of something you already knew from before (or at least it casts a shadow on it). Therefore it's as important to unlearn as it is to learn new things. It frees up space for things to come. Unlearning (or untethering) is the skill to let go of the things you're not truly passionate about, but for some reason try desperately to hang onto.
 

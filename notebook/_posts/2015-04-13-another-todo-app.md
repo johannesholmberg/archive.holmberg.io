@@ -8,7 +8,7 @@ redirect_from:
 
 [![Todoist]({{site.url}}/uploads/dist/todoist-banner-1000.jpg)](https://en.todoist.com/)
 
-<p class="intro" markdown="1">**I’ve** used [Todoist](https://en.todoist.com/) for almost a year now and it works exceptionally well. I don’t remember how I found it but I remember I had a strong need for something lean to help me get through the days in a more comfortable manner.</p>
+I’ve used [Todoist](https://en.todoist.com/) for almost a year now and it works exceptionally well. I don’t remember how I found it but I remember I had a strong need for something lean to help me get through the days in a more comfortable manner.</p>
 
 In the past, I think I’ve tried out everything there is in the industry but they were either too complex (read [Things](https://culturedcode.com/things/) and [Omnifocus](https://www.omnigroup.com/omnifocus)) or too limited (read Apple reminders and [Clear](http://realmacsoftware.com/clear)).
 

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "A Reviving Year"
+has_intro: true
 redirect_from:
   - /writing/a-reviving-year/
 ---
 
 This year has been huge for me. I moved to Switzerland. Sat up my own business. Acclimatized in my new home town. And I’ve been doing quite a lot of traveling on top of that. As I [wrote last year], 2014 and 2015 were really different from each other in the sense of all the newness that last year brought.
-{: .intro}
 
 ## Professional
 I think the biggest part for me has been the professional changes in my life. Going from always being employed to all of a sudden being my own boss has been a fun ride. Taking strategical decisions for the business, planning out a schedule, getting clients, setting up an office. I’ve loved doing all these things. And I look forward for keep doing it and evolve the business further.
@@ -26,11 +26,11 @@ What is nice about Basel is that it is located pretty much in the middle of Euro
 - Hiked a _lot_.
 - Joined a [book club].
 
-[wrote last year]: http://holmberg.io/journal/a-year-of-retreat/
-[learning German]: http://holmberg.io/writing/a-month-of-german/
+[wrote last year]: {{ site.url }}/journal/a-year-of-retreat/
+[learning German]: {{ site.url }}/writing/a-month-of-german/
 [YNAB]: http://www.youneedabudget.com/
-[Rome]: http://holmberg.io/writing/new-place/
-[activity tracker]: http://holmberg.io/article/getting-up/
-[home office set up]: http://holmberg.io/photos/workstation/
-[monthly experiments]: http://holmberg.io/writing/a-month-of-german/
-[book club]: http://holmberg.io/reading/the-tin-drum/
+[Rome]: {{ site.url }}/writing/new-place/
+[activity tracker]: {{ site.url }}/article/getting-up/
+[home office set up]: {{ site.url }}/photos/workstation/
+[monthly experiments]: {{ site.url }}/writing/a-month-of-german/
+[book club]: {{ site.url }}/reading/the-tin-drum/

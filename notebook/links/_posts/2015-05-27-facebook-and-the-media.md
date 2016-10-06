@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "Facebook and the media: united, they attack the web"
 ref_url: https://www.baldurbjarnason.com/notes/media-websites-vs-facebook/
 ---

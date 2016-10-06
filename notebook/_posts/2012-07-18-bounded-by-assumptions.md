@@ -6,7 +6,7 @@ redirect_from:
 - /article/bounded-by-assumptions/
 ---
 
-<p class="intro" markdown="1">**A** couple of weeks ago I did something that, in my own terms, was amazing. I was up in the skies, flying in a two-seat aerobatic airplane at a speed of 400 km/h.</p>
+A couple of weeks ago I did something that, in my own terms, was amazing. I was up in the skies, flying in a two-seat aerobatic airplane at a speed of 400 km/h.
 
 Ever since I can remember I've been terribly afraid of heights. Just two years ago, I was so immensely scared of flying I'd had to down a couple of drinks before entering a plane. I've never dared to ride even the simplest of roller coasters.
 

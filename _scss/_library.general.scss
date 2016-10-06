@@ -1,5 +1,5 @@
 html {
-  background: #fff;
+  background: $profile-light;
   color: $darkgray;
 }
 
@@ -8,6 +8,8 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background: $profile-light;
+      transition: all .2s ease-in-out;
 }
 
 * {

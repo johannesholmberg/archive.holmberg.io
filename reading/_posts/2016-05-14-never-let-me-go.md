@@ -6,7 +6,7 @@ category: reading
 author: Kazuo Ishiguro
 publisher: Faber & Faber
 published: 2005
-has-own-cover: yes
+has_cover: yes
 book-url: https://www.amazon.com/gp/product/B002RI9ZX6/ref=kinw_myk_ro_title
 ---
 {% include book-cover.html %}
@@ -21,7 +21,5 @@ At the beginning it feels like a plain love story that's being retold from a mor
 But there are those small curious hints which progressively reveals a much deeper nature of the story. It was tastefully done and always kept me reading because I wanted to figure out what was wrong with these students.
 
 And it turned out to be much more dramatic than I ever thought it could be from judging by its cover.
-
-Highlights below.
 
 {% include book-highlights.html %}

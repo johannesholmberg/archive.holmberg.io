@@ -5,14 +5,14 @@ redirect_from:
   - /article/establishing-my-daily-routine/
 ---
 
-<p class='intro' markdown='1'>**Let’s face it**. Managing time is quite hard. Especially when I don’t have people around who expect me to show up at certain hours. When I started working independently I wanted to learn the best way for me personally to manage my time. Some months ago I sketched out a rough utopian schedule the way I thought might work best for me. Just to see if I could stick with it.</p>
+Let’s face it. Managing time is quite hard. Especially when I don’t have people around who expect me to show up at certain hours. When I started working independently I wanted to learn the best way for me personally to manage my time. Some months ago I sketched out a rough utopian schedule the way I thought might work best for me. Just to see if I could stick with it.
 
-Waking up early has definitely been the hardest part, but also the most rewarding. To help me with this, I bought the [UP24](http://holmberg.io/journal/getting-up/) to aquire some data about my sleep and then adjust it over time. It’s been a couple of iterations to get there but now I think I have a pretty solid and well-balanced daily routine.
+Waking up early has definitely been the hardest part, but also the most rewarding. To help me with this, I bought the [UP24]({{ site.url }}/notebook/getting-up/) to aquire some data about my sleep and then adjust it over time. It’s been a couple of iterations to get there but now I think I have a pretty solid and well-balanced daily routine.
 
 ## The Routine
 
 ### 06:00 AM
-Feeling a gentle buzz on my wrist. My [UP24 bracelet](http://holmberg.io/journal/getting-up/) wants me to get up. In the beginning it was hard to get up by this time so I used a little trick I learned from [Jeff Finley](https://twitter.com/jeff_finley). First step is always the most crucial. So every evening before I go to bed, I put a glass of water on the drawer at the other side of the bedroom. When I open my groggy eyes and want nothing but to stay cuddling under the warm sheets, the only thing I have to do is to reach that glass and empty its contents. Nothing else. I can do that. After I finish drinking the water I’m awake and then I can take the next step. Totally fooling myself every day but hey, it works.
+Feeling a gentle buzz on my wrist. My [UP24 bracelet]({{ site.url }}/notebook/getting-up/) wants me to get up. In the beginning it was hard to get up by this time so I used a little trick I learned from [Jeff Finley](https://twitter.com/jeff_finley). First step is always the most crucial. So every evening before I go to bed, I put a glass of water on the drawer at the other side of the bedroom. When I open my groggy eyes and want nothing but to stay cuddling under the warm sheets, the only thing I have to do is to reach that glass and empty its contents. Nothing else. I can do that. After I finish drinking the water I’m awake and then I can take the next step. Totally fooling myself every day but hey, it works.
 
 ### 06:10 AM
 I’ve made a point of not checking any screens at this point. I don’t want to start the day in the wrong way. My only objective now is to get my things together so I can head out the door.

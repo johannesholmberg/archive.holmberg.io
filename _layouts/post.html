@@ -1,41 +1,37 @@
 ---
 layout: default
-body_class: dark
-top-bg: "#fafafa"
-body_class: light
+body_class: post
 ---
 
-<article class="container">
+<article {% if page.has_intro == true %} class="has-intro"{% endif %}>
 
-  {% assign title = page.title %}
-  {% assign width = "-small" %}
-  {% assign attribute = "-left-align -special-meta" %}
+  <header class="page-header">
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="meta">
+      {% if page.date == "" or page.date == nil %}
+      {% else %}
+        {% assign thedate = page.date %}
+        {% include nice-date.html %}
+        {% for cat in page.categories %}
+          &middot;
+         {{ cat | capitalize }}
+        {% endfor %}
+      {% endif %}
+    </p>
+  </header>
 
-  {% assign d = page.date | date: "%-d" %}
-  {% case d %}
-    {% when '1' or '21' or '31' %}
-      {% capture day %}{{ d }}st, {% endcapture %}
-    {% when '2' or '22' %}
-      {% capture day %}{{ d }}nd, {% endcapture %}
-    {% when '3' or '23' %}
-      {% capture day %}{{ d }}rd, {% endcapture %}
-    {% else %}
-      {% capture day %}{{ d }}th, {% endcapture %}
-  {% endcase %}
-  {% capture full %}
-    {{ page.date | date: '%B' }} {{ day }} {{ page.date | date: '%Y' }}
-  {% endcapture %}
-
-  {% assign subtitle = full %}
-
-  {% include page-header.html %}
-
-  <div class="wrap container -small">
+  <div class="main-content">
     {{ content }}
+    {% if page.categories[1] == "links" %}
+      {% include link-read-more.html %}
+    {% endif %}
   </div>
 
-  {% include bio-card.html %}
+  <aside class="sidebar">
+    {% include bio-card.html %}
+
+    {% assign cat = "notebook" %}
+    {% include case-nav.html %}
+  </aside>
 
 </article>
-
-{% include case-nav-writing.html %}

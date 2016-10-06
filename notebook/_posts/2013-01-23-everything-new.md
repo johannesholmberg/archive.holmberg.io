@@ -5,7 +5,7 @@ redirect_from:
   - /journal/everything-new/
 ---
 
-<p class="intro" markdown="1">**With** a hint of perspiration starting to shine through on my forehead I'm landing in the foreign city. It's hot.</p>
+With a hint of perspiration starting to shine through on my forehead I'm landing in the foreign city. It's hot.
 
 Around 35 Celsius degrees and I'm quickly getting into a more comfortable pair of shorts. The cultural difference from what I'm used to is complete. The atmosphere, the people, the food; everything new to me.
 

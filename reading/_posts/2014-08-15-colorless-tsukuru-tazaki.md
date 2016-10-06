@@ -7,7 +7,8 @@ author: Haruki Murakami
 cover: colorless-tsukuru-tazaki
 publisher: Vintage Digital
 book-url: http://www.amazon.com/gp/product/B00I3DNUR6/
-intro: 'Like a young tree absorbing nutrition from the soil, Tsukuru got the sustenance he needed as an adolescent from this group, using it as necessary food to grow, storing what was left as an emergency heat source inside him.'
+has_cover: true
 ---
+{% include book-cover.html %}
 
 {% include book-highlights.html %}

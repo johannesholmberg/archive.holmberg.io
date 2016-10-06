@@ -5,7 +5,7 @@ redirect_from:
   - /journal/the-island/
 ---
 
-<p class="intro" markdown="1">**The** towering jungle was majestic, so tall that the top of it was cut off, wrapped in a thin layer of mist. I wondered what kind of things could be hiding in it. Beasts? Treasures? Monsters?</p>
+The towering jungle was majestic, so tall that the top of it was cut off, wrapped in a thin layer of mist. I wondered what kind of things could be hiding in it. Beasts? Treasures? Monsters?
 
 For a short time I felt like Jim Hawkins out of Treasure Island. Or maybe like Charlie Pace from the TV-show “Lost”. I shook the thoughts off my head and we took a walk along the main road in the village to hunt down a sleeping place for the night. Some of my questions were immediately answered when I happened to look up a tree above me, and saw [hundreds of flying foxes](https://www.google.se/search?q=flying+foxes&es_sm=91&source=lnms&tbm=isch&sa=X&ei=h192U7uNLuGo4gTs-ICIBw&ved=0CAgQ_AUoAQ&biw=1440&bih=802) hanging upside-down from its branches. I’ve never seen them before but they look like bats on steroids. Around five times as big. After some trial and error we managed to get a roof over our heads. But that was basically just what the accommodation provided.
 

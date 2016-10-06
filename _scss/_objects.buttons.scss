@@ -3,7 +3,7 @@
   margin: 1em auto;
   @include breakpoint(tablet-lg) {
     margin: 0 auto;
-  } 
+  }
 }
 
 .btn {
@@ -15,9 +15,6 @@
   background: $profile-bg;
   margin: .8em 0 0;
   padding: .8em 1.6em;
-  font-size: $f16px;
-  font-family: $font-sans;
-  
   border-radius: .25em;
   letter-spacing: .02em;
   transition: all .1s ease-in-out;
@@ -41,24 +38,4 @@
     }
   }
 
-  &.outline,
-  .light & {
-    background: #fff !important;
-    color: $profile-text !important;
-    border: 1px solid $profile-bg;
-
-    &:hover,
-    &:focus {
-      border-color: darken($profile-bg, 10%);
-      box-shadow: 0 0 1px 1px rgba(0, 0, 0, .2);
-    }
-
-    &:active {
-      box-shadow: none;
-    }
-  }
-
-  .light & {
-    color: #444 !important;
-  }
 }

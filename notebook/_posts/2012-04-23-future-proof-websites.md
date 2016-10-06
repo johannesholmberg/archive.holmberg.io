@@ -6,7 +6,7 @@ redirect_from:
   - /article/future-proof-websites/
 ---
 
-<p class="intro" markdown="1">**I** hate the term future proof. No one can possibly know what the future will look like. What may work today may not be working tomorrow.</p>
+I hate the term future proof. No one can possibly know what the future will look like. What may work today may not be working tomorrow.
 
 The only thing we can do to predict some kind of future is to base it on the experience and knowledge we have about the past.
 

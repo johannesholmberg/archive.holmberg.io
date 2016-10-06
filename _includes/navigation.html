@@ -3,7 +3,7 @@
     <li class="item-holder">
       <a href="{{ nav.url }}"
       class="nav-item {% if page.active == nav.active or page.categories[0] == nav.active %} active {% endif %}">
-        <span>{{ nav.text }}</span>
+        {{ nav.text }}
       </a>
     </li>
   {% endfor %}

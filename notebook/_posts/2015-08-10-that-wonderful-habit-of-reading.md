@@ -10,7 +10,7 @@ redirect_from:
 {% assign alt = "Kindle" %}
 {% include responsive-image.html %}
 
-**Over the** last three years, I’ve invested a lot of my time in reading books. It’s probably one of those habits I’m most proud of. For those three years I can count on my fingers the days that I didn't pick up my Kindle to continue my current book. It's an essential part of exploring and I don't want to be without it.
+Over the last three years, I’ve invested a lot of my time in reading books. It’s probably one of those habits I’m most proud of. For those three years I can count on my fingers the days that I didn't pick up my Kindle to continue my current book. It's an essential part of exploring and I don't want to be without it.
 {: .intro}
 
 The reasons why I pick a new book to read can be plentiful and much varied. Sometimes I'm eager to learn a new subject. Other times I want my mind to slow down. Now and then I just want to flee for a moment.

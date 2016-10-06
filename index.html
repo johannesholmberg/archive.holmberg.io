@@ -1,26 +1,54 @@
 ---
 layout: default
-title: "Front-end Web Developer"
-active: "index"
-body_class: start soft-background
-description: "Johannes Holmberg is a Front-end Web Developer in Basel, Switzerland."
+title: "This is holmberg.io – the website of front-end web designer"
+active: index
+body_class: start
+description: "Johannes Holmberg is a front-end web designer in Basel, Switzerland."
 ---
 
-<header class="cover-banner">
-  <div class="wrap">
-    <h1 class="title">Hi, I’m Johannes.</h1>
-    <p class="meta">Freelance front-end web <span>developer in Basel, Switzerland.</span></p>
-    <a href="{{siteurl}}/work" class="btn -standard">Check out my work</a>
+<section class="start-section">
+  <div class="profile">
+    <img src="{{ site.url }}/uploads/dist/johannes-square-400.jpg" alt="Johannes Holmberg">
+
+    <div class="text">
+      <h1 class="title">Hi, I’m Johannes.</h1>
+      <p class="meta">Consultant front-end web designer.</p>
+    </div>
+
+    <div class="social">
+      <h2 class="title">You can stalk me on the following networks</h2>
+      <ul>
+        {% for link in site.data.links %}
+          <li>
+            <a href="{{ link.url }}">
+              <span>
+                {% assign id = link.icon %}
+                {% include icon.html %}
+              </span>
+              {{ link.site }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-</header>
 
-<div class="container wrap">
-  <h2 class="title" style="text-align: center; margin-bottom: 1em;">Work</h2>
-
-  <div class="case-holder">
-    {% for post in site.categories.work limit:6 %}
-      {% include case-item.html %}
-    {% endfor %}
+  <div class="main-content">
+    <div class="inner">
+      <h2>A little bit on me</h2>
+      <p>
+        I’m Johannes Holmberg and I work on the web.
+        I’m a consultant font-end web designer living and working out of beautiful <a href="#">Basel, Switzerland</a>.
+      </p>
+      <p>
+        I’ve been working on the web for the last 9 years, designing and developing usable online solutions. What I do is making design and technology work together on the web.
+      </p>
+      <p>
+        My services include interaction design, information architecture and front-end development. I work together with teams from companies all over the world to provide responsive and optimized user interfaces.
+      </p>
+      <p>
+        You can contact me by email at <a href="mailto:johannes@holmberg.io">johannes@holmberg.io</a>.
+      </p>
+    </div>
   </div>
-
-</div>
+</section>

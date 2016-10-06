@@ -1,37 +1,50 @@
 <a href="{{ post.url }}" class="case-item">
   <img
-    src="/uploads/dist/{{post.cover}}-600.jpg"
+    src="{{ site.url }}/uploads/dist/{{post.cover}}-cover-600.jpg"
     sizes="
-    ({{site.tablet-sm}}) 43vw,
-    ({{site.mobile-lg}}) 70vw,
-    94vw"
+    (min-width: 1687px) 33vw,
+    (min-width: 1020px) 50vw,
+    100vw"
     srcset="
-    /uploads/dist/{{post.cover}}-320.jpg 320w,
-    /uploads/dist/{{post.cover}}-600.jpg 600w,
-    /uploads/dist/{{post.cover}}-800.jpg 800w,
-    /uploads/dist/{{post.cover}}-1000.jpg 1000w"
+    {{ site.url }}/uploads/dist/{{post.cover}}-cover-320.jpg 320w,
+    {{ site.url }}/uploads/dist/{{post.cover}}-cover-600.jpg 600w,
+    {{ site.url }}/uploads/dist/{{post.cover}}-cover-800.jpg 800w,
+    {{ site.url }}/uploads/dist/{{post.cover}}-cover-1000.jpg 1000w,
+    {{ site.url }}/uploads/dist/{{post.cover}}-cover-1400.jpg 1400w,
+    {{ site.url }}/uploads/dist/{{post.cover}}-cover-2000.jpg 2000w"
     alt="{{post.title}}"
   >
-  <h2 class="title">{{ post.title }}</h2>
-  <p class="meta">
-    {% if post.meta == 'date' %}
-      {% assign d = post.date | date: "%-d" %}
-      {% case d %}
-        {% when '1' or '21' or '31' %}
-          {% capture day %}{{ d }}st, {% endcapture %}
-        {% when '2' or '22' %}
-          {% capture day %}{{ d }}nd, {% endcapture %}
-        {% when '3' or '23' %}
-          {% capture day %}{{ d }}rd, {% endcapture %}
+  <div class="text-wrap">
+    <span class="show">
+      {% assign id = "search" %}
+      {% include icon.html %}
+    </span>
+    <div class="text">
+      <p class="slogan">
+        {{ post.subtitle }}
+      </p>
+      <h2 class="title">{{ post.title }}</h2>
+      <p class="meta">
+        {% if post.meta == 'date' %}
+          {% assign d = post.date | date: "%-d" %}
+          {% case d %}
+            {% when '1' or '21' or '31' %}
+              {% capture day %}{{ d }}st, {% endcapture %}
+            {% when '2' or '22' %}
+              {% capture day %}{{ d }}nd, {% endcapture %}
+            {% when '3' or '23' %}
+              {% capture day %}{{ d }}rd, {% endcapture %}
+            {% else %}
+              {% capture day %}{{ d }}th, {% endcapture %}
+          {% endcase %}
+          {% capture fulldate %}
+            {{ post.date | date: '%B' }} {{ day }} {{ post.date | date: '%Y' }}
+          {% endcapture %}
+          <span>{{ fulldate }}</span>
         {% else %}
-          {% capture day %}{{ d }}th, {% endcapture %}
-      {% endcase %}
-      {% capture fulldate %}
-        {{ post.date | date: '%B' }} {{ day }} {{ post.date | date: '%Y' }}
-      {% endcapture %}
-      <span>{{ fulldate }}</span>
-    {% else %}
-      <span>{{ post.meta }}</span>
-    {% endif %}
-  </p>
+          <span>{{ post.meta }}</span>
+        {% endif %}
+      </p>
+    </div>
+  </div>
 </a>

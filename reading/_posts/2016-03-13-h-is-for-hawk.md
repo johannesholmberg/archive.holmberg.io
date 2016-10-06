@@ -6,7 +6,7 @@ category: reading
 author: Helen Macdonald
 publisher: Vintage Digital
 published: 2014
-has-own-cover: yes
+has_cover: yes
 book-url: http://www.amazon.com/dp/B00JLLD7TU/
 ---
 {% include book-cover.html %}

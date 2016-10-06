@@ -6,7 +6,7 @@ redirect_from:
 - /article/why-i-love-this/
 ---
 
-<p class="intro" markdown="1">**I** have always been fascinated by technology, about the things one can do with the right set of equipment. I think my fascination started when I was around 7 years old.</p>
+I have always been fascinated by technology, about the things one can do with the right set of equipment. I think my fascination started when I was around 7 years old.
 
 > <q>Any sufficiently advanced technology is indistinguishable from magic.</q> -- <cite>Arthur C. Clarke</cite>
 

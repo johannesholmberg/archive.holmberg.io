@@ -3,9 +3,7 @@ layout: case
 title: "Scenkonst Västernorrland"
 cover: scenkonst
 subtitle: "A united responsive platform for seven brands."
-color: '#8BA6C4'
-body_class: 'dark'
-
+permalink: work/scenkonst/
 website: http://scenkonstvasternorrland.se
 meta: June, 2014–January, 2015
 role: Production Manager
@@ -34,11 +32,6 @@ The solution is a WordPress Multisite sharing the same base theme with site-spec
 {% include responsive-image.html %}
 
 In this project I was working together in a team of great designers and developers from the digital agency [Osynlig] in Sweden.
-
-{% assign filename =  "scenkonst-inline-2" %}
-{% assign ext = "jpg" %}
-{% assign alt = page.title %}
-{% include responsive-image.html %}
 
 [Trello]: https://trello.com/
 [Osynlig]: http://osynlig.com

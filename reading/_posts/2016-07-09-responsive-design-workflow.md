@@ -6,7 +6,7 @@ category: reading
 author: Stephen Hay
 publisher: New Riders
 published: 2013
-has-own-cover: yes
+has_cover: yes
 book-url: http://www.responsivedesignworkflow.com/
 ---
 {% include book-cover.html %}

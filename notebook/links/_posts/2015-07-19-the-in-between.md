@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "The In-Between"
 ref_url: http://www.markboulton.co.uk/journal/theinbetween
 ---

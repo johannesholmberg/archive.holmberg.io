@@ -6,25 +6,11 @@ redirect_from:
   - /article/getting-up/
 ---
 
-<figure>
-    <img
-        sizes="
-        ({{site.desktop-xl}}) 850px,
-        ({{site.tablet-lg}}) 770px,
-        ({{site.tablet-sm}}) 660px,
-        100%"
-        srcset="
-        /uploads/dist/up-bracelet-400.jpg 400w,
-        /uploads/dist/up-bracelet-600.jpg 600w,
-        /uploads/dist/up-bracelet-800.jpg 800w,
-        /uploads/dist/up-bracelet-1000.jpg 1000w,
-        /uploads/dist/up-bracelet-1400.jpg 1400w"
-        src="/uploads/dist/up-bracelet-600.jpg"
-        alt="UP activity tracker from Jawbone"
-    >
-</figure>
+{% assign filename = "up-bracelet" %}
+{% assign alt = "UP activity tracker from Jawbone" %}
+{% include responsive-image.html %}
 
-<p class="intro" markdown="1">**Last** month I got this activity tracker [‘UP’ from Jawbone](https://jawbone.com/up). It’s this pretty geeky thing you strap around your wrist and it’ll count the steps you make throughout the day.</p>
+Last month I got this activity tracker [‘UP’ from Jawbone](https://jawbone.com/up). It’s this pretty geeky thing you strap around your wrist and it’ll count the steps you make throughout the day.
 
 I laughed the first time I laid my eyes on one, “I would never pay money to put this stupid thing on me”. “It doesn’t add anything to my life that my smartphone couldn’t do.”
 
@@ -42,24 +28,11 @@ I still ended up scrolling away at the blinding light of that screen, hunting do
 
 The greatest benefit of the UP bracelet is that it features no screen. You can activate reminders on it and it will feed back a gentle vibration. So, instead of the traditional alarm sound in the morning, I now wake up when I feel this slight vibration on my wrist. It’s a really pleasant feeling.
 
-<figure>
-    <img
-        sizes="
-        ({{site.desktop-xl}}) 850px,
-        ({{site.tablet-lg}}) 770px,
-        ({{site.tablet-sm}}) 660px,
-        100%"
-        srcset="
-        /uploads/dist/up-bracelet-2-400.jpg 400w,
-        /uploads/dist/up-bracelet-2-600.jpg 600w,
-        /uploads/dist/up-bracelet-2-800.jpg 800w,
-        /uploads/dist/up-bracelet-2-1000.jpg 1000w,
-        /uploads/dist/up-bracelet-2-1400.jpg 1400w"
-        src="/uploads/dist/up-bracelet-2-600.jpg"
-        alt="UP activity tracker from Jawbone"
-    >
-    <figcaption>No more quirky alarm clocks in the morning thanks to this guy.</figcaption>
-</figure>
+{% assign filename = "up-bracelet-2" %}
+{% assign alt = "UP activity tracker from Jawbone" %}
+{% assign caption = "No more quirky alarm clocks in the morning thanks to this guy." %}
+{% include responsive-image.html %}
+
 
 Thanks to this, my iPhone has found its way off the nightstand and out of the bedroom. It has to kindly wait for me in the office until I start my working day.
 

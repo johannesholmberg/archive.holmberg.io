@@ -6,7 +6,7 @@ redirect_from:
   - /article/management-is-a-tedious-task/
 ---
 
-<p class="intro" markdown="1">**One thing** that I've learned over the years is this: The more things you have, the more time it takes to manage. I'm a structural guy, I like to put things in their correct folder and label them as I go. This gives me some kind of inner peace and calms my nerves.</p>
+One thing that I've learned over the years is this: The more things you have, the more time it takes to manage. I'm a structural guy, I like to put things in their correct folder and label them as I go. This gives me some kind of inner peace and calms my nerves.
 
 Every little thing you add on to your life will take up on your space. Think of it. Every app you install on your phone, every new social network you register for, every new channel you get on your TV. All of them will ask for your attention and they will take of your time as you manage them.
 

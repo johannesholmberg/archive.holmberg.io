@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "The Boring Designer"
 ref_url: http://blog.capwatkins.com/the-boring-designer
 ---

@@ -7,7 +7,8 @@ author: William Lidwell, Kritina Holden
 cover: universal-principles-of-design
 publisher: Rockport Publishers
 book-url: http://www.amazon.com/Universal-Principles-Design-William-Lidwell-ebook/dp/B003M6A2FW/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-intro: 'Consider priming in all aspects of design. First impressions, contexts, and antecedent events are all opportunities to influence subsequent reactions and behaviors — this includes the way products are presented in packaging, the articles adjacent to advertisements in newspapers, and the experiences leading from the parking lot to the entryway of a retail store.'
+has_cover: true
 ---
+{% include book-cover.html %}
 
 {% include book-highlights.html %}

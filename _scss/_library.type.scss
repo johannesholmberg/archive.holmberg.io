@@ -1,16 +1,30 @@
 html {
   line-height: 1.65;
-  font-size: .9em;
+  font-size: .85em;
+
+  @include breakpoint(mobile-xl) {
+    font-size: .85em;
+  }
 
   @include breakpoint(tablet-sm) {
+    font-size: .9em;
+  }
+
+  @include breakpoint(tablet-lg) {
     font-size: 1em;
+  }
+
+  @include breakpoint(desktop-xl) {
+    font-size: 1.1em;
   }
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.3;
   font-weight: 600;
-  text-transform: uppercase;
   margin: 1.5em 0 .3em;
 
   & + p {
@@ -19,37 +33,21 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: $f52px;
+  font-size: 2.4em;
   margin-top: 0;
-}
 
-h2 {
-  font-size: $f20px;
-  letter-spacing: .02em;
-}
-
-h3 {
-  font-size: $f16px;
-}
-
-p,
-ul,
-ol {
-  font-size: $f20px;
-  margin: 1.5em 0;
-}
-
-ol {
-  font-size: $f26px;
-  font-style: italic;
-
-  p {
-    font-style: normal;
+  @include breakpoint(tablet-sm) {
+    font-size: 3.2em;
   }
 }
 
-li {
-  margin: 0 0 .2em;
+h2 {
+  letter-spacing: .02em;
+}
+
+p {
+  font-size: 1.25em;
+  margin: 1.5em 0;
 }
 
 iframe {
@@ -58,75 +56,110 @@ iframe {
 }
 
 hr {
-  font-size: 3em;
   line-height: 1;
-  text-align: center;
-  margin: 1em 0 2em;
+  margin: .9em 0 1.5em;
+  font-size: 3em;
   border: 0;
 
   &:after {
     font-family: sans-serif;
     content: '\00b7\00b7\00b7';
     color: #bbb;
-    letter-spacing: .6em;
-    padding-left: 1em;
-    height: 0;
+    letter-spacing: .5em;
   }
 }
 
-blockquote {
-  color: $midgray;
-  border-left: 4px solid #ddd;
-  background: #fafafa;
-  margin: 1.1em 0;
-  padding: 1.2em 1.3em 1.3em;
-  font-style: italic;
+.post .main-content {
 
-  @include breakpoint(mobile-lg) {
-    padding: 1.5em 1.7em 1.6em;
+  ul,
+  ol {
+    margin-left: 1.5em;
+    font-size: 1.25em;
+
+    p {
+      font-style: normal;
+      font-size: 1em;
+    }
+  }
+
+  ol {
+    font-style: italic;
   }
 
   p {
-    margin: 0;
+    code {
+      background: $snow;
+      color: #444;
+      font-size: .85em;
+      padding: .3em .5em;
+      line-height: 1;
+      border-radius: .2em;
+      display: inline-block;
+      font-family: $font-serif;
+    }
+  }
+
+  blockquote {
+    color: $midgray;
+    border-left: .5em solid #ddd;
+    margin: 1.5em 0;
+    font-style: italic;
+    position: relative;
+    color: #000;
+    font-size: 1.05em;
+
+    @include breakpoint(mobile-xl) {
+      border-width: .25em;
+    }
+
+    em,
+    cite,
+    .meta {
+      font-style: normal;
+    }
+
+    p {
+      &:first-of-type {
+        margin-top: 0;
+      }
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
-code {
-  background: $snow;
-  color: #444;
-  font-size: .85em;
-  padding: .3em .5em;
-  line-height: 1;
-  border-radius: .2em;
-  display: inline-block;
-  font-family: $font-serif;
-}
 
 figure {
   margin: 1.5em auto;
+
+  &.portrait {
+    img {
+      max-height: 40em;
+    }
+  }
 }
 
 figcaption {
   color: $lightdarkgray;
-  //text-align: center;
-  margin: .5em 0 1.5em;
+  margin: 1.5em 0;
   font-style: italic;
 }
 
-
-.intro {
+.has-intro .main-content > p:first-of-type {
   font-size: 1.4em;
 
   @include breakpoint(tablet-sm) {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   > strong:first-child {
-    text-transform: uppercase;
+    font-weight: 300;
   }
 
   &:first-letter {
     display: inline;
+    font-weight: 700;
     float: left;
     padding: .15em .08em 0 0;
     line-height: .65em;

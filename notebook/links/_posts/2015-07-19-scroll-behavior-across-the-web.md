@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: "Scroll behavior across the web"
 ref_url: http://blog.chartbeat.com/2013/08/12/scroll-behavior-across-the-web/
 ---

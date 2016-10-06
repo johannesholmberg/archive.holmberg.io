@@ -6,7 +6,7 @@ redirect_from:
 - /article/dont-try-to-control-the-user/
 ---
 
-<p class="intro" markdown="1">**As a web designer** I try to stand on the same side as the users as much as I possibly can. I'll always fight for the their best experience, it's the users we create websites for after all.</p>
+As a web designer I try to stand on the same side as the users as much as I possibly can. I'll always fight for the their best experience, it's the users we create websites for after all.
 
 One of the battles that I've been fighting with clients a lot during the years is the dilemma about how external links should be opened.
 

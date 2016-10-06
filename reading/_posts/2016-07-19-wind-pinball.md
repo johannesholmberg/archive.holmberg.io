@@ -6,7 +6,7 @@ category: reading
 author: Haruki Murakami
 publisher: Vintage Digital
 published: 2015
-has-own-cover: yes
+has_cover: yes
 book-url: https://www.amazon.com/Wind-Pinball-Novels-Haruki-Murakami-ebook/dp/B00VPIXBJS?ie=UTF8&ref_=r_soa_w_d#nav-subnav
 ---
 {% include book-cover.html %}

@@ -1,21 +1,38 @@
 .year {
   @extend %clearfix;
+
+  @include breakpoint(mobile-xl) {
+    &:first-of-type {
+      .article-divider,
+      .article-item:first-of-type a {
+        border-top: 0;
+      }
+    }
+  }
 }
 
 .article-list {
   padding: 0;
-  float: right;
-  width: 75%;
   margin: 0;
+
+  @include breakpoint(mobile-xl) {
+    float: right;
+    width: 75%;
+  }
 }
 
 .article-divider {
-  float: left;
-  width: 25%;
-  border-top: 1px solid #ddd;
-  margin: 0;
-  padding: .2em 0;
-  font-size: 1.8em;
+  margin: .4em 0 .5em;
+  padding: .5em 0;
+
+  @include breakpoint(mobile-xl) {
+    margin: 0;
+    border-top: 1px solid #ddd;
+    float: left;
+    width: 25%;
+
+
+  }
 }
 
 .article-item {
@@ -24,10 +41,9 @@
   list-style: none;
   position: relative;
 
-
   > a {
     display: block;
-    padding: .75em .4em;
+    padding: 1.1em .5em .9em;
     border-top: 1px solid #ddd;
     @extend %clearfix;
     color: #444;
@@ -39,20 +55,24 @@
     }
   }
 
-  strong {
-    position: absolute;
-    top: 0;
-    left: -4rem;
-    width: 4rem;
-    height: 3.5rem;
-    //border-top: 1px solid #ddd;
-    //background: #fafafa;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: .75em;
+  .icon-holder {
+    margin-right: .5em;
+
+    // @include breakpoint(mobile-xl) {
+    //   margin-right: 0;
+    //   position: absolute;
+    //   top: 0;
+    //   left: -4rem;
+    //   width: 4rem;
+    //   height: 3.5rem;
+    //   text-align: center;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   text-transform: uppercase;
+    //   font-size: .75em;
+    // }
+
   }
 
   .title {
@@ -60,16 +80,19 @@
     font-family: $font-sans;
     font-weight: 400;
     text-transform: none;
-    font-size: .85em;
+    font-size: 1em;
     float: left;
-    width: 75%;
+    width: 70%;
+    padding-right: 1em;
   }
 
   .date {
     margin: 0;
     font-size: $f14px;
-    color: #777;
+    color: #888;
     float: right;
+    //width: 10em;
+    //width: 30%;
     font-family: $font-sans;
   }
 }

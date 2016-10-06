@@ -1,27 +1,35 @@
-<div class="side-panel -book">
-  <aside>
-    <a href="{{ page.book-url }}" class="img-holder">
-      {% assign cover = page.url | replace: '/reading/', '' | replace: '/', '' | replace: '-read-2', '' %}
-      <img
-        src="{{ site.url }}/uploads/dist/{{ cover }}-240.jpg"
-        sizes="
-        (min-width: 57em) 280px,
-        (min-width: 34em) 160px, 140px"
-        srcset="
-        {{ site.url }}/uploads/dist/{{ cover }}-240.jpg 200w,
-        {{ site.url }}/uploads/dist/{{ cover }}-400.jpg 400w"
-        alt="{{page.title}}"
-      >
-    </a>
-    <ul class="meta">
-      <li><strong>Author:</strong> {{ page.author }}</li>
-      {% if page.published %}
-        <li><strong>Published:</strong> {{ page.published }}</li>
+<aside class="sidebar sidebar__book">
+  <a href="{{ page.book-url }}" class="img-holder">
+    {% assign title = page.url | split: '/' %}
+    {% assign titleNew = title | last %}
+    {% assign cover = titleNew | replace: '-read-2', '' %}
+    <img
+      src="{{ site.url }}/uploads/dist/{{ cover }}-240.jpg"
+      sizes="
+      (min-width: 57em) 280px,
+      (min-width: 34em) 160px, 140px"
+      srcset="
+      {{ site.url }}/uploads/dist/{{ cover }}-240.jpg 200w,
+      {{ site.url }}/uploads/dist/{{ cover }}-400.jpg 400w"
+      alt="{{page.title}}"
+    >
+  </a>
+  <ul class="meta">
+    <li><strong>Author:</strong> {{ page.author }}</li>
+    {% if page.published %}
+      <li><strong>Published:</strong> {{ page.published }}</li>
+    {% endif %}
+    <li><strong>Publisher:</strong> {{ page.publisher }}</li>
+    <li><strong>Buy:</strong> <a href="{{ page.book-url }}">Amazon</a></li>
+    <li>
+      <strong>Format:</strong>
+      {% if page.format == "" or page.format == nil %}
+        Kindle
+      {% else %}
+        {{ page.format }}
       {% endif %}
-      <li><strong>Publisher:</strong> {{ page.publisher }}</li>
-      <li><strong>Buy:</strong> <a href="{{ page.book-url }}">Amazon</a></li>
-    </ul>
-  </aside>
-</div>
+    </li>
+  </ul>
+</aside>
 
-<div class="main-content book-entry" markdown="1">
+<div class="main-content" markdown="1">

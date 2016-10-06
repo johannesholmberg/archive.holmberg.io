@@ -7,11 +7,12 @@ cover: be-here-now
 author: Ram Dass
 publisher: HarperCollins e-books
 book-url: http://www.amazon.com/Here-Now-Enhanced-Ram-Dass-ebook/dp/B005R9HK8O/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-description: '“Don’t think about the past. Just be here now.”'
-highlight: 2
+has_intro: true
+has_cover: true
 ---
+{% include book-cover.html %}
 
-<p class="intro" markdown="1">**When I read** [Steve Jobs](/reading/steve-jobs), I found out there were two books that Steve especially liked and had come back to several times over the course of his life. One was [Autobiography of a Yogi](/reading/autobiography-of-a-yogi). The other one was Be Here Now. That tickled my interest since I hadn't had much experience of this type of writing previously.</p>
+**When I read** [Steve Jobs](/reading/steve-jobs), I found out there were two books that Steve especially liked and had come back to several times over the course of his life. One was [Autobiography of a Yogi](/reading/autobiography-of-a-yogi). The other one was Be Here Now. That tickled my interest since I hadn't had much experience of this type of writing previously.
 
 There are a lot of insightful proverbs in this book.
 

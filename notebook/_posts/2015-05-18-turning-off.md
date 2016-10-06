@@ -5,7 +5,7 @@ redirect_from:
   - /journal/turning-off/
 ---
 
-<p class="intro" markdown="1">**As I ventured out** to [see the world a couple of years ago](/journal/getting-on-that-plane), I thought about that as a great opportunity for a behavior-changer. I took what I called a “digital siesta”.</p>
+As I ventured out to [see the world a couple of years ago](/journal/getting-on-that-plane), I thought about that as a great opportunity for a behavior-changer. I took what I called a “digital siesta”.
 
 It was a most appreciated change. My body felt so much relaxed and satisfied with my circumstances, my head didn’t rush because I felt I was missing out on one thing or another. I got rid off my iPhone, and I was ok. I gave away my iPad, and I was ok. I did keep my Macbook Air to be able to write and check in with the world at my own pace, and that was also ok. It was a most enlighted phase of my life and I started feeling more satisfied and content with my decisions.
 
