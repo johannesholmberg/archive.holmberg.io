@@ -68,24 +68,22 @@ gulp.task('optimize-images', function() {
 gulp.task('scripts', function() {
   return gulp.src([
     'assets/vendor/picturefill/dist/picturefill.js',
-    'assets/js/source.dev.js'
+    'assets/js/source/app.dev.js'
   ])
-  .pipe(concat('source.min.js'))
+  .pipe(concat('app.js'))
+  .pipe(gulp.dest('assets/js'))
+  .pipe(gulp.dest('_site/assets/js'))
+  
+  .pipe(rename({
+    basename: 'app',
+    suffix: '.min'
+  }))
+  .pipe(uglify())
+  .pipe(gulp.dest('assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
   .pipe(browserSync.reload({
     stream: true
-  }))
-  .pipe(gulp.dest('assets/js'));
-});
-
-/**
- * Minify javascripts
- */
-gulp.task('minify-scripts', function() {
-  return gulp.src('assets/js/source.min.js')
-  .pipe(concat('source.min.js'))
-  .pipe(uglify())
-  .pipe(gulp.dest('_site/assets/js'))
+  }));
 });
 
 /**
@@ -299,7 +297,4 @@ gulp.task('resize-images', function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['watch', 'svgstore', 'browser-sync']);
-
-gulp.task('jekyll', ['jekyll-build']);
-gulp.task('release', ['move', 'minify-scripts']);
+gulp.task('default', ['watch', 'svgstore', 'scripts', 'browser-sync']);

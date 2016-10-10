@@ -5,7 +5,7 @@
 <figure {% if margins %} class="margins{% if portrait %} portrait {% endif %}" {% endif %}>
 <img src="{{ site.url }}/uploads/dist/{{ filename }}-600.{{ ext }}"
   sizes="
-  ({{ site.tablet-lg }}) 70vw,
+  (min-width: 992px) 70vw,
   100vw"
   srcset="
   {{ site.url }}/uploads/dist/{{ filename }}-320.{{ ext }} 320w,
