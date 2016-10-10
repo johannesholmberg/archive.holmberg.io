@@ -1543,4 +1543,3 @@
 
 } )( window, document );
 
-console.log('yesssss');

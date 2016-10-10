@@ -49,6 +49,27 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
   });
 });
 
+gulp.task('critical', function (cb) {
+  critical.generate({
+    base: '_site/',
+    src: 'index.html',
+    css: ['assets/css/styles.min.css'],
+    dimensions: [{
+      width: 320,
+      height: 480
+    },{
+      width: 768,
+      height: 1024
+    },{
+      width: 1280,
+      height: 960
+    }],
+    dest: '_includes/critical.css',
+    minify: true,
+    extract: false
+  });
+});
+
 /**
  * Optimize all images before releasing them
  */
@@ -73,7 +94,7 @@ gulp.task('scripts', function() {
   .pipe(concat('app.js'))
   .pipe(gulp.dest('assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
-  
+
   .pipe(rename({
     basename: 'app',
     suffix: '.min'
@@ -297,4 +318,4 @@ gulp.task('resize-images', function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['watch', 'svgstore', 'scripts', 'browser-sync']);
+gulp.task('default', ['watch', 'svgstore', 'scripts', 'critical', 'sass', 'browser-sync']);
