@@ -43,7 +43,6 @@ highlight:
 highlight_options:
   linenos: true
 
-# permalink: /:categories/:year/:month/:day/:title/
 permalink: /:categories/:title/
 
 gems:
@@ -53,7 +52,12 @@ whitelist:
   - jekyll-redirect-from
 
 exclude: [
-  'source/assets/js/app.dev.js'
+  'node_modules',
+  'bower.json',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'package.json'
 ]
 
 

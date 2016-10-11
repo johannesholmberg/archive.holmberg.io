@@ -2,7 +2,6 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     browserSync = require('browser-sync'),
     imageResize = require('gulp-image-resize'),
-    iconify = require('gulp-iconify'),
     sass = require('gulp-sass'),
     cleanCSS = require('gulp-clean-css'),
     rename = require('gulp-rename'),
@@ -318,4 +317,4 @@ gulp.task('resize-images', function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['watch', 'svgstore', 'scripts', 'critical', 'sass', 'browser-sync']);
+gulp.task('default', ['watch', 'browser-sync']);
