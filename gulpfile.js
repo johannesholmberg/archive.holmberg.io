@@ -183,31 +183,9 @@ gulp.task('watch', function() {
 /**
  * Create images sizes for books
  */
-gulp.task('resize-images', function() {
-
+gulp.task('resize-image', function() {
   var options = minimist(process.argv.slice(2));
-
-  var source;
-
-  if ( options.photos ) {
-    source = 'uploads/content/photos/*';
-  }
-  else if ( options.writing ) {
-    source = 'uploads/content/writing/*';
-  }
-  else if ( options.work ) {
-    source = 'uploads/content/work/*';
-  }
-  else if ( options.reading ) {
-    source = 'uploads/content/reading/*';
-  }
-  else if ( options.labs ) {
-    source = 'uploads/content/labs/*';
-  }
-  else {
-    source = 'uploads/content/others/*';
-  }
-
+  var source = 'uploads/content/' + options.file;
   var dest = 'uploads/dist';
 
   gulp.src(source)
@@ -217,9 +195,7 @@ gulp.task('resize-images', function() {
     }))
     .pipe(rename({
       suffix: '-2600'
-    }))
-    .pipe(gulp.dest(dest));
-
+    }));
   gulp.src(source)
     .pipe(imageResize({
       width: 2000,
@@ -229,7 +205,6 @@ gulp.task('resize-images', function() {
       suffix: '-2000'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 1400,
@@ -239,7 +214,6 @@ gulp.task('resize-images', function() {
       suffix: '-1400'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 1000,
@@ -249,7 +223,6 @@ gulp.task('resize-images', function() {
       suffix: '-1000'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 800,
@@ -259,7 +232,6 @@ gulp.task('resize-images', function() {
       suffix: '-800'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 600,
@@ -269,7 +241,6 @@ gulp.task('resize-images', function() {
       suffix: '-600'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 400,
@@ -279,7 +250,6 @@ gulp.task('resize-images', function() {
       suffix: '-400'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 320,
@@ -289,7 +259,6 @@ gulp.task('resize-images', function() {
       suffix: '-320'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 240,
@@ -299,7 +268,6 @@ gulp.task('resize-images', function() {
       suffix: '-240'
     }))
     .pipe(gulp.dest(dest));
-
   gulp.src(source)
     .pipe(imageResize({
       width: 140,
@@ -310,7 +278,6 @@ gulp.task('resize-images', function() {
     }))
     .pipe(gulp.dest(dest));
 
-  console.log('Resized images');
 });
 
 /**
