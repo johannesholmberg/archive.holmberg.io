@@ -1,10 +1,9 @@
 .book-holder {
-  display: flex;
-  flex-flow: row wrap;
   padding: 0 5.5vw;
   margin-bottom: 4em;
 
-  .divider {
+  .year {
+    @extend %clearfix;
     width: 100%;
     color: $darkgray;
     margin: 2em .2em .8em 0;
@@ -34,14 +33,40 @@
   }
 }
 
+.books {
+  @extend %clearfix;
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .book-item {
+  // flex: 1 11.5em;
+  display: block;
+  float: left;
+  width: 50%;
   margin: 2em 0 0;
   line-height: 1.2;
-  flex: 1 11.5em;
   max-width: 22em;
+
+  @include breakpoint(tablet-sm) {
+    width: 33.33%;
+  }
 
   @include breakpoint(tablet-lg) {
     max-width: 16em;
+    width: 25%;
+  }
+
+  @include breakpoint(desktop-sm) {
+    width: 20%;
+  }
+
+  @include breakpoint(desktop-lg) {
+    width: 16%;
+  }
+
+  @include breakpoint(120em) {
+    width: 12.5%;
   }
 
   &:hover,
@@ -75,7 +100,7 @@
   }
 
   .title {
-    padding: .7em 1em 0;
+    padding: .7em 1rem 0;
     margin-top: 0;
     line-height: 1.4;
     margin-bottom: .2em;
@@ -89,7 +114,7 @@
   .meta {
     margin: 0;
     line-height: 1.4;
-    padding: 0 1em;
+    padding: 0 1rem;
     color: $lightdarkgray;
     font-family: $font-sans;
     font-weight: 300;

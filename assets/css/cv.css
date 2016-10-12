@@ -117,7 +117,6 @@ blockquote {
         text-align: center;
         -webkit-align-self: center;
             -ms-flex-item-align: center;
-                    -ms-grid-row-align: center;
                 align-self: center;
         float: right; } }
     .cover-header .text h2 {

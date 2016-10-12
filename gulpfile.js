@@ -181,9 +181,10 @@ gulp.task('watch', function() {
 });
 
 /**
- * Create images sizes for books
+ * Generate images sizes from source
  */
 gulp.task('resize-image', function() {
+  // Should be used from the console with `gulp resize-image --file reading/image.jpg`
   var options = minimist(process.argv.slice(2));
   var source = 'uploads/content/' + options.file;
   var dest = 'uploads/dist';

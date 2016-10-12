@@ -13,8 +13,12 @@ body_class: index
 
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
-      <h2 class="divider"><span>{{ post.date | date: '%Y' }}</span></h2>
-    {% capture year %}{{currentyear}}{% endcapture %}
+      {% if forloop.index != 1 %}
+        </div>
+      {% endif %}
+      <h2 class="year"><span>{{ post.date | date: '%Y' }}</span></h2>
+      {% capture year %}{{currentyear}}{% endcapture %}
+      <div class="books">
     {% endif %}
 
     {% include book-item.html %}
