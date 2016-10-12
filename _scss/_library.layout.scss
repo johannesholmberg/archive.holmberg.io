@@ -171,19 +171,6 @@ main {
   }
 }
 
-.error-404 main {
-  text-align: center;
-  padding: 3em 0 4.5em;
-
-  @include breakpoint(mobile-lg) {
-    padding: 7.5em 0 9em;
-  }
-
-  h1 {
-    margin-bottom: 1em;
-  }
-}
-
 .list {
   background: #fff;
   width: 100%;
