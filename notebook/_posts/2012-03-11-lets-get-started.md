@@ -2,6 +2,7 @@
 layout: post
 title: "Let’s get started"
 redirect_from:
+ - /lets-get-started/
  - /journal/lets-get-started/
 ---
 

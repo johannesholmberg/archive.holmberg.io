@@ -2,6 +2,7 @@
 layout: post
 title: "Every device has its own purpose"
 redirect_from:
+  - /every-device-has-its-own-purpose/
   - /journal/every-device-has-its-own-purpose/
   - /article/every-device-has-its-own-purpose/
 ---

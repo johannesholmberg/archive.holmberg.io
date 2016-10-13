@@ -2,6 +2,7 @@
 layout: post
 title: "Noise reduction"
 redirect_from:
+  - /noise-reduction/
   - /journal/noise-reduction/
   - /article/noise-reduction/
 ---

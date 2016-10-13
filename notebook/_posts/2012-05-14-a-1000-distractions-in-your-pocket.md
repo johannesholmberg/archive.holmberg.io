@@ -2,8 +2,9 @@
 layout: post
 title: "A 1000 distractions in your pocket"
 redirect_from:
-- /journal/a-1000-distractions-in-your-pocket/
-- /article/a-1000-distractions-in-your-pocket/
+  - /a-1000-distractions-in-your-pocket/
+  - /journal/a-1000-distractions-in-your-pocket/
+  - /article/a-1000-distractions-in-your-pocket/
 ---
 
 I have a very close relationship with my iPhone. A deep connection was established from the moment I picked it out of the box. Every time, it's a true joy to use and it doesn't feel like a machine, more like an extension of myself.

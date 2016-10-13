@@ -2,6 +2,7 @@
 layout: post
 title: "Adapting to new things"
 redirect_from:
+  - /adapting-to-new-things/
   - /journal/adapting-to-new-things/
   - /article/adapting-to-new-things/
 ---

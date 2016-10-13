@@ -8,6 +8,8 @@ cover: chronicles-volume-one
 publisher: Simon & Schuster
 book-url: http://www.amazon.com/Chronicles-Bob-Dylan/dp/0743244583
 has_cover: true
+redirect_from:
+  - /reading/chronicles-volume-one/
 ---
 {% include book-cover.html %}
 
