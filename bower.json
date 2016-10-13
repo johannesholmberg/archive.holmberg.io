@@ -1,6 +1,6 @@
 {
   "name": "holmberg.io",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "authors": [
     "Johannes Holmberg <johannes@holmberg.io>"
   ],
@@ -16,7 +16,6 @@
     "html5shiv": "~3.7.2",
     "loadcss": "~1.2.0",
     "picturefill": "~3.0.2",
-    "prism": "*",
     "respond": "~1.4.2",
     "normalize-scss": "normalize.scss#^5.0.3"
   }
