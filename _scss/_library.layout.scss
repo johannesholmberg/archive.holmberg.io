@@ -88,10 +88,6 @@ main {
     display: block;
   }
 
-  .page-header {
-
-  }
-
   .main-content {
 
     > p {
@@ -112,11 +108,15 @@ main {
       }
 
       .meta {
-        margin: 0 0 .5em;
+        margin: .2em 0 .3em;
         background: #fff;
-        font-size: .9em;
         display: inline-block;
         color: $lightdarkgray;
+
+        .icon-holder {
+          margin-right: .4em;
+          vertical-align: 1px;
+        }
 
         &:hover,
         &:focus {

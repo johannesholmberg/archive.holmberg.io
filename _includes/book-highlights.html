@@ -14,17 +14,18 @@
   <blockquote id="highlight{{ forloop.index }}">
     {{ highlight.quote | markdownify }}
 
-    {% assign separator = "&middot;" %}
     <a href="#highlight{{ forloop.index }}" class="meta">
-      {% if highlight.loc %}
-        loc. {{ highlight.loc }} {{ separator }}
-      {% elsif highlight.page %}
-        Page {{ highlight.page }} {{ separator }}
-      {% endif %}
-      <span class="icon-holder">
-        {% assign id = "link" %}
-        {% include icon.html %}
-      </span>
+      <small>
+        <span class="icon-holder">
+          {% assign id = "link" %}
+          {% include icon.html %}
+        </span>
+        {% if highlight.loc %}
+          loc. {{ highlight.loc }}
+        {% elsif highlight.page %}
+          Page {{ highlight.page }}
+        {% endif %}
+      </small>
     </a>
   </blockquote>
 {% endfor %}
