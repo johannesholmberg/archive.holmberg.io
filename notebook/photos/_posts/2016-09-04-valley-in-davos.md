@@ -3,7 +3,7 @@ layout: post
 title: "Valley in Davos"
 cover: "Enlight1"
 alt: "Valley in Davos"
-intro: true
+has_intro: true
 album_url: https://www.flickr.com/photos/138261815@N06/albums/72157671363243773
 ---
 

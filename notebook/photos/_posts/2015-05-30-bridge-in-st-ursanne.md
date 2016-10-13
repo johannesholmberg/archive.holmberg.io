@@ -3,7 +3,7 @@ layout: post
 title: "Bridge in St. Ursanne"
 cover: "2015-05-30-10.22.13"
 alt: "Bridge in Northeast Switzerland"
-intro: true
+has_intro: true
 redirect_from:
   - /photos/bridge-in-st-ursanne/
 ---

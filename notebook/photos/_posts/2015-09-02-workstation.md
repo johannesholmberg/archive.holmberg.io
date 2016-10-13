@@ -3,7 +3,7 @@ layout: post
 title: "Workstation"
 cover: "workstation"
 alt: "iMac computer on a desk"
-intro: true
+has_intro: true
 redirect_from:
   - /photos/workstation/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Reconstructing the Ruin"
 cover: "2015-08-02-12.00.04"
 alt: "Pfeffingen ruin"
-intro: true
+has_intro: true
 redirect_from:
   - /photo/2015/08/02/reconstructing-the-ruin/
   - /photos/reconstructing-the-ruin/

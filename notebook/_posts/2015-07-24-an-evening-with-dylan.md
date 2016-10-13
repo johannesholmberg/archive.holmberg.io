@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "An Evening with Dylan"
+cover: "dylan"
 redirect_from:
   - /journal/an-evening-with-dylan/
 ---
 
-{% assign filename = "dylan" %}
+{% assign filename = page.cover %}
 {% assign alt = "Bob Dylan" %}
 {% include responsive-image.html %}
 

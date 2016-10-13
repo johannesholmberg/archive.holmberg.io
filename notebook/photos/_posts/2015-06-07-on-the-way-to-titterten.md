@@ -3,7 +3,7 @@ layout: post
 title: "On the way to Titterten"
 cover: "2015-06-07-10.47.00"
 alt: "Road in Switzerland"
-intro: true
+has_intro: true
 redirect_from:
   - /photo/2015/06/07/on-the-way-to-titterten/
   - /photos/on-the-way-to-titterten/

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "A JavaScript Poster"
+cover: "js-poster1"
+alt: "Poster"
 redirect_from:
   - /article/i-made-this-poster/
   - /labs/a-javascript-poster/
@@ -10,8 +12,8 @@ Late last year, [@tobiassjosten](https://twitter.com/tobiassjosten) and [@dannie
 
 I was quite intrigued, I haven’t been doing print work in years and thought it would be a fun challenge. First out was to create a concept around the basics and syntax of JavaScript. The guys provided me with basic information what they wanted to have on the poster and I took it in and came up with this design.
 
-{% assign filename = "js-poster1" %}
-{% assign alt = "Poster" %}
+{% assign filename = page.cover %}
+{% assign alt = page.alt %}
 {% include responsive-image.html %}
 
 {% assign filename = "js-poster2" %}
