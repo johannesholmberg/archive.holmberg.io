@@ -5,7 +5,7 @@ _site
 # Packages #
 ############
 node_modules
-assets/vendor/**/*
+source/assets/vendor/**/*
 
 # Logs #
 ########
