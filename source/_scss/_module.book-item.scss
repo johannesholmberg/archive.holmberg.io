@@ -1,3 +1,19 @@
+.book {
+  h4 {
+    font-size: 1.15em;
+
+    &:after {
+      margin: .3em 0 .5em;
+      font-size: 3em;
+      display: block;
+      font-family: sans-serif;
+      content: '\00b7\00b7\00b7';
+      color: #bbb;
+      letter-spacing: .5em;
+    }
+  }
+}
+
 .book-holder {
   padding: 0 5.5vw;
   margin-bottom: 4em;

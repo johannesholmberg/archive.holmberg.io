@@ -2,7 +2,7 @@
 {% assign titleNew = title | last %}
 {% assign data = titleNew | replace: '-read-2', '' %}
 
-<h3>My personal highlights from the book</h3>
+<h4>My personal highlights from the book</h4>
 
 {% for highlight in site.data.books.[data] %}
    {% if highlight.loc %}
