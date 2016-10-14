@@ -107,11 +107,11 @@ gulp.task('scripts', function() {
 });
 
 /**
- * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
+ * Compile files from _assets/css/source into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function() {
 
-  gulp.src('source/_scss/cv.scss')
+  gulp.src('source/assets/css/source/cv.scss')
     .pipe(sass())
     .pipe(prefix(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
       cascade: true
@@ -123,7 +123,7 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('source/assets/css'));
 
 
-  gulp.src('source/_scss/config.imports.scss')
+  gulp.src('source/assets/css/source/config.imports.scss')
     .pipe(sass({
       style: 'expanded',
       includePaths: ['scss'],
@@ -174,7 +174,7 @@ gulp.task("svgstore", function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function() {
-  gulp.watch('source/_scss/**/*.scss', ['sass']);
+  gulp.watch('source/assets/css/**/*.scss', ['sass']);
   gulp.watch('source/assets/js/**/*.js', ['scripts']);
   gulp.watch('source/assets/icons/*.svg', ['svgstore']);
   gulp.watch(['**/*.html','**/*.md'], ['jekyll-rebuild']);

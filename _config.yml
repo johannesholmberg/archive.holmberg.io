@@ -24,9 +24,9 @@ desktop-xl:  'min-width: 118em'
 #    Jekyll & Plugins     #
 # ----------------------- #
 
-safe: true
+safe: false
 
-source: ./
+source: source
 destination: _site
 
 markdown: kramdown
@@ -46,19 +46,6 @@ permalink: /:categories/:title/
 
 gems:
   - jekyll-redirect-from
-
-whitelist:
-  - jekyll-redirect-from
-
-exclude: [
-  'node_modules',
-  'bower.json',
-  'Gemfile',
-  'Gemfile.lock',
-  'Rakefile',
-  'gulpfile.js',
-  'package.json'
-]
 
 
 # ----------------------- #

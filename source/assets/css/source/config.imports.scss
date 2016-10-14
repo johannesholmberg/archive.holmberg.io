@@ -1,5 +1,5 @@
 // Normalize
-@import "../assets/vendor/normalize-scss/sass/normalize";
+@import "../../vendor/normalize-scss/sass/normalize";
 @include normalize();
 
 @import "_library.print";
