@@ -6,7 +6,6 @@ url: http://holmberg.io
 name: holmberg.io
 author: Johannes Holmberg
 email: johannes@holmberg.io
-description: "Johannes Holmberg is a freelance front-end web developer. This is his personal playground with words, design and code."
 
 
 # ----------------------- #
@@ -27,7 +26,7 @@ desktop-xl:  'min-width: 118em'
 
 safe: true
 
-# source: source
+source: source
 destination: _site
 
 markdown: kramdown

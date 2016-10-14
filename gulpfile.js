@@ -51,8 +51,8 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 gulp.task('critical', function (cb) {
   critical.generate({
     base: '_site/',
-    src: 'index.html',
-    css: ['assets/css/styles.min.css'],
+    src: 'source/index.html',
+    css: ['source/assets/css/styles.min.css'],
     dimensions: [{
       width: 320,
       height: 480
@@ -63,7 +63,7 @@ gulp.task('critical', function (cb) {
       width: 1280,
       height: 960
     }],
-    dest: '_includes/critical.css',
+    dest: 'source/_includes/critical.css',
     minify: true,
     extract: false
   });
@@ -87,11 +87,11 @@ gulp.task('optimize-images', function() {
  */
 gulp.task('scripts', function() {
   return gulp.src([
-    'assets/vendor/picturefill/dist/picturefill.js',
-    'assets/js/source/app.dev.js'
+    'source/assets/vendor/picturefill/dist/picturefill.js',
+    'source/assets/js/source/app.dev.js'
   ])
   .pipe(concat('app.js'))
-  .pipe(gulp.dest('assets/js'))
+  .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
 
   .pipe(rename({
@@ -99,7 +99,7 @@ gulp.task('scripts', function() {
     suffix: '.min'
   }))
   .pipe(uglify())
-  .pipe(gulp.dest('assets/js'))
+  .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
   .pipe(browserSync.reload({
     stream: true
@@ -111,7 +111,7 @@ gulp.task('scripts', function() {
  */
 gulp.task('sass', function() {
 
-  gulp.src('_scss/cv.scss')
+  gulp.src('source/_scss/cv.scss')
     .pipe(sass())
     .pipe(prefix(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
       cascade: true
@@ -120,10 +120,10 @@ gulp.task('sass', function() {
     .pipe(browserSync.reload({
       stream: true
     }))
-    .pipe(gulp.dest('assets/css'));
+    .pipe(gulp.dest('source/assets/css'));
 
 
-  gulp.src('_scss/config.imports.scss')
+  gulp.src('source/_scss/config.imports.scss')
     .pipe(sass({
       style: 'expanded',
       includePaths: ['scss'],
@@ -141,13 +141,13 @@ gulp.task('sass', function() {
     .pipe(browserSync.reload({
       stream: true
     }))
-    .pipe(gulp.dest('assets/css'));
+    .pipe(gulp.dest('source/assets/css'));
 });
 
 
 gulp.task("svgstore", function () {
   return gulp
-    .src("assets/icons/*.svg")
+    .src("source/assets/icons/*.svg")
     .pipe(svgmin({
       js2svg: {
         pretty: true
@@ -165,7 +165,7 @@ gulp.task("svgstore", function () {
     .pipe(browserSync.reload({
       stream: true
     }))
-    .pipe(gulp.dest("_includes/"));
+    .pipe(gulp.dest("source/_includes/"));
 });
 
 
@@ -174,9 +174,9 @@ gulp.task("svgstore", function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function() {
-  gulp.watch('_scss/**/*.scss', ['sass']);
-  gulp.watch('assets/js/**/*.js', ['scripts']);
-  gulp.watch('assets/icons/*.svg', ['svgstore']);
+  gulp.watch('source/_scss/**/*.scss', ['sass']);
+  gulp.watch('source/assets/js/**/*.js', ['scripts']);
+  gulp.watch('source/assets/icons/*.svg', ['svgstore']);
   gulp.watch(['**/*.html','**/*.md'], ['jekyll-rebuild']);
 });
 
@@ -186,8 +186,8 @@ gulp.task('watch', function() {
 gulp.task('resize-image', function() {
   // Should be used from the console with `gulp resize-image --file reading/image.jpg`
   var options = minimist(process.argv.slice(2));
-  var source = 'uploads/content/' + options.file;
-  var dest = 'uploads/dist';
+  var source = 'source/uploads/content/' + options.file;
+  var dest = 'source/uploads/dist';
 
   gulp.src(source)
     .pipe(imageResize({
