@@ -133,6 +133,10 @@ hr {
 figure {
   margin: 1.5em auto;
 
+  &.center {
+    text-align: center;
+  }
+
   &.portrait {
     img {
       max-height: 40em;
@@ -146,7 +150,8 @@ figcaption {
   font-style: italic;
 }
 
-.has-intro .main-content > p:first-of-type {
+.has-intro .main-content > p:first-of-type,
+.intro {
   font-size: 1.4em;
 
   @include breakpoint(tablet-sm) {
