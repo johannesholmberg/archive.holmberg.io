@@ -2,9 +2,13 @@
 layout: compress
 ---
 <!doctype html>
-<html amp lang="en">
+<html lang="en">
   {% include head.html %}
   <body class="{% if page.body_class %}{{page.body_class}}{% endif %}{% if layout.body_class %}{{layout.body_class}}{% endif %}">
+
+    {% if site.environment != "production" %}
+      <h1 class="dev-flag">Development</h1>
+    {% endif %}
 
     <div style="height: 0; width: 0; position: absolute; visibility: hidden">
       {% include icons.svg %}
@@ -16,6 +20,8 @@ layout: compress
     {% include footer.html %}
 
 
-    {% include analytics.html %}
+    {% if site.environment == "production" %}
+      {% include analytics.html %}
+    {% endif %}
   </body>
 </html>
