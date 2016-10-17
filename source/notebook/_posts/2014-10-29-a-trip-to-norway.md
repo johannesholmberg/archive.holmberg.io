@@ -14,6 +14,7 @@ Listening to Douglas Crockford speaking about JavaScript was a little bit unreal
 
 {% assign filename = "douglas-crockford" %}
 {% assign alt = "Douglas Crockford" %}
+{% assign attributes = "margins" %}
 {% assign caption = "Douglas Crockford speaking about The Better Parts in JavaScript." %}
 {% include responsive-image.html %}
 
@@ -25,7 +26,7 @@ Chris Coyier is like that imaginary coding buddy you always hear in your head. (
 
 {% assign filename = "chris-coyier" %}
 {% assign alt = "Chris Coyier" %}
-{% assign margins = true %}
+{% assign attributes = "margins" %}
 {% assign caption = "Chris Coyier squeezing in everything he knows about SVG in 30 minutes. Awesome." %}
 {% include responsive-image.html %}
 
@@ -37,6 +38,6 @@ Anyway, I hope to come back to Trondheim next year.
 
 {% assign filename = "clarion-hotel" %}
 {% assign alt = "Clarion Hotel" %}
-{% assign margins = false %}
+{% assign attributes = "margins" %}
 {% assign caption = "Location—the beautiful Clarion Hotel & Congress." %}
 {% include responsive-image.html %}

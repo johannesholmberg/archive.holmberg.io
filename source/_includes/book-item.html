@@ -5,13 +5,18 @@
 <a href="{{ post.url }}" class="book-item">
   <div class="cover">
     <div class="container">
+      {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
       <img
-        src="/uploads/dist/{{ cover }}-140.jpg"
+        {% if site.environment == 'production' %}
+          src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000.jpg"
+          srcset="
+          https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000 140w,
+          https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000 240w"
+        {% else %}
+          src="{{ site.url }}{{ image_path }}"
+        {% endif %}
         sizes="190px"
-        srcset="
-        /uploads/dist/{{ cover }}-140.jpg 140w,
-        /uploads/dist/{{ cover }}-240.jpg 240w"
-        alt="{{post.title}}"
+        alt="{{ post.title }}"
       >
     </div>
   </div>

@@ -10,7 +10,14 @@ redirect_from:
 
 <section class="start-section">
   <div class="profile">
-    <img src="{{ site.url }}/uploads/dist/johannes-square-400.jpg" alt="Johannes Holmberg">
+
+    {% assign image_path = "/uploads/others/johannes-square.jpg" %}
+    {% if site.environment == 'production' %}
+      <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=340&amp;refresh=2592000.jpg"  alt="Johannes Holmberg">
+    {% else %}
+      <img src="{{ site.url }}{{ image_path }}" alt="Johannes Holmberg">
+    {% endif %}
+
 
     <div class="text">
       <h1 class="title">Hi, I’m Johannes.</h1>

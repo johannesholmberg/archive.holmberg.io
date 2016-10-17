@@ -1,18 +1,23 @@
 <a href="{{ post.url }}" class="case-item">
+  {% assign image_path = "/uploads/work/" | append: post.cover | append: ".jpg" %}
   <img
-    src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/content/work/{{post.cover}}-cover.jpg&container=focus&resize_w=600&refresh=2592000"
+    {% if site.environment == 'production' %}
+      src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000"
+      srcset="
+      https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=320&amp;refresh=2592000 320w,
+      https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000 600w,
+      https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=800&amp;refresh=2592000 800w,
+      https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=1000&amp;refresh=2592000 1000w,
+      https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=1400&amp;refresh=2592000 1400w,
+      https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=2000&amp;refresh=2592000 2000w"
+    {% else %}
+      src="{{ site.url }}{{ image_path }}"
+    {% endif %}
     sizes="
     (min-width: 1687px) 33vw,
     (min-width: 1020px) 50vw,
     100vw"
-    srcset="
-    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/content/work/{{post.cover}}-cover.jpg&container=focus&resize_w=320&refresh=2592000 320w,
-    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/content/work/{{post.cover}}-cover.jpg&container=focus&resize_w=600&refresh=2592000 600w,
-    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/content/work/{{post.cover}}-cover.jpg&container=focus&resize_w=800&refresh=2592000 800w,
-    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/content/work/{{post.cover}}-cover.jpg&container=focus&resize_w=1000&refresh=2592000 1000w,
-    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/content/work/{{post.cover}}-cover.jpg&container=focus&resize_w=1400&refresh=2592000 1400w,
-    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/content/work/{{post.cover}}-cover.jpg&container=focus&resize_w=2000&refresh=2592000 2000w"
-    alt="{{post.title}}"
+    alt="{{ post.title }}"
   >
   <div class="text-wrap">
     <span class="show">

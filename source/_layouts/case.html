@@ -9,7 +9,7 @@ body_class: post
 	{% include page-header.html %}
 
 	<div class="main-content">
-		{% assign filename = page.cover | append: '-cover' %}
+		{% assign filename = page.cover %}
 		{% assign alt = page.title %}
 		{% include responsive-image.html %}
 

@@ -2,20 +2,39 @@
   {% assign ext = "jpg" %}
 {% endif %}
 
-<figure {% if margins %} class="margins{% if portrait %} portrait {% endif %}" {% endif %}>
-<img src="{{ site.url }}/uploads/dist/{{ filename }}-600.{{ ext }}"
+{% if page.categories[0] == 'notebook' %}
+  {% assign filepath = "/uploads/writing/" %}
+{% endif %}
+{% if page.categories contains 'labs' %}
+  {% assign filepath = "/uploads/labs/" %}
+{% elsif page.categories contains 'photos' %}
+  {% assign filepath = "/uploads/photos/" %}
+{% elsif page.categories contains 'work' %}
+  {% assign filepath = "/uploads/work/" %}
+{% elsif page.categories contains 'others' %}
+  {% assign filepath = "/uploads/others/" %}
+{% endif %}
+
+
+
+<figure {% if attributes %} class="{{ attributes }}"{% endif %}>
+<img {% if site.environment == 'production' %} src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg"
+    srcset="
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=320&amp;refresh=2592000 320w,
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000 400w,
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000 600w,
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=800&amp;refresh=2592000 800w,
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=1000&amp;refresh=2592000 1000w,
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=1400&amp;refresh=2592000 1400w,
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=2000&amp;refresh=2592000 2000w"
+  {% else %}
+    src="{{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}"
+  {% endif %}
   sizes="
   (min-width: 992px) 70vw,
   100vw"
-  srcset="
-  {{ site.url }}/uploads/dist/{{ filename }}-320.{{ ext }} 320w,
-  {{ site.url }}/uploads/dist/{{ filename }}-400.{{ ext }} 400w,
-  {{ site.url }}/uploads/dist/{{ filename }}-600.{{ ext }} 600w,
-  {{ site.url }}/uploads/dist/{{ filename }}-800.{{ ext }} 800w,
-  {{ site.url }}/uploads/dist/{{ filename }}-1000.{{ ext }} 1000w,
-  {{ site.url }}/uploads/dist/{{ filename }}-1400.{{ ext }} 1400w,
-  {{ site.url }}/uploads/dist/{{ filename }}-2000.{{ ext }} 2000w"
-  alt="{{ alt }}">
+  alt="{{ alt }}"
+>
   {% if caption %}
     <figcaption>{{ caption }}</figcaption>
   {% endif %}

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "A Month of German"
+has_intro: true
 redirect_from:
   - /writing/a-month-of-german/
 ---
 
 I would like to try something new. I have a problem that there are lots of things I want to learn but I find myself to be a little bit all over the place at once. I try a bit of this and a bit of that but nothing ever amounts to anything. I even find myself at times doing nothing because I have simply too many options. Not good.
-{: .intro }
 
 So what I would like to try now is to focus on one subject per month. I pick a single subject or a skill that I want to develop, and then when I have some free time I know where I should focus it. This month I’ve picked German language.
 
@@ -17,8 +17,9 @@ So what I would like to try now is to focus on one subject per month. I pick a s
 My German skills has gone both up and down but lately I feel it has degenerated too much. So I want to take a step in improving it. When I started learning German I used [Duolingo][l1] for getting the basics down. It’s a beautiful app for iOS and it’s a delight to use their gamified approach for language learning.
 
 {% assign filename = "duolingo1" %}
-{% assign ext = "png" %}
 {% assign alt = "Duolingo" %}
+{% assign ext = "png" %}
+{% assign margins = true %}
 {% include responsive-image.html %}
 
 It was a perfect start for getting familiarized with the sound of the language. I was quite amazed how quick it went to start grasping the fundamental pieces. You get a coach in form of an owl and he almost feels like a regular friend after some time. I was playing this for a couple of months (yes, I see it more as a game than anything) and it felt so great in the end, when I had conquered all the levels and that magnificent gold owl was mine. It’s a bit nerdy I know but it worked well for me.

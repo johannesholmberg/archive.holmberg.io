@@ -1,14 +1,19 @@
 <aside class="bio-card">
   <a href="{{ site.url }}/">
+    {% assign image_path = "/uploads/others/johannes-square.jpg" %}
     <img
-      src="{{ site.url }}/uploads/dist/johannes-square-140.jpg"
+      {% if site.environment == 'production' %}
+        src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000.jpg"
+        srcset="
+        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000 140w,
+        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=320&amp;refresh=2592000 320w"
+      {% else %}
+        src="{{ site.url }}{{ image_path }}"
+      {% endif %}
       sizes="
       ({{site.tablet-lg}}) 130px,
       ({{site.mobile-lg}}) 115px,
       90px"
-      srcset="
-      {{ site.url }}/uploads/dist/johannes-square-140.jpg 140w,
-      {{ site.url }}/uploads/dist/johannes-square-320.jpg 320w"
       alt="Johannes Holmberg"
     >
     <div class="text">
