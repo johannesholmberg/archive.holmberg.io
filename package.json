@@ -1,6 +1,6 @@
 {
   "name": "holmberg.io",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.13.0",
@@ -20,6 +20,10 @@
     "gulp-svgstore": "^5.0.5",
     "gulp-uglify": "~2.0.0",
     "gulp-util": "^3.0.7",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "require-dir": "^0.3.1"
+  },
+  "devDependencies": {
+    "gulp-plumber": "^1.1.0"
   }
 }
