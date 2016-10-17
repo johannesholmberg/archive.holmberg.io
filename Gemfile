@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem "jekyll", "3.2.1"
+gem "rake"
 
 group :jekyll_plugins do
   gem "mini_magick"
