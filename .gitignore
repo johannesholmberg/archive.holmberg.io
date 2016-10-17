@@ -1,6 +1,8 @@
 # Compiled source #
 ###################
 _site
+source/assets/css/*.css
+source/assets/js/*.js
 
 # Packages #
 ############
