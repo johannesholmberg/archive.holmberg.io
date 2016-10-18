@@ -4,7 +4,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.13.0",
-    "critical": "^0.7.3",
+    "critical": "^0.8.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "3.1.1",
     "gulp-cache": "~0.4.5",
@@ -17,7 +17,7 @@
     "gulp-rename": "~1.2.0",
     "gulp-sass": "^2.3.2",
     "gulp-svgmin": "^1.2.0",
-    "gulp-svgstore": "^5.0.5",
+    "gulp-svgstore": "^6.1.0",
     "gulp-uglify": "~2.0.0",
     "gulp-util": "^3.0.7",
     "minimist": "^1.2.0",
