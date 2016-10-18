@@ -1,4 +1,5 @@
 .start-section {
+  @extend %clearfix;
   width: 100%;
   position: relative;
 
