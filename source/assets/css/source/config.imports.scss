@@ -2,7 +2,7 @@
 @import "../../vendor/normalize-scss/sass/normalize";
 @include normalize();
 
-@import "_library.print";
+@import "library.print";
 
 // Config
 @import "config.variables";
@@ -25,12 +25,12 @@
 @import "objects.icons";
 
 // Module
-@import "_module.header-global";
-@import "_module.footer-global";
-@import "_module.nav-primary";
-@import "_module.page-header";
-@import "_module.article-item";
-@import "_module.book-item";
-@import "_module.case-item";
-@import "_module.start-section";
-@import "_module.side-panel";
+@import "module.header-global";
+@import "module.footer-global";
+@import "module.nav-primary";
+@import "module.page-header";
+@import "module.article-item";
+@import "module.book-item";
+@import "module.case-item";
+@import "module.start-section";
+@import "module.side-panel";
