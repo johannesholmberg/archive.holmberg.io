@@ -16,7 +16,7 @@ After being on an intensive Heinlein row in the early summer I decided to take a
 
 It covers a multitude of interesting topics. Nuclear war, race inequalities, survivalism, time travel, social organization. Written during the height of the cold war, the book circles around Hugh Farnham as he is trying to prepare his family for a nuclear attack from the Soviets. When his family survives the devastating attack, they get a somewhat peculiar opportunity to start over.
 
-What still draws so much into his books are the depth of the characters. The funny thing is that he usually reuses the same character setup. So there are the same types of people throughout his books but they have different facets to them. I like when he depicts strong, multi-dimensional women in a way that I find very rare in other fiction.
+What still draws me so much into his books are the depth of the characters. The funny thing is that he usually reuses the same character setup. So there are the same types of people throughout his books but they have different facets to them. I like when he depicts strong, multi-dimensional women in a way that I find very rare in other fiction.
 
 Heinlein has the ability to weave together an interesting story from basically any plot, and that’s why he is still my favorite “Science fiction” writer.
 

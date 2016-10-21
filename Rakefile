@@ -27,14 +27,12 @@ task :publish => [:generate] do
   GITHUB_REPONAME = "johannesholmberg/holmberg.io"
 
   # Make a temporary directory for the build before production release.
-  # This will be torn down once the task is complete.
   Dir.mktmpdir do |tmp|
     # Copy accross our compiled _site directory.
-    cp_r "_site/.", tmp
+    cp_r "_site/.", "_publish.holmberg.io/"
 
     # Switch in to the tmp dir.
-    pwd = Dir.pwd
-    Dir.chdir tmp
+    Dir.chdir "_publish.holmberg.io/"
 
     # Prepare all the content in the repo for deployment.
     system "git init" # Init the repo.
