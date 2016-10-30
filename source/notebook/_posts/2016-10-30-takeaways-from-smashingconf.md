@@ -104,7 +104,7 @@ I think the conference struck a perfect balance of design and technology. It was
 - JavaScript is the most fragile part of the stack.
 - Give yourself technical credit by creating a robust foundation and enhance from there.
 
-{% assign filename = "smashingconf2" %}
+{% assign filename = "smashingconf3" %}
 {% assign alt = "Conference" %}
 {% assign caption = "The amazing venue at Palau de la Música Catalana." %}
 {% include responsive-image.html %}
