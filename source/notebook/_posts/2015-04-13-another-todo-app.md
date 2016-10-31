@@ -9,7 +9,6 @@ redirect_from:
 
 {% assign filename = "todoist-banner" %}
 {% assign alt = "Todoist" %}
-{% assign margins = true %}
 {% include responsive-image.html %}
 
 I’ve used [Todoist](https://en.todoist.com/) for almost a year now and it works exceptionally well. I don’t remember how I found it but I remember I had a strong need for something lean to help me get through the days in a more comfortable manner.
