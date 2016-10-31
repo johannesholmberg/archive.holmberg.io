@@ -1,5 +1,4 @@
 html {
-  background: $profile-light;
   color: $darkgray;
 }
 
@@ -27,4 +26,9 @@ audio, canvas, img, svg, video {
 img, video, object, svg, iframe {
   max-width: 100%;
   border: none;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
 }

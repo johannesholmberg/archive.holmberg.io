@@ -30,3 +30,19 @@
 %clearfix:after {
 	clear: both;
 }
+
+/*
+ * Dev flag to show only in development environment
+ */
+
+.dev-flag {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+	background: #333;
+	margin: 0;
+	font-size: 1.3em;
+	padding: .3em .6em;
+	color: #fff;
+}
