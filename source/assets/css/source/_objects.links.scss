@@ -9,7 +9,7 @@ aside .meta a {
   &:hover,
   &:focus {
     background: linear-gradient($profile-text, $profile-text) no-repeat;
-    background-size: 100% 1px;
+    background-size: 100% 2px;
     background-position: 0 1.1em;
     text-shadow: .1em 0 #fff, -.1em 0 #fff;
   }
