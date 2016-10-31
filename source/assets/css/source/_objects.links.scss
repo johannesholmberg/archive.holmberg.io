@@ -3,15 +3,28 @@ a {
   text-decoration: none;
 }
 
+a::-moz-selection {
+  text-shadow: none;
+}
+a::selection {
+  text-shadow: none;
+}
+
 .main-content a,
 aside .meta a {
 
   &:hover,
   &:focus {
-    background: linear-gradient($profile-text, $profile-text) no-repeat;
+    background: linear-gradient(currentColor, currentColor) no-repeat;
     background-size: 100% 2px;
-    background-position: 0 1.1em;
-    text-shadow: .1em 0 #fff, -.1em 0 #fff;
+    background-position: center bottom 8%;
+    text-shadow:
+        3px 0 #fff,
+        2px 0 #fff,
+        1px 0 #fff,
+       -1px 0 #fff,
+       -2px 0 #fff,
+       -3px 0 #fff;
   }
 }
 
