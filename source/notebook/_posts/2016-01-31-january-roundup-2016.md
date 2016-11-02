@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "January Roundup"
 redirect_from:
   - /writing/69/

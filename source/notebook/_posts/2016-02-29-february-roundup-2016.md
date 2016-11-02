@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "February Roundup"
 has_intro: true
 redirect_from:

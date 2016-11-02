@@ -18,13 +18,28 @@ desktop-lg:  'min-width: 84em'
 desktop-xl:  'min-width: 118em'
 
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# ------------ #
+#    Jekyll    #
+# ------------ #
 
 source: source
 destination: _site
 permalink: /:categories/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      active: "post"
+  -
+    scope:
+      path: "work"
+    values:
+      layout: "work"
+
 
 linenos: true
 highlight:

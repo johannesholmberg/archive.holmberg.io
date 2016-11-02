@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Takeaways from Smashing Conference Barcelona"
 ---
 
