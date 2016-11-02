@@ -59,6 +59,15 @@ exclude: [
 ]
 
 
+# ------------- #
+#    Plugins    #
+# ------------- #
+
+compress_html:
+  ignore:
+    envs: [development]
+
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
