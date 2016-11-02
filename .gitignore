@@ -2,6 +2,7 @@
 ###################
 _site
 source/assets/css/*.css
+source/_includes/criticalcss/*.css
 source/assets/js/*.js
 
 # Packages #

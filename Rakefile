@@ -16,7 +16,7 @@ desc "Generate blog files"
 task :generate do
   clean
   puts "Building for production"
-  jekyll "build --config _config.yml,_config.prod.yml"
+  jekyll "build JEKYLL_ENV=production --config _config.yml,_config.prod.yml"
 end
 
 
