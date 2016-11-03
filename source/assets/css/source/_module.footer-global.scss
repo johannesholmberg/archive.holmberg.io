@@ -1,4 +1,5 @@
 .footer-global {
+  min-height: 12em; /* Temp fix for IE 10/11 */
   background: $dark;
   flex: 1;
   color: #fff;
