@@ -74,6 +74,16 @@ hr {
   }
 }
 
+code {
+  background: lighten($profile-text, 48%);
+  color: $profile-text;
+  font-size: .85em;
+  padding: .2em .3em;
+  border-radius: .15em;
+  font-family: $font-code;
+  font-size: 90%;
+}
+
 .post .main-content {
 
   ul,
@@ -89,19 +99,6 @@ hr {
 
   ol {
     font-style: italic;
-  }
-
-  p {
-    code {
-      background: $snow;
-      color: #444;
-      font-size: .85em;
-      padding: .3em .5em;
-      line-height: 1;
-      border-radius: .2em;
-      display: inline-block;
-      font-family: $font-serif;
-    }
   }
 
   blockquote {
