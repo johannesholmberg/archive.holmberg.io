@@ -1,2 +1,16 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
 url: http://holmberg.io
 environment: production
+
+
+# ------------- #
+#    Plugins    #
+# ------------- #
+
+jekyll-crosspost_to_medium:
+  enabled: true
+  cache: .cache
+  text: '<p><em>Originally published at <a href="#{url}" rel="canonical">#{site.url}</a>.</em></p>'

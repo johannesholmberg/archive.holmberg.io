@@ -5,6 +5,9 @@
 author: Johannes Holmberg
 email: johannes@holmberg.io
 
+url: /
+environment: development
+
 
 # ----------------------- #
 #   Global media queries  #
@@ -64,9 +67,14 @@ exclude: [
 #    Plugins    #
 # ------------- #
 
+# We don’t want to run this in dev environment
+jekyll-crosspost_to_medium:
+  enabled: false
+
 compress_html:
   ignore:
     envs: [development]
+
 
 
 # ----------------------- #
