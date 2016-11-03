@@ -30,26 +30,28 @@
   {% assign useCriticalCss = true %}
 {% endif %}
 
-{% if useCriticalCss %}
-  <style>
-    {% include {{ critical_css_file }} %}
-  </style>
+{% if site.environment == 'production' %}
+  {% assign fullCSS = "/assets/css/styles.min.css" %}
 
-  {% if site.environment == 'production' %}
-    {% assign fullCSS = "/assets/css/styles.min.css" %}
+  {% if useCriticalCss %}
+    <style>
+      {% include {{ critical_css_file }} %}
+    </style>
+
+    <script>
+      window.enhance = {};
+      !function(){function e(e,n,t){function o(){for(var n,r=0;r<d.length;r++)d[r].href&&d[r].href.indexOf(e)>-1&&(n=!0);n?i.media=t||"all":setTimeout(o)}var i=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],d=window.document.styleSheets;return i.rel="stylesheet",i.href=e,i.media="only x",r.parentNode.insertBefore(i,r),o(),i}window.enhance.loadCSS=e}();
+      window.enhance.loadCSS( "{{ fullCSS }}" );
+
+      // Since it will be faster to fetch the stylesheet from the cache on subsequent pageviews, set a cookie as a proxy for the primed cache:
+      document.cookie = 'stylesCached=true; expires=0; path=/';
+    </script>
+
   {% else %}
-    {% assign fullCSS = "/assets/css/styles.css" %}
+    <link rel="stylesheet" href="{{ fullCSS }}">
   {% endif %}
 
-  <script>
-    window.enhance = {};
-    !function(){function e(e,n,t){function o(){for(var n,r=0;r<d.length;r++)d[r].href&&d[r].href.indexOf(e)>-1&&(n=!0);n?i.media=t||"all":setTimeout(o)}var i=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],d=window.document.styleSheets;return i.rel="stylesheet",i.href=e,i.media="only x",r.parentNode.insertBefore(i,r),o(),i}window.enhance.loadCSS=e}();
-    window.enhance.loadCSS( "{{ fullCSS }}" );
-
-    // Since it will be faster to fetch the stylesheet from the cache on subsequent pageviews, set a cookie as a proxy for the primed cache:
-    document.cookie = 'stylesCached=true; expires=0; path=/';
-  </script>
-
 {% else %}
+  {% assign fullCSS = "/assets/css/styles.css" %}
   <link rel="stylesheet" href="{{ fullCSS }}">
 {% endif %}
