@@ -14,19 +14,18 @@ active: book
     </p>
   </header>
 
+  <div class="main-content">
     {% if page.has_cover == "" or page.has_cover == nil %}
       {% include book-cover.html %}
     {% endif %}
 
     {{ content }}
-
-    <aside class="sidebar">
-      {% include bio-card.html %}
-
-      {% assign cat = "reading" %}
-      {% include case-nav.html %}
-    </aside>
-
   </div>
+
+  <aside class="sidebar">
+    {% include bio-card.html %}
+    {% assign cat = "reading" %}
+    {% include case-nav.html %}
+  </aside>
 
 </article>

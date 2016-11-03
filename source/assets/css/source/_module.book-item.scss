@@ -108,7 +108,7 @@
 
   img {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 1em;
     width: 62%;
     transition: opacity .1s ease-in-out;
@@ -120,7 +120,7 @@
     margin-top: 0;
     line-height: 1.4;
     margin-bottom: .2em;
-    border-top: .5em solid rgba(130, 130, 130, .4);
+    border-top: .5em solid #9ba4a7;
     font-weight: 300;
     color: $darkgray;
     font-size: 1em;

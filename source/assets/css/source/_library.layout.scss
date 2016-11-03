@@ -81,15 +81,53 @@ main {
       margin-top: -3vw;
     }
 
+    .sidebar__book {
+      width: 100%;
+      float: right;
+      margin: -2.5em 0 1em 0;
+      padding: 0;
+
+      @include breakpoint(mobile-xl) {
+        width: 40%;
+        margin-top: -5.5em;
+        padding: 0 5%;
+      }
+
+      ul {
+        font-size: 1em;
+        margin-left: 0;
+
+        a {
+          text-shadow: .05em 0 #fff, -.05em 0 #fff;
+        }
+      }
+
+      .img-holder {
+        @extend %clearfix;
+        border-bottom: .5em solid #9ba4a7;
+        display: block;
+        background: none;
+
+        img {
+          float: left;
+          max-width: 80%;
+          margin-left: 6vw;
+          max-height: 12em;
+
+          @include breakpoint(mobile-xl) {
+            max-height: none;
+            float: right;
+            max-width: 60%;
+            max-height: none;
+            margin-right: 8%;
+          }
+        }
+      }
+    }
   }
 }
 
 .book {
-
-  article {
-    max-width: 92em;
-    display: block;
-  }
 
   .main-content {
 

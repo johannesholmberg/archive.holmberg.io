@@ -2,23 +2,20 @@
   flex: 1 1 22em;
   word-wrap: break-word;
   order: 1;
+  float: left;
 
   @include breakpoint(desktop-lg) {
     max-width: 36em;
   }
 
   .meta {
-    padding: 4% 0 4% 4%;
+    padding: 4% 0 4% 2%;
     margin: 0;
-
-    @include breakpoint(72em) {
-      background: $profile-light;
-    }
 
     li {
       display: block;
       border-bottom: 1px solid rgba(120, 120, 120, .3);
-      padding: .7em .5em .7em 5%;
+      padding: .7em .5em .7em 4%;
 
       &:last-child {
         border-bottom: 0;
@@ -30,48 +27,6 @@
     margin-left: 2em;
     margin-bottom: 1em;
   }
-}
-
-.sidebar__book {
-  flex: 1 0 28em;
-  width: 100%;
-  float: right;
-  margin-left: 2em;
-  margin-bottom: 1em;
-  margin-top: -2em;
-
-  @include breakpoint(mobile-xl) {
-    width: 25%;
-
-  }
-
-  @include breakpoint(72em) {
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-
-  .img-holder {
-    @extend %clearfix;
-    border-bottom: .5em solid #9ba4a7;
-    display: block;
-
-    img {
-      float: left;
-      max-width: 80%;
-      margin-left: 6vw;
-      max-height: 12em;
-
-      @include breakpoint(mobile-xl) {
-        max-height: none;
-        float: right;
-        max-width: 60%;
-        max-height: none;
-        margin-right: 8%;
-      }
-    }
-  }
-
 }
 
 .bio-card {
