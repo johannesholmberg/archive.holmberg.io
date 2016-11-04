@@ -1,6 +1,5 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans%7CMerriweather:400,400i,900,900i' rel='stylesheet' type='text/css'>
 
-{% assign useCriticalCss = false %}
 {% assign critical_css_file = false %}
 
 {% if page.active == 'index' %}
@@ -26,14 +25,10 @@
 
 {% endif %}
 
-{% if critical_css_file %}
-  {% assign useCriticalCss = true %}
-{% endif %}
-
 {% if site.environment == 'production' %}
   {% assign fullCSS = "/assets/css/styles.min.css" %}
 
-  {% if useCriticalCss %}
+  {% if critical_css_file %}
     <style>
       {% include {{ critical_css_file }} %}
     </style>
@@ -52,6 +47,5 @@
   {% endif %}
 
 {% else %}
-  {% assign fullCSS = "/assets/css/styles.css" %}
-  <link rel="stylesheet" href="{{ fullCSS }}">
+  <link rel="stylesheet" href="/assets/css/styles.css">
 {% endif %}

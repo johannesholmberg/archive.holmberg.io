@@ -3,7 +3,7 @@ layout: compress
 ---
 <!doctype html>
 <html lang="en">
-  {% include head.html %}
+  {% include head/head.html %}
   <body class="{% if page.body_class %}{{page.body_class}}{% endif %}{% if layout.body_class %}{{layout.body_class}}{% endif %}">
 
     {% if site.environment != "production" %}
