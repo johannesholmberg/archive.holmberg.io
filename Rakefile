@@ -3,10 +3,6 @@ require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 
-def jekyll(args)
-  system "jekyll #{args}"
-end
-
 def clean
   puts "Cleaning previous builds"
   system "rm -Rf _site/"
@@ -16,7 +12,7 @@ desc "Generate blog files"
 task :generate do
   clean
   puts "Building for production"
-  jekyll "build JEKYLL_ENV=production --config _config.yml,_config.prod.yml"
+  system "JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.yml"
 end
 
 
