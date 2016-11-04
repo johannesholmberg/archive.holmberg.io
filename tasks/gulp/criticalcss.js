@@ -4,11 +4,12 @@ var gulp = require('gulp'),
 gulp.task('critical', function() {
 
   // Run critical for these different page types and generate a minified css file for each
-  var base = '_site/'
-  var css = 'source/assets/css/styles.css';
-  var width = 1800;
-  var height = 1400;
-  var minify = true;
+  var base = '_site/',
+      css = 'source/assets/css/styles.css',
+      width = 1900,
+      height = 1200,
+      minify = false,
+      ignore = ['@font-face'];
 
   // Index
   critical.generate({
@@ -18,6 +19,7 @@ gulp.task('critical', function() {
     dest: 'source/_includes/criticalcss/index.css',
     width: width,
     height: height,
+    ignore: ignore,
     minify: minify
   });
 
@@ -29,6 +31,7 @@ gulp.task('critical', function() {
     dest: 'source/_includes/criticalcss/notebook.css',
     width: width,
     height: height,
+    ignore: ignore,
     minify: minify
   });
 
@@ -40,6 +43,7 @@ gulp.task('critical', function() {
     dest: 'source/_includes/criticalcss/work.css',
     width: width,
     height: height,
+    ignore: ignore,
     minify: minify
   });
 
@@ -51,17 +55,19 @@ gulp.task('critical', function() {
     dest: 'source/_includes/criticalcss/reading.css',
     width: width,
     height: height,
+    ignore: ignore,
     minify: minify
   });
 
   // Post
   critical.generate({
     base: base,
-    src: 'notebook/takeaways-from-smashingconf/index.html',
+    src: 'notebook/new-place/index.html',
     css: [css],
     dest: 'source/_includes/criticalcss/post.css',
     width: width,
     height: height,
+    ignore: ignore,
     minify: minify
   });
 
@@ -73,6 +79,7 @@ gulp.task('critical', function() {
     dest: 'source/_includes/criticalcss/case.css',
     width: width,
     height: height,
+    ignore: ignore,
     minify: minify
   });
 
@@ -84,6 +91,7 @@ gulp.task('critical', function() {
     dest: 'source/_includes/criticalcss/book.css',
     width: width,
     height: height,
+    ignore: ignore,
     minify: minify
   });
 

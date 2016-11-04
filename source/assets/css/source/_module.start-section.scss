@@ -51,8 +51,8 @@
       .title {
         margin-bottom: 0;
         text-transform: none;
-        font-family: $font-serif;
-        font-weight: bold;
+        font-family: $font-serif-bold;
+        font-weight: 700;
         font-size: 2em;
         line-height: 1.2;
 
@@ -65,6 +65,7 @@
         font-size: 1.05em;
         margin: .2em 0 .8em;
         line-height: 1.4;
+        font-family: $font-serif-italic;
         font-style: italic;
 
         @include breakpoint(mobile-lg) {

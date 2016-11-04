@@ -27,10 +27,12 @@
     line-height: 1.4;
     text-align: left;
     padding: 0;
+    font-family: $font-serif-italic;
     font-style: italic;
     margin-bottom: 0;
 
     span {
+      font-family: $font-serif-italic;
       font-style: italic;
       font-size: .85em;
     }
