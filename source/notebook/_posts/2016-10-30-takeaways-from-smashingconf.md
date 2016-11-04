@@ -1,5 +1,6 @@
 ---
 title: "Takeaways from Smashing Conference Barcelona"
+crosspost_to_medium: true
 ---
 
 {% assign filename = "smashingconf" %}
