@@ -146,7 +146,10 @@ module Jekyll
           canonical_text = canonical_text.gsub /{{ url }}/, canonical_url
       # Otherwise, use boilerplate
       else
-          canonical_text = "<p><i>This article was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
+          siteurl = "#{@site.config['url']}"
+          siteurl.slice! "http://"
+          the_date = published_at.to_time.strftime('%B %e, %Y')
+          canonical_text = "<p><i>Originally published at <a href=\"#{url}\" rel=\"canonical\">#{siteurl}</a> on #{the_date}.</i></p>"
       end
       content << canonical_text
 
