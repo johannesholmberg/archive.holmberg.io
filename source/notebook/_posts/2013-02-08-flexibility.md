@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Flexibility"
+crosspost_to_medium: true
 redirect_from:
   - /journal/flexibility/
   - /article/flexibility/

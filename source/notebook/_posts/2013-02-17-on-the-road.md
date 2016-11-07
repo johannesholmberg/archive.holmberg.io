@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "On the Road"
+crosspost_to_medium: true
 redirect_from:
   - /journal/on-the-road/
 ---
