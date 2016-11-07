@@ -8,3 +8,7 @@ group :jekyll_plugins do
   gem "psych"
   gem "jekyll-redirect-from", "0.11.0"
 end
+
+group :test do
+  gem 'html-proofer'
+end

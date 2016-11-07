@@ -2,6 +2,7 @@ require "rubygems"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
+require "html-proofer"
 
 def clean
   puts "Cleaning previous builds"
@@ -20,7 +21,6 @@ task :generate do
   system "JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.yml"
   critical
 end
-
 
 desc "Generate and publish website to master"
 task :publish => [:generate] do
@@ -50,4 +50,10 @@ task :publish => [:generate] do
     system "git push origin master --force"
 
   end
+end
+
+# rake test
+desc "build and test website"
+task :test do
+  sh "bundle exec jekyll build"
 end
