@@ -5,7 +5,7 @@ category: reading
 cover: brothers-karamazov
 author: Fyodor Dostoevsky
 publisher: Bantam Classics
-book-url: http://www.amazon.com/Brothers-Karamazov-Fyodor-Dostoevsky-ebook/dp/B000FBJEPG/
+book-url: https://www.amazon.com/Brothers-Karamazov-Dover-Thrift-Editions-ebook/dp/B00A735SZM/
 has_cover: true
 ---
 {% include book-cover.html %}

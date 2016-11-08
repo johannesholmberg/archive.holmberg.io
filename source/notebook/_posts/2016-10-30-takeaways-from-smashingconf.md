@@ -176,7 +176,7 @@ I think the conference struck a perfect balance of design and technology. It was
 - Website obesity is a universal problem for online journalism.
 
 {% assign filename = "smashingconf4" %}
-{% assign alt = "" %}
+{% assign alt = "People walking in Barcelona" %}
 {% assign attributes = "margins" %}
 {% assign caption = "Walking with friends at the typography walk. Photo credits <a href='https://www.instagram.com/itzrachelle/'>itzrachelle</a>." %}
 {% include responsive-image.html %}

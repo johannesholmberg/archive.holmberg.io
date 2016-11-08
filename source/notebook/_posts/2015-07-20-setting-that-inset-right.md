@@ -21,5 +21,5 @@ Today, I set off to find a proper solution to the problem and it was much easier
 
 You can see the result in the pen below.
 
-<p data-height="364" data-theme-id="0" data-slug-hash="JdBgWZ" data-default-tab="result" data-user="holmberg" class='codepen'>See the Pen <a href='http://codepen.io/holmberg/pen/JdBgWZ/'>Inset Shadow (one side)</a> by Johannes Holmberg (<a href='http://codepen.io/holmberg'>@holmberg</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="364" data-theme-id="0" data-slug-hash="JdBgWZ" data-default-tab="result" data-user="johannesholmberg" class='codepen'>See the Pen <a href='http://codepen.io/johannesholmberg/pen/JdBgWZ/'>Inset Shadow (one side)</a> by Johannes Holmberg (<a href='http://codepen.io/johannesholmberg/'>@johannesholmberg</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
