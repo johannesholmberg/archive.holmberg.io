@@ -1,7 +1,7 @@
 # Compiled source #
 ###################
 _site
-_publish.holmberg.io
+_deploy
 source/assets/css/*.css
 source/_includes/criticalcss/*.css
 source/assets/js/*.js
