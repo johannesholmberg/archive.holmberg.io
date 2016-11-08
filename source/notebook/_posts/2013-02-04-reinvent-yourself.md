@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Reinvent yourself"
+crosspost_to_medium: true
 redirect_from:
   - /journal/reinvent-yourself/
   - /article/reinvent-yourself/
