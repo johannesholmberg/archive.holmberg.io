@@ -1,7 +1,13 @@
 require "html-proofer"
 
+def critical
+  puts "Creating Critical CSS"
+  system "gulp critical"
+end
+
 desc "Build and test website links"
 task :test do
+  critical
   sh "bundle exec jekyll build --config _config.yml,_config.test.yml"
   HTMLProofer.check_directory('./_site', {
     :disable_external => true,
