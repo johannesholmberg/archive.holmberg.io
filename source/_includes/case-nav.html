@@ -22,7 +22,7 @@
   {% endfor %}
 
   {% if prev_post %}
-    <a href="{{ prev_post }}" class="prev">
+    <a href="{{ site.url }}{{ prev_post }}" class="prev">
       <span class="icon-holder">
         {% assign id = "arrow-left" %}
         {% include icon.html %}
@@ -40,7 +40,7 @@
   {% endif %}
 
   {% if next_post %}
-    <a href="{{ next_post }}" class="next">
+    <a href="{{ site.url }}{{ next_post }}" class="next">
       <span class="icon-holder">
         {% assign id = "arrow-right" %}
         {% include icon.html %}
