@@ -2,7 +2,7 @@ require "html-proofer"
 
 desc "Build and test website links"
 task :test do
-  sh "bundle exec jekyll build --config _config.yml,_config.prod.yml"
+  sh "bundle exec jekyll build"
   HTMLProofer.check_directory('./_site', {
     :disable_external => true,
     :allow_hash_href => false,
