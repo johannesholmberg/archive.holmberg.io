@@ -14,17 +14,18 @@ redirect_from:
 
 <h1>Notebook</h1>
 
-  <div class="list">
-{% for post in site.categories.notebook %}
-
-  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
-  {% if currentyear != year %}
-    {% unless forloop.first %}</ul></div>{% endunless %}
-    <div class="year">
-    <h2 class="article-divider">{{ currentyear }}</h2>
-    <ul class="article-list">
-    {% capture year %}{{currentyear}}{% endcapture %}
-  {% endif %}
+<div class="list">
+  {% for post in site.categories.notebook %}
+    {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+    {% if currentyear != year %}
+      {% if forloop.index != 1 %}
+        </ul></div>
+      {% endif %}
+      <div class="year">
+      <h2 class="article-divider">{{ currentyear }}</h2>
+      <ul class="article-list">
+      {% capture year %}{{currentyear}}{% endcapture %}
+    {% endif %}
 
     <li class="article-item">
       <a href="{{ post.url }}">
@@ -56,5 +57,8 @@ redirect_from:
       </a>
     </li>
 
-{% endfor %}
+    {% if forloop.last == true %}
+      </ul></div>
+    {% endif %}
+  {% endfor %}
 </div>
