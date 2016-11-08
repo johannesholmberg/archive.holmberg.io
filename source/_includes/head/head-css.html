@@ -24,7 +24,8 @@
 {% endif %}
 
 {% if site.environment == 'production' %}
-  {% assign fullCSS = "/assets/css/styles.min.css" %}
+  {% assign path = "/assets/css/styles.min.css" %}
+  {% capture fullCSS %}{{ site.url }}{{ path }}{% endcapture %}
 
   {% if critical_css_file %}
     <style>
