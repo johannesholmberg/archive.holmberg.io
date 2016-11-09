@@ -4,6 +4,7 @@ _site
 _deploy
 source/assets/css/*.css
 source/assets/js/*.js
+source/_includes/criticalcss/*.css
 
 # Packages #
 ############

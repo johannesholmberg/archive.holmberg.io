@@ -7,9 +7,18 @@ var messages = {
 };
 
 /**
- * Build the Jekyll Site
+ * Initial Jekyll build
  */
 gulp.task('jekyll-build', function(done) {
+  return cp.spawn('jekyll', ['build'], {
+    stdio: 'inherit'
+  }).on('close', done);
+});
+
+/**
+ * Build the Jekyll Site with only incremental changes, good for development
+ */
+gulp.task('jekyll-incremental', function(done) {
   return cp.spawn('jekyll', ['build', '--incremental'], {
     stdio: 'inherit'
   }).on('close', done);
@@ -18,6 +27,6 @@ gulp.task('jekyll-build', function(done) {
 /**
  * Rebuild Jekyll & do page reload
  */
-gulp.task('jekyll-rebuild', ['jekyll-build'], function() {
+gulp.task('jekyll-rebuild', ['jekyll-incremental'], function() {
   browserSync.reload();
 });
