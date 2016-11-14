@@ -23,11 +23,14 @@
 
 {% endif %}
 
+{% capture critical_css_file_full_path %}_includes/{{ critical_css_file }}{% endcapture %}
+{% capture critical_css_file_exists %}{% file_exists {{ critical_css_file_full_path }} %}{% endcapture %}
+
 {% if site.environment == 'production' %}
   {% assign path = "/assets/css/styles.min.css" %}
   {% capture fullCSS %}{{ site.url }}{{ path }}{% endcapture %}
 
-  {% if critical_css_file %}
+  {% if critical_css_file_exists == "true" %}
     <style>
       {% include {{ critical_css_file }} %}
     </style>
