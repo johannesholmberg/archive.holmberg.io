@@ -1,0 +1,30 @@
+blockquote {
+  color: $midgray;
+  border-left: .5em solid #ddd;
+  margin: 1.5em 0;
+  font-family: $font-serif-italic;
+  font-style: italic;
+  position: relative;
+  color: #000;
+  font-size: 1.05em;
+
+  @include breakpoint(mobile-xl) {
+    border-width: .25em;
+  }
+
+  em,
+  cite,
+  .meta {
+    font-family: $font-serif;
+    font-style: normal;
+  }
+
+  p {
+    &:first-of-type {
+      margin-top: 0;
+    }
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

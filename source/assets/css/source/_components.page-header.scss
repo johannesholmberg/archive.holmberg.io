@@ -15,15 +15,14 @@
     padding-bottom: 7em;
   }
 
-  .title {
+  &__title {
     margin-bottom: .1em;
-
     @include breakpoint(desktop-lg) {
       max-width: 70vw;
     }
   }
 
-  .meta {
+  &__meta {
     line-height: 1.4;
     text-align: left;
     padding: 0;

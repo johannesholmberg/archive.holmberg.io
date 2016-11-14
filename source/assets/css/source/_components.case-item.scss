@@ -4,7 +4,6 @@
 
   &:after {
     content: '';
-    //flex: auto;
   }
 }
 
@@ -18,23 +17,22 @@
   transition: all .2s ease-in-out;
   overflow: hidden;
 
-
   &:hover,
   &:focus {
-    .text-wrap {
+    .case-item__text-wrap {
       opacity: 1;
     }
 
-    img {
+    .case-item__image {
       transform: scale(1.05) rotate(5deg);
     }
   }
 
-  img {
+  &__image {
     transition: all .25s ease-in-out;
   }
 
-  .text-wrap {
+  &__text-wrap {
     transition: all .25s ease-in-out;
     opacity: 0;
     position: absolute;
@@ -43,38 +41,37 @@
     right: 0;
     bottom: 0;
     left: 0;
-    //background: rgba(255, 255, 255, .95);
     background-image: linear-gradient(rgba(255, 255, 255, .3) 30%, rgba(255, 255, 255, 1) 70%);
     color: $darkgray;
+  }
 
-    .text {
-      position: absolute;
-      bottom: 0;
-      padding: 1.6em 1.3em;
-    }
+  &__show-icon {
+    position: absolute;
+    top: .5em;
+    right: .9em;
+    font-size: 1.8em;
+  }
 
-    .show {
-      position: absolute;
-      top: .5em;
-      right: .9em;
-      font-size: 1.8em;
-    }
+  &__text {
+    position: absolute;
+    bottom: 0;
+    padding: 1.6em 1.3em;
+  }
 
-    .slogan {
-      margin: .1em 0;
-      font-size: 1em;
-      font-family: $font-sans;
-    }
+  &__slogan {
+    margin: .1em 0;
+    font-size: 1em;
+    font-family: $font-sans;
+  }
 
-    .title {
-      margin: 0;
-    }
+  &__title {
+    margin: 0;
+  }
 
-    .meta {
-      margin: .3em 0 0;
-      font-size: .9em;
-      font-family: $font-sans;
-    }
+  &__meta {
+    margin: .3em 0 0;
+    font-size: .9em;
+    font-family: $font-sans;
   }
 }
 

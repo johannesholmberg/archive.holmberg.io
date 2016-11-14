@@ -1,10 +1,11 @@
-<aside class="sidebar sidebar__book">
-  <a href="{{ page.book-url }}" class="img-holder">
+<aside class="book-cover sidebar">
+  <a href="{{ page.book-url }}" class="book-cover__image-holder">
     {% assign title = page.url | split: '/' %}
     {% assign titleNew = title | last %}
     {% assign cover = titleNew | replace: '-read-2', '' %}
     {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
     <img
+      class="book-cover__image"
       {% if site.environment == 'production' %}
         src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000.jpg"
         srcset="
@@ -19,14 +20,22 @@
       alt="{{ page.title }}"
     >
   </a>
-  <ul class="meta">
-    <li><strong>Author:</strong> {{ page.author }}</li>
+  <ul class="sidebar__meta book-cover__meta">
+    <li class="sidebar__meta-item">
+      <strong>Author:</strong> {{ page.author }}
+    </li>
     {% if page.published %}
-      <li><strong>Published:</strong> {{ page.published }}</li>
+      <li class="sidebar__meta-item">
+        <strong>Published:</strong> {{ page.published }}
+      </li>
     {% endif %}
-    <li><strong>Publisher:</strong> {{ page.publisher }}</li>
-    <li><strong>Buy:</strong> <a href="{{ page.book-url }}">Amazon</a></li>
-    <li>
+    <li class="sidebar__meta-item">
+      <strong>Publisher:</strong> {{ page.publisher }}
+    </li>
+    <li class="sidebar__meta-item">
+      <strong>Buy:</strong> <a href="{{ page.book-url }}">Amazon</a>
+    </li>
+    <li class="sidebar__meta-item">
       <strong>Format:</strong>
       {% if page.format == "" or page.format == nil %}
         Kindle

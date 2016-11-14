@@ -15,8 +15,6 @@
   {% assign filepath = "/uploads/others/" %}
 {% endif %}
 
-
-
 <figure {% if attributes %} class="{{ attributes }}"{% endif %}>
 <img {% if site.environment == 'production' %} src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ filepath }}{{ filename }}.{{ ext }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg"
     srcset="

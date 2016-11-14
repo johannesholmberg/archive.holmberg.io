@@ -18,32 +18,32 @@ active: case
 	</div>
 
   <aside class="sidebar">
-		{% include bio-card.html %}
+		{% include author-card.html %}
 
 		<aside>
-			<ul class="meta">
+			<ul class="sidebar__meta">
 				{% if page.meta %}
-					<li><strong>Production:</strong> {{ page.meta }}</li>
+					<li class="sidebar__meta-item"><strong>Production:</strong> {{ page.meta }}</li>
 				{% endif %}
 
 				{% if page.role %}
-        	<li><strong>Role:</strong> {{ page.role }}</li>
+        	<li class="sidebar__meta-item"><strong>Role:</strong> {{ page.role }}</li>
         {% endif %}
 
 				{% if page.output %}
-        	<li><strong>Output:</strong> {{ page.output }}</li>
+        	<li class="sidebar__meta-item"><strong>Output:</strong> {{ page.output }}</li>
         {% endif %}
 
         {% if page.techniques %}
-        	<li><strong>Techniques:</strong> {{ page.techniques }}</li>
+        	<li class="sidebar__meta-item"><strong>Techniques:</strong> {{ page.techniques }}</li>
         {% endif %}
 
         {% if page.client %}
-			  	<li><strong>Client:</strong> {{ page.client }}</li>
+			  	<li class="sidebar__meta-item"><strong>Client:</strong> {{ page.client }}</li>
 			  {% endif %}
 
 			  {% if page.website %}
-			  	<li>
+			  	<li class="sidebar__meta-item">
 			  		<strong>Website:</strong>
 			  		<a href="{{ page.website }}">{{ page.website | replace: 'http://', '' }}</a>
 			  	</li>
@@ -52,7 +52,7 @@ active: case
 		</aside>
 
 		{% assign cat = "work" %}
-		{% include case-nav.html %}
+		{% include post-navigation.html %}
 	</div>
 
 </article>

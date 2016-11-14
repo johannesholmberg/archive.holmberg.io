@@ -26,35 +26,7 @@ redirect_from:
     {% capture year %}{{currentyear}}{% endcapture %}
   {% endif %}
 
-    <li class="article-item">
-      <a href="{{ post.url }}">
-        <h2 class="title">{{ post.title }}</h2>
-        <p class="date">
-          {% if post.categories contains "links" %}
-            <span class="icon-holder">
-              {% assign id = "link" %}
-              {% include icon.html %}
-            </span>
-          {% elsif post.categories contains "labs" %}
-            <span class="icon-holder">
-              {% assign id = "magic-wand" %}
-              {% include icon.html %}
-            </span>
-          {% elsif post.categories contains "photos" %}
-            <span class="icon-holder">
-              {% assign id = "image" %}
-              {% include icon.html %}
-            </span>
-            {% else %}
-              <span class="icon-holder">
-                {% assign id = "pencil2" %}
-                {% include icon.html %}
-              </span>
-          {% endif %}
-          {{ post.date | date: '%b' }} {{ post.date | date: '%Y' }}
-        </p>
-      </a>
-    </li>
+  {% include article-item.html %}
 
 {% endfor %}
 </div>

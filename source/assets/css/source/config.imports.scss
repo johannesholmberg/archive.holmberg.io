@@ -1,39 +1,88 @@
-// Normalize
-@import "../../vendor/normalize-scss/sass/normalize";
-@include normalize();
+/*-------------------------------*\
+  # CONFIG
+\*-------------------------------*/
 
-@import "library.print";
+/**
+ * SETTINGS
+ * Global..............Globally available settings.
+ * Colors..............Globally defined colors.
+ *
+ * TOOLS
+ * Mixins..............Global mixins.
+ * Breakpoints.........Global breakpoints.
+ * Helpers.............Globally available helper classes.
+ *
+ * GENERIC
+ * Normalize.css.......Normalize the browser defaults.
+ * Reset...............Reset some needed styles.
+ * Box-sizing..........A better box-model.
+ * Fonts...............Defining the fonts being used.
+ * Selections..........Styles for selecting elements.
+ *
+ * ELEMENTS
+ * General.............Common HTML elements.
+ * Headings............H1–H6.
+ * Links...............Styling all a elements.
+ * Lists...............Styling of ul and ol.
+ * Quotes..............Base styling for quotes.
+ * Tables..............Base styling for tables.
+ * Forms...............Element-level form styling.
+ * Figures.............Base styling of figures.
+ *
+ * OBJECTS
+ * Layout..............Main file for layout handling.
+ *
+ *
+ *
+ *
+ *
+ *
+ * TRUMPS
+ * Display.............Helper classes for showing or hiding content.
+ * Utilities...........Various helper classes.
+ *
+ */
 
-// Fonts
-@import "library.fonts";
+@import "settings.global";
+@import "settings.colors";
 
-// Config
-@import "config.variables";
-@import "config.breakpoints";
-@import "config.mixins";
+@import "tools.mixins";
+@import "tools.breakpoints";
+@import "tools.helpers";
 
-// Library
-@import "library.general";
-@import "library.type";
-@import "library.layout";
-@import "library.display";
-@import "library.tools";
-@import "library.extensions";
+@import "../../vendor/normalize-scss/sass/normalize/import-now";
+@import "generic.reset";
+@import "generic.box-sizing";
+@import "generic.fonts";
+@import "generic.selections";
 
-// Objects
-@import "objects.links";
-@import "objects.buttons";
-@import "objects.tables";
-@import "objects.forms";
+@import "elements.general";
+@import "elements.headings";
+@import "elements.links";
+@import "elements.lists";
+@import "elements.quotes";
+@import "elements.tables";
+@import "elements.forms";
+@import "elements.figures";
+
+@import "objects.layout";
+@import "objects.print";
+@import "objects.vendor-extensions";
 @import "objects.icons";
 
-// Module
-@import "module.header-global";
-@import "module.footer-global";
-@import "module.nav-primary";
-@import "module.page-header";
-@import "module.article-item";
-@import "module.book-item";
-@import "module.case-item";
-@import "module.start-section";
-@import "module.side-panel";
+@import "components.article-item";
+@import "components.book-item";
+@import "components.buttons";
+@import "components.case-item";
+@import "components.nav-primary";
+@import "components.page-header";
+@import "components.sidebar";
+@import "components.sidebar__author-card";
+@import "components.sidebar__book-cover";
+@import "components.sidebar__post-navigation";
+@import "components.site-footer";
+@import "components.site-header";
+@import "components.start-section";
+
+@import "trumps.display";
+@import "trumps.utilities";

@@ -1,0 +1,15 @@
+ul,
+ol {
+  margin-left: 1.5em;
+  font-size: 1.25em;
+
+  p {
+    font-style: normal;
+    font-size: 1em;
+  }
+}
+
+ol {
+  font-family: $font-serif-italic;
+  font-style: italic;
+}

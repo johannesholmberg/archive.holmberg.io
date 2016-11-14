@@ -1,10 +1,16 @@
-<ul>
-  {% for nav in site.data.navigation %}
-    <li class="item-holder">
-      <a href="{{ site.url }}{{ nav.url }}"
-      class="nav-item {% if page.active == nav.active or page.categories[0] == nav.active %} active {% endif %}">
-        {{ nav.text }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<nav class="nav-primary">
+  <a href="/" class="brand">
+    {% assign id = "logo" %}
+    {% include icon.html %}
+  </a>
+  <ul class="nav-primary__list">
+    {% for nav in site.data.navigation %}
+      <li class="nav-primary__item">
+        <a href="{{ site.url }}{{ nav.url }}"
+        class="nav-primary__link {% if page.active == nav.active or page.categories[0] == nav.active %} nav-primary__link--active {% endif %}">
+          {{ nav.text }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

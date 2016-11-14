@@ -1,0 +1,77 @@
+.nav-primary {
+
+  .brand {
+    line-height: 1;
+    float: left;
+    color: #fff;
+    width: 1.8em;
+    height: 2.2em;
+    margin-bottom: -2.1em;
+    background: #2a3137;
+    font-size: 2.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include breakpoint(mobile-lg) {
+      font-size: 2.7em;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    color: #555;
+    padding: 1.5em 2vw 1.45em;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    font-family: $font-serif-italic;
+    font-style: italic;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    font-size: 1.1em;
+
+    @include breakpoint(22em) {
+  	  padding-left: 2.2vw;
+      padding-right: 2.2vw;
+      font-size: 1.15em;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      height: .3em;
+      background: $profile-text;
+      position: absolute;
+      top: -.05em;
+      width: 100%;
+      left: 0;
+      transition: all .1s ease-in-out;
+      transform: scaleX(0);
+    }
+
+    &:hover,
+    &:focus {
+      color: $profile-text;
+    }
+
+    &--active {
+      color: #555;
+      background: darken(#fff, 0%);
+      box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+
+      &:after {
+        transform: scaleX(1);
+      }
+    }
+  }
+
+}

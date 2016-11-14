@@ -1,0 +1,88 @@
+html {
+  color: $darkgray;
+  line-height: 1.65;
+  font-size: .85em;
+
+  @include breakpoint(tablet-sm) {
+    font-size: .9em;
+  }
+
+  @include breakpoint(tablet-lg) {
+    font-size: 1em;
+  }
+
+  @include breakpoint(desktop-xl) {
+    font-size: 1.1em;
+  }
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: $profile-light;
+  transition: all .2s ease-in-out;
+  font-family: $font-serif;
+}
+
+b,
+strong {
+  font-family: $font-serif-bold;
+}
+
+em {
+  font-family: $font-serif-italic;
+}
+
+
+p {
+  font-size: 1.25em;
+  margin: 1.5em 0;
+}
+
+hr {
+  line-height: 1;
+  margin: .9em 0 1.5em;
+  font-size: 3em;
+  border: 0;
+
+  &:after {
+    font-family: sans-serif;
+    content: '\00b7\00b7\00b7';
+    color: #bbb;
+    letter-spacing: .5em;
+  }
+}
+
+code {
+  background: lighten($profile-text, 48%);
+  color: $profile-text;
+  font-size: .85em;
+  padding: .2em .3em;
+  border-radius: .15em;
+  font-family: $font-code;
+  font-size: 90%;
+}
+
+.has-intro .main-content > p:first-of-type,
+.intro {
+  font-size: 1.4em;
+
+  @include breakpoint(tablet-sm) {
+    font-size: 1.5em;
+  }
+
+  > strong:first-child {
+    font-weight: 300;
+  }
+
+  &:first-letter {
+    display: inline;
+    font-family: $font-serif-bold;
+    font-weight: 700;
+    float: left;
+    padding: .15em .08em 0 0;
+    line-height: .65em;
+    font-size: 3.4em;
+  }
+}

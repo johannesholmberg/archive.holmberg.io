@@ -18,20 +18,6 @@
 }
 
 /*
- * Clearfix: contain floats
- */
-
-%clearfix:before,
-%clearfix:after {
-	content: " "; /* 1 */
-	display: table; /* 2 */
-}
-
-%clearfix:after {
-	clear: both;
-}
-
-/*
  * Dev flag to show only in development environment
  */
 

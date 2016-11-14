@@ -6,20 +6,20 @@ active: post
 
 <article {% if page.has_intro == true %} class="has-intro"{% endif %}>
 
-  <header class="page-header">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="meta">
-      {% if page.date == "" or page.date == nil %}
-      {% else %}
-        {% assign thedate = page.date %}
-        {% include nice-date.html %}
-        {% for cat in page.categories %}
-          &middot;
-         {{ cat | capitalize }}
-        {% endfor %}
-      {% endif %}
-    </p>
-  </header>
+  {% assign title = page.title %}
+  {% capture subtitle %}
+    {% if page.date == "" or page.date == nil %}
+    {% else %}
+      {% assign thedate = page.date %}
+      {% include nice-date.html %}
+      {% for cat in page.categories %}
+        &middot;
+       {{ cat | capitalize }}
+      {% endfor %}
+    {% endif %}
+  {% endcapture %}
+	{% include page-header.html %}
+
 
   <div class="main-content">
     {{ content }}
@@ -29,10 +29,10 @@ active: post
   </div>
 
   <aside class="sidebar">
-    {% include bio-card.html %}
+    {% include author-card.html %}
 
     {% assign cat = "notebook" %}
-    {% include case-nav.html %}
+    {% include post-navigation.html %}
   </aside>
 
 </article>

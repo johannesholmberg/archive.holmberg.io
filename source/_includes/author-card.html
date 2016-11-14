@@ -1,8 +1,9 @@
-<aside class="bio-card">
-  <a href="{{ site.url }}/">
+<aside class="author-card">
+  <a href="{{ site.url }}">
     {% assign image_path = "/uploads/others/johannes-square.jpg" %}
     <img
-      {% if site.environment == 'production' %}
+      class="author-card__image"
+      {% if site.environment == "production" %}
         src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000.jpg"
         srcset="
         https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000 140w,
@@ -16,9 +17,9 @@
       90px"
       alt="Johannes Holmberg"
     >
-    <div class="text">
-      <h3 class="title">Johannes Holmberg</h3>
-      <p>
+    <div class="author-card__meta">
+      <h3 class="author-card__title">Johannes Holmberg</h3>
+      <p class="author-card__description">
         I’m a consultant front-end web designer based in Basel, Switzerland.
         I’m doing design and interaction work for the web.
         Get in touch if you would like to work together, or just say hi :)

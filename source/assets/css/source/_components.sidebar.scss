@@ -1,0 +1,31 @@
+.sidebar {
+  flex: 1 1 22em;
+  word-wrap: break-word;
+  order: 1;
+  float: left;
+  margin-left: 2em;
+
+  @include breakpoint(desktop-lg) {
+    max-width: 36em;
+  }
+
+  &__meta {
+    padding: 4% 0 4% 2%;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  &__meta-item {
+    display: block;
+    border-bottom: 1px solid rgba(120, 120, 120, .3);
+    padding: .7em .5em .7em 4%;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  > * {
+    margin-bottom: 1em;
+  }
+}

@@ -1,7 +1,8 @@
 <a href="{{ post.url }}" class="case-item">
   {% assign image_path = "/uploads/work/" | append: post.cover | append: ".jpg" %}
   <img
-    {% if site.environment == 'production' %}
+    class="case-item__image"
+    {% if site.environment == "production" %}
       src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000"
       srcset="
       https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=320&amp;refresh=2592000 320w,
@@ -19,17 +20,17 @@
     100vw"
     alt="{{ post.title }}"
   >
-  <div class="text-wrap">
-    <span class="show">
+  <div class="case-item__text-wrap">
+    <span class="case-item__show-icon">
       {% assign id = "search" %}
       {% include icon.html %}
     </span>
-    <div class="text">
-      <p class="slogan">
+    <div class="case-item__text">
+      <p class="case-item__slogan">
         {{ post.subtitle }}
       </p>
-      <h2 class="title">{{ post.title }}</h2>
-      <p class="meta">
+      <h2 class="case-item__title">{{ post.title }}</h2>
+      <p class="case-item__meta">
         {% if post.meta == 'date' %}
           {% assign d = post.date | date: "%-d" %}
           {% case d %}
