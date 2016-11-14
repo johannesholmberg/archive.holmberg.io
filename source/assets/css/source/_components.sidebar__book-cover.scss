@@ -26,9 +26,8 @@
     background: none;
     min-height: 5.5em;
 
-    &:hover,
-    &:focus {
-      background: none;
+    a {
+      display: block;
     }
   }
 

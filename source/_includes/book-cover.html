@@ -1,25 +1,27 @@
 <aside class="book-cover sidebar">
-  <a href="{{ page.book-url }}" class="book-cover__image-holder">
-    {% assign title = page.url | split: '/' %}
-    {% assign titleNew = title | last %}
-    {% assign cover = titleNew | replace: '-read-2', '' %}
-    {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
-    <img
-      class="book-cover__image"
-      {% if site.environment == 'production' %}
-        src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000.jpg"
-        srcset="
-        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000 240w,
-        https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000 400w"
-      {% else %}
-        src="{{ site.url }}{{ image_path }}"
-      {% endif %}
-      sizes="
-      (min-width: 57em) 280px,
-      (min-width: 34em) 160px, 140px"
-      alt="{{ page.title }}"
-    >
-  </a>
+  <div class="book-cover__image-holder">
+    <a href="{{ page.book-url }}">
+      {% assign title = page.url | split: '/' %}
+      {% assign titleNew = title | last %}
+      {% assign cover = titleNew | replace: '-read-2', '' %}
+      {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
+      <img
+        class="book-cover__image"
+        {% if site.environment == 'production' %}
+          src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000.jpg"
+          srcset="
+          https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=240&amp;refresh=2592000 240w,
+          https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000 400w"
+        {% else %}
+          src="{{ site.url }}{{ image_path }}"
+        {% endif %}
+        sizes="
+        (min-width: 57em) 280px,
+        (min-width: 34em) 160px, 140px"
+        alt="{{ page.title }}"
+      >
+    </a>
+  </div>
   <ul class="sidebar__meta book-cover__meta">
     <li class="sidebar__meta-item">
       <strong>Author:</strong> {{ page.author }}
