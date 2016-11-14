@@ -1,7 +1,7 @@
-<li class="article-item">
-  <a href="{{ post.url }}">
-    <h2 class="title">{{ post.title }}</h2>
-    <p class="date">
+<li class="article-list__item article-item">
+  <a href="{{ post.url }}" class="article-item__link">
+    <h2 class="article-item__title">{{ post.title }}</h2>
+    <p class="article-item__date">
       {% if post.categories contains "links" %}
         <span class="icon-holder">
           {% assign id = "link" %}

@@ -11,7 +11,7 @@ a::selection {
 }
 
 .main-content a,
-aside .meta a {
+aside ul a {
   background-image: linear-gradient(currentColor, currentColor);
   background-repeat: no-repeat;
   background-size: 100% 1px;
@@ -31,6 +31,6 @@ aside .meta a {
   }
 }
 
-aside .meta a {
+aside ul a {
   text-shadow: .05em 0 $profile-light, -.05em 0 $profile-light;
 }

@@ -8,7 +8,7 @@ body_class: index
 
 <h1>Reading</h1>
 
-<div class="book-holder">
+<div class="book-list">
   {% for post in site.categories.reading %}
     {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% if currentyear != year %}
@@ -16,9 +16,11 @@ body_class: index
         </div>
       {% endif %}
 
-      <h2 class="year"><span>{{ post.date | date: '%Y' }}</span></h2>
+      <h2 class="book-list__title">
+        <span>{{ post.date | date: '%Y' }}</span>
+      </h2>
       {% capture year %}{{ currentyear }}{% endcapture %}
-      <div class="books">
+      <div class="book-list__section">
     {% endif %}
 
     {% include book-item.html %}

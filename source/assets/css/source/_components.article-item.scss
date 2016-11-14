@@ -1,49 +1,14 @@
-.year {
-  @extend %clearfix;
-
-  @include breakpoint(mobile-xl) {
-    &:first-of-type {
-      .article-divider,
-      .article-item:first-of-type a {
-        border-top: 0;
-      }
-    }
-  }
-}
-
-.article-list {
-  padding: 0;
-  margin: 0;
-
-  @include breakpoint(mobile-xl) {
-    float: right;
-    width: 75%;
-  }
-}
-
-.article-divider {
-  margin: .4em 0 .5em;
-  padding: .5em 0;
-
-  @include breakpoint(mobile-xl) {
-    margin: 0;
-    border-top: 1px solid #ddd;
-    float: left;
-    width: 25%;
-  }
-}
-
 .article-item {
   margin: 0;
   display: block;
   list-style: none;
   position: relative;
 
-  > a {
+  &__link {
+    @extend %clearfix;
     display: block;
     padding: 1.1em .5em .9em;
     border-top: 1px solid #ddd;
-    @extend %clearfix;
     color: #444;
 
     &:hover,
@@ -53,11 +18,7 @@
     }
   }
 
-  .icon-holder {
-    margin-right: .5em;
-  }
-
-  .title {
+  &__title {
     margin: 0;
     font-family: $font-sans;
     font-weight: 400;
@@ -68,11 +29,15 @@
     padding-right: 1em;
   }
 
-  .date {
+  &__date {
     margin: 0;
     font-size: $f14px;
     color: #888;
     float: right;
     font-family: $font-sans;
+  }
+
+  .icon-holder {
+    margin-right: .5em;
   }
 }

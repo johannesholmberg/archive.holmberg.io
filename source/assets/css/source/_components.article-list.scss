@@ -1,0 +1,43 @@
+.article-list {
+  background: #fff;
+  width: 100%;
+  padding: 4em 5%;
+  max-width: 70em;
+  flex: 1 1 40em;
+
+  &__section {
+    @extend %clearfix;
+
+    @include breakpoint(mobile-xl) {
+      &:first-of-type {
+        .article-list__divider,
+        .article-item:first-of-type a {
+          border-top: 0;
+        }
+      }
+    }
+  }
+
+  &__divider {
+    margin: .4em 0 .5em;
+    padding: .5em 0;
+
+    @include breakpoint(mobile-xl) {
+      margin: 0;
+      border-top: 1px solid #ddd;
+      float: left;
+      width: 25%;
+    }
+  }
+
+  &__holder {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+
+    @include breakpoint(mobile-xl) {
+      float: right;
+      width: 75%;
+    }
+  }
+}
