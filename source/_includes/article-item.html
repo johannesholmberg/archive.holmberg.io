@@ -5,22 +5,22 @@
       {% if post.categories contains "links" %}
         <span class="icon-holder">
           {% assign id = "link" %}
-          {% include icon.html %}
+          {% include icons/icon.html %}
         </span>
       {% elsif post.categories contains "labs" %}
         <span class="icon-holder">
           {% assign id = "magic-wand" %}
-          {% include icon.html %}
+          {% include icons/icon.html %}
         </span>
       {% elsif post.categories contains "photos" %}
         <span class="icon-holder">
           {% assign id = "image" %}
-          {% include icon.html %}
+          {% include icons/icon.html %}
         </span>
         {% else %}
           <span class="icon-holder">
             {% assign id = "pencil2" %}
-            {% include icon.html %}
+            {% include icons/icon.html %}
           </span>
       {% endif %}
       {{ post.date | date: '%b' }} {{ post.date | date: '%Y' }}

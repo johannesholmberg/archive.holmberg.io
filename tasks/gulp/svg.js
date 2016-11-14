@@ -1,10 +1,10 @@
 var gulp = require('gulp'),
+    browserSync = require('browser-sync'),
     svgstore = require('gulp-svgstore'),
     svgmin = require('gulp-svgmin'),
-    cheerio = require('gulp-cheerio'),
-    minimist = require('minimist');
+    cheerio = require('gulp-cheerio');
 
-gulp.task("svgstore", function () {
+gulp.task("svg", function () {
   return gulp
     .src("source/assets/icons/*.svg")
     .pipe(svgmin({
@@ -14,15 +14,17 @@ gulp.task("svgstore", function () {
     }))
     .pipe(svgstore({
       fileName: "icons.svg",
-      prefix: "icon-" }))
+      prefix: "icon-",
+      inlineSvg: true
+    }))
     .pipe(cheerio({
       run: function ($) {
         $("[fill]").removeAttr("fill");
       },
-      parserOptions: { xmlMode: true }
+      parserOptions: { xmlMode: false }
     }))
     .pipe(browserSync.reload({
       stream: true
     }))
-    .pipe(gulp.dest("source/_includes/"));
+    .pipe(gulp.dest("source/_includes/icons"));
 });

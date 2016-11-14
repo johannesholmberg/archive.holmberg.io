@@ -12,6 +12,6 @@ has_cover: true
 ---
 {% include book-cover.html %}
 
-**After reading** [1Q84](/reading/1q84) and [Norwegian Wood](/reading/norwegian-wood) previously this year I had picked up my curiosity in Murakami's books. Next on the list was The Wind-Up Bird Chronicle. This book is wild. I mean crazy style wild. It satisfied my Murakami fever for the moment and next I'm ready for something else.
+After reading [1Q84]({{ site.url }}/reading/1q84) and [Norwegian Wood]({{ site.url }}/reading/norwegian-wood) previously this year I had picked up my curiosity in Murakami's books. Next on the list was The Wind-Up Bird Chronicle. This book is wild. I mean crazy style wild. It satisfied my Murakami fever for the moment and next I'm ready for something else.
 
 {% include book-highlights.html %}

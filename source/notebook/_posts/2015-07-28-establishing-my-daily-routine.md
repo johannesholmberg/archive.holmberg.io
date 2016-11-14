@@ -50,4 +50,4 @@ Mornings are way more important to me than I believed. I used to get up at aroun
 
 Working out the habits before even getting to the main work has been the most successful part of the daily routine.
 
->‘You shouldn’t lie till ten. There’s the very prime of the morning gone long before that time. A person who has not done one half his day’s work by ten o’clock, runs a chance of leaving the other half undone.’ — [Emily Brontë, Wuthering Heights](/reading/wuthering-heights/#highlight-2)
+>‘You shouldn’t lie till ten. There’s the very prime of the morning gone long before that time. A person who has not done one half his day’s work by ten o’clock, runs a chance of leaving the other half undone.’ — [Emily Brontë, Wuthering Heights]({{ site.url }}/reading/wuthering-heights/#highlight2)
