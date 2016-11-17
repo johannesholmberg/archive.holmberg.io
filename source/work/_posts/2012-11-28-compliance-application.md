@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Redesigning the LCC Compliance Application"
+title: "LCC Compliance Application"
 cover: compliance
 subtitle: "“A more inviting, user-friendly system to handle.”"
 permalink: work/compliance-application/

@@ -15,42 +15,13 @@
       src="{{ site.url }}{{ image_path }}"
     {% endif %}
     sizes="
-    (min-width: 1687px) 33vw,
-    (min-width: 1020px) 50vw,
-    100vw"
+    (min-width: 1687px) 1060px,
+    (min-width: 1100px) 960px,
+    96vw"
     alt="{{ post.title }}"
   >
-  <div class="case-item__text-wrap">
-    <span class="case-item__show-icon">
-      {% assign id = "search" %}
-      {% include icons/icon.html %}
-    </span>
-    <div class="case-item__text">
-      <p class="case-item__slogan">
-        {{ post.subtitle }}
-      </p>
-      <h2 class="case-item__title">{{ post.title }}</h2>
-      <p class="case-item__meta">
-        {% if post.meta == 'date' %}
-          {% assign d = post.date | date: "%-d" %}
-          {% case d %}
-            {% when '1' or '21' or '31' %}
-              {% capture day %}{{ d }}st, {% endcapture %}
-            {% when '2' or '22' %}
-              {% capture day %}{{ d }}nd, {% endcapture %}
-            {% when '3' or '23' %}
-              {% capture day %}{{ d }}rd, {% endcapture %}
-            {% else %}
-              {% capture day %}{{ d }}th, {% endcapture %}
-          {% endcase %}
-          {% capture fulldate %}
-            {{ post.date | date: '%B' }} {{ day }} {{ post.date | date: '%Y' }}
-          {% endcapture %}
-          <span>{{ fulldate }}</span>
-        {% else %}
-          <span>{{ post.meta }}</span>
-        {% endif %}
-      </p>
-    </div>
+  <div class="case-item__text">
+    <h2 class="case-item__title">{{ post.title }}</h2>
+    <p class="case-item__slogan">{{ post.subtitle }}</p>
   </div>
 </a>

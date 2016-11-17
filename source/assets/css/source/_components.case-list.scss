@@ -1,0 +1,17 @@
+.case-list {
+  max-width: 70em;
+  margin: 0 auto;
+  padding: 0 1em;
+  transition: all .5s ease-out;
+
+  @include breakpoint(tablet-sm) {
+	  padding: 0 4em;
+  }
+}
+
+@supports (display: grid) {
+  .case-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(34em, 1fr));
+  }
+}
