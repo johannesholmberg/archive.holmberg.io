@@ -1,134 +1,157 @@
-main {
-  @extend %clearfix;
-  position: relative;
-  padding-top: 2.5em;
+.body {
 
-  @include supportsFlex() {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  > h1 {
-    padding: 0 5.5vw;
-    margin: 0 0 1.8rem 0;
-  }
-}
-
-.start {
-  main {
-    padding-top: 0;
-  }
-}
-
-.post {
-
-  main {
-    padding-top: 0;
-  }
-
-  article {
-    width: 100%;
-
-    @include supportsFlex() {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
+  &--start {
+    main {
+      @include supportsFlex() {
+        display: flex;
+        flex-wrap: wrap;
+      }
     }
   }
 
-  .main-content {
-    background: #fff;
-    max-width: 68em;
-    padding: 0 0 3em; /* Default for browsers not understanding viewport units */
-    padding: 3vw 0 6em;
-    background-clip: padding-box;
-    margin-bottom: -3%;
-    flex: 4 1 40em;
-    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
-    float: left;
+  &--post {
 
-    > *,
-    > figure.margins {
-      padding: 0 3em; /* Default for browsers not understanding viewport units */
-      padding-left: 5.5vw;
-      padding-right: 5.5vw;
+    .has-intro .main-content > p:first-of-type,
+    .intro {
 
-      figcaption {
-        padding: 0;
+    }
+
+    .main-article {
+      @include supportsFlex() {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+      }
+
+      &--intro .main-content > p:first-of-type,
+      .intro {
+        font-size: 1.4em;
+
+        @include breakpoint(tablet-sm) {
+          font-size: 1.5em;
+        }
+
+        > strong:first-child {
+          font-weight: 300;
+        }
+
+        &:first-letter {
+          display: inline;
+          font-family: $font-serif-bold;
+          font-weight: 700;
+          float: left;
+          padding: .15em .08em 0 0;
+          line-height: .65em;
+          font-size: 3.4em;
+        }
       }
     }
 
-    > figure,
-    > iframe,
-    > div {
-      padding: 0;
+    .main-content {
+      background: #fff;
+      max-width: 68em;
+      padding: 0 0 3em; /* Default for browsers not understanding viewport units */
+      padding: 3vw 0 6em;
+      background-clip: padding-box;
+      margin-bottom: -3%;
+      flex: 4 1 40em;
+      box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+      float: left;
 
-      figcaption {
+      > *,
+      > figure.margins {
+        padding: 0 3em; /* Default for browsers not understanding viewport units */
         padding-left: 5.5vw;
         padding-right: 5.5vw;
-      }
-    }
 
-    > blockquote {
-      padding: .8em 7vw .8em 1.8em;
-
-      @include breakpoint(mobile-xl) {
-        margin-left: calc(5.5vw - .3em);
-      }
-    }
-
-    > figure:first-child {
-      margin-top: -3vw;
-    }
-  }
-}
-
-.book {
-
-  .main-content {
-
-    > p {
-      max-width: 44em;
-    }
-
-    blockquote {
-      border-left-color: #ddd;
-      max-width: 52em;
-      padding-right: 6vw;
-
-      p {
-        margin: 1em 0;
-      }
-
-      > p:last-of-type {
-        margin-bottom: .4em;
-      }
-
-      .meta {
-        margin: .2em 0 .3em;
-        background: #fff;
-        display: inline-block;
-        color: $lightdarkgray;
-
-        .icon-holder {
-          margin-right: .4em;
-          vertical-align: 1px;
-        }
-
-        &:hover,
-        &:focus {
-          color: $profile-text;
+        figcaption {
+          padding: 0;
         }
       }
-    }
 
-    :target {
-      border-left-color: $profile-text;
+      > figure,
+      > iframe,
+      > div {
+        padding: 0;
+
+        figcaption {
+          padding-left: 5.5vw;
+          padding-right: 5.5vw;
+        }
+      }
+
+      > blockquote {
+        padding: .8em 7vw .8em 1.8em;
+
+        @include breakpoint(mobile-xl) {
+          margin-left: calc(5.5vw - .3em);
+        }
+      }
+
+      > figure:first-child {
+        margin-top: -3vw;
+      }
     }
   }
-}
 
-.body {
+  &--book {
+
+    .main-content {
+
+      > p {
+        max-width: 45em;
+      }
+
+      h4 {
+        font-size: 1.15em;
+
+        &:after {
+          margin: .3em 0 .5em;
+          font-size: 3em;
+          display: block;
+          font-family: sans-serif;
+          content: '\00b7\00b7\00b7';
+          color: #bbb;
+          letter-spacing: .5em;
+        }
+      }
+
+      blockquote {
+        max-width: 52em;
+        padding-right: 6vw;
+
+        p {
+          margin: 1em 0;
+        }
+
+        > p:last-of-type {
+          margin-bottom: .4em;
+        }
+
+        .meta {
+          margin: .2em 0 .3em;
+          background: #fff;
+          display: inline-block;
+          color: $lightdarkgray;
+
+          .icon-holder {
+            margin-right: .4em;
+            vertical-align: 1px;
+          }
+
+          &:hover,
+          &:focus {
+            color: $profile-text;
+          }
+        }
+      }
+
+      :target {
+        border-left-color: $profile-text;
+      }
+    }
+  }
+
   &--labs {
 
     $labs: #30b6be;
@@ -153,44 +176,62 @@ main {
       }
     }
   }
+
+  &--index {
+
+    main {
+      @extend %clearfix;
+      position: relative;
+      padding-top: 2.5em;
+
+      > h1 {
+        padding: 0 5.5vw;
+        margin: 0 0 1.8rem 0;
+      }
+    }
+  }
 }
 
 @supports(display: grid) {
 
-  .book {
-    @include breakpoint(tablet-lg) {
-      article {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        max-width: none;
+  .body {
+
+    &--book {
+      @include breakpoint(tablet-lg) {
+        article {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+          max-width: none;
+        }
+
+        .page-header {
+          width: auto;
+          grid-column: 1 / -1;
+          order: 1;
+        }
+
+        .main-content {
+          grid-row: 2 / 5;
+          order: 3;
+        }
+
+        .sidebar {
+          order: 4;
+        }
+
+        .sidebar__book {
+          float: none;
+          width: auto;
+          order: 2;
+        }
       }
 
-      .page-header {
-        width: auto;
-        grid-column: 1 / -1;
-        order: 1;
-      }
-
-      .main-content {
-        grid-row: 2 / 5;
-        order: 3;
-      }
-
-      .sidebar {
-        order: 4;
-      }
-
-      .sidebar__book {
-        float: none;
-        width: auto;
-        order: 2;
+      @include breakpoint(desktop-xl) {
+        article {
+          grid-template-columns: 2fr 1fr 1fr;
+        }
       }
     }
 
-    @include breakpoint(desktop-xl) {
-      article {
-        grid-template-columns: 2fr 1fr 1fr;
-      }
-    }
   }
 }

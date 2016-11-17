@@ -1,10 +1,10 @@
 ---
 layout: default
-body_class: post
+body_class: body--post
 active: post
 ---
 
-<article {% if page.has_intro == true %} class="has-intro"{% endif %}>
+<article class="main-article {% if page.has_intro == true %}main-article--intro{% endif %}">
 
   {% assign title = page.title %}
   {% capture subtitle %}

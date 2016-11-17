@@ -20,7 +20,7 @@ I also had some ideas for a new creative direction I wanted to try out. After a 
 
 {% assign filename = "updates-on-the-site-1" %}
 {% assign alt = "The header, before and after." %}
-{% assign margins = true %}
+{% assign attributes = "margins" %}
 {% assign caption = "The masthead before and after the change. Huge win." %}
 {% include responsive-image.html %}
 
@@ -29,7 +29,6 @@ The result shows much more content directly visible in a compact viewport. Exact
 I removed the whole title section for the page and moved it up to sit on top of the navigation instead. Something I don’t see that often but I think it gives a nice visual touch to the site. It also gives me the ability to create some unique headers by giving them a color. That color shapes not just the header itself but automatically also changes the visuals of the navigation.
 
 {% assign filename = "updates-on-the-site-2" %}
-{% assign margins = true %}
 {% assign alt = "Individual headers" %}
 {% assign caption = "Individual headers gives some depth to the site." %}
 {% include responsive-image.html %}
@@ -41,7 +40,6 @@ For plain content pages (cases, articles, book entries etc.) I remove that title
 
 
 {% assign filename = "updates-on-the-site-3" %}
-{% assign margins = true %}
 {% assign alt = "Mobile navigation" %}
 {% assign caption = "The navigation snap back to the edge to give way for content." %}
 {% include responsive-image.html %}
