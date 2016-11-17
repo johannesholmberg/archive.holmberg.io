@@ -67,13 +67,14 @@
 
 @import "objects.layout";
 @import "objects.print";
-@import "objects.vendor-extensions";
 @import "objects.icons";
 
 @import "components.article-item";
 @import "components.article-list";
 @import "components.book-item";
 @import "components.book-list";
+@import "components.lab-item";
+@import "components.lab-list";
 @import "components.buttons";
 @import "components.case-item";
 @import "components.nav-primary";
@@ -88,3 +89,4 @@
 
 @import "trumps.display";
 @import "trumps.utilities";
+@import "trumps.vendor-extensions";

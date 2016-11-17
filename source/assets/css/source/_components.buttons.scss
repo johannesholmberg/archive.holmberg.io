@@ -1,17 +1,18 @@
-.btn-holder {
+.button-wrap {
   text-align: center;
   margin: 1em auto;
+
   @include breakpoint(tablet-lg) {
     margin: 0 auto;
   }
 }
 
-.btn {
+.button {
   display: inline-block;
   text-decoration: none;
   text-align: center;
   border: 0;
-  color: #fff !important;
+  color: #fff;
   background: $profile-bg;
   margin: .8em 0 0;
   padding: .8em 1.6em;
@@ -22,20 +23,36 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    border: 0 !important;
+    background: darken($profile-bg, 5%);
   }
 
-  &.-standard {
+  &:active {
+    transition: none;
+    background-color: lighten($profile-bg, 3%);
+  }
+
+
+  &--outline {
+    background: none;
+    color: $dark;
+    border: 2px solid $dark;
 
     &:hover,
     &:focus {
-      background: $profile-bg;
+      background: $dark;
+      color: #fff;
     }
 
     &:active {
-      transition: none;
-      background-color: lighten($profile-bg, 3%);
+      background: $dark;
     }
+  }
+
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -2px;
+    margin-right: .25em;
   }
 
 }

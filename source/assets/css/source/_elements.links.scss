@@ -1,6 +1,11 @@
 a {
   color: $profile-text;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: #1f293e;
+  }
 }
 
 a::-moz-selection {

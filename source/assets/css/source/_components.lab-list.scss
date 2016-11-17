@@ -1,0 +1,27 @@
+.lab-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__header {
+    flex: 1 24em;
+    background: #fff;
+    margin: 0;
+    width: 20%;
+    text-align: center;
+    padding: 5% 3%;
+  }
+
+  &__description {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__holder {
+    flex: 4 50em;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #30b6be;
+  }
+}

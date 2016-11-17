@@ -1,0 +1,19 @@
+.lab-item {
+  width: 25%;
+  float: left;
+  flex: 1 26em;
+  margin: 5%;
+
+  &__title {
+    margin: 0 0 1em;
+    text-align: center;
+    color: #fff;
+    padding: .4em 1.2em;
+    text-shadow: 0 0 60px rgba(0, 0, 0, .2);
+  }
+
+  &__image {
+    transition: all .2s ease-in-out;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, .15);
+  }
+}

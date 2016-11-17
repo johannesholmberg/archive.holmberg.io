@@ -128,6 +128,33 @@ main {
   }
 }
 
+.body {
+  &--labs {
+
+    $labs: #30b6be;
+
+    a {
+      color: $labs;
+
+      &:hover,
+      &:focus {
+        color: darken($labs, 10%);
+      }
+    }
+
+    .button {
+      background: $labs;
+      color: #fff;
+
+      &:hover,
+      &:focus {
+        background: darken($labs, 5%);
+        color: #fff;
+      }
+    }
+  }
+}
+
 @supports(display: grid) {
 
   .book {

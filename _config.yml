@@ -29,19 +29,27 @@ destination: _site
 plugins_dir: plugins
 permalink: /:categories/:title/
 
+collections:
+  labs:
+    output: false
+    permalink: /:collection/:path/
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       active: "post"
-  -
-    scope:
+  - scope:
       path: "work"
     values:
       layout: "work"
+  - scope:
+      type: "labs"
+    values:
+      layout: "post"
+
 
 
 linenos: true

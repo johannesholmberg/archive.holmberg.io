@@ -1,0 +1,68 @@
+---
+layout: empty
+title: Daily UI challenge by
+active: labs
+description: ""
+body_class: labs
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    {% include head/head-mobile.html %}
+    {% include head/head-favicons.html %}
+    {% include head/head-sharing.html %}
+    {% include head/head-css.html %}
+  </head>
+
+  <body class="body--labs">
+
+    <div style="height: 0; width: 0; position: absolute; visibility: hidden">
+      {% include icons/icons.svg %}
+    </div>
+
+    <div class="lab-list">
+      <div class="lab-list__header">
+        <h1 class="lab-list__title">Daily UI</h1>
+        <p class="lab-list__description">
+          The <a href="http://www.dailyui.co/">Daily UI design challenge</a> sends an email every day presenting a new UI challenge to design. This is what I’ve made so far.
+        </p>
+        <a href="{{ site.url }}/" class="lab-list__back button">
+          {% assign id = "arrow-left" %}
+          {% include icons/icon.html %}
+          Back to holmberg.io
+        </a>
+      </div>
+
+      <div class="lab-list__holder">
+        {% assign dailyui = site.labs | where: "category", "dailyui" %}
+        {% for lab in dailyui %}
+          <a href="{{ lab.url }}" class="lab-item">
+            <h2 class="lab-item__title">{{ lab.title }}</h2>
+
+            <img {% if site.environment == 'production' %} src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg"
+                srcset="
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=320&amp;refresh=2592000 320w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000 400w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000 600w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=800&amp;refresh=2592000 800w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=1000&amp;refresh=2592000 1000w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=1400&amp;refresh=2592000 1400w"
+              {% else %}
+                src="{{ site.url }}/uploads/labs/{{ lab.image }}"
+              {% endif %}
+              sizes="
+              (min-width: 992px) 70vw,
+              100vw"
+              alt="{{ lab.title }}"
+              class="lab-item__image"
+            >
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
