@@ -12,7 +12,12 @@ sitemap:
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
+        <title>
+          {% if post.categories contains "links" %}
+            Link: 
+          {% endif %}
+          {{ post.title | xml_escape }}
+        </title>
         <description>
           {{ post.content | xml_escape }}
           {% if post.categories contains "links" %}
