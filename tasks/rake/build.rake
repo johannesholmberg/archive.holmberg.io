@@ -11,9 +11,9 @@ end
 desc "Generate blog files"
 task :generate do
   clean
-  critical
   puts "Building for production"
   system "JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.yml"
+  critical
   HTMLProofer.check_directory('./_site', {
     :disable_external => true,
     :allow_hash_href => false,
