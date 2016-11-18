@@ -30,7 +30,14 @@
     }
 
     .book-item__image {
-      opacity: .8;
+      transform: scale(1.1);
+    }
+  }
+
+  &:active {
+    .book-item__image {
+      transition: all .1s ease-out;
+      transform: scale(.95);
     }
   }
 
@@ -44,8 +51,9 @@
     position: absolute;
     bottom: 0;
     left: 1em;
-    width: 62%;
-    transition: opacity .1s ease-in-out;
+    width: 60%;
+    transition: all .2s ease-out;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .1);
     -webkit-backface-visibility: hidden;
   }
 

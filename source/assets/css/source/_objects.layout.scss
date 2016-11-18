@@ -107,6 +107,10 @@
         }
       }
 
+      .book-cover {
+        padding: 0;
+      }
+
       blockquote {
         max-width: 52em;
         padding-right: 6vw;
@@ -121,13 +125,20 @@
 
         .meta {
           margin: .2em 0 .3em;
-          background: #fff;
+          background: none;
           display: inline-block;
           color: $gray2;
+          font-size: .9em;
+          font-family: $font-serif-italic;
 
           .icon-holder {
-            margin-right: .4em;
+            margin-right: .3em;
             vertical-align: 1px;
+
+            .icon {
+              width: .95em;
+              height: .95em;
+            }
           }
 
           &:hover,

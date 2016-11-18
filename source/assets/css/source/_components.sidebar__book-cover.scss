@@ -36,6 +36,7 @@
     max-width: 80%;
     margin-left: 6vw;
     max-height: 12em;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .1);
 
     @include breakpoint(mobile-xl) {
       max-height: none;
