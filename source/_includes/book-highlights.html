@@ -15,7 +15,6 @@
     {{ highlight.quote | markdownify }}
 
     <a href="#highlight{{ forloop.index }}" class="meta">
-      <small>
         <span class="icon-holder">
           {% assign id = "link" %}
           {% include icons/icon.html %}
@@ -25,7 +24,6 @@
         {% elsif highlight.page %}
           Page {{ highlight.page }}
         {% endif %}
-      </small>
     </a>
   </blockquote>
 {% endfor %}
