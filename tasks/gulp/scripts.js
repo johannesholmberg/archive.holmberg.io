@@ -13,17 +13,23 @@ gulp.task('scripts', function() {
     'source/assets/vendor/picturefill/dist/picturefill.js',
     'source/assets/js/source/*.js'
   ])
+
+  // Normal version
   .pipe(concat('app.js'))
+
   .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
 
+  // Uglified version
   .pipe(rename({
-    basename: 'app',
     suffix: '.min'
   }))
   .pipe(uglify())
+
   .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
+
+  // Reload
   .pipe(browserSync.reload({
     stream: true
   }));

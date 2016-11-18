@@ -36,32 +36,39 @@ gulp.task('sass', function() {
 
   gulp.src('source/assets/css/source/config.imports.scss')
     .pipe(plumber({errorHandler: onError}))
+
+    // Normal version
     .pipe(sass({
       style: 'expanded',
       includePaths: ['scss'],
       onError: function(err) {
         return notify().write(err);
       }
-      //onError: browserSync.notify
     }))
+
     .pipe(autoprefixer(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
       cascade: true
     }))
+
     .pipe(rename({
       basename: 'styles'
     }))
+
     .pipe(gulp.dest('source/assets/css'))
     .pipe(gulp.dest('_site/assets/css'))
+
+    // Reload
     .pipe(browserSync.reload({
       stream: true
     }))
+
+    // Uglified version
     .pipe(rename({
       suffix: '.min'
     }))
+
     .pipe(cleanCSS())
-    .pipe(gulp.dest('_site/assets/css'))
-    .pipe(browserSync.reload({
-      stream: true
-    }))
-    .pipe(gulp.dest('source/assets/css'));
+
+    .pipe(gulp.dest('source/assets/css'))
+    .pipe(gulp.dest('_site/assets/css'));
 });

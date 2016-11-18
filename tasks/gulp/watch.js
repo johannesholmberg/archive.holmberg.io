@@ -6,7 +6,7 @@ var gulp = require('gulp');
  */
 gulp.task('watch', function() {
   gulp.watch('source/assets/css/**/*.scss', ['sass']);
-  gulp.watch('source/assets/js/**/*.js', ['scripts']);
+  gulp.watch('source/assets/js/source/**/*.js', ['scripts']);
   gulp.watch('source/assets/icons/*.svg', ['svg']);
   gulp.watch(['source/**/*.html','source/**/*.md'], ['jekyll-rebuild']);
 });
