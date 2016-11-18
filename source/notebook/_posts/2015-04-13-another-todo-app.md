@@ -22,7 +22,7 @@ Todoist comes with the standard Mac/iPhone/iPad app setup but it also has a usef
 {% assign filename = "todoist-quick-access" %}
 {% assign alt = "Todoist in the toolbar" %}
 {% assign ext = "png" %}
-{% assign attributes = "margins center" %}
+{% assign attributes = "figure--margins figure--center" %}
 {% assign caption = "Todoist in the toolbar." %}
 {% include responsive-image.html %}
 
@@ -45,7 +45,6 @@ My favorite thing in Todoist is the way it handle agendas. Every morning I get a
 {% assign filename = "todoist-mail" %}
 {% assign alt = "Todoist" %}
 {% assign ext = "png" %}
-{% assign attributes = "margins center" %}
 {% assign caption = "A pretty chill day." %}
 {% include responsive-image.html %}
 

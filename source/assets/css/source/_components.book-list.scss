@@ -5,7 +5,7 @@
   &__title {
     @extend %clearfix;
     width: 100%;
-    color: $darkgray;
+    color: $base-text-color;
     margin: 2em .2em .8em 0;
     position: relative;
 
@@ -24,7 +24,7 @@
     }
 
     span {
-      background: $profile-light;
+      background: $light-brand-color;
       position: relative;
       z-index: 99;
       padding: 0 .4em 0 0;
@@ -39,9 +39,7 @@
 }
 
 
-
 @supports(display: grid) {
-
   .book-list {
     width: 100%;
     display: grid;

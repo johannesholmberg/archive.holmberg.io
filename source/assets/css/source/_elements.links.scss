@@ -1,16 +1,17 @@
 a {
-  color: $profile-text;
+  color: $base-link-color;
   text-decoration: none;
 
   &:hover,
   &:focus {
-    color: #1f293e;
+    color: darken($base-link-color, 25%);
   }
 }
 
 a::-moz-selection {
   text-shadow: none;
 }
+
 a::selection {
   text-shadow: none;
 }
@@ -22,20 +23,19 @@ aside ul a {
   background-size: 100% 1px;
   background-position: center bottom 7%;
   text-shadow:
-      3px 0 #fff,
-      2px 0 #fff,
-      1px 0 #fff,
-     -1px 0 #fff,
-     -2px 0 #fff,
-     -3px 0 #fff;
+    3px 0 #fff,
+    2px 0 #fff,
+    1px 0 #fff,
+    -1px 0 #fff,
+    -2px 0 #fff,
+    -3px 0 #fff;
 
   &:hover,
   &:focus {
-    color: #1f293e;
     background-image: linear-gradient(currentColor, currentColor);
   }
 }
 
 aside ul a {
-  text-shadow: .05em 0 $profile-light, -.05em 0 $profile-light;
+  text-shadow: .05em 0 $light-brand-color, -.05em 0 $light-brand-color;
 }

@@ -11,7 +11,7 @@ A couple of weeks ago I did a little decluttering of my iPhone’s homescreen an
 
 {% assign filename = "homescreen" %}
 {% assign alt = "iPhone" %}
-{% assign attributes = "margins portrait" %}
+{% assign attributes = "figure--margins figure--portrait" %}
 {% include responsive-image.html %}
 
 My idea was to single out all the apps I use on a daily basis and place them directly on the homescreen; the rest is dropped in the ‘Utilities’ folder where they’re accessed by using the splendid search functionality in iOS 7. The result is this.

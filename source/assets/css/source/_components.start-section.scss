@@ -4,7 +4,7 @@
   position: relative;
 
   &:first-of-type {
-    background: $profile-text;
+    background: $base-link-color;
 
     @include breakpoint(tablet-sm) {
       margin-bottom: -4em;
@@ -13,7 +13,7 @@
     &:before {
       content: '';
       height: 6em;
-      background: $profile-text;
+      background: $base-link-color;
       position: absolute;
       top: 0;
       left: 0;
@@ -42,7 +42,7 @@
       border-radius: 100%;
       max-width: 8em;
       margin: 0 1.75em 0 0;
-      border: 3px solid $profile-text;
+      border: 3px solid $base-link-color;
     }
 
     .text {
@@ -128,7 +128,7 @@
         &:hover,
         &:focus {
           background: #fff;
-          color: $profile-text;
+          color: $base-link-color;
         }
       }
     }

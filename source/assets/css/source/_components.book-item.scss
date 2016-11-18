@@ -2,7 +2,7 @@
   display: block;
   float: left;
   width: 49.5%;
-  margin: 2em 0 0;
+  margin: 3em 0 0;
   line-height: 1.2;
   max-width: 22em;
 
@@ -26,11 +26,7 @@
   &:hover,
   &:focus {
     .book-item__title {
-      color: $profile-text;
-    }
-
-    .book-item__meta {
-      color: $darkgray;
+      color: $base-link-color;
     }
 
     .book-item__image {
@@ -46,7 +42,7 @@
 
   &__image {
     position: absolute;
-    bottom: -1px;
+    bottom: 0;
     left: 1em;
     width: 62%;
     transition: opacity .1s ease-in-out;
@@ -54,22 +50,22 @@
   }
 
   &__title {
-    padding: .7em 1rem 0;
+    padding: 1.1em 1rem 0;
     margin-top: 0;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-bottom: .2em;
-    border-top: .5em solid #9ba4a7;
+    border-top: .5em solid $gray-opacity1;
     font-weight: 300;
-    color: $darkgray;
-    font-size: 1em;
-    font-family: $font-sans;
+    font-family: $font-serif;
+    color: $base-text-color;
+    font-size: .95em;
   }
 
   &__meta {
     margin: 0;
     line-height: 1.4;
     padding: 0 1rem;
-    color: $lightdarkgray;
+    color: $gray2;
     font-family: $font-sans;
     font-weight: 300;
     font-size: .85em;

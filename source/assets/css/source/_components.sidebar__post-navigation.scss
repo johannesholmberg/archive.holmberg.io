@@ -9,20 +9,20 @@
     background: #fff;
     transition: all .2s ease-in-out;
     font-size: 1.3em;
-    color: #2a3137;
+    color: $base-text-color;
     padding: 1.2em 1.5em;
     display: block;
     margin-bottom: 1em;
     border-left-style: solid;
-    border-color: #ddd;
+    border-color: $gray-border1;
     border-left-width: 5px;
     line-height: 1.45;
 
     &:hover,
     &:focus {
-      border-color: $profile-text;
+      border-color: $base-link-color;
       border-bottom: 0;
-      color: $profile-text;
+      color: $base-link-color;
     }
 
     &--next {
@@ -35,7 +35,7 @@
 
   &__date {
     display: block;
-    color: #999;
+    color: $gray2;
     font-size: .75em;
     padding-top: .5em;
   }
@@ -44,6 +44,6 @@
     font-size: 2.5em;
     display: block;
     margin: -.2em 0 .2em;
-    color: $profile-text;
+    color: $base-link-color;
   }
 }

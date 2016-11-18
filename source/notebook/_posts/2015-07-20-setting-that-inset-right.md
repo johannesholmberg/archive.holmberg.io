@@ -14,7 +14,7 @@ You see, if I do `box-shadow: inset -12px 0 15px rgba(0, 0, 0, .6);` it will giv
 {% assign filename = "inset-shadow-unwanted" %}
 {% assign alt = "Unwanted results for insetting of a box-shadow" %}
 {% assign ext = "png" %}
-{% assign attributes = "margins" %}
+{% assign attributes = "figure--margins" %}
 {% include responsive-image.html %}
 
 Today, I set off to find a proper solution to the problem and it was much easier than I could have imagined. There is a fourth attribute for the box-shadow propery which controls the spread radius. By using a negative unit for the spread radius; I could actually position the shadow outside the box and then bring it back to view only for the side I want. Simple. `box-shadow: inset -12px 0 15px -10px rgba(0, 0, 0, .6);`

@@ -1,6 +1,6 @@
 .site-footer {
   min-height: 12em; /* Temp fix for IE 10/11 */
-  background: $dark;
+  background: $complementary-brand-color;
   flex: 1;
   color: #fff;
   padding: 2.5em 5.5vw 3em;
@@ -31,7 +31,7 @@
 
       &:hover,
       &:focus {
-        color: $profile-text;
+        color: $base-link-color;
         background: #fff;
         text-shadow: none;
       }

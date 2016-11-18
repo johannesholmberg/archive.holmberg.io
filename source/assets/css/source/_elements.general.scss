@@ -1,5 +1,5 @@
 html {
-  color: $darkgray;
+  color: $base-text-color;
   line-height: 1.65;
   font-size: .85em;
 
@@ -20,7 +20,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background: $profile-light;
+  background: $light-brand-color;
   transition: all .2s ease-in-out;
   font-family: $font-serif;
 }
@@ -33,7 +33,6 @@ strong {
 em {
   font-family: $font-serif-italic;
 }
-
 
 p {
   font-size: 1.25em;
@@ -52,14 +51,4 @@ hr {
     color: #bbb;
     letter-spacing: .5em;
   }
-}
-
-code {
-  background: lighten($profile-text, 48%);
-  color: $profile-text;
-  font-size: .85em;
-  padding: .2em .3em;
-  border-radius: .15em;
-  font-family: $font-code;
-  font-size: 90%;
 }

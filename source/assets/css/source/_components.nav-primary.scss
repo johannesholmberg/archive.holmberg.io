@@ -1,5 +1,4 @@
 .nav-primary {
-
   .brand {
     line-height: 1;
     float: left;
@@ -28,7 +27,7 @@
   }
 
   &__link {
-    color: #555;
+    color: $gray1;
     padding: 1.5em 2vw 1.45em;
     letter-spacing: .03em;
     text-transform: uppercase;
@@ -40,7 +39,7 @@
     font-size: 1.1em;
 
     @include breakpoint(22em) {
-  	  padding-left: 2.2vw;
+      padding-left: 2.2vw;
       padding-right: 2.2vw;
       font-size: 1.15em;
     }
@@ -49,7 +48,7 @@
       content: '';
       display: block;
       height: .3em;
-      background: $profile-text;
+      background: $base-link-color;
       position: absolute;
       top: -.05em;
       width: 100%;
@@ -60,7 +59,7 @@
 
     &:hover,
     &:focus {
-      color: $profile-text;
+      color: $base-link-color;
     }
 
     &--active {
@@ -73,5 +72,4 @@
       }
     }
   }
-
 }

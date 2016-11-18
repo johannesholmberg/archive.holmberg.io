@@ -1,0 +1,9 @@
+code {
+  background: lighten($base-link-color, 48%);
+  color: $base-link-color;
+  font-size: .85em;
+  padding: .2em .3em;
+  border-radius: .15em;
+  font-family: $font-code;
+  font-size: 90%;
+}

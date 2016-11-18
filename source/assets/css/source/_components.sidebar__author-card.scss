@@ -5,7 +5,7 @@
   flex: 1 1 20em;
 
   > a {
-    background: $dark;
+    background: $complementary-brand-color;
     display: block;
     padding: 1.5em 2.2em 2em;
     color: #fff;
@@ -13,7 +13,7 @@
 
     &:hover,
     &:focus {
-      background: $profile-text;
+      background: $base-link-color;
     }
   }
 

@@ -13,7 +13,7 @@
   text-align: center;
   border: 0;
   color: #fff;
-  background: $profile-bg;
+  background: $base-brand-color;
   margin: .8em 0 0;
   padding: .8em 1.6em;
   border-radius: .25em;
@@ -23,28 +23,28 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    background: darken($profile-bg, 5%);
+    background: darken($base-brand-color, 5%);
   }
 
   &:active {
     transition: none;
-    background-color: lighten($profile-bg, 3%);
+    background-color: lighten($base-brand-color, 3%);
   }
 
 
   &--outline {
     background: none;
-    color: $dark;
-    border: 2px solid $dark;
+    color: $complementary-brand-color;
+    border: 2px solid $complementary-brand-color;
 
     &:hover,
     &:focus {
-      background: $dark;
+      background: $complementary-brand-color;
       color: #fff;
     }
 
     &:active {
-      background: $dark;
+      background: $complementary-brand-color;
     }
   }
 

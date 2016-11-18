@@ -21,7 +21,7 @@
 
   &__image-holder {
     @extend %clearfix;
-    border-bottom: .5em solid #9ba4a7;
+    border-bottom: .5em solid $gray-opacity1;
     display: block;
     background: none;
     min-height: 5.5em;

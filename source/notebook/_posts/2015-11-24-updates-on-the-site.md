@@ -20,7 +20,7 @@ I also had some ideas for a new creative direction I wanted to try out. After a 
 
 {% assign filename = "updates-on-the-site-1" %}
 {% assign alt = "The header, before and after." %}
-{% assign attributes = "margins" %}
+{% assign attributes = "figure--margins" %}
 {% assign caption = "The masthead before and after the change. Huge win." %}
 {% include responsive-image.html %}
 

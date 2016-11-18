@@ -1,16 +1,13 @@
 table {
   width: 100%;
   min-width: 700px;
-  font-size: $f18px;
-
   table-layout: fixed;
-
 
   th,
   td {
     padding: .35em .5em;
     line-height: 1.4;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid $gray-border1;
 
     &:last-child {
       border-right: 0;
@@ -19,10 +16,9 @@ table {
 
   th {
     text-align: left;
-    font-size: $f18px;
     font-weight: 400;
     vertical-align: bottom;
-    background: #2a3137;
+    background: $complementary-brand-color;
     color: #fff;
   }
 
@@ -32,7 +28,7 @@ table {
 
   tr {
     td {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid $gray-border1;
     }
   }
 }

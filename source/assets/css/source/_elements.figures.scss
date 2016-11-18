@@ -1,11 +1,13 @@
 figure {
   margin: 1.5em auto;
+}
 
-  &.center {
+.figure {
+  &--center {
     text-align: center;
   }
 
-  &.portrait {
+  &--portrait {
     img {
       max-height: 40em;
     }
@@ -13,7 +15,7 @@ figure {
 }
 
 figcaption {
-  color: $lightdarkgray;
+  color: $gray2;
   margin: 1.5em 0;
   font-family: $font-serif-italic;
   font-style: italic;

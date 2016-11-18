@@ -1,11 +1,10 @@
 blockquote {
-  color: $midgray;
-  border-left: .5em solid #ddd;
+  color: $gray2;
+  border-left: .5em solid $gray-border1;
   margin: 1.5em 0;
   font-family: $font-serif-italic;
   font-style: italic;
   position: relative;
-  color: #000;
   font-size: 1.05em;
 
   @include breakpoint(mobile-xl) {
@@ -23,6 +22,7 @@ blockquote {
     &:first-of-type {
       margin-top: 0;
     }
+
     &:last-of-type {
       margin-bottom: 0;
     }

@@ -23,6 +23,7 @@
  * General..............Common HTML elements.
  * Headings.............H1–H6.
  * Links................Styling all a elements.
+ * Code.................Styling all code elements.
  * Lists................Styling of ul and ol.
  * Quotes...............Base styling for quotes.
  * Tables...............Base styling for tables.
@@ -61,6 +62,7 @@
 @import "elements.general";
 @import "elements.headings";
 @import "elements.links";
+@import "elements.code";
 @import "elements.lists";
 @import "elements.quotes";
 @import "elements.tables";

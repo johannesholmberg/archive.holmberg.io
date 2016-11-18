@@ -44,7 +44,7 @@
     background-color: rgba(255, 255, 255, .8);
 
     box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
-    color: $darkgray;
+    color: $base-text-color;
     padding: 1.6em 2em;
 
     @include breakpoint(tablet-sm) {

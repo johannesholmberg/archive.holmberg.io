@@ -1,5 +1,4 @@
 .body {
-
   &--start {
     main {
       @include supportsFlex() {
@@ -10,12 +9,6 @@
   }
 
   &--post {
-
-    .has-intro .main-content > p:first-of-type,
-    .intro {
-
-    }
-
     .main-article {
       @include supportsFlex() {
         display: flex;
@@ -59,7 +52,7 @@
       float: left;
 
       > *,
-      > figure.margins {
+      > .figure--margins {
         padding: 0 3em; /* Default for browsers not understanding viewport units */
         padding-left: 5.5vw;
         padding-right: 5.5vw;
@@ -95,9 +88,7 @@
   }
 
   &--book {
-
     .main-content {
-
       > p {
         max-width: 45em;
       }
@@ -111,7 +102,7 @@
           display: block;
           font-family: sans-serif;
           content: '\00b7\00b7\00b7';
-          color: #bbb;
+          color: $gray-opacity1;
           letter-spacing: .5em;
         }
       }
@@ -132,7 +123,7 @@
           margin: .2em 0 .3em;
           background: #fff;
           display: inline-block;
-          color: $lightdarkgray;
+          color: $gray2;
 
           .icon-holder {
             margin-right: .4em;
@@ -141,13 +132,13 @@
 
           &:hover,
           &:focus {
-            color: $profile-text;
+            color: $base-link-color;
           }
         }
       }
 
       :target {
-        border-left-color: $profile-text;
+        border-left-color: $base-link-color;
       }
     }
   }
@@ -178,7 +169,6 @@
   }
 
   &--index {
-
     main {
       @extend %clearfix;
       position: relative;
@@ -193,9 +183,7 @@
 }
 
 @supports(display: grid) {
-
   .body {
-
     &--book {
       @include breakpoint(tablet-lg) {
         article {
@@ -232,6 +220,5 @@
         }
       }
     }
-
   }
 }

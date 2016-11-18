@@ -177,6 +177,6 @@ I think the conference struck a perfect balance of design and technology. It was
 
 {% assign filename = "smashingconf4" %}
 {% assign alt = "People walking in Barcelona" %}
-{% assign attributes = "margins" %}
+{% assign attributes = "figure--margins" %}
 {% assign caption = "Walking with friends at the typography walk. Photo credits <a href='https://www.instagram.com/itzrachelle/'>itzrachelle</a>." %}
 {% include responsive-image.html %}
