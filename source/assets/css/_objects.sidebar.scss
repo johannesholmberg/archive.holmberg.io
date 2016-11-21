@@ -4,6 +4,7 @@
   order: 1;
   float: left;
   margin-left: 2em;
+  z-index: 2;
 
   @include breakpoint(desktop-lg) {
     max-width: 36em;

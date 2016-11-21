@@ -1,0 +1,36 @@
+.page-title {
+  padding: 2.5rem 5.5vw 0;
+  margin: 0 0 1.8rem 0;
+}
+
+.o-main-layout {
+  @include supportsFlex() {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
+
+.t-body--labs {
+  $labs: #30b6be;
+
+  a {
+    color: $labs;
+
+    &:hover,
+    &:focus {
+      color: darken($labs, 10%);
+    }
+  }
+
+  .button {
+    background: $labs;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      background: darken($labs, 5%);
+      color: #fff;
+    }
+  }
+}

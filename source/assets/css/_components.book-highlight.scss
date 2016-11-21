@@ -1,0 +1,50 @@
+.c-book-highlights__title {
+  font-size: 1.15em;
+
+  &:after {
+    margin: .3em 0 .5em;
+    font-size: 3em;
+    display: block;
+    font-family: sans-serif;
+    content: '\00b7\00b7\00b7';
+    color: $gray-opacity1;
+    letter-spacing: .5em;
+  }
+}
+
+.c-book-highlight {
+  max-width: 52em;
+  padding: .7em 6vw .7em 1.8em;
+
+  p {
+    margin: 1em 0;
+  }
+
+  > p:last-of-type {
+    margin-bottom: .4em;
+  }
+
+  &__meta {
+    margin: .2em 0 .3em;
+    background: none;
+    display: inline-block;
+    color: $gray2;
+    font-size: .9em;
+    font-family: $font-serif-italic;
+
+    .icon-holder {
+      margin-right: .3em;
+      vertical-align: 1px;
+
+      .icon {
+        width: .95em;
+        height: .95em;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      color: $base-link-color;
+    }
+  }
+}

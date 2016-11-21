@@ -17,7 +17,9 @@
  * Reset................Reset some needed styles.
  * Box-sizing...........A better box-model.
  * Fonts................Defining the fonts being used.
+ * Icons................Main styling for SVG icons.
  * Selections...........Styles for selecting elements.
+ * Print................Resetting the print format.
  *
  * ELEMENTS
  * General..............Common HTML elements.
@@ -31,9 +33,9 @@
  * Figures..............Base styling of figures.
  *
  * OBJECTS
- * Layout...............Main file for layout handling.
- * Print................Resetting the print format.
- * Icons................Main styling for SVG icons.
+ * Main Layout..........File for main layout handling.
+ * Main Content.........Handling content layout.
+ * Sidebar..............Sidebar layout handling.
  *
  * COMPONENTS
  *
@@ -57,7 +59,9 @@
 @import "generic.reset";
 @import "generic.box-sizing";
 @import "generic.fonts";
+@import "generic.icons";
 @import "generic.selections";
+@import "generic.print";
 
 @import "elements.general";
 @import "elements.headings";
@@ -69,14 +73,15 @@
 @import "elements.forms";
 @import "elements.figures";
 
-@import "objects.layout";
-@import "objects.print";
-@import "objects.icons";
+@import "objects.main-layout";
+@import "objects.main-content";
+@import "objects.sidebar";
 
 @import "components.article-item";
 @import "components.article-list";
 @import "components.book-item";
 @import "components.book-list";
+@import "components.book-highlight";
 @import "components.lab-item";
 @import "components.lab-list";
 @import "components.buttons";
@@ -84,7 +89,6 @@
 @import "components.case-list";
 @import "components.nav-primary";
 @import "components.page-header";
-@import "components.sidebar";
 @import "components.author-card";
 @import "components.book-cover";
 @import "components.post-navigation";

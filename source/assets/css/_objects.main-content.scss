@@ -1,0 +1,75 @@
+.s-main-content {
+  background: #fff;
+  max-width: 68em;
+  padding: 0 0 3em; /* Default for browsers not understanding viewport units */
+  padding: 3vw 0 6em;
+  background-clip: padding-box;
+  margin-bottom: -3em;
+  margin-bottom: -3%;
+  flex: 4 1 40em;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+  float: left;
+  z-index: 1;
+
+  > *,
+  > .figure--margins {
+    padding: 0 3em; /* Default for browsers not understanding viewport units */
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+
+    figcaption {
+      padding: 0;
+    }
+  }
+
+  > figure,
+  > iframe,
+  > div {
+    padding: 0;
+
+    figcaption {
+      padding-left: 5.5vw;
+      padding-right: 5.5vw;
+    }
+  }
+
+  > blockquote {
+    padding: .8em 7vw .8em 1.8em;
+
+    @include breakpoint(mobile-xl) {
+      margin-left: calc(5.5vw - .3em);
+    }
+  }
+
+  > figure:first-child {
+    margin-top: -3vw;
+  }
+
+  &--intro {
+    > p:first-of-type {
+      font-size: 1.4em;
+
+      @include breakpoint(tablet-sm) {
+        font-size: 1.5em;
+      }
+
+      &:first-letter {
+        display: inline;
+        font-family: $font-serif-bold;
+        font-weight: 700;
+        float: left;
+        padding: .15em .08em 0 0;
+        line-height: .65em;
+        font-size: 3.4em;
+      }
+    }
+  }
+
+  &--book {
+
+    :target {
+      border-left-color: $base-link-color;
+    }
+
+  }
+}
