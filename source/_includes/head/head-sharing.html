@@ -1,18 +1,25 @@
 {% capture title %}{% if page.document_title %}{{ page.document_title }}{% else %}{{ page.title }}{% endif %}{% if page.url contains '/notebook/links' and page.title != 'The Notebook of' %}, a link saved by{% elsif page.url contains '/notebook/' and page.title != 'The Notebook of' %}, from the Notebook of{% endif %}{% if page.url contains '/reading/' and page.title != 'Books read by' %}, a book read by{% endif %}{% if page.url contains '/work/' and page.title != 'Projects by' %}, a case from the website of{% endif %} {{ site.author }}{% endcapture %}<title>{{ title }}</title>
 
 {% if page.description %}
-  <meta name="description" content="{{ page.description }}" />
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description }}">
 {% endif %}
+
+<meta property="og:title" content="{{ title }}">
 
 {% if page.cover %}
   {% assign image_path = "/uploads/reading/" | append: page.cover | append: ".jpg" %}
-  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg" />
+  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg">
 {% elsif page.has_cover %}
   {% assign title = page.url | split: '/' %}
   {% assign titleNew = title | last %}
   {% assign cover = titleNew | replace: '-read-2', '' %}
   {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
-  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg" />
+  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592000.jpg">
+
+{% else %}
+  {% assign image_path = "/uploads/others/johannes-square.jpg" %}
+  <meta property="og:image" content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592000.jpg">
 {% endif %}
 
 {% if page.ref_url %}
