@@ -4,7 +4,7 @@ layout: compress
 <!doctype html>
 <html lang="en">
   {% include head/head.html %}
-  <body class="{% if page.body_class %}{{page.body_class}}{% endif %}{% if layout.body_class %}{{layout.body_class}}{% endif %}">
+  <body {% if page.body_class %}class="{{page.body_class}}"{% endif %}>
 
     {% if site.environment != "production" %}
       <h1 class="dev-flag">Development</h1>

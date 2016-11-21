@@ -1,10 +1,9 @@
 ---
 layout: default
-body_class: body--post body--book
 active: book
 ---
 
-<article class="main-article main-article--intro">
+<article class="o-main-layout">
 
   {% assign title = page.title %}
   {% capture subtitle %}
@@ -13,7 +12,7 @@ active: book
   {% endcapture %}
 	{% include page-header.html %}
 
-  <div class="main-content">
+  <div class="s-main-content s-main-content--book s-main-content--intro">
     {% if page.has_cover == "" or page.has_cover == nil %}
       {% include book-cover.html %}
     {% endif %}

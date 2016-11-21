@@ -1,16 +1,15 @@
 ---
 layout: default
-body_class: body--post
 active: case
 ---
 
-<article class="main-article main-article--intro">
+<article class="o-main-layout">
 
 	{% assign title = page.title %}
 	{% assign subtitle = page.subtitle %}
 	{% include page-header.html %}
 
-	<div class="main-content">
+	<div class="s-main-content s-main-content--intro">
 		{% assign filename = page.cover %}
 		{% assign alt = page.title %}
 		{% include responsive-image.html %}
@@ -18,33 +17,33 @@ active: case
 		{{ content }}
 	</div>
 
-  <aside class="sidebar">
+  <aside class="o-sidebar">
 		{% include author-card.html %}
 
 		<aside>
-			<ul class="sidebar__meta">
+			<ul class="o-sidebar__meta">
 				{% if page.meta %}
-					<li class="sidebar__meta-item"><strong>Production:</strong> {{ page.meta }}</li>
+					<li class="o-sidebar__meta-item"><strong>Production:</strong> {{ page.meta }}</li>
 				{% endif %}
 
 				{% if page.role %}
-        	<li class="sidebar__meta-item"><strong>Role:</strong> {{ page.role }}</li>
+        	<li class="o-sidebar__meta-item"><strong>Role:</strong> {{ page.role }}</li>
         {% endif %}
 
 				{% if page.output %}
-        	<li class="sidebar__meta-item"><strong>Output:</strong> {{ page.output }}</li>
+        	<li class="o-sidebar__meta-item"><strong>Output:</strong> {{ page.output }}</li>
         {% endif %}
 
         {% if page.techniques %}
-        	<li class="sidebar__meta-item"><strong>Techniques:</strong> {{ page.techniques }}</li>
+        	<li class="o-sidebar__meta-item"><strong>Techniques:</strong> {{ page.techniques }}</li>
         {% endif %}
 
         {% if page.client %}
-			  	<li class="sidebar__meta-item"><strong>Client:</strong> {{ page.client }}</li>
+			  	<li class="o-sidebar__meta-item"><strong>Client:</strong> {{ page.client }}</li>
 			  {% endif %}
 
 			  {% if page.website %}
-			  	<li class="sidebar__meta-item">
+			  	<li class="o-sidebar__meta-item">
 			  		<strong>Website:</strong>
 			  		<a href="{{ page.website }}">{{ page.website | replace: 'http://', '' }}</a>
 			  	</li>

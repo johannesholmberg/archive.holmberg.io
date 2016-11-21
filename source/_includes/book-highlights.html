@@ -2,19 +2,20 @@
 {% assign titleNew = title | last %}
 {% assign data = titleNew | replace: '-read-2', '' %}
 
-<h4>My personal highlights from the book</h4>
+<section class="c-book-highlights">
+  <h4 class="c-book-highlights__title">My personal highlights from the book</h4>
 
-{% for highlight in site.data.books.[data] %}
-   {% if highlight.loc %}
-     {% assign location = "loc" %}
-   {% elsif highlight.page %}
-     {% assign location = "page" %}
-   {% endif %}
+  {% for highlight in site.data.books.[data] %}
+     {% if highlight.loc %}
+       {% assign location = "loc" %}
+     {% elsif highlight.page %}
+       {% assign location = "page" %}
+     {% endif %}
 
-  <blockquote id="highlight{{ forloop.index }}">
-    {{ highlight.quote | markdownify }}
+    <blockquote id="highlight{{ forloop.index }}" class="c-book-highlight">
+      {{ highlight.quote | markdownify }}
 
-    <a href="#highlight{{ forloop.index }}" class="meta">
+      <a href="#highlight{{ forloop.index }}" class="c-book-highlight__meta">
         <span class="icon-holder">
           {% assign id = "link" %}
           {% include icons/icon.html %}
@@ -24,6 +25,7 @@
         {% elsif highlight.page %}
           Page {{ highlight.page }}
         {% endif %}
-    </a>
-  </blockquote>
-{% endfor %}
+      </a>
+    </blockquote>
+  {% endfor %}
+</section>

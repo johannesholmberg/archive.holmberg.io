@@ -1,10 +1,9 @@
 ---
 layout: default
-body_class: body--post
 active: post
 ---
 
-<article class="main-article {% if page.has_intro == true %}main-article--intro{% endif %}">
+<article class="o-main-layout">
 
   {% assign title = page.title %}
   {% capture subtitle %}
@@ -21,14 +20,14 @@ active: post
 	{% include page-header.html %}
 
 
-  <div class="main-content">
+  <div class="s-main-content {% if page.has_intro == true %}s-main-content--intro{% endif %}">
     {{ content }}
     {% if page.categories[1] == "links" %}
       {% include link-read-more.html %}
     {% endif %}
   </div>
 
-  <aside class="sidebar">
+  <aside class="o-sidebar">
     {% include author-card.html %}
 
     {% assign cat = "notebook" %}
