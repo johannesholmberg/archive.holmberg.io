@@ -11,18 +11,18 @@ redirect_from:
   - /photos/
 ---
 
-<h1>Notebook</h1>
+<h1 class="page-title">Notebook</h1>
 
-<div class="article-list">
+<div class="c-article-list">
   {% for post in site.categories.notebook %}
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
       {% if forloop.index != 1 %}
         </ul></div>
       {% endif %}
-      <div class="article-list__section">
-      <h2 class="article-list__divider">{{ currentyear }}</h2>
-      <ul class="article-list__holder">
+      <div class="c-article-list__section">
+      <h2 class="c-article-list__title">{{ currentyear }}</h2>
+      <ul class="c-article-list__holder">
       {% capture year %}{{currentyear}}{% endcapture %}
     {% endif %}
 

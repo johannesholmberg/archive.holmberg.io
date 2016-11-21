@@ -2,11 +2,11 @@
 {% assign titleNew = title | last %}
 {% assign cover = titleNew | replace: '-read-2', '' %}
 
-<a href="{{ post.url }}" class="book-list__item book-item">
-  <div class="book-item__cover">
+<a href="{{ post.url }}" class="c-book-item">
+  <div class="c-book-item__cover">
     {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
     <img
-      class="book-item__image"
+      class="c-book-item__image"
       {% if site.environment == 'production' %}
         src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}{{ image_path }}&amp;container=focus&amp;resize_w=140&amp;refresh=2592000.jpg"
         srcset="
@@ -19,6 +19,6 @@
       alt="{{ post.title }}"
     >
   </div>
-  <h3 class="book-item__title">{{ post.title }}</h3>
-  <p class="book-item__meta">{{ post.author }}</p>
+  <h3 class="c-book-item__title">{{ post.title }}</h3>
+  <p class="c-book-item__meta">{{ post.author }}</p>
 </a>

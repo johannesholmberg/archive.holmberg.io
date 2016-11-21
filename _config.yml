@@ -64,7 +64,7 @@ kramdown:
   syntax_highlighter: rouge
 
 exclude: [
-  "assets/css/source",
+  "assets/css/*.scss",
   "assets/js/source",
   "assets/icons"
 ]

@@ -6,8 +6,9 @@ description: "Work and projects by Johannes Holmberg."
 body_class: body--index
 ---
 
-<h1>Work</h1>
-<div class="case-list">
+<h1 class="page-title">Work</h1>
+
+<div class="c-case-list">
   {% for post in site.categories.work %}
     {% include case-item.html %}
   {% endfor %}

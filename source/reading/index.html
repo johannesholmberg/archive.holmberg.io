@@ -5,9 +5,9 @@ active: reading
 description: "Books are where I go for inspiration. These are the books I’ve read and highlighted from throughout the years."
 ---
 
-<h1>Reading</h1>
+<h1 class="page-title">Reading</h1>
 
-<div class="book-list">
+<div class="c-book-list">
   {% for post in site.categories.reading %}
     {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% if currentyear != year %}
@@ -15,11 +15,11 @@ description: "Books are where I go for inspiration. These are the books I’ve r
         </div>
       {% endif %}
 
-      <h2 class="book-list__title">
+      <h2 class="c-book-list__title">
         <span>{{ post.date | date: '%Y' }}</span>
       </h2>
       {% capture year %}{{ currentyear }}{% endcapture %}
-      <div class="book-list__section">
+      <div class="c-book-list__section">
     {% endif %}
 
     {% include book-item.html %}

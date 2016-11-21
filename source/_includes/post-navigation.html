@@ -1,4 +1,4 @@
-<aside class="post-navigation">
+<aside class="c-post-navigation">
 
   {% for post in site.categories.[cat] %}
     {% if post.url == page.url %}
@@ -22,13 +22,13 @@
   {% endfor %}
 
   {% if prev_post %}
-    <a href="{{ prev_post }}" class="post-navigation__item post-navigation__item--prev">
-      <span class="post-navigation__icon-holder">
+    <a href="{{ prev_post }}" class="c-post-navigation__item c-post-navigation__item--prev">
+      <span class="c-post-navigation__icon-holder">
         {% assign id = "arrow-left" %}
         {% include icons/icon.html %}
       </span>
       {{ prev_title }}
-      <span class="post-navigation__date">
+      <span class="c-post-navigation__date">
         {% assign thedate = prev_date %}
         {% include nice-date.html %}
         {% for cat in prev_cat %}
@@ -40,13 +40,13 @@
   {% endif %}
 
   {% if next_post %}
-    <a href="{{ next_post }}" class="post-navigation__item post-navigation__item--next">
-      <span class="post-navigation__icon-holder">
+    <a href="{{ next_post }}" class="c-post-navigation__item c-post-navigation__item--next">
+      <span class="c-post-navigation__icon-holder">
         {% assign id = "arrow-right" %}
         {% include icons/icon.html %}
       </span>
       {{ next_title }}
-      <span class="post-navigation__date">
+      <span class="c-post-navigation__date">
         {% assign thedate = next_date %}
         {% include nice-date.html %}
         {% for cat in next_cat %}

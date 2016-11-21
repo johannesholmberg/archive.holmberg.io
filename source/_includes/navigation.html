@@ -1,13 +1,13 @@
-<nav class="nav-primary">
-  <a href="/" class="brand">
+<nav class="c-nav-primary">
+  <a href="/" class="c-nav-primary__brand">
     {% assign id = "logo" %}
     {% include icons/icon.html %}
   </a>
-  <ul class="nav-primary__list">
+  <ul class="c-nav-primary__list">
     {% for nav in site.data.navigation %}
-      <li class="nav-primary__item">
+      <li class="c-nav-primary__item">
         <a href="{{ site.url }}{{ nav.url }}"
-        class="nav-primary__link {% if page.active == nav.active or page.categories[0] == nav.active %} nav-primary__link--active {% endif %}">
+        class="c-nav-primary__link {% if page.active == nav.active or page.categories[0] == nav.active %} c-nav-primary__link--active {% endif %}">
           {{ nav.text }}
         </a>
       </li>
