@@ -1,5 +1,5 @@
 ---
 title: "015 - On/Off Toggle"
 category: dailyui
-image: 015-onoff-toggle.png
+image: 015-onoff-toggle@2x.png
 ---
