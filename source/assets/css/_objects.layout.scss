@@ -107,7 +107,7 @@
         }
       }
 
-      .book-cover {
+      .c-book-cover {
         padding: 0;
       }
 
@@ -155,7 +155,6 @@
   }
 
   &--labs {
-
     $labs: #30b6be;
 
     a {
@@ -180,56 +179,9 @@
   }
 
   &--index {
-    main {
-      @extend %clearfix;
-      position: relative;
-      padding-top: 2.5em;
-
-      > h1 {
-        padding: 0 5.5vw;
-        margin: 0 0 1.8rem 0;
-      }
-    }
-  }
-}
-
-@supports(display: grid) {
-  .body {
-    &--book {
-      @include breakpoint(tablet-lg) {
-        article {
-          display: grid;
-          grid-template-columns: 2fr 1fr;
-          max-width: none;
-        }
-
-        .page-header {
-          width: auto;
-          grid-column: 1 / -1;
-          order: 1;
-        }
-
-        .main-content {
-          grid-row: 2 / 5;
-          order: 3;
-        }
-
-        .sidebar {
-          order: 4;
-        }
-
-        .sidebar__book {
-          float: none;
-          width: auto;
-          order: 2;
-        }
-      }
-
-      @include breakpoint(desktop-xl) {
-        article {
-          grid-template-columns: 2fr 1fr 1fr;
-        }
-      }
+    .page-title {
+      padding: 2.5rem 5.5vw 0;
+      margin: 0 0 1.8rem 0;
     }
   }
 }

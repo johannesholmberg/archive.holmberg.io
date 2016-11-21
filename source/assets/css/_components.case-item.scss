@@ -1,4 +1,4 @@
-.case-item {
+.c-case-item {
   display: block;
   position: relative;
   margin: 5em 0 22em;
@@ -11,7 +11,7 @@
   &:nth-child(even) {
     margin-left: 4em;
 
-    .case-item__text {
+    .c-case-item__text {
       left: -4em;
       right: auto;
     }
@@ -23,12 +23,12 @@
 
   &:hover,
   &:focus {
-    .case-item__text {
+    .c-case-item__text {
       transform: scale(1.1);
       box-shadow: 0 30px 40px rgba(0, 0, 0, .1);
     }
 
-    .case-item__image {
+    .c-case-item__image {
       transform: scale(.99);
     }
   }

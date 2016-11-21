@@ -1,5 +1,5 @@
-.nav-primary {
-  .brand {
+.c-nav-primary {
+  &__brand {
     line-height: 1;
     float: left;
     color: #fff;
@@ -15,11 +15,11 @@
     @include breakpoint(mobile-lg) {
       font-size: 2.7em;
     }
-  }
 
-  &__list {
-    list-style: none;
-    margin: 0;
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
   }
 
   &__item {

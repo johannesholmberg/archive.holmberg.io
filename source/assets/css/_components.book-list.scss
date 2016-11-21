@@ -1,4 +1,4 @@
-.book-list {
+.c-book-list {
   padding: 0 5.5vw;
   margin-bottom: 4em;
 
@@ -40,7 +40,7 @@
 
 
 @supports(display: grid) {
-  .book-list {
+  .c-book-list {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));

@@ -22,7 +22,7 @@ gulp.task('sass', function() {
   };
 
 
-  gulp.src('source/assets/css/source/cv.scss')
+  gulp.src('source/assets/css/cv.scss')
     .pipe(sass())
     .pipe(autoprefixer(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
       cascade: true
@@ -34,7 +34,7 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('source/assets/css'));
 
 
-  gulp.src('source/assets/css/source/config.imports.scss')
+  gulp.src('source/assets/css/config.imports.scss')
     .pipe(plumber({errorHandler: onError}))
 
     // Normal version

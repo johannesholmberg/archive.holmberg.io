@@ -53,7 +53,7 @@
 @import "tools.breakpoints";
 @import "tools.helpers";
 
-@import "../../vendor/normalize-scss/sass/normalize/import-now";
+@import "../vendor/normalize-scss/sass/normalize/import-now";
 @import "generic.reset";
 @import "generic.box-sizing";
 @import "generic.fonts";
@@ -85,9 +85,9 @@
 @import "components.nav-primary";
 @import "components.page-header";
 @import "components.sidebar";
-@import "components.sidebar__author-card";
-@import "components.sidebar__book-cover";
-@import "components.sidebar__post-navigation";
+@import "components.author-card";
+@import "components.book-cover";
+@import "components.post-navigation";
 @import "components.site-footer";
 @import "components.site-header";
 @import "components.start-section";

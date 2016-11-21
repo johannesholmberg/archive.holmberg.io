@@ -1,0 +1,40 @@
+.c-site-footer {
+  min-height: 12em; /* Temp fix for IE 10/11 */
+  background: $complementary-brand-color;
+  flex: 1;
+  color: #fff;
+  padding: 2.5em 5.5vw 3em;
+  clear: both;
+  position: relative;
+  font-size: .8em;
+  font-family: $font-sans;
+
+  &__list {
+    opacity: .95;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+  }
+
+  &__item {
+    margin-bottom: .35em;
+  }
+
+  &__link {
+    color: #fff;
+    background: linear-gradient(#fff, #fff) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.25em;
+    text-shadow: .1em 0 #2a3137, -.1em 0 #2a3137;
+    border-radius: .2em;
+    padding: .1em .2em 0;
+
+    &:hover,
+    &:focus {
+      color: $base-link-color;
+      background: #fff;
+      text-shadow: none;
+    }
+  }
+}

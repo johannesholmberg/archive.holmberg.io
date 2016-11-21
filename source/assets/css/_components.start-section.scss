@@ -1,0 +1,134 @@
+.c-home-section {
+  @extend %clearfix;
+  width: 100%;
+  position: relative;
+  background: $base-link-color;
+
+  @include breakpoint(tablet-sm) {
+    margin-bottom: -4em;
+  }
+
+  &__profile {
+    padding: 2em;
+    padding-left: 5.5vw;
+    padding-right: 3.5vw;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+
+    @include breakpoint(tablet-sm) {
+      float: left;
+      width: 33%;
+      text-align: left;
+      padding: 3em;
+    }
+  }
+
+  &__image {
+    border-radius: 100%;
+    max-width: 8em;
+    margin: 0 1.75em 0 0;
+    border: 3px solid $base-link-color;
+  }
+
+  &__text {
+    margin-top: 1em;
+  }
+
+  &__title {
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: $font-serif-bold;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.2;
+
+    @include breakpoint(mobile-lg) {
+      font-size: 2.4em;
+    }
+  }
+
+  &__meta {
+    font-size: 1.05em;
+    margin: .2em 0 .8em;
+    line-height: 1.4;
+    font-family: $font-serif-italic;
+    font-style: italic;
+
+    @include breakpoint(mobile-lg) {
+      font-size: calc(.6em + .85vw);
+      font-size: 1.25em;
+    }
+
+    span {
+      @include breakpoint(mobile-lg-max) {
+        display: block;
+      }
+    }
+  }
+
+  &__social {
+    margin-top: 1em;
+
+    @include breakpoint(tablet-sm) {
+      margin-top: 4em;
+    }
+
+    .title {
+      font-size: 1.1em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 1em;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      font-family: $font-sans;
+      display: block;
+      color: #fff;
+      padding: .1em .6em .25em;
+      border-radius: .2em;
+      margin-bottom: .35em;
+
+      span {
+        vertical-align: 2px;
+        margin-right: .15em;
+      }
+
+      &:hover,
+      &:focus {
+        background: #fff;
+        color: $base-link-color;
+      }
+    }
+  }
+
+  &__main-content {
+    background: #fff;
+    padding: 2em 6% 3em;
+    margin-bottom: 0;
+
+    @include breakpoint(tablet-sm) {
+      float: left;
+      box-shadow: 15px 20px 20px rgba(0, 0, 0, .2);
+      width: 64vw;
+      max-width: 60em;
+      padding: 4em 8% 5em;
+      top: -1.2em;
+      position: relative;
+      z-index: 1;
+      transform:
+        rotate(2deg)
+        translate3d(0, 0, 1px);
+    }
+  }
+}

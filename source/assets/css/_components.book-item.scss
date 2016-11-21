@@ -1,4 +1,4 @@
-.book-item {
+.c-book-item {
   display: block;
   float: left;
   width: 49.5%;
@@ -25,19 +25,19 @@
 
   &:hover,
   &:focus {
-    .book-item__title {
+    .c-book-item__title {
       color: $base-link-color;
     }
 
-    .book-item__image {
+    .c-book-item__image {
       transform: scale(1.1);
     }
   }
 
   &:active {
-    .book-item__image {
+    .c-book-item__image {
       transition: all .1s ease-out;
-      transform: scale(.95);
+      transform: scale(1.05);
     }
   }
 
@@ -81,7 +81,7 @@
 }
 
 @supports(display: grid) {
-  .book-item {
+  .c-book-item {
     margin-top: 0;
     max-width: none;
   }
