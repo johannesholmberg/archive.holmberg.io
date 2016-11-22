@@ -3,6 +3,7 @@ figure {
 }
 
 .figure {
+
   &--center {
     text-align: center;
   }
@@ -10,6 +11,12 @@ figure {
   &--portrait {
     img {
       max-height: 40em;
+    }
+  }
+
+  &--shadows {
+    img {
+      box-shadow: 0 15px 60px rgba(0, 0, 0, .15);
     }
   }
 }

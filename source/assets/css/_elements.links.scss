@@ -6,6 +6,30 @@ a {
   &:focus {
     color: darken($base-link-color, 25%);
   }
+
+  .s-main-content &,
+  .o-sidebar__meta-item & {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: center bottom 7%;
+    text-shadow:
+      3px 0 #fff,
+      2px 0 #fff,
+      1px 0 #fff,
+      -1px 0 #fff,
+      -2px 0 #fff,
+      -3px 0 #fff;
+
+    &:hover,
+    &:focus {
+      background-image: linear-gradient(currentColor, currentColor);
+    }
+  }
+
+  .o-sidebar__meta-item & {
+    text-shadow: .05em 0 $light-brand-color, -.05em 0 $light-brand-color;
+  }
 }
 
 a::-moz-selection {
@@ -14,28 +38,4 @@ a::-moz-selection {
 
 a::selection {
   text-shadow: none;
-}
-
-.main-content a,
-aside ul a {
-  background-image: linear-gradient(currentColor, currentColor);
-  background-repeat: no-repeat;
-  background-size: 100% 1px;
-  background-position: center bottom 7%;
-  text-shadow:
-    3px 0 #fff,
-    2px 0 #fff,
-    1px 0 #fff,
-    -1px 0 #fff,
-    -2px 0 #fff,
-    -3px 0 #fff;
-
-  &:hover,
-  &:focus {
-    background-image: linear-gradient(currentColor, currentColor);
-  }
-}
-
-aside ul a {
-  text-shadow: .05em 0 $light-brand-color, -.05em 0 $light-brand-color;
 }
