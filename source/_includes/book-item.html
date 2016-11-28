@@ -1,6 +1,10 @@
 {% assign title = post.url | split: '/' %}
 {% assign titleNew = title | last %}
-{% assign cover = titleNew | replace: '-read-2', '' %}
+{% if post.cover == "" or post.cover == nil %}
+  {% assign cover = titleNew | replace: '-read-2', '' %}
+{% else %}
+  {% assign cover = post.cover %}
+{% endif %}
 
 <a href="{{ post.url }}" class="c-book-item">
   <div class="c-book-item__cover">

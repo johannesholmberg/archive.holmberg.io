@@ -3,7 +3,12 @@
     <a href="{{ page.book-url }}">
       {% assign title = page.url | split: '/' %}
       {% assign titleNew = title | last %}
-      {% assign cover = titleNew | replace: '-read-2', '' %}
+      {% if page.cover == "" or page.cover == nil %}
+        {% assign cover = titleNew | replace: '-read-2', '' %}
+      {% else %}
+        {% assign cover = page.cover %}
+      {% endif %}
+
       {% assign image_path = "/uploads/reading/" | append: cover | append: ".jpg" %}
       <img
         class="c-book-cover__image"
