@@ -7,7 +7,7 @@ crosspost_to_medium: true
 has_intro: true
 ---
 
-I've been using a budgeting service called [YNAB](https://www.youneedabudget.com/) for almost two years now and would like to share some of my thoughts on it.
+I've been using a budgeting service called [YNAB] for almost two years now and would like to share some of my thoughts on it.
 
 The way I've handled my finances in the past has been in a pretty strict fashion. I took a rather big chunk of my monthly paycheck (maybe around a third or so) and put it away on a savings account. Then I lived through the month with the rest of the money I had on hand. Pretty simple.
 
@@ -67,3 +67,5 @@ Once every month, usually when the paycheck comes in, I will sit down and have a
 
 ## Summary
 I am completely sold on the way YNAB handles budgeting. It’s super easy and fun to get started and the best thing is that I learn more about my priorities in the process. They shift, as life has a tendency to do. And it’s so frictionless to tweak the budget as needed. This is not a budget set in stone that I can’t touch after it has been set. This is a living, flexible thing that I can form into something that works for me.
+
+[YNAB]: https://www.youneedabudget.com/
