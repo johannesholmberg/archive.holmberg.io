@@ -62,7 +62,7 @@ gulp.task('critical', function() {
   // Post
   critical.generate({
     base: base,
-    src: 'notebook/new-place/index.html',
+    src: 'notebook/2015/10/new-place/index.html',
     css: [css],
     dest: 'source/_includes/criticalcss/post.css',
     width: width,
@@ -86,7 +86,7 @@ gulp.task('critical', function() {
   // Book
   critical.generate({
     base: base,
-    src: 'reading/farnhams-freehold/index.html',
+    src: 'reading/2016/10/farnhams-freehold/index.html',
     css: [css],
     dest: 'source/_includes/criticalcss/book.css',
     width: width,

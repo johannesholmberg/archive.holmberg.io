@@ -18,7 +18,7 @@ But then I stumbled upon YNAB.
 {% assign filename = page.cover %}
 {% assign ext = "png" %}
 {% assign attributes = "figure--margins" %}
-{% assign alt = "" %}
+{% assign alt = "The web interface of YNAB" %}
 {% assign caption = "The web interface of YNAB" %}
 {% include responsive-image.html %}
 
@@ -34,7 +34,7 @@ When the categories were set up I started delegating my money to them.
 {% assign filename = "ynab-2" %}
 {% assign ext = "png" %}
 {% assign attributes = "figure--margins" %}
-{% assign alt = "" %}
+{% assign alt = "A few categories set up in YNAB" %}
 {% assign caption = "A few categories set up in YNAB" %}
 {% include responsive-image.html %}
 
@@ -46,7 +46,7 @@ My grandparents used to budget by putting money in different envelopes and then 
 After a few months of using YNAB, I started to figure out its real power—setting priorities. I can set up any goal I want and start budgeting my money in order to achieve that goal. No matter how big or small it is.
 
 {% assign filename = "ynab-3" %}
-{% assign alt = "" %}
+{% assign alt = "Goal in YNAB" %}
 {% assign caption = "" %}
 {% include responsive-image.html %}
 
