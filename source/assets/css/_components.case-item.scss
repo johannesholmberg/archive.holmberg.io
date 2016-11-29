@@ -25,11 +25,12 @@
   &:focus {
     .c-case-item__text {
       transform: scale(1.1);
-      box-shadow: 0 30px 40px rgba(0, 0, 0, .1);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
     }
 
     .c-case-item__image {
       transform: scale(.99);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, .15);
     }
   }
 
@@ -43,7 +44,7 @@
     background-color: #fff;
     background-color: rgba(255, 255, 255, .8);
 
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
     color: $base-text-color;
     padding: 1.6em 2em;
 
