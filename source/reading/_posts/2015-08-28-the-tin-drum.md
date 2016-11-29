@@ -5,9 +5,10 @@ category: reading
 cover: the-tin-drum
 author: Günter Grass
 publisher: Mariner Books
-book-url: http://www.amazon.com/Tin-Drum-Gunter-Grass-ebook/dp/B002TJLEXC/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
-has_intro: true
-has_cover: yes
+book-url: http://www.amazon.com/Tin-Drum-Gunter-Grass-ebook/dp/B002TJLEXC/
+has_cover: true
+redirect_from:
+  - /reading/the-tin-drum/
 ---
 {% include book-cover.html %}
 

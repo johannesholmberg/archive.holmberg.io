@@ -3,11 +3,14 @@ layout: book
 title: "To the Lighthouse"
 date: 2016-07-18 10:23:19
 category: reading
+cover: to-the-lighthouse
 author: Virginia Woolf
 publisher: Amazon Digital Services LLC
 published: 1927
-has_cover: yes
-book-url: https://www.amazon.com/Lighthouse-Virginia-Woolf-ebook/dp/B00DHT1F2I?ie=UTF8&ref_=r_soa_w_d#nav-subnav
+book-url: https://www.amazon.com/Lighthouse-Virginia-Woolf-ebook/dp/B00DHT1F2I
+has_cover: true
+redirect_from:
+  - /reading/to-the-lighthouse/
 ---
 {% include book-cover.html %}
 

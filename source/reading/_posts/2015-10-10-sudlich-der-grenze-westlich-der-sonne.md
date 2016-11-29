@@ -2,11 +2,13 @@
 layout: book
 title: "Südlich der Grenze, westlich der Sonne"
 category: reading
+cover: sudlich-der-grenze-westlich-der-sonne
 author: Haruki Murakami
 publisher: Dumont Buchverlag
-has_cover: yes
-book-url: http://www.amazon.de/S-dlich-Grenze-westlich-Sonne-Roman-ebook/dp/B00CRH0QJE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
-has_intro: true
+book-url: http://www.amazon.de/S-dlich-Grenze-westlich-Sonne-Roman-ebook/dp/B00CRH0QJE/
+has_cover: true
+redirect_from:
+  - /reading/sudlich-der-grenze-westlich-der-sonne/
 ---
 {% include book-cover.html %}
 

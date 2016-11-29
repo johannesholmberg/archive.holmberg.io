@@ -7,8 +7,9 @@ cover: tomokos-traume
 author: Finlay Weber
 publisher: Amazon Digital Services
 book-url: http://www.amazon.com/Tomokos-Tr%C3%A4ume-German-Edition-Finlay-ebook/dp/B009O0NS56
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/tomokos-traume/
 ---
 {% include book-cover.html %}
 

@@ -8,6 +8,8 @@ author: Mason Currey
 publisher: Knopf
 book-url: http://www.amazon.com/gp/product/B009Y4I4OM/ref=kinw_myk_ro_title
 has_cover: true
+redirect_from:
+  - /reading/daily-rituals/
 ---
 {% include book-cover.html %}
 

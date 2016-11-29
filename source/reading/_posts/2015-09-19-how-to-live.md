@@ -2,11 +2,13 @@
 layout: book
 title: "How to Live: A Life of Montaigne in One Question and Twenty Attempts at an Answer"
 category: reading
+cover: how-to-live
 author: Sarah Bakewell
 publisher: Vintage Digital
-has_cover: yes
-book-url: http://www.amazon.com/How-Live-Montaigne-question-attempts-ebook/dp/B004URRVBK/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
-has_intro: true
+book-url: http://www.amazon.com/How-Live-Montaigne-question-attempts-ebook/dp/B004URRVBK/
+has_cover: true
+redirect_from:
+  - /reading/how-to-live/
 ---
 {% include book-cover.html %}
 

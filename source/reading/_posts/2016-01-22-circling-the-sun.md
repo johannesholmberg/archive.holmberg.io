@@ -2,11 +2,14 @@
 layout: book
 title: "Circling The Sun"
 category: reading
+cover: circling-the-sun
 author: Paula McLain
 publisher: Ballantine Books
 published: 2015
-has_cover: yes
-book-url: http://www.amazon.com/dp/B00R04GCMY/ref=r_soa_w_d
+book-url: http://www.amazon.com/dp/B00R04GCMY/
+has_cover: true
+redirect_from:
+  - /reading/circling-the-sun/
 ---
 {% include book-cover.html %}
 

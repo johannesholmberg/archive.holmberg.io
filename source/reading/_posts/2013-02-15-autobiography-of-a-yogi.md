@@ -8,6 +8,8 @@ author: Paramhansa Yogananda
 publisher: Crystal Clarity Publishers
 book-url: http://www.amazon.com/gp/product/B003QTDDXS/ref=kinw_myk_ro_title
 has_cover: true
+redirect_from:
+  - /reading/autobiography-of-a-yogi/
 ---
 {% include book-cover.html %}
 

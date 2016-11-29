@@ -8,6 +8,8 @@ cover: loving-frank
 publisher: Ballantine Books
 book-url: http://www.amazon.com/gp/product/B000URWYTS/
 has_cover: true
+redirect_from:
+  - /reading/loving-frank/
 ---
 {% include book-cover.html %}
 

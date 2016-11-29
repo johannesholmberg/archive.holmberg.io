@@ -3,12 +3,14 @@ layout: book
 title: "Farnham’s Freehold"
 date: 2016-10-20 15:03:02
 category: reading
+cover: farnhams-freehold
 author: Robert A. Heinlein
 publisher: Baen Books
 published: 1964
+book-url: https://www.amazon.com/dp/B00APAEFKQ/
 has_cover: true
-has_intro: true
-book-url: https://www.amazon.com/dp/B00APAEFKQ/ref=r_soa_w_d
+redirect_from:
+  - /reading/farnhams-freehold/
 ---
 {% include book-cover.html %}
 

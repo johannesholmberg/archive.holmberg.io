@@ -3,11 +3,14 @@ layout: book
 title: "Responsive Design Workflow"
 date: 2016-07-09 10:21:12
 category: reading
+cover: responsive-design-workflow
 author: Stephen Hay
 publisher: New Riders
 published: 2013
-has_cover: yes
 book-url: http://www.responsivedesignworkflow.com/
+has_cover: true
+redirect_from:
+  - /reading/responsive-design-workflow/
 ---
 {% include book-cover.html %}
 

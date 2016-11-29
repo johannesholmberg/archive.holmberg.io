@@ -8,6 +8,8 @@ author: Daniel Quinn
 publisher: Bantam
 book-url: http://www.amazon.com/gp/product/B00338075Y/ref=kinw_myk_ro_title
 has_cover: true
+redirect_from:
+  - /reading/the-story-of-b/
 ---
 {% include book-cover.html %}
 

@@ -7,8 +7,9 @@ cover: be-here-now
 author: Ram Dass
 publisher: HarperCollins e-books
 book-url: http://www.amazon.com/Here-Now-Enhanced-Ram-Dass-ebook/dp/B005R9HK8O/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/be-here-now/
 ---
 {% include book-cover.html %}
 

@@ -6,9 +6,10 @@ category: reading
 cover: farmer-in-the-sky
 author: Robert A. Heinlein
 publisher: Baen Books
-book-url: http://www.amazon.com/Farmer-Sky-Heinleins-Juveniles-Book-ebook/dp/B00APAEDBW/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-has_intro: true
+book-url: http://www.amazon.com/Farmer-Sky-Heinleins-Juveniles-Book-ebook/dp/B00APAEDBW/
 has_cover: true
+redirect_from:
+  - /reading/farmer-in-the-sky/
 ---
 {% include book-cover.html %}
 

@@ -6,8 +6,9 @@ author: Robert A. Heinlein
 cover: stranger-in-a-strange-land
 publisher: Ace
 book-url: http://www.amazon.com/Stranger-Strange-Land-Remembering-Tomorrow/dp/0441790348
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/stranger-in-a-strange-land/
 ---
 {% include book-cover.html %}
 

@@ -5,8 +5,9 @@ category: reading
 author: Robert A. Heinlein
 publisher: Ace
 book-url: http://www.amazon.com/Stranger-Strange-Land-Remembering-Tomorrow/dp/0441790348
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/stranger-in-a-strange-land-read-2/
 ---
 {% include book-cover.html %}
 

@@ -8,6 +8,8 @@ publisher: Puffin
 format: iBooks
 book-url: http://www.amazon.com/Wrinkle-Time-Puffin-Book-ebook/dp/B000S1LE0Q/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
 has_cover: true
+redirect_from:
+  - /reading/a-wrinkle-in-time/
 ---
 {% include book-cover.html %}
 

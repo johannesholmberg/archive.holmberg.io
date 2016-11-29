@@ -8,6 +8,8 @@ publisher: Simon & Schuster
 format: iBooks
 book-url: http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537
 has_cover: true
+redirect_from:
+  - /reading/steve-jobs/
 ---
 {% include book-cover.html %}
 

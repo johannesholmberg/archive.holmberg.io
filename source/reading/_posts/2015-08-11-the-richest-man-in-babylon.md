@@ -5,11 +5,10 @@ category: reading
 cover: the-richest-man-in-babylon
 author: George S. Clason
 publisher: Stellar Editions
-book-url: http://www.amazon.com/Richest-Man-Babylon-George-Clason-ebook/dp/B00OJNA536/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
-has_intro: true
+book-url: http://www.amazon.com/Richest-Man-Babylon-George-Clason-ebook/dp/B00OJNA536/
+has_cover: true
 redirect_from:
-  - /reading/2015/08/11/the-richest-man-in-babylon/
-has_cover: yes
+  - /reading/the-richest-man-in-babylon/
 ---
 {% include book-cover.html %}
 

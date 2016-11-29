@@ -2,15 +2,17 @@
 layout: book
 title: "Responsive Design: Patterns & Principles"
 category: reading
+cover: responsive-design-patterns-and-principles
 author: Ethan Marcotte
 publisher: A Book Apart
-has_cover: yes
 book-url: http://abookapart.com/products/responsive-design-patterns-principles
+has_cover: true
+redirect_from:
+  - /reading/responsive-design-patterns-and-principles/
 ---
 {% include book-cover.html %}
 
 The books from A Book Apart are immensely helpful. They’re covering a single subject, are brief and to the point. I’ve delightfully picked each and every one up over the years and they have taught me so much. I see them as the de facto standard for where our industry is heading.
-{: .intro}
 
 In this book about patterns and principles for responsive design, Ethan sheds some light on problems we have at the moment with frameworks and a lack of design language for this relatively young medium.
 

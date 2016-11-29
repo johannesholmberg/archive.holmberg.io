@@ -3,11 +3,14 @@ layout: book
 title: "Rocket Ship Galileo"
 date: 2016-06-17 16:46:59
 category: reading
+cover: rocket-ship-galileo
 author: Robert A. Heinlein
 publisher: Amazon Digital Services LLC
 published: 1947
-has_cover: yes
-book-url: https://www.amazon.com/Rocket-Ship-Galileo-Heinleins-Juveniles-ebook/dp/B00H8XGKVU?ie=UTF8&ref_=r_soa_w_d
+book-url: https://www.amazon.com/Rocket-Ship-Galileo-Heinleins-Juveniles-ebook/dp/B00H8XGKVU
+has_cover: true
+redirect_from:
+  - /reading/rocket-ship-galileo/
 ---
 {% include book-cover.html %}
 

@@ -6,8 +6,9 @@ author: Ayn Rand
 cover: the-fountainhead
 publisher: Signet
 book-url: http://www.amazon.com/The-Fountainhead-Ayn-Rand/dp/0451191153
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/the-fountainhead/
 ---
 {% include book-cover.html %}
 

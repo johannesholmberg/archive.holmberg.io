@@ -7,8 +7,9 @@ author: Haruki Murakami
 publisher: Vintage Digital
 format: iBooks
 book-url: http://www.amazon.com/Norwegian-Wood-Haruki-Murakami-ebook/dp/B005TKD6NY/
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/norwegian-wood/
 ---
 {% include book-cover.html %}
 

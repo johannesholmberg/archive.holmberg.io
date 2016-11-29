@@ -7,8 +7,9 @@ cover: cats-cradle
 author: Kurt Vonnegut
 publisher: RosettaBooks
 book-url: http://www.amazon.com/Cats-Cradle-Kurt-Vonnegut-ebook/dp/B003XRELGQ/
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/cats-cradle/
 ---
 {% include book-cover.html %}
 

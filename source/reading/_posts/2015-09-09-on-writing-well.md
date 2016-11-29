@@ -2,11 +2,13 @@
 layout: book
 title: "On Writing Well"
 category: reading
+cover: on-writing-well
 author: William Zinsser
 publisher: Harper Perennial
 has_cover: yes
-book-url: http://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction-ebook/dp/B0090RVGW0/ref=mt_kindle?_encoding=UTF8&me=
-has_intro: true
+book-url: http://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction-ebook/dp/B0090RVGW0/
+redirect_from:
+  - /reading/on-writing-well/
 ---
 {% include book-cover.html %}
 

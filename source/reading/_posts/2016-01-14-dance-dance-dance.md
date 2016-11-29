@@ -2,11 +2,14 @@
 layout: book
 title: "Dance Dance Dance"
 category: reading
+cover: dance-dance-dance
 author: Haruki Murakami
 publisher: Vintage Digital
 published: 1988
-has_cover: yes
-book-url: http://www.amazon.com/Dance-Haruki-Murakami-ebook/dp/B005TKC0V8/ref=tmm_kin_swatch_0
+book-url: http://www.amazon.com/Dance-Haruki-Murakami-ebook/dp/B005TKC0V8/
+has_cover: true
+redirect_from:
+  - /reading/dance-dance-dance/
 ---
 {% include book-cover.html %}
 

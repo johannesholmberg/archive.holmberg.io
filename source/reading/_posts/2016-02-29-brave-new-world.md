@@ -3,16 +3,18 @@ layout: book
 title: "Brave New World"
 date: 2016-02-29 19:28:51
 category: reading
+cover: brave-new-world
 author: Aldous Huxley
 publisher: Vintage Digital
 published: 1932
-has_cover: yes
 book-url: http://www.amazon.com/Brave-New-World-Aldous-Huxley-ebook/dp/B0031R5K6S/
+has_cover: true
+redirect_from:
+  - /reading/brave-new-world/
 ---
 {% include book-cover.html %}
 
 There's been two books on my reading list for years. _Brave New World_ and _1984_. Two classics covering the same theme that I never got around to read. This weekend as I was on a trip to Edinburgh I finally decided to open up _Brave New World_.
-{: .intro}
 
 Aldous Huxley's _[Island]_ is one of my favorite books and I think that is a reason why I haven't read this until now. _Island_ was Huxley's utopia, his answer to the dystopian _Brave New World_. I was not sure I would get anything out of this. But I was of course very wrong.
 

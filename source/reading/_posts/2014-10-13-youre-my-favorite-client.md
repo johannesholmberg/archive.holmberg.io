@@ -8,6 +8,8 @@ cover: youre-my-favorite-client
 publisher: A Book Apart
 book-url: http://www.abookapart.com/products/youre-my-favorite-client
 has_cover: true
+redirect_from:
+  - /reading/youre-my-favorite-client/
 ---
 {% include book-cover.html %}
 

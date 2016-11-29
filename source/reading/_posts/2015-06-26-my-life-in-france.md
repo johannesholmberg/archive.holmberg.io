@@ -6,9 +6,10 @@ category: reading
 cover: my-life-in-france
 author: Julia Child
 publisher: Duckworth Overlook
-book-url: http://www.amazon.com/My-Life-France-Julia-Child-ebook/dp/B00YLR2DU8/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-has_intro: true
+book-url: http://www.amazon.com/My-Life-France-Julia-Child-ebook/dp/B00YLR2DU8/
 has_cover: true
+redirect_from:
+  - /reading/my-life-in-france/
 ---
 {% include book-cover.html %}
 

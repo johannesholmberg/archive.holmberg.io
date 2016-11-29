@@ -3,12 +3,14 @@ layout: book
 title: "Night Train to Lisbon"
 date: 2016-09-22 10:29:14
 category: reading
+cover: night-train-to-lisbon
 author: Pascal Mercier
 publisher: Atlantic Books
 published: 2004
+book-url: https://www.amazon.com/dp/B0040QE39Y/
 has_cover: true
-has_intro: true
-book-url: https://www.amazon.com/dp/B0040QE39Y/ref=r_soa_w_d
+redirect_from:
+  - /reading/night-train-to-lisbon/
 ---
 {% include book-cover.html %}
 

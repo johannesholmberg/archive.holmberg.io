@@ -3,11 +3,14 @@ layout: book
 title: "Never Let Me Go"
 date: 2016-05-14 22:59:26
 category: reading
+cover: never-let-me-go
 author: Kazuo Ishiguro
 publisher: Faber & Faber
 published: 2005
-has_cover: yes
-book-url: https://www.amazon.com/gp/product/B002RI9ZX6/ref=kinw_myk_ro_title
+book-url: https://www.amazon.com/gp/product/B002RI9ZX6/
+has_cover: true
+redirect_from:
+  - /reading/never-let-me-go/
 ---
 {% include book-cover.html %}
 

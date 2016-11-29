@@ -8,6 +8,8 @@ author: Ursula K. Le Guin
 publisher:
 book-url: http://www.amazon.com/Der-Magier-Erdsee-Erdsee-Zyklus-Edition-ebook/dp/B00ANMH3CS
 has_cover: true
+redirect_from:
+  - /reading/der-magier-der-erdsee/
 ---
 {% include book-cover.html %}
 

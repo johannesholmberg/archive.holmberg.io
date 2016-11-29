@@ -2,11 +2,13 @@
 layout: book
 title: "Under the Wide and Starry Sky"
 category: reading
+cover: under-the-wide-and-starry-sky
 author: Nancy Horan
 publisher: Two Roads
-book-url: http://www.amazon.com/Under-Wide-Starry-Nancy-Horan-ebook/dp/B00DS9G194/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
-has_intro: true
-has_cover: yes
+book-url: http://www.amazon.com/Under-Wide-Starry-Nancy-Horan-ebook/dp/B00DS9G194/
+has_cover: true
+redirect_from:
+  - /reading/under-the-wide-and-starry-sky/
 ---
 {% include book-cover.html %}
 

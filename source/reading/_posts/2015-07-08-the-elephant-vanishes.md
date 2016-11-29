@@ -6,9 +6,10 @@ category: reading
 cover: the-elephant-vanishes
 author: Haruki Murakami
 publisher: Vintage Digital
-book-url: http://www.amazon.com/gp/product/B005TKD5JO?psc=1&redirect=true&ref_=oh_aui_d_detailpage_o00_
-has_intro: true
+book-url: https://www.amazon.com/gp/product/B005TKD5JO?psc=1
 has_cover: true
+redirect_from:
+  - /reading/the-elephant-vanishes/
 ---
 {% include book-cover.html %}
 

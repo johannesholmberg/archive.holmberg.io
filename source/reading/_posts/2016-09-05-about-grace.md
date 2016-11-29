@@ -3,12 +3,14 @@ layout: book
 title: "About Grace"
 date: 2016-09-05 13:44:20
 category: reading
+cover: about-grace
 author: Anthony Doerr
 publisher: Harper Perennial
 published: 2004
-has_cover: true
-has_intro: true
 book-url: https://www.amazon.com/dp/B006K113N6/ref=r_soa_w_d
+has_cover: true
+redirect_from:
+  - /reading/about-grace/
 ---
 {% include book-cover.html %}
 

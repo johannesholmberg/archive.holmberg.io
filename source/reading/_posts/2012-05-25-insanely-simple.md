@@ -8,6 +8,8 @@ publisher: Portfolio Trade
 format: iBooks
 book-url: http://www.amazon.com/Insanely-Simple-Obsession-Drives-Success/dp/1591846218
 has_cover: true
+redirect_from:
+  - /reading/insanely-simple/
 ---
 {% include book-cover.html %}
 

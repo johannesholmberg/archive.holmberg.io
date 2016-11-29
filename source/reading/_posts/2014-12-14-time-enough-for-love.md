@@ -8,6 +8,8 @@ author: Robert A. Heinlein
 publisher: Ace
 book-url: http://www.amazon.com/Time-Enough-Love-Robert-Heinlein-ebook/dp/B004IYITXE/
 has_cover: true
+redirect_from:
+  - /reading/time-enough-for-love/
 ---
 {% include book-cover.html %}
 

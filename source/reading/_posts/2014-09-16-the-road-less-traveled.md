@@ -6,8 +6,10 @@ category: reading
 author: M. Scott Peck
 cover: the-road-less-traveled
 publisher: Ebury Digital
-book-url: http://www.amazon.com/Road-Less-Travelled-Psychology-Traditional-ebook/dp/B009EQG80W/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
+book-url: https://www.amazon.com/Road-Less-Travelled-Psychology-Traditional-ebook/dp/B009EQG80W/
 has_cover: true
+redirect_from:
+  - /reading/the-road-less-traveled/
 ---
 {% include book-cover.html %}
 

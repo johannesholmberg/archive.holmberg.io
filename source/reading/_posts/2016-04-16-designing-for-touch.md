@@ -3,11 +3,14 @@ layout: book
 title: "Designing for Touch"
 date: 2016-04-16 10:20:27
 category: reading
+cover: designing-for-touch
 author: Josh Clark
 publisher: A Book Apart
 published: 2016
-has_cover: yes
 book-url: https://abookapart.com/products/designing-for-touch
+has_cover: true
+redirect_from:
+  - /reading/designing-for-touch/
 ---
 {% include book-cover.html %}
 

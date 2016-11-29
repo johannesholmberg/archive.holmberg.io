@@ -6,8 +6,9 @@ cover: smashing-book-5
 author: Smashing Magazine
 publisher: Smashing Magazine
 book-url: http://www.amazon.com/Smashing-Book-Real-Life-Responsive-Design-ebook/dp/B010DNT09A
-has_intro: true
-has_cover: yes
+has_cover: true
+redirect_from:
+  - /reading/smashing-book-5/
 ---
 {% include book-cover.html %}
 

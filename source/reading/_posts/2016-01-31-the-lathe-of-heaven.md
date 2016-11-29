@@ -2,11 +2,14 @@
 layout: book
 title: "The Lathe of Heaven"
 category: reading
+cover: the-lathe-of-heaven
 author: Ursula K. Le Guin
 publisher: Diversion Books
 published: 1971
-has_cover: yes
-book-url: http://www.amazon.com/dp/B00JTZ95I0/ref=r_soa_w_d
+book-url: http://www.amazon.com/dp/B00JTZ95I0/
+has_cover: true
+redirect_from:
+  - /reading/the-lathe-of-heaven/
 ---
 {% include book-cover.html %}
 

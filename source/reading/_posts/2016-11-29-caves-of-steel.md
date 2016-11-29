@@ -6,9 +6,8 @@ category: reading
 author: Isaac Asimov
 publisher: Spectra
 published: 1953
-has_cover: true
-has_intro: true
 book-url: https://www.amazon.com/dp/B004JHYRAO/ref=r_soa_w_d
+has_cover: true
 published: false
 ---
 {% include book-cover.html %}

@@ -3,11 +3,14 @@ layout: book
 title: "The Player of Games"
 date: 2016-04-19 10:12:33
 category: reading
+cover: the-player-of-games
 author: Iain M. Banks
 publisher: Orbit
 published: 1988
-has_cover: yes
-book-url: http://www.amazon.com/Player-Games-Culture-Novel-ebook/dp/B002TXZT4I/ref=tmm_kin_swatch_0
+book-url: http://www.amazon.com/Player-Games-Culture-Novel-ebook/dp/B002TXZT4I/
+has_cover: true
+redirect_from:
+  - /reading/the-player-of-games/
 ---
 {% include book-cover.html %}
 

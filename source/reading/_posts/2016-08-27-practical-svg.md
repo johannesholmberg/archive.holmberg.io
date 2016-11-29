@@ -3,12 +3,14 @@ layout: book
 title: "Practical SVG"
 date: 2016-08-27 22:19:53
 category: reading
+cover: practical-svg
 author: Chris Coyier
 publisher: A Book Apart
 published: 2016
-has_intro: true
 book-url: https://abookapart.com/products/practical-svg
-has_cover: yes
+has_cover: true
+redirect_from:
+  - /reading/practical-svg/
 ---
 {% include book-cover.html %}
 

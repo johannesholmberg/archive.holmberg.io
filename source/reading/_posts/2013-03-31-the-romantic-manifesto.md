@@ -8,6 +8,8 @@ author: Ayn Rand
 publisher: Signet
 book-url: https://www.amazon.com/Romantic-Manifesto-Philosophy-Literature-Shakespeare/dp/0451149165/
 has_cover: true
+redirect_from:
+  - /reading/the-romantic-manifesto/
 ---
 {% include book-cover.html %}
 

@@ -6,8 +6,9 @@ cover: the-left-hand-of-darkness
 author: Ursula K. Le Guin
 publisher: Orbit
 book-url: http://www.amazon.com/Left-Hand-Darkness-Ursula-Guin-ebook/dp/B009SQ017O/
-has_intro: true
 has_cover: true
+redirect_from:
+  - /reading/the-left-hand-of-darkness/
 ---
 {% include book-cover.html %}
 

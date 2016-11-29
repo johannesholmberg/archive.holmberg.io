@@ -5,9 +5,10 @@ category: reading
 cover: becoming-steve-jobs
 author: Brent Schlender and Rick Tetzeli
 publisher: Sceptre
-book-url: http://www.amazon.com/Becoming-Steve-Jobs-evolution-visionary-ebook/dp/B00P6URK66/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&qid=
-has_intro: true
+book-url: http://www.amazon.com/Becoming-Steve-Jobs-evolution-visionary-ebook/dp/B00P6URK66/
 has_cover: true
+redirect_from:
+  - /reading/becoming-steve-jobs/
 ---
 {% include book-cover.html %}
 

@@ -2,11 +2,13 @@
 layout: book
 title: "The Dispossessed"
 category: reading
+cover: the-dispossessed
 author: Ursula K. Le Guin
 publisher: HarperCollins e-books
-has_cover: yes
 book-url: http://www.amazon.com/dp/B000FC11GA/ref=pe_385040_118058080_TE_M1T1DP
-has_intro: true
+has_cover: true
+redirect_from:
+  - /reading/the-dispossessed/
 ---
 {% include book-cover.html %}
 

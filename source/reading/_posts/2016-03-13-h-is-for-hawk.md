@@ -3,16 +3,18 @@ layout: book
 title: "H is for Hawk"
 date: 2016-03-13 10:19:43
 category: reading
+cover: h-is-for-hawk
 author: Helen Macdonald
 publisher: Vintage Digital
 published: 2014
-has_cover: yes
 book-url: http://www.amazon.com/dp/B00JLLD7TU/
+has_cover: true
+redirect_from:
+  - /reading/h-is-for-hawk/
 ---
 {% include book-cover.html %}
 
 A memoir written by Helen Macdonald. Her father has died and in way of coping with it she acquires a hawk, with the intention of training it.
-{: .intro}
 
 Helen has always been into falconry since she was little and is fascinated by the birds. Her father had the same type of fascination, almost bordering to obsession, over airplanes. As a boy he could go to the hills in the morning, lay down and just look up into the sky, for as long as twelve hours. She must have gotten the passion from him. The hawk's name is Mabel and together, Helen and Mabel learn about life from each other.
 

@@ -5,9 +5,10 @@ category: reading
 cover: the-martian
 author: Andy Weir
 publisher: Ebury Digital
-book-url: http://www.amazon.com/Martian-Andy-Weir-ebook/dp/B00FAXJHCY/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1437980408&sr=1-1&keywords=the+martian
-has_intro: true
-has_cover: yes
+book-url: http://www.amazon.com/Martian-Andy-Weir-ebook/dp/B00FAXJHCY/
+has_cover: true
+redirect_from:
+  - /reading/the-martian/
 ---
 {% include book-cover.html %}
 
