@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Everything new"
+has_intro: true
 redirect_from:
   - /journal/everything-new/
+  - /notebook/everything-new/
 ---
 
 With a hint of perspiration starting to shine through on my forehead I'm landing in the foreign city. It's hot.

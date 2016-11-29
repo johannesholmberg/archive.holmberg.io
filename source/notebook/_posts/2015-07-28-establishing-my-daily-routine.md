@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Establishing My Daily Routine"
+has_intro: true
 redirect_from:
   - /article/establishing-my-daily-routine/
+  - /notebook/establishing-my-daily-routine/
 ---
 
 Let’s face it. Managing time is quite hard. Especially when I don’t have people around who expect me to show up at certain hours. When I started working independently I wanted to learn the best way for me personally to manage my time. Some months ago I sketched out a rough utopian schedule the way I thought might work best for me. Just to see if I could stick with it.

@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Reinvent yourself"
+has_intro: true
 crosspost_to_medium: true
 redirect_from:
   - /journal/reinvent-yourself/
   - /article/reinvent-yourself/
+  - /notebook/reinvent-yourself/
 ---
 
 What would it be like if you took everything you knew about yourself up until this point and threw it in the trash bin?

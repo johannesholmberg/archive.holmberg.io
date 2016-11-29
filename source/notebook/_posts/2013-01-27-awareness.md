@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Awareness"
+has_intro: true
 redirect_from:
   - /journal/awareness/
   - /article/awareness/
+  - /notebook/awareness/
 ---
 
 I think it was around springtime last year when I felt it for the first time. That tingling in my hand, that wavering in my mind telling me something. All of a sudden I noticed. Why hadn't I noticed before?

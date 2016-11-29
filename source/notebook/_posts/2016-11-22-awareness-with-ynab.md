@@ -2,8 +2,8 @@
 layout: post
 title: "Awareness with YNAB"
 cover: ynab-1
-crosspost_to_medium: false
 has_intro: true
+crosspost_to_medium: false
 published: false
 ---
 

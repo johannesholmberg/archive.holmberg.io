@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "German Log: Day 3"
+has_intro: true
 redirect_from:
   - /writing/german-update/
+  - /notebook/german-update/
 ---
 
 A couple of days in on my month of German and I have some updates.

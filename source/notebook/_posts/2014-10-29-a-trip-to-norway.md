@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "A trip to Norway"
+has_intro: true
 redirect_from:
   - /journal/a-trip-to-norway/
+  - /notebook/a-trip-to-norway/
 ---
 
 It seems like every second year now I have the opportunity and time to attend a bigger conference in my field. It’s way too few but I’m working on it. This weekend I went with my team at [Osynlig](http://osynlig.se) to attend [TDC](http://trondheimdc.no/) in Trondheim.

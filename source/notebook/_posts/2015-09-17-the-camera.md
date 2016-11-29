@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "The Camera"
+has_intro: true
 redirect_from:
   - /article/the-camera/
+  - /notebook/the-camera/
 ---
 
 {% assign filename = "rolleiflex" %}

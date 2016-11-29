@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Obsessing Over News"
+has_intro: true
 redirect_from:
   - /journal/obsessing-over-news/
+  - /notebook/obsessing-over-news/
 ---
 
 I was walking in to the city the other day when a guy stopped me on the street. I hate being interrupted when I'm out and about but he asked me for a couple of questions and since he already made me stand still I said it was okay.

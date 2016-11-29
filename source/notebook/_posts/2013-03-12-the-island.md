@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "The Island"
+has_intro: true
 redirect_from:
   - /journal/the-island/
+  - /notebook/the-island/
 ---
 
 The towering jungle was majestic, so tall that the top of it was cut off, wrapped in a thin layer of mist. I wondered what kind of things could be hiding in it. Beasts? Treasures? Monsters?

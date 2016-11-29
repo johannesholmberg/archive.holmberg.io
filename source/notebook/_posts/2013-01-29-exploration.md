@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Exploration"
+has_intro: true
 redirect_from:
   - /journal/exploration/
+  - /notebook/exploration/
 ---
 
 Originally, I had planned to stay in Hua Hin for a couple of more days but yesterday when I was out taking a walk through the city streets I passed the bus station.

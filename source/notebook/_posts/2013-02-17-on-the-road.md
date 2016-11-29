@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "On the Road"
+has_intro: true
 crosspost_to_medium: true
 redirect_from:
   - /journal/on-the-road/
+  - /notebook/on-the-road/
 ---
 
 The last days have been turbulent to say at least. Since my 30 days allotment to stay in Thailand was about to tick out I had in mind to move on this Friday.

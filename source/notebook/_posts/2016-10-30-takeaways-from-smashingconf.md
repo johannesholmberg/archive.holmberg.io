@@ -1,6 +1,9 @@
 ---
 title: "Takeaways from Smashing Conference Barcelona"
+has_intro: true
 crosspost_to_medium: true
+redirect_from:
+  - /notebook/takeaways-from-smashingconf/
 ---
 
 {% assign filename = "smashingconf" %}

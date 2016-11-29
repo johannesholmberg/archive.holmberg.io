@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Noise reduction"
+has_intro: true
 redirect_from:
-  - /noise-reduction/
   - /journal/noise-reduction/
   - /article/noise-reduction/
+  - /notebook/noise-reduction/
 ---
 
 Lately, I've been thinking a lot about noise and what to do with it. It's not the sound I'm talking about, more of the things you're surrounded by. For instance there is a lot of noise on the web.

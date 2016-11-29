@@ -6,6 +6,7 @@ description: "Over the last three years, I’ve invested a lot of my time in rea
 has_intro: true
 redirect_from:
   - /article/that-wonderful-habit-of-reading/
+  - /notebook/that-wonderful-habit-of-reading/
 ---
 
 {% assign filename = page.cover %}

@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Expectations"
+has_intro: true
 crosspost_to_medium: true
 redirect_from:
   - /journal/expectations/
   - /article/expectations/
+  - /notebook/expectations/
 ---
 
 You may think that as I'm out traveling I have purposefully planned this whole trip, deliberately made detailed goals for my every destination and that all has been outlined beforehand. It couldn't be much further from the truth.

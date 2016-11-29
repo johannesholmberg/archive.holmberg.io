@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "The Worrying Machine"
+has_intro: true
 redirect_from:
   - /journal/the-worrying-machine/
   - /article/the-worrying-machine/
+  - /notebook/the-worrying-machine/
 ---
 
 When I access a public computer screen somewhere around, I can't help but to notice the traces of the worrying machine. At internet cafés, technical resellers, hotel lobbies etc. The person using the screen before me have clearly taken a trip there.

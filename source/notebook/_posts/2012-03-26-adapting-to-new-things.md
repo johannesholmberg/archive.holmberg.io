@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Adapting to new things"
+has_intro: true
 redirect_from:
-  - /adapting-to-new-things/
   - /journal/adapting-to-new-things/
   - /article/adapting-to-new-things/
+  - /notebook/adapting-to-new-things/
 ---
 
 Adapt to the new and leave things behind is hard. We tend to stick to what we know, because it feels safe and comfortable. We want things to be as they always have been.

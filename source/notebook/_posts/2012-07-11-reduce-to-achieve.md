@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Reduce to achieve"
+has_intro: true
 redirect_from:
-- /journal/reduce-to-achieve/
-- /article/reduce-to-achieve/
+  - /journal/reduce-to-achieve/
+  - /article/reduce-to-achieve/
+  - /notebook/reduce-to-achieve/
 ---
 
 One and a half year ago I had a new years resolution to read three books during the coming year. Reading was something I'd lost from my youth and wanted to pick up again. One year later I hadn't completed a single book. How did that happen?

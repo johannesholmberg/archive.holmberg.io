@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Turning off"
+has_intro: true
 redirect_from:
   - /journal/turning-off/
+  - /notebook/turning-off/
 ---
 
 As I ventured out to [see the world a couple of years ago](/journal/getting-on-that-plane), I thought about that as a great opportunity for a behavior-changer. I took what I called a “digital siesta”.

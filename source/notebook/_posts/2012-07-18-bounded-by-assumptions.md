@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Bounded by assumptions"
+has_intro: true
 redirect_from:
-- /journal/bounded-by-assumptions/
-- /article/bounded-by-assumptions/
+  - /journal/bounded-by-assumptions/
+  - /article/bounded-by-assumptions/
+  - /notebook/bounded-by-assumptions/
 ---
 
 A couple of weeks ago I did something that, in my own terms, was amazing. I was up in the skies, flying in a two-seat aerobatic airplane at a speed of 400 km/h.

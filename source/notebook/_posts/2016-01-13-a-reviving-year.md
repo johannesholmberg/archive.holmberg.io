@@ -4,6 +4,7 @@ title: "A Reviving Year"
 has_intro: true
 redirect_from:
   - /writing/a-reviving-year/
+  - /notebook/a-reviving-year/
 ---
 
 This year has been huge for me. I moved to Switzerland. Sat up my own business. Acclimatized in my new home town. And I’ve been doing quite a lot of traveling on top of that. As I [wrote last year], 2014 and 2015 were really different from each other in the sense of all the newness that last year brought.

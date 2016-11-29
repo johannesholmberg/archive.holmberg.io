@@ -4,6 +4,7 @@ title: "Planning for December"
 has_intro: true
 redirect_from:
   - /writing/planning-for-december/
+  - /notebook/planning-for-december/
 ---
 
 I've finished my [3D project] for last month and I'm thinking about what to do now. It would be nice to get out of the house and have an outside project for once. I've spent too much time in front of the screens lately. I'd like to change that.

@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Why I quit Facebook"
+has_intro: true
 redirect_from:
-- /journal/why-i-quit-facebook/
-- /article/why-i-quit-facebook/
+  - /journal/why-i-quit-facebook/
+  - /article/why-i-quit-facebook/
+  - /notebook/why-i-quit-facebook/
 ---
 
 In March this year I pulled the plug on Facebook. It was a big decision, and one that had to be taken. It wasn't working for me anymore.

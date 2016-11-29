@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "New Ground"
+has_intro: true
 redirect_from:
   - /journal/new-ground/
+  - /notebook/new-ground/
 ---
 
 A couple of hours ago, the plane I boarded early this morning on Bali landed on Australian ground. It’s hard to estimate how long and for how many years I’ve been dreaming about visiting this continent and now it’s finally happening.

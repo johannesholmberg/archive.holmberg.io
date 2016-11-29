@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "City with Two Faces"
+has_intro: true
 redirect_from:
   - /journal/city-with-two-faces/
+  - /notebook/city-with-two-faces/
 ---
 
 Despite its almost 14 million inhabitants throughout the metropolitan, Kuala Lumpur feels like a pretty idyllic city. It's walkable and friendly to the pedestrians, it's fairly easy to get a sense of it just by putting your feet into motion.

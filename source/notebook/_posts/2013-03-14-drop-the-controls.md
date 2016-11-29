@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Drop the controls"
+has_intro: true
 redirect_from:
   - /journal/drop-the-controls/
   - /article/drop-the-controls/
+  - /notebook/drop-the-controls/
 ---
 
 I’ve gotten a lot of questions from curious readers lately, regarding to *what* it actually is I'm doing right now, *why* I’m doing it and *how* I’m doing it.

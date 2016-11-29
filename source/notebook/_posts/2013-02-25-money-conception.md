@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Money conception"
+has_intro: true
 crosspost_to_medium: true
 redirect_from:
   - /journal/money-conception/
   - /article/money-conception/
+  - /notebook/money-conception/
 ---
 
 Around 2 years ago I was almost in a state of complete lack of "real-world money" (those you have in your pockets.) All my expenses went effortlessly and invisibly from one account to another by the swiping of plastic chips as my intermediary benefactors.

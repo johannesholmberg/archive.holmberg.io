@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "And so it ends"
+has_intro: true
 redirect_from:
   - /journal/and-so-it-ends/
+  - /notebook/and-so-it-ends/
 ---
 
 Since I wrote last, I’ve been traversing this vast country up north. After spending some time in a desolate Goa I finally hit Bombay.

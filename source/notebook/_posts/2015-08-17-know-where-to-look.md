@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Know Where to Look"
+has_intro: true
 redirect_from:
   - /journal/know-where-to-look/
+  - /notebook/know-where-to-look/
 ---
 
 I’m listening to [Jen Simmons and Rachel Andrew](http://thewebahead.net/104) talking about the pace of the web industry these days. About how it’s not possible to know every new tool, process and technique that pops up day in and day out in this field. And that this is okay. I agree.

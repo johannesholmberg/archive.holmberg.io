@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Future proof websites?"
+has_intro: true
 redirect_from:
   - /journal/future-proof-websites/
   - /article/future-proof-websites/
+  - /notebook/future-proof-websites/  
 ---
 
 I hate the term future proof. No one can possibly know what the future will look like. What may work today may not be working tomorrow.

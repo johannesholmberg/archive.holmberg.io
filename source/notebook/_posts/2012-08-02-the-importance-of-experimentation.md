@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "The importance of experimentation"
+has_intro: true
 redirect_from:
-- /journal/the-importance-of-experimentation/
-- /article/the-importance-of-experimentation/
+  - /journal/the-importance-of-experimentation/
+  - /article/the-importance-of-experimentation/
+  - /notebook/the-importance-of-experimentation/
 ---
 
 There are times in my life when I stop and think. About what I'm doing at the moment. About things I have in my life. About how I use them and why. It really helps me to make good decisions.

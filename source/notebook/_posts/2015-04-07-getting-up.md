@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Getting UP"
+has_intro: true
 redirect_from:
   - /journal/getting-up/
   - /article/getting-up/
+  - /notebook/getting-up/
 ---
 
 {% assign filename = "up-bracelet" %}

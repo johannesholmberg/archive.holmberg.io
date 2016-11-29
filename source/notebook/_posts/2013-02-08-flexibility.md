@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Flexibility"
+has_intro: true
 crosspost_to_medium: true
 redirect_from:
   - /journal/flexibility/
   - /article/flexibility/
+  - /notebook/flexibility/
 ---
 
 Almost every time I'm sitting in a taxi on my way to some new accommodation the driver laughs at me and every time I'm checking in to that accommodation the receptionist laughs at me.

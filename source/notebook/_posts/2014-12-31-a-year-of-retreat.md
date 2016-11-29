@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "A Year of Retreat"
+has_intro: true
 redirect_from:
   - /journal/a-year-of-retreat/
+  - /notebook/a-year-of-retreat/
 ---
 
 The year 2014 was the year when I didn’t do a thing at all. Of course I did things, but nothing in the big memorable sense.

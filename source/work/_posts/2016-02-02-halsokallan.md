@@ -3,6 +3,7 @@ layout: case
 title: "Hälsokällan"
 cover: halsokallan
 subtitle: "A custom tailored WordPress theme."
+permalink: work/halsokallan/
 role: Developer
 website: http://halsokallan.eu
 meta: January–February, 2016

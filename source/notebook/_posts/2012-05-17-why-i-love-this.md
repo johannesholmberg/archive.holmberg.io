@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Why I love this"
+has_intro: true
 redirect_from:
-- /journal/why-i-love-this/
-- /article/why-i-love-this/
+  - /journal/why-i-love-this/
+  - /article/why-i-love-this/
+  - /notebook/why-i-love-this/  
 ---
 
 I have always been fascinated by technology, about the things one can do with the right set of equipment. I think my fascination started when I was around 7 years old.

@@ -3,6 +3,7 @@ title: "February Roundup"
 has_intro: true
 redirect_from:
   - /writing/70/
+  - /notebook/february-roundup-2016/
 ---
 
 This month didn't really go as I planned. I haven't had the time for the experiments I wanted to try out. But I don't like to beat myself up just because of that. There's been some high points as well.

@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "The Flexible Web"
+has_intro: true
 redirect_from:
   - /article/the-flexible-web/
+  - /notebook/the-flexible-web/
 ---
 
 **This post originally appeared on The Web Design Ledger on [5 March 2013](https://webdesignledger.com/tips/the-flexible-web).**

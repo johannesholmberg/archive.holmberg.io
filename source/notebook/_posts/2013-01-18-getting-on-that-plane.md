@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Getting on that plane"
+has_intro: true
 redirect_from:
-- /journal/getting-on-that-plane/
+  - /journal/getting-on-that-plane/
+  - /notebook/getting-on-that-plane/
 ---
 
 When writing this I'm sitting in an airplane heading towards Bangkok, Thailand. I don't know much about what will happen when I get there but I do know a few things. I do know that I don't have a return ticket back home.

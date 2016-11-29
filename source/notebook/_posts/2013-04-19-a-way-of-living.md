@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "A way of living"
+has_intro: true
 redirect_from:
   - /journal/a-way-of-living/
   - /article/a-way-of-living/
+  - /notebook/a-way-of-living/
 ---
 
 I live by experimenting. By that I mean I’m continuously observing different parts of my life that I’d like to challenge or improve upon. It may be to get healthier, to gather self-esteem, to change a preconception, to prove a point.

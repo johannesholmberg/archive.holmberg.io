@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Designing in the browser"
+has_intro: true
 redirect_from:
   - /journal/designing-in-the-browser/
   - /article/designing-in-the-browser/
+  - /notebook/designing-in-the-browser/
 ---
 
 The “design in the browser” approach has been widely discussed lately. Some like it. Some don't. I haven't really thought about designing in the browser as a concept until I found myself doing it a lot unintentionally.

@@ -5,6 +5,7 @@ has_intro: true
 redirect_from:
   - /journal/cleaning-the-homescreen/
   - /article/cleaning-the-homescreen/
+  - /notebook/cleaning-the-homescreen/
 ---
 
 A couple of weeks ago I did a little decluttering of my iPhone’s homescreen and I’m pretty happy with the outcome.

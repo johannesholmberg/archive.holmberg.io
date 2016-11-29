@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Learning and unlearning"
+has_intro: true
 redirect_from:
-- /journal/learning-and-unlearning/
-- /article/learning-and-unlearning/
+  - /journal/learning-and-unlearning/
+  - /article/learning-and-unlearning/
+  - /notebook/learning-and-unlearning/
 ---
 
 To learn something new and explore the world around us is important for everyone. There is so much new to face everyday and learning itself is a life long task. Learning is one of the assets of adapting. So is unlearning.

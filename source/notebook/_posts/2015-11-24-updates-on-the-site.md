@@ -4,6 +4,7 @@ title: "Updates on the Site"
 has_intro: true
 redirect_from:
   - /writing/updates-on-the-site/
+  - /notebook/updates-on-the-site/
 ---
 
 The time has come. You know that time when you have too many ideas boiling around in your head and you just need to get them out before you go insane. You know what I’m talking about, right?

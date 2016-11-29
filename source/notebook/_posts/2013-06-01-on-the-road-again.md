@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "On the Road Again"
+has_intro: true
 redirect_from:
   - /journal/on-the-road-again/
+  - /notebook/on-the-road-again/
 ---
 
 Last week I spent in Kochi, a picturesque little fishing town on the southwest coast of India. What hit me as most fascinating was the [Chinese fishing nets](https://www.google.se/search?q=chinese+fishing+nets+kochi&es_sm=91&source=lnms&tbm=isch&sa=X&ei=V4lyU7beEaGTywOppYDwBA&ved=0CAgQ_AUoAQ&biw=1440&bih=802) standing in line like soldiers in the harbor.

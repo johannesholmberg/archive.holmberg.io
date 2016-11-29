@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Don’t try to control the user"
+has_intro: true
 redirect_from:
-  - /dont-try-to-control-the-user/
   - /journal/dont-try-to-control-the-user/
   - /article/dont-try-to-control-the-user/
+  - /notebook/dont-try-to-control-the-user/
 ---
 
 As a web designer I try to stand on the same side as the users as much as I possibly can. I'll always fight for the their best experience, it's the users we create websites for after all.

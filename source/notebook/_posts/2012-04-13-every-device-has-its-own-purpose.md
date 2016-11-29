@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Every device has its own purpose"
+has_intro: true
 redirect_from:
-  - /every-device-has-its-own-purpose/
   - /journal/every-device-has-its-own-purpose/
   - /article/every-device-has-its-own-purpose/
+  - /notebook/every-device-has-its-own-purpose/
 ---
 
 When I first got my iPad I wanted to start sync everything between it and my iPhone. I kind of wanted them to be a mirror of each other and always wanted to have access to all my data, independently on which device I used.

@@ -4,6 +4,7 @@ title: "A Month of German"
 has_intro: true
 redirect_from:
   - /writing/a-month-of-german/
+  - /notebook/a-month-of-german/
 ---
 
 I would like to try something new. I have a problem that there are lots of things I want to learn but I find myself to be a little bit all over the place at once. I try a bit of this and a bit of that but nothing ever amounts to anything. I even find myself at times doing nothing because I have simply too many options. Not good.

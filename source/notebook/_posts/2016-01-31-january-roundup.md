@@ -1,7 +1,9 @@
 ---
 title: "January Roundup"
+has_intro: true
 redirect_from:
   - /writing/69/
+  - /notebook/january-roundup-2016/
 ---
 
 It's been a little bit of a vacuum month for me. I feel like January just sailed by. It’s been more of a cleanup month than anything else. It was so much happening around Christmas, and so much baggage that followed over New Years, that this month's purpose was mostly for tying up loose ends.

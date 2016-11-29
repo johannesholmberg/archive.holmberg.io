@@ -5,6 +5,7 @@ has_intro: true
 redirect_from:
   - /journal/another-todo-app/
   - /article/another-todo-app/
+  - /notebook/another-todo-app/
 ---
 
 {% assign filename = "todoist-banner" %}

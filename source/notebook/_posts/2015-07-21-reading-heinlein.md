@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Reading Heinlein"
+has_intro: true
 redirect_from:
   - /journal/reading-heinlein/
+  - /notebook/reading-heinlein/
 ---
 
 What is it that makes me so fascinated every time I pick up one of Robert Heinlein's books?

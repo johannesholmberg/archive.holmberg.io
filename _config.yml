@@ -27,7 +27,7 @@ desktop-xl:  'min-width: 118em'
 source: source
 destination: _site
 plugins_dir: plugins
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:title/
 
 collections:
   labs:

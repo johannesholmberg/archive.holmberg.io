@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Let’s get started"
+has_intro: true
 redirect_from:
- - /lets-get-started/
- - /journal/lets-get-started/
+  - /journal/lets-get-started/
+  - /notebook/lets-get-started/
 ---
 
 Ever since I was a kid I have always wanted to write. I had a blog once, a blog that slowly faded because I wrote about stuff that didn't really interest me. Engagement is important. You need to be passionate about the things you do.

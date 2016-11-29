@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "German Log: Day 6"
+has_intro: true
 redirect_from:
   - /writing/german-log-day-6/
+  - /notebook/german-log-day-6/
 ---
 
 Phew. German grammar is hard. For almost a week I’ve tried to come to grips with it, and it comes, but it’s a slow process. The huge difference compared to languages I know previously (Swedish and English) is that German has genders for inanimate nouns. So, a lamp or a door or a shirt can either be a he or she or it. And there is no real way for me to figure out what gender a noun belongs to. Bummer.

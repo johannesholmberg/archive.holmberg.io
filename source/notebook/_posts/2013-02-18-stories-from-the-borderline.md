@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Stories from the borderline"
+has_intro: true
 crosspost_to_medium: true
 redirect_from:
   - /journal/stories-from-the-borderline/
+  - /notebook/stories-from-the-borderline/
 ---
 
 I'm starting to get pretty used to exceedingly long bus rides by now and the trip yesterday was no exception.

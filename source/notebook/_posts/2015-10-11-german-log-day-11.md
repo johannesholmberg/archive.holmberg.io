@@ -4,6 +4,7 @@ title: "German Log: Day 11"
 has_intro: true
 redirect_from:
   - /writing/german-log-day-11/
+  - /notebook/german-log-day-11/
 ---
 
 It’s fascinating. Things are actually starting to fall into place. It is very satisfying when I for instance grasp how to conjugate the simple past, or how the dative case functions. It sounded like latin to me in the beginning. But by repeatingly listen, practice, and then reading, it starts to make sense. It _is_ a coherent system. An advanced one, I give it that, but I start feeling it can be learned.

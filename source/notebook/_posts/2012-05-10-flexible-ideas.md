@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Flexible Ideas"
+has_intro: true
 redirect_from:
   - /journal/flexible-ideas/
   - /article/flexible-ideas/
-
+  - /notebook/flexible-ideas/
 ---
 
 I don't write down ideas. In some weird way it constrains me more than helping to write it down. As soon as it gets down on paper it narrows my mind in the wrong direction. Let me explain a little bit further.

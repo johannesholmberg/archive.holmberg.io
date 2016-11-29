@@ -2,8 +2,10 @@
 layout: post
 title: "An Evening with Dylan"
 cover: "dylan"
+has_intro: true
 redirect_from:
   - /journal/an-evening-with-dylan/
+  - /notebook/an-evening-with-dylan/
 ---
 
 {% assign filename = page.cover %}
