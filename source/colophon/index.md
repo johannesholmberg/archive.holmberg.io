@@ -3,6 +3,7 @@ layout: post
 title: "Colophon"
 document_title: "Colophon for the website of"
 has_intro: true
+sitemap_include: true
 ---
 
 This website was made in the purpose of creating a digital home to collect the writing and the work I do. The last couple of years I have downsized on my social media appearance and wanted to have a simple home where I can experiment at my own pace.

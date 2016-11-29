@@ -11,10 +11,10 @@ sitemap:
     </url>
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude %}
+    {% if page.sitemap_include %}
       <url>
         <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       </url>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </urlset>
