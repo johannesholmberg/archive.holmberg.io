@@ -32,7 +32,7 @@ permalink: /:categories/:year/:month/:title/
 collections:
   labs:
     output: false
-    permalink: /:collection/:path/
+    permalink: /:collection/:categories/:year/:month/:title/
 
 defaults:
   - scope:
