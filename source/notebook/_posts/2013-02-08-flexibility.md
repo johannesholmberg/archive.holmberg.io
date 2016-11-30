@@ -28,4 +28,6 @@ Now when I'm out traveling I see a lot of backpackers lugging around on insanely
 If I would have that kind of luggage I wouldn't be able to check out from my hotel, take a walk down the beach, and see if I can find a new interesting place to live at. Instead I'd probably get comfortable, which is one of the few things I truly despise.
 
 > <q>Think lightly, act lightly, feel lightly.</q>
--- <cite>[Aldous Huxley, Island.]({{ site.url }}/reading/island/#highlight24)</cite>
+-- <cite>[Aldous Huxley, Island.]</cite>
+
+[Aldous Huxley, Island.]: {{ site.url }}{% post_url 2012-05-17-island %}#highlight24

@@ -15,7 +15,7 @@ So what I would like to try now is to focus on one subject per month. I pick a s
 ## Getting the basics
 {: #section1 .section}
 
-My German skills has gone both up and down but lately I feel it has degenerated too much. So I want to take a step in improving it. When I started learning German I used [Duolingo][l1] for getting the basics down. It’s a beautiful app for iOS and it’s a delight to use their gamified approach for language learning.
+My German skills has gone both up and down but lately I feel it has degenerated too much. So I want to take a step in improving it. When I started learning German I used [Duolingo] for getting the basics down. It’s a beautiful app for iOS and it’s a delight to use their gamified approach for language learning.
 
 {% assign filename = "duolingo1" %}
 {% assign alt = "Duolingo" %}
@@ -25,7 +25,7 @@ My German skills has gone both up and down but lately I feel it has degenerated 
 
 It was a perfect start for getting familiarized with the sound of the language. I was quite amazed how quick it went to start grasping the fundamental pieces. You get a coach in form of an owl and he almost feels like a regular friend after some time. I was playing this for a couple of months (yes, I see it more as a game than anything) and it felt so great in the end, when I had conquered all the levels and that magnificent gold owl was mine. It’s a bit nerdy I know but it worked well for me.
 
-Duolingo was the perfect tool for getting started. It didn’t cost a dime and thanks to it I could take the next step and started reading some [smaller][l2] [books][l3] on my own.
+Duolingo was the perfect tool for getting started. It didn’t cost a dime and thanks to it I could take the next step and started reading some [smaller][1] [books][2] on my own.
 
 
 ## Next steps
@@ -33,7 +33,7 @@ Duolingo was the perfect tool for getting started. It didn’t cost a dime and t
 
 Next I want to be able to have real conversations in German. I’ve come up with a plan of action to make it happen.
 
-- **I’ve signed up for a German course.** If I want to start speaking German there is no other way than to actually speak it. Sounds obvious, right? As William Zinsser put it—[it’s a truism][l4]. But I’ve had a hard time starting. I feel so awkward. I need a sort of a trigger. And I think the trigger would come easier among other newbies, that’s my reasoning for the course.
+- **I’ve signed up for a German course.** If I want to start speaking German there is no other way than to actually speak it. Sounds obvious, right? As William Zinsser put it—[it’s a truism]. But I’ve had a hard time starting. I feel so awkward. I need a sort of a trigger. And I think the trigger would come easier among other newbies, that’s my reasoning for the course.
 
 - **In October I will listen to German podcasts when I’m out walking.** I usually only listen to English speaking podcasts but I thought this would be a necessary change for the month.
 
@@ -42,7 +42,7 @@ Next I want to be able to have real conversations in German. I’ve come up with
 So there we have it, the plan for October. I will continue to report the progress on the website and write down useful things I learn.
 
 
-[l1]: http://duolingo.com
-[l2]: {{ site.url }}/reading/tomokos-traume
-[l3]: {{ site.url }}/reading/der-magier-der-erdsee
-[l4]: {{ site.url }}/reading/on-writing-well/#highlight-7
+[Duolingo]: http://duolingo.com
+[1]: {{ site.url }}{% post_url 2015-02-22-tomokos-traume %}
+[2]: {{ site.url }}{% post_url 2015-04-08-der-magier-der-erdsee %}
+[it’s a truism]: {{ site.url }}{% post_url 2015-09-09-on-writing-well %}#highlight7

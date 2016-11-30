@@ -13,8 +13,11 @@ redirect_from:
 ---
 {% include book-cover.html %}
 
-**When I read** [Steve Jobs](/reading/steve-jobs), I found out there were two books that Steve especially liked and had come back to several times over the course of his life. One was [Autobiography of a Yogi](/reading/autobiography-of-a-yogi). The other one was Be Here Now. That tickled my interest since I hadn't had much experience of this type of writing previously.
+**When I read** [Steve Jobs], I found out there were two books that Steve especially liked and had come back to several times over the course of his life. One was [Autobiography of a Yogi]. The other one was Be Here Now. That tickled my interest since I hadn't had much experience of this type of writing previously.
 
 There are a lot of insightful proverbs in this book.
 
 {% include book-highlights.html %}
+
+[Steve Jobs]: {{ site.url }}{% post_url 2012-03-14-steve-jobs %}
+[Autobiography of a Yogi]: {{ site.url }}{% post_url 2013-02-15-autobiography-of-a-yogi %}

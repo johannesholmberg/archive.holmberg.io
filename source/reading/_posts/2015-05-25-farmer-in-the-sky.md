@@ -13,6 +13,8 @@ redirect_from:
 ---
 {% include book-cover.html %}
 
-**Here I go again**, reading another Heinlein. Well, it's been like [4 months](/reading/methuselahs-children/) so I don't think anyone can blame me. Farmer in the Sky encapsulates the spirit of man always being on the verge. That essence in humans, driving us to go further and further.
+**Here I go again**, reading another Heinlein. Well, it's been like [4 months] so I don't think anyone can blame me. Farmer in the Sky encapsulates the spirit of man always being on the verge. That essence in humans, driving us to go further and further.
 
 {% include book-highlights.html %}
+
+[4 months]: {{ site.url }}{% post_url 2015-01-20-methuselahs-children %}

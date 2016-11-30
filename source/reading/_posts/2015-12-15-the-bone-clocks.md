@@ -20,4 +20,4 @@ The most fascinating aspect of the book is its structure in a time perspective. 
 
 {% include book-highlights.html %}
 
-[The Tin Drum]: {{ site.url }}/reading/the-tin-drum/
+[The Tin Drum]: {{ site.url }}{% post_url 2015-08-28-the-tin-drum %}

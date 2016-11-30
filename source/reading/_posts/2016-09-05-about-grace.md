@@ -20,6 +20,8 @@ As I've been reading *About Grace*, the book has managed to stay with me. I've b
 
 I got to know how Winkler dealed with his surroundings in the most freezing part of Alaska as well as in the tropical heat on St. Vincent, a remote Caribbean island. The book has a slow paced, almost poetic style and it works so well for me. It lets me breath, and think.
 
-I regard this book dearly and Anthony Doerr has quickly become one of my favorite authors. Earlier this year I read *[All the Light We Cannot See]({{ site.url }}/reading/all-the-light-we-cannot-see/)* which also had a beautiful story with memorable characters.
+I regard this book dearly and Anthony Doerr has quickly become one of my favorite authors. Earlier this year I read *[All the Light We Cannot See]* which also had a beautiful story with memorable characters.
 
 {% include book-highlights.html %}
+
+[All the Light We Cannot See]: {{ site.url }}{% post_url 2016-02-21-all-the-light-we-cannot-see %}

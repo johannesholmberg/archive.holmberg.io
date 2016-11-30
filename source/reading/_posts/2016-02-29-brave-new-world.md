@@ -26,4 +26,4 @@ I'm thrilled to pick up _1984_ next. It's going to be a complete different view 
 
 {% include book-highlights.html %}
 
-[Island]: {{ site.url }}/reading/island/
+[Island]: {{ site.url }}{% post_url 2012-05-17-island %}

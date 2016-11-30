@@ -21,4 +21,4 @@ The biggest lesson I think so far is that I’ve realized that it is not importa
 
 [Laura’s German GrammarPod]: https://itunes.apple.com/us/podcast/german-grammarpod/id253979257
 [german.net]: http://german.net/
-[German book]: {{ site.url }}/reading/sudlich-der-grenze-westlich-der-sonne/
+[German book]: {{ site.url }}{% post_url 2015-10-10-sudlich-der-grenze-westlich-der-sonne %}

@@ -18,4 +18,4 @@ The book gave me great insight to one of my favorite authors life as well as it 
 
 {% include book-highlights.html %}
 
-[learning German project]: {{ site.url }}/writing/a-month-of-german/
+[learning German project]: {{ site.url }}{% post_url 2015-10-01-a-month-of-german %}

@@ -20,4 +20,4 @@ This book is important for anyone involved in a responsive project on the web.
 
 {% include book-highlights.html %}
 
-[Ethan's book]: {{ site.url }}/reading/responsive-design-patterns-and-principles/
+[Ethan's book]: {{ site.url }}{% post_url 2015-11-25-responsive-design-patterns-and-principles %}

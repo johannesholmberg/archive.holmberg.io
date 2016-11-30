@@ -20,4 +20,4 @@ I didn’t highlight so much throughout the book this time but I think the few I
 
 {% include book-highlights.html %}
 
-[learning German project]: {{ site.url }}/writing/a-month-of-german/
+[learning German project]: {{ site.url }}{% post_url 2015-10-01-a-month-of-german %}
