@@ -31,7 +31,7 @@ The main part of the month I spent reading _[All the Light We Cannot See]_ which
 ## Ideas for next month
 I will try and learn a bit from how things went this month. I had a lot of work on my plate and next month there will be even more. Therefore I will not set up any specific goals for March. I will kind of take it as it comes instead, that’ll be cool as well.
 
-[Blinkist]: {{site.url}}/writing/69/#blinkist
+[Blinkist]: {{ site.url }}{% post_url 2016-01-31-january-roundup %}#blinkist
 [CodePen Radio]: http://blog.codepen.io/radio/
 [great episode]: http://blog.codepen.io/2016/02/16/077-remote/
 [Imaginary Worlds]: http://www.imaginaryworldspodcast.org/
@@ -40,5 +40,5 @@ I will try and learn a bit from how things went this month. I had a lot of work 
 [The Big Web Show]: http://5by5.tv/bigwebshow
 [The Web Ahead]: http://thewebahead.net/
 [Responsive Web Design Podcast]: http://responsivewebdesign.com/podcast/
-[All the Light We Cannot See]: {{site.url}}/reading/all-the-light-we-cannot-see/
+[All the Light We Cannot See]: {{ site.url }}{% post_url 2016-02-21-all-the-light-we-cannot-see %}
 [Get Ready for CSS Grid Layout]: https://abookapart.com/products/get-ready-for-css-grid-layout

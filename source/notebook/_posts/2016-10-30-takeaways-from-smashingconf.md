@@ -10,7 +10,7 @@ redirect_from:
 {% assign alt = "Conference" %}
 {% include responsive-image.html %}
 
-I finally managed to find some time and attend another conference within my field of work. I chose to go to Barcelona and attend the [Smashingconf](https://smashingconf.com/barcelona-2016/) this week.
+I finally managed to find some time and attend another conference within my field of work. I chose to go to Barcelona and attend the [Smashingconf] this week.
 
 I think the conference struck a perfect balance of design and technology. It was engaging and I left it with a feeling of inspiration and motivation. I also got to meet some new friends from all corners of the world. I took notes during the talks to kind of summarize my experience.
 
@@ -22,7 +22,7 @@ I think the conference struck a perfect balance of design and technology. It was
 
 ### Designing Meaningful Animation - Val Head
 
-- Use the [12 principles of animation](http://the12principles.tumblr.com/).
+- Use the [12 principles of animation].
 - CSS default transition timing keywords are very limiting, use `cubic-bezier` instead.
 - Similar objects should be animated in similar ways.
 - Create a sense of choreography.
@@ -66,7 +66,7 @@ I think the conference struck a perfect balance of design and technology. It was
 
 - Start with storytelling before making the components it consists of.
 - Ask yourself, “What if?”
-- Try to use [oblique strategies](https://en.wikipedia.org/wiki/Oblique_Strategies).
+- Try to use [oblique strategies].
 - Ask yourself, “What problem does this solve?”
 - “How can we tell this story differently?”
 - Clients don’t understand components. Clients understand screens.
@@ -183,3 +183,7 @@ I think the conference struck a perfect balance of design and technology. It was
 {% assign attributes = "figure--margins" %}
 {% assign caption = "Walking with friends at the typography walk. Photo credits <a href='https://www.instagram.com/itzrachelle/'>itzrachelle</a>." %}
 {% include responsive-image.html %}
+
+[Smashingconf]: https://smashingconf.com/barcelona-2016/
+[12 principles of animation]: http://the12principles.tumblr.com/
+[oblique strategies]: https://en.wikipedia.org/wiki/Oblique_Strategies

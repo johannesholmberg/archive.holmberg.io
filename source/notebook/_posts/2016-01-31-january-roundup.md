@@ -30,8 +30,8 @@ As I mentioned previously, I will have some time back in my life for this month.
 - CSS Grid, CSS Regions and also a deeper understanding of Flexbox are things I want to experiment with this month.
 - I will try forging my morning routine back into shape. I've been a bit in hibernation over the winter, but I will try to leave that now as the days are getting brighter again.
 
-[Die Entdeckung Der Langsamkeit]: {{ site.url }}/reading/die-entdeckung-der-langsamkeit/
+[Die Entdeckung Der Langsamkeit]: {{ site.url }}{% post_url 2016-01-09-die-entdeckung-der-langsamkeit %}
 [Blinkist]: https://www.blinkist.com/en/
 [Lifesum]: https://lifesum.com/
-[UP bracelet]: {{ site.url }}/article/getting-up/
-[Circling The Sun]: {{ site.url }}/reading/circling-the-sun/
+[UP bracelet]: {{ site.url }}{% post_url 2015-04-07-getting-up %}
+[Circling The Sun]: {{ site.url }}{% post_url 2016-01-22-circling-the-sun %}
