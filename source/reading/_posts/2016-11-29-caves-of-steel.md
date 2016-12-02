@@ -1,8 +1,9 @@
 ---
 layout: book
 title: "Caves of Steel"
-date: 2016-11-28 13:14:48
+date: 2016-11-29 13:14:48
 category: reading
+cover: caves-of-steel
 author: Isaac Asimov
 publisher: Spectra
 published: 1953
