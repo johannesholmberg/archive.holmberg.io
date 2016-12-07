@@ -12,7 +12,7 @@
 }
 
 .t-body--labs {
-  $labs: #30b6be;
+  $labs: #4faade;
 
   a {
     color: $labs;
@@ -26,6 +26,7 @@
   .button {
     background: $labs;
     color: #fff;
+    margin-top: 0;
 
     &:hover,
     &:focus {

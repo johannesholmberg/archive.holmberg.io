@@ -29,6 +29,10 @@
     @media (min-width: 100em) { @content; }
   }
 
+  @else if $point == desktop-xxl {
+    @media (min-width: 130em) { @content; }
+  }
+
   @else if $point == low {
     @media (max-height: 40em) { @content; }
   }

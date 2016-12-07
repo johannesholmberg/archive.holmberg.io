@@ -14,6 +14,7 @@ sitemap_include: true
     {% include head/head-favicons.html %}
     {% include head/head-sharing.html %}
     {% include head/head-css.html %}
+    {% include head/head-js.html %}
   </head>
 
   <body class="t-body--labs">
@@ -23,37 +24,47 @@ sitemap_include: true
     </div>
 
     <div class="lab-list">
+
       <div class="lab-list__header">
-        <h1 class="lab-list__title">Daily UI</h1>
-        <p class="lab-list__description">
-          The <a href="http://www.dailyui.co/">Daily UI design challenge</a> sends an email every day presenting a new UI challenge to design. This is what I’ve made so far.
-        </p>
-        <a href="{{ site.url }}/" class="lab-list__back button">
-          {% assign id = "arrow-left" %}
-          {% include icons/icon.html %}
-          Back to holmberg.io
-        </a>
+        <div class="lab-list__header-inner">
+          <h1 class="lab-list__title">Daily UI</h1>
+          <p class="lab-list__description">
+            The <a href="http://www.dailyui.co/">Daily UI design challenge</a> sends an email every day presenting a new UI challenge to design. This is what I’ve made so far.
+          </p>
+          <a href="{{ site.url }}/" class="lab-list__back button">
+            {% assign id = "arrow-left" %}
+            {% include icons/icon.html %}
+            Back to holmberg.io
+          </a>
+        </div>
       </div>
 
       <div class="lab-list__holder">
+
         {% assign dailyui = site.labs | where: "category", "dailyui" %}
         {% for lab in dailyui %}
           <div class="lab-item">
-            <h2 class="lab-item__title">{{ lab.title }}</h2>
+            <h2 class="lab-item__title">
+              <span class="inner">
+                <span class="lab-item__number">{{ lab.number }}.</span> {{ lab.title }}
+              </span>
+            </h2>
 
-            <img {% if site.environment == 'production' %} src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592005.jpg"
+            <img {% if site.environment == 'production' %} src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592006.jpg"
                 srcset="
-                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=320&amp;refresh=2592005 320w,
-                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592005 400w,
-                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592005 600w,
-                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=800&amp;refresh=2592005 800w,
-                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=1000&amp;refresh=2592005 1000w,
-                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=1400&amp;refresh=2592005 1400w"
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=400&amp;refresh=2592006 400w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=600&amp;refresh=2592006 600w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=800&amp;refresh=2592006 800w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=1000&amp;refresh=2592006 1000w,
+                https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url={{ site.url }}/uploads/labs/{{ lab.image }}&amp;container=focus&amp;resize_w=1200&amp;refresh=2592006 1200w"
               {% else %}
                 src="{{ site.url }}/uploads/labs/{{ lab.image }}"
               {% endif %}
               sizes="
-              (min-width: 992px) 70vw,
+              (min-width: 2080px) 20vw,
+              (min-width: 1470px) 25vw,
+              (min-width: 912px) 38vw,
+              (min-width: 528px) 50vw,
               100vw"
               alt="{{ lab.title }}"
               class="lab-item__image"

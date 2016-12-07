@@ -1,5 +1,6 @@
 ---
-title: "001 - Sign Up"
+title: "Sign Up"
 category: dailyui
+number: 1
 image: 001-signup@2x.png
 ---

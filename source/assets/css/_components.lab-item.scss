@@ -1,19 +1,61 @@
 .lab-item {
-  width: 25%;
-  float: left;
-  flex: 1 26em;
-  margin: 5%;
+  position: relative;
+
+  @include breakpoint(mobile-xl) {
+    float: left;
+    width: 50%;
+  }
+
+  @include breakpoint(desktop-lg) {
+    width: 33.32%;
+  }
+
+  @include breakpoint(desktop-xxl) {
+    width: 25%;
+  }
+
+  &:hover,
+  &:focus {
+    .lab-item__title {
+      display: block;
+      animation: .7s appear-from-bottom, 1s text-fade-in;
+      pointer-events: all;
+    }
+  }
 
   &__title {
-    margin: 0 0 1em;
-    text-align: center;
-    color: #fff;
-    padding: .4em 1.2em;
+    position: absolute;
+    bottom: -1em;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-size: 1.1em;
+    animation: .25s disappear-from-bottom;
+    animation-fill-mode: forwards;
+    pointer-events: none;
+  }
+
+  .lab-item__title .inner {
+    display: block;
+    background: red;
+    width: 80%;
+    max-width: 16em;
+    margin: 0 auto;
+    color: #333;
+    padding: 1em .6em;
+    background: rgba(255, 255, 255, .98);
     text-shadow: 0 0 60px rgba(0, 0, 0, .2);
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .15);
+  }
+
+  &__number {
+    opacity: .5;
+    font-family: $font-sans;
+    font-size: .8em;
   }
 
   &__image {
     transition: all .2s ease-in-out;
-    box-shadow: 0 20px 70px rgba(0, 0, 0, .15);
   }
 }
