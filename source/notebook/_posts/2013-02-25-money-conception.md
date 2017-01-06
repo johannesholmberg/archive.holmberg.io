@@ -2,7 +2,6 @@
 layout: post
 title: "Money conception"
 has_intro: true
-crosspost_to_medium: true
 redirect_from:
   - /journal/money-conception/
   - /article/money-conception/

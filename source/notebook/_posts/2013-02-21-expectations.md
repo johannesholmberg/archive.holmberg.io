@@ -2,7 +2,6 @@
 layout: post
 title: "Expectations"
 has_intro: true
-crosspost_to_medium: true
 redirect_from:
   - /journal/expectations/
   - /article/expectations/
