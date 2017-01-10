@@ -2,7 +2,6 @@
 layout: post
 title: "On the Road"
 has_intro: true
-crosspost_to_medium: true
 redirect_from:
   - /journal/on-the-road/
   - /notebook/on-the-road/

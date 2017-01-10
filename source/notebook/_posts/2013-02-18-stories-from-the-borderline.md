@@ -2,7 +2,6 @@
 layout: post
 title: "Stories from the borderline"
 has_intro: true
-crosspost_to_medium: true
 redirect_from:
   - /journal/stories-from-the-borderline/
   - /notebook/stories-from-the-borderline/
