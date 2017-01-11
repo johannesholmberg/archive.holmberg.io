@@ -24,6 +24,8 @@
     "require-dir": "^0.3.1"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.1.8",
+    "gulp-babel": "^6.1.2",
     "gulp-plumber": "^1.1.0"
   }
 }

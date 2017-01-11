@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
+    babel = require('gulp-babel'),
     notify = require('gulp-notify');
 
 /**
@@ -17,6 +18,8 @@ gulp.task('scripts', function() {
   // Normal version
   .pipe(concat('app.js'))
 
+  .pipe(babel())
+
   .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
 
@@ -24,7 +27,7 @@ gulp.task('scripts', function() {
   .pipe(rename({
     suffix: '.min'
   }))
-  .pipe(uglify())
+  //.pipe(uglify({ mangle: false }))
 
   .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
