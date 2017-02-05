@@ -1,0 +1,38 @@
+- quote: "Unfortunately, the page metaphor continues to run deep with respect to how we scope and execute our web projects."
+  loc: 62
+
+- quote: "Ultimately, a project’s level of effort is much better determined by the functionality and components contained within those pages, rather than on the quantity of pages themselves."
+  loc: 72
+
+- quote: "Every organization is finally realizing that bulldozing their entire website and replacing it with a New-And-Shiny™ website every three to eight years isn’t (and never was) an optimal solution."
+  loc: 102
+
+- quote: "Out with the old! In with the new! It’s certainly an attractive prospect. But even before the launch party confetti is swept up, the calls start coming in. “You moved my cheese!” cry the users, who spent years learning the previous interface and functionality."
+  loc: 103
+
+- quote: "If I had a quarter for every time I heard some stakeholder declare “We’re trying to be more agile,” I’d be orbiting the earth in my private spacecraft instead of writing this book."
+  loc: 116
+
+- quote: "Lessons learned from analytics, user testing, A/B testing, and experience should be incorporated into the style guide, making it a powerful hub for truth, knowledge, and best practices."
+  loc: 353
+
+- quote: "The issue with terms like components and modules is that a sense of hierarchy can’t be deduced from the names alone. Atoms, molecules, and organisms imply a hierarchy that anyone with a basic knowledge of chemistry can hopefully wrap their head around."
+  loc: 589
+
+- quote: "Remember, users perceive your brand as a singular entity and don’t care about your organizational structure, tech stack, or anything else that might cause disparities in the UI."
+  loc: 1100
+
+- quote: "You don’t need to get the client’s blessing to follow your craft’s best practices."
+  loc: 1145
+
+- quote: "It’s ludicrous for anyone to utter the phrase, “This is how we’ve always done things” in an industry that’s only 25 years old."
+  loc: 1191
+
+- quote: "The waterfall process hinges on the premise that work must flow in a sequential order: the UX designer’s work must be completed before visual design can start; the visual designer must finish their job before front-end development can begin. This simply isn’t true."
+  loc: 1281
+
+- quote: "There’s a fundamental misunderstanding that all coding is ultra-geeky programming, which simply isn’t the case."
+  loc: 1297
+
+- quote: "HTML is not a programming language. CSS is not a programming language. But because HTML and CSS are still code, front-end development is often put in the same bucket as Python, Java, PHP, Ruby, C++, and other programming languages."
+  loc: 1298
