@@ -10,6 +10,16 @@ var gulp = require('gulp'),
  * Concatenate javascripts
  */
 gulp.task('scripts', function() {
+
+  var onError = function(err) {
+    notify.onError({
+      title:    "Gulp JS",
+      subtitle: "JS error!",
+      message:  'Error: <%= error.message %>'
+    })(err);
+    this.emit('end');
+  };
+
   return gulp.src([
     'source/assets/vendor/picturefill/dist/picturefill.js',
     'source/assets/js/source/*.js'
@@ -19,6 +29,7 @@ gulp.task('scripts', function() {
   .pipe(concat('app.js'))
 
   .pipe(babel())
+  .on('error', onError)
 
   .pipe(gulp.dest('source/assets/js'))
   .pipe(gulp.dest('_site/assets/js'))
