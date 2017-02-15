@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "How to Live: A Life of Montaigne in One Question and Twenty Attempts at an Answer"
+title: "How to Live"
+subtitle: "A Life of Montaigne in One Question and Twenty Attempts at an Answer"
 category: reading
 cover: how-to-live
 author: Sarah Bakewell

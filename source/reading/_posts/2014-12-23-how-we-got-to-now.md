@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "How We Got To Now"
+subtitle: "Six Innovations That Made the Modern World"
 date: 2014-12-23
 category: reading
 cover: how-we-got-to-now

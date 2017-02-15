@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "Bird by Bird: Some Instructions on Writing and Life"
+title: "Bird by Bird"
+subtitle: "Some Instructions on Writing and Life"
 date: 2014-09-21
 category: reading
 author: Anne Lamott

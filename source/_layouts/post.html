@@ -6,7 +6,7 @@ active: post
 <article class="o-main-layout">
 
   {% assign title = page.title %}
-  {% capture subtitle %}
+  {% capture meta %}
     {% if page.date == "" or page.date == nil %}
     {% else %}
       {% assign thedate = page.date %}

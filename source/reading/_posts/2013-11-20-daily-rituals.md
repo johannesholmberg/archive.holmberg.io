@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "Daily Rituals: How Artists Work"
+title: "Daily Rituals"
+subtitle: "How Artists Work"
 date: 2013-11-20
 category: reading
 cover: daily-rituals

@@ -1,4 +1,8 @@
 <header class="c-page-header">
-  <h1 class="c-page-header__title">{{ title }}</h1>
-  <p class="c-page-header__meta">{{ subtitle }}</p>
+  <h1 class="c-page-header__title">
+    {{ title }}{% if page.subtitle == "" or page.subtitle == nil %}{% else %}: {{ page.subtitle }}{% endif %}
+  </h1>
+  <p class="c-page-header__meta">
+    {{ meta }}
+  </p>
 </header>

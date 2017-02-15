@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "Philosophy: Who Needs It"
+title: "Philosophy"
+subtitle: "Who Needs It"
 category: reading
 cover: philosophy-who-needs-it
 author: Ayn Rand

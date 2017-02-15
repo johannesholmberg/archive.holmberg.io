@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "The Art of Fiction: A Guide for Writers and Readers"
+title: "The Art of Fiction"
+subtitle: "A Guide for Writers and Readers"
 category: reading
 author: Ayn Rand
 publisher: Plume

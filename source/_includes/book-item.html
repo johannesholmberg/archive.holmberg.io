@@ -23,6 +23,10 @@
       alt="{{ post.title }}"
     >
   </div>
-  <h3 class="c-book-item__title">{{ post.title }}</h3>
-  <p class="c-book-item__meta">{{ post.author }}</p>
+  <h3 class="c-book-item__title">
+    {{ post.title }}{% if post.subtitle == "" or post.subtitle == nil %}{% else %}: {{ post.subtitle }}{% endif %}
+  </h3>
+  <p class="c-book-item__meta">
+    {{ post.author }}
+  </p>
 </a>

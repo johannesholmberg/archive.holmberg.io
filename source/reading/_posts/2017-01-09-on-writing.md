@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "On Writing: A Memoir of the Craft"
+title: "On Writing"
+subtitle: "A Memoir of the Craft"
 date: 2017-01-09 15:02:02
 category: reading
 cover: on-writing

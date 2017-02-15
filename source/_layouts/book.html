@@ -6,7 +6,7 @@ active: book
 <article class="o-main-layout">
 
   {% assign title = page.title %}
-  {% capture subtitle %}
+  {% capture meta %}
     {% assign thedate = page.date %}
     {% include nice-date.html %} — <span>by</span> {{ page.author }}
   {% endcapture %}

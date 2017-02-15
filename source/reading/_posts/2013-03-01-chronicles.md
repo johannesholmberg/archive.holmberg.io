@@ -1,6 +1,7 @@
 ---
 layout: book
-title: "Chronicles: Volume One"
+title: "Chronicles"
+subtitle: "Volume One"
 date: 2013-03-01
 category: reading
 author: Bob Dylan

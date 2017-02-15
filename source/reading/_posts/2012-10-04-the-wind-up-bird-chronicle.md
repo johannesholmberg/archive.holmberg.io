@@ -1,6 +1,6 @@
 ---
 layout: book
-title: "The Wind-Up Bird Chronicle"
+title: "The Wind-up Bird Chronicle"
 category: reading
 cover: the-wind-up-bird-chronicle
 author: Haruki Murakami

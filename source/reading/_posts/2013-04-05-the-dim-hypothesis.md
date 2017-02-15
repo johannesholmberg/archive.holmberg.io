@@ -1,6 +1,7 @@
 ---
 layout: book
 title: "The DIM Hypothesis"
+subtitle: "Why the Lights of the West Are Going Out"
 category: reading
 cover: the-dim-hypothesis
 author: Leonard Peikoff
