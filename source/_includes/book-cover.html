@@ -36,9 +36,11 @@
         <strong>Published:</strong> {{ page.published }}
       </li>
     {% endif %}
+    {% if page.publisher %}
     <li class="o-sidebar__meta-item">
       <strong>Publisher:</strong> {{ page.publisher }}
     </li>
+    {% endif %}
     <li class="o-sidebar__meta-item">
       <strong>Buy:</strong> <a href="{{ page.book-url }}">Amazon</a>
     </li>
