@@ -21,19 +21,6 @@ gulp.task('sass', function() {
     this.emit('end');
   };
 
-
-  gulp.src('source/assets/css/cv.scss')
-    .pipe(sass())
-    .pipe(autoprefixer(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
-      cascade: true
-    }))
-    .pipe(gulp.dest('_site/assets/css'))
-    .pipe(browserSync.reload({
-      stream: true
-    }))
-    .pipe(gulp.dest('source/assets/css'));
-
-
   gulp.src('source/assets/css/config.imports.scss')
     .pipe(plumber({errorHandler: onError}))
 
