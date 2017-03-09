@@ -1,0 +1,14 @@
+- quote: "While I like the Atomic principles and I think about them when I’m writing front-end code, my preference is to stick with the word “component”. I find the Atomic terminology too rigid – it’s not always obvious whether one of these building blocks is an atom, molecule, or organism, and I don’t want to pass on this confusion to the client."
+  loc: 149
+
+- quote: "Designing for maintainability isn’t just about ‘what happens if I look at this in 2 years time’, it’s about writing good quality code now."
+  loc: 287
+
+- quote: "A style guide also promotes writing object-oriented CSS and developing distinct, reusable modules rather than binding functionality to a particular page."
+  loc: 293
+
+- quote: "Building the foundations of a style guide during the design phase should reduce the number of CSS overrides and help modularise your site build."
+  loc: 294
+
+- quote: "A style guide can help clients to think of websites as systems rather than distinct pages."
+  loc: 295
