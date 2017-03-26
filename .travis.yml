@@ -10,4 +10,4 @@ env:
 
 branches:
   only:
-  - source
+  - master
