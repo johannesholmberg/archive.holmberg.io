@@ -9,6 +9,7 @@ author: Dan Ariely
 publisher: HarperCollins Canada
 published: 2008
 book-url: https://www.goodreads.com/book/show/1713426.Predictably_Irrational
+format: Audio Book
 has_cover: true
 ---
 {% include book-cover.html %}
