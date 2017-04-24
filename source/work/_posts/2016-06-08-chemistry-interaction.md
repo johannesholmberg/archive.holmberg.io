@@ -2,7 +2,7 @@
 layout: case
 title: "Chemistry Interaction"
 cover: chemistry-interaction
-subtitle: "A responsive makeover with a customized CMS."
+description: "A responsive makeover with a customized CMS."
 permalink: work/chemistry-interaction/
 role: Developer
 website: http://chemistryinteraction.co.nz

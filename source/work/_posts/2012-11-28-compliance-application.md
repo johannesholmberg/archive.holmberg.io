@@ -2,7 +2,7 @@
 layout: case
 title: "LCC Compliance Application"
 cover: compliance
-subtitle: "“A more inviting, user-friendly system to handle.”"
+description: "“A more inviting, user-friendly system to handle.”"
 permalink: work/compliance-application/
 role: Designer, Front-end Developer
 website:

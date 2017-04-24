@@ -2,7 +2,7 @@
 layout: case
 title: "Anna Holmlund"
 cover: anna-holmlund
-subtitle: "Presenting the Olympic medalist."
+description: "Presenting the Olympic medalist."
 permalink: work/anna-holmlund/
 role: Developer
 website: http://annaholmlund.se

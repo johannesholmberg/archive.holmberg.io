@@ -2,7 +2,7 @@
 layout: case
 title: "Scenkonst Västernorrland"
 cover: scenkonst
-subtitle: "A united responsive platform for seven brands."
+description: "A united responsive platform for seven brands."
 permalink: work/scenkonst/
 website: http://scenkonstvasternorrland.se
 meta: June, 2014–January, 2015

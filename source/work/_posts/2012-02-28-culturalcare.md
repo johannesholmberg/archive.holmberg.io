@@ -2,7 +2,7 @@
 layout: case
 title: "Cultural Care"
 cover: culturalcare
-subtitle: "A responsive system for twenty global websites."
+description: "A responsive system for twenty global websites."
 permalink: work/culturalcare/
 role: Designer, Front-end Developer
 website: http://culturalcare.se

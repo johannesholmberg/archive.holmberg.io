@@ -2,7 +2,7 @@
 layout: case
 title: "ChildFund"
 cover: childfund
-subtitle: "A donation portal with performance in mind."
+description: "A donation portal with performance in mind."
 permalink: work/childfund/
 role: Developer
 website: https://www.childfund.org.nz/donate
