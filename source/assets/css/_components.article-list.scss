@@ -4,40 +4,40 @@
   padding: 4em 5%;
   max-width: 70em;
   flex: 1 1 40em;
+}
 
-  &__section {
-    @extend %clearfix;
+.c-article-list__section {
+  @extend %clearfix;
 
-    @include breakpoint(mobile-xl) {
-      &:first-of-type {
-        .c-article-list__title,
-        .c-article-list__item:first-of-type a {
-          border-top: 0;
-        }
+  @include breakpoint(mobile-xl) {
+    &:first-of-type {
+      .c-article-list__title,
+      .c-article-list__item:first-of-type a {
+        border-top: 0;
       }
     }
   }
+}
 
-  &__title {
-    margin: .4em 0 .5em;
-    padding: .5em 0;
+.c-article-list__title {
+  margin: .4em 0 .5em;
+  padding: .5em 0;
 
-    @include breakpoint(mobile-xl) {
-      margin: 0;
-      border-top: 1px solid $gray-border1;
-      float: left;
-      width: 25%;
-    }
-  }
-
-  &__holder {
-    padding: 0;
+  @include breakpoint(mobile-xl) {
     margin: 0;
-    font-size: 1em;
+    border-top: 1px solid $gray-border1;
+    float: left;
+    width: 25%;
+  }
+}
 
-    @include breakpoint(mobile-xl) {
-      float: right;
-      width: 75%;
-    }
+.c-article-list__holder {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+
+  @include breakpoint(mobile-xl) {
+    float: right;
+    width: 75%;
   }
 }

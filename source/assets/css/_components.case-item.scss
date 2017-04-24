@@ -34,40 +34,41 @@
     }
   }
 
-  &__image {
-    transition: all .5s ease-out;
-    box-shadow: 0 20px 80px rgba(0, 0, 0, .15);
+}
+
+.c-case-item__image {
+  transition: all .5s ease-out;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, .15);
+}
+
+.c-case-item__text {
+  transition: all .5s ease-out;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, .8);
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
+  color: $base-text-color;
+  padding: 1.6em 2em;
+
+  @include breakpoint(tablet-sm) {
+    position: absolute;
+    top: -14%;
+    right: -4em;
   }
+}
 
-  &__text {
-    transition: all .5s ease-out;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, .8);
+.c-case-item__title {
+  margin: .1em 0;
 
-    box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
-    color: $base-text-color;
-    padding: 1.6em 2em;
-
-    @include breakpoint(tablet-sm) {
-      position: absolute;
-      top: -14%;
-      right: -4em;
-    }
+  @include breakpoint(tablet-sm) {
+    font-size: 2em;
   }
+}
 
-  &__title {
-    margin: .1em 0;
-
-    @include breakpoint(tablet-sm) {
-      font-size: 2em;
-    }
-  }
-
-  &__slogan {
-    margin: 0;
-    font-size: 1em;
-    font-family: $font-serif-italic;
-    font-style: italic;
-    color: #666;
-  }
+.c-case-item__slogan {
+  margin: 0;
+  font-size: 1em;
+  font-family: $font-serif-italic;
+  font-style: italic;
+  color: #666;
 }

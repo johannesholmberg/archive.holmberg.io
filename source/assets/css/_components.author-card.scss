@@ -16,38 +16,38 @@
       background: $base-link-color;
     }
   }
+}
 
-  &__image {
-    background-color: #fff;
-    border-radius: 100%;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: -1em;
-    left: -1em;
-    max-width: 4.5em;
-    border: 1px solid #2a3137;
+.c-author-card__image {
+  background-color: #fff;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: -1em;
+  left: -1em;
+  max-width: 4.5em;
+  border: 1px solid #2a3137;
+}
+
+.c-author-card__title {
+  margin: 0 0 1em 2.2em;
+}
+
+.c-author-card__description {
+  font-size: 1em;
+  font-family: $font-serif-italic;
+  font-style: italic;
+
+  &:last-of-type {
+    margin-bottom: 0;
   }
 
-  &__title {
-    margin: 0 0 1em 2.2em;
-  }
-
-  &__description {
-    font-size: 1em;
-    font-family: $font-serif-italic;
-    font-style: italic;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-
-    a {
-      color: #fff;
-      background: linear-gradient(#fff, #fff) no-repeat;
-      background-size: 100% 1px;
-      background-position: 0 1.15em;
-      text-shadow: .05em 0 #2a3137, -.05em 0 #2a3137;
-    }
+  a {
+    color: #fff;
+    background: linear-gradient(#fff, #fff) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.15em;
+    text-shadow: .05em 0 #2a3137, -.05em 0 #2a3137;
   }
 }

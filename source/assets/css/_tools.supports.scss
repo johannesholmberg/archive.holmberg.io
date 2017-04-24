@@ -1,0 +1,7 @@
+// Supports
+@mixin supports($property) {
+
+  @if $property == grid {
+    @supports (display: grid) { @content; }
+  }
+}

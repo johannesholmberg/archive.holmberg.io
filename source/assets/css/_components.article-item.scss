@@ -4,40 +4,40 @@
   list-style: none;
   position: relative;
 
-  &__link {
-    @extend %clearfix;
-    display: block;
-    padding: 1.1em .5em .9em;
-    border-top: 1px solid $gray-border1;
-    color: $base-text-color;
-
-    &:hover,
-    &:focus {
-      color: $base-link-color;
-      border-bottom: 0;
-    }
-  }
-
-  &__title {
-    margin: 0;
-    font-family: $font-sans;
-    font-weight: 400;
-    text-transform: none;
-    font-size: 1em;
-    float: left;
-    width: 70%;
-    padding-right: 1em;
-  }
-
-  &__date {
-    margin: 0;
-    font-size: .9em;
-    color: $gray2;
-    float: right;
-    font-family: $font-sans;
-  }
-
   .icon-holder {
     margin-right: .5em;
   }
+}
+
+.c-article-item__link {
+  @extend %clearfix;
+  display: block;
+  padding: 1.1em .5em .9em;
+  border-top: 1px solid $gray-border1;
+  color: $base-text-color;
+
+  &:hover,
+  &:focus {
+    color: $base-link-color;
+    border-bottom: 0;
+  }
+}
+
+.c-article-item__title {
+  margin: 0;
+  font-family: $font-sans;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 1em;
+  float: left;
+  width: 70%;
+  padding-right: 1em;
+}
+
+.c-article-item__date {
+  margin: 0;
+  font-size: .9em;
+  color: $gray2;
+  float: right;
+  font-family: $font-sans;
 }

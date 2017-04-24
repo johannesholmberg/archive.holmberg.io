@@ -1,53 +1,51 @@
 .lab-list {
   display: flex;
   flex-wrap: wrap;
+}
 
-  &__header {
-    width: 100%;
-    background-color: #353d46;
-    background-image: linear-gradient(#515b67, #353d46);
-    color: #fff;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+.lab-list__header {
+  width: 100%;
+  background-color: #353d46;
+  background-image: linear-gradient(#515b67, #353d46);
+  color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+  z-index: 1;
+  padding: 6% 5% 7%;
+
+  @include breakpoint(tablet-lg) {
+    float: left;
+    min-height: 100vh;
+    width: 25%;
+    padding-left: 3%;
+  }
+}
+
+.lab-list__header-inner {
+  max-width: 36em;
+
+  @include breakpoint(tablet-lg) {
+    position: fixed;
+    bottom: 3.5em;
+    width: 19%;
     z-index: 1;
-    padding: 6% 5% 7%;
-
-    @include breakpoint(tablet-lg) {
-      float: left;
-      min-height: 100vh;
-      width: 25%;
-      padding-left: 3%;
-    }
   }
+}
 
-  &__header-inner {
-    max-width: 36em;
+.lab-list__title {
+  font-size: 2.8em;
+}
 
-    @include breakpoint(tablet-lg) {
-      position: fixed;
-      bottom: 3.5em;
-      width: 19%;
-      z-index: 1;
-    }
-  }
+.lab-list__description {
+  font-size: 1em;
+}
 
-  &__title {
-    font-size: 2.8em;
-  }
+.lab-list__holder {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
 
-  &__description {
-    font-size: 1em;
-  }
-
-  &__holder {
-    display: flex;
-    flex-wrap: wrap;
-
-
-    margin-bottom: 4em;
-
-    @include breakpoint(tablet-lg) {
-      float: left;
-      width: 75%;
-    }
+  @include breakpoint(tablet-lg) {
+    float: left;
+    width: 75%;
   }
 }

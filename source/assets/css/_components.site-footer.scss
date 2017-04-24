@@ -10,33 +10,33 @@
   font-family: $font-sans;
   margin-top: 3em;
   margin-top: 3%;
+}
 
-  &__list {
-    opacity: .95;
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    font-size: 1.2em;
-  }
+.c-site-footer__list {
+  opacity: .95;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  font-size: 1.2em;
+}
 
-  &__item {
-    margin-bottom: .35em;
-  }
+.c-site-footer__item {
+  margin-bottom: .35em;
+}
 
-  &__link {
-    color: #fff;
-    background: linear-gradient(#fff, #fff) no-repeat;
-    background-size: 100% 1px;
-    background-position: 0 1.25em;
-    text-shadow: .1em 0 #2a3137, -.1em 0 #2a3137;
-    border-radius: .2em;
-    padding: .1em .2em 0;
+.c-site-footer__link {
+  color: #fff;
+  background: linear-gradient(#fff, #fff) no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 1.25em;
+  text-shadow: .1em 0 #2a3137, -.1em 0 #2a3137;
+  border-radius: .2em;
+  padding: .1em .2em 0;
 
-    &:hover,
-    &:focus {
-      color: $base-link-color;
-      background: #fff;
-      text-shadow: none;
-    }
+  &:hover,
+  &:focus {
+    color: $base-link-color;
+    background: #fff;
+    text-shadow: none;
   }
 }

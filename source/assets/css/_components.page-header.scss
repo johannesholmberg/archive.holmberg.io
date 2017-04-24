@@ -14,26 +14,26 @@
     margin-bottom: -4em;
     padding-bottom: 7em;
   }
+}
 
-  &__title {
-    margin-bottom: .1em;
-    @include breakpoint(desktop-lg) {
-      max-width: 70vw;
-    }
+.c-page-header__title {
+  margin-bottom: .1em;
+  @include breakpoint(desktop-lg) {
+    max-width: 70vw;
   }
+}
 
-  &__meta {
-    line-height: 1.4;
-    text-align: left;
-    padding: 0;
+.c-page-header__meta {
+  line-height: 1.4;
+  text-align: left;
+  padding: 0;
+  font-family: $font-serif-italic;
+  font-style: italic;
+  margin-bottom: 0;
+
+  span {
     font-family: $font-serif-italic;
     font-style: italic;
-    margin-bottom: 0;
-
-    span {
-      font-family: $font-serif-italic;
-      font-style: italic;
-      font-size: .85em;
-    }
+    font-size: .85em;
   }
 }

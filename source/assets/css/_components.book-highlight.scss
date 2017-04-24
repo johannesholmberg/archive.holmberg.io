@@ -1,22 +1,22 @@
 .c-book-highlights {
-  &__title {
-    font-size: 1.15em;
-
-    &:after {
-      margin: .3em 0 .5em;
-      font-size: 3em;
-      display: block;
-      font-family: sans-serif;
-      content: '\00b7\00b7\00b7';
-      color: $gray-opacity1;
-      letter-spacing: .5em;
-    }
-  }
-
   .c-book-highlight__meta,
   .c-book-highlight__meta:hover,
   .c-book-highlight__meta:focus {
     background-image: none;
+  }
+}
+
+.c-book-highlights__title {
+  font-size: 1.15em;
+
+  &:after {
+    margin: .3em 0 .5em;
+    font-size: 3em;
+    display: block;
+    font-family: sans-serif;
+    content: '\00b7\00b7\00b7';
+    color: $gray-opacity1;
+    letter-spacing: .5em;
   }
 }
 
