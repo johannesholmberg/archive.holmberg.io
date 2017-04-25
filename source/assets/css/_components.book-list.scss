@@ -40,9 +40,9 @@
 
   @include supports(grid) {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
 
-    @include breakpoint(tablet-sm) {
+    @include breakpoint(mobile-xl) {
       grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
     }
   }
