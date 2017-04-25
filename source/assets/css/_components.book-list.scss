@@ -4,8 +4,6 @@
 }
 
 .c-book-list__title {
-  @extend %clearfix;
-  width: 100%;
   color: $base-text-color;
   margin: 2em .2em .8em 0;
   position: relative;
@@ -42,6 +40,10 @@
 
   @include supports(grid) {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15.5em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));
+
+    @include breakpoint(tablet-sm) {
+      grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+    }
   }
 }

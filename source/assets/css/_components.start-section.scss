@@ -1,11 +1,19 @@
 .c-home-section {
-  @extend %clearfix;
+  display: table;
   width: 100%;
   position: relative;
-  background: $base-link-color;
+  background-color: $base-link-color;
 
   @include breakpoint(tablet-sm) {
-    margin-bottom: -4em;
+    margin-bottom: -3%;
+  }
+
+  @include supports(grid) {
+    display: grid;
+
+    @include breakpoint(tablet-sm) {
+      grid-template-columns: 33vw 64vw;
+    }
   }
 }
 
@@ -24,6 +32,36 @@
     width: 33%;
     text-align: left;
     padding: 3em;
+
+    @include supports(grid) {
+      width: auto;
+    }
+  }
+}
+
+.c-home-section__main-content {
+  background: #fff;
+  padding: 2em 2em 3em;
+  margin-bottom: 0;
+
+  @include breakpoint(tablet-sm) {
+    float: left;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .2);
+    width: 64%;
+    display: block;
+    max-width: 60em;
+    padding: 4em 2em 5em;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    top: -1.2em;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -2em;
+    transform: rotate(2deg);
+
+    @include supports(grid) {
+      width: auto;
+    }
   }
 }
 
@@ -110,26 +148,5 @@
       background: #fff;
       color: $base-link-color;
     }
-  }
-}
-
-.c-home-section__main-content {
-  background: #fff;
-  padding: 2em 6% 3em;
-  margin-bottom: 0;
-
-  @include breakpoint(tablet-sm) {
-    float: left;
-    box-shadow: 15px 20px 20px rgba(0, 0, 0, .2);
-    width: 64vw;
-    max-width: 60em;
-    padding: 4em 8% 5em;
-    top: -1.2em;
-    position: relative;
-    z-index: 1;
-    margin-bottom: -2em;
-    transform:
-      rotate(2deg)
-      translate3d(0, 0, 1px);
   }
 }

@@ -1,4 +1,12 @@
-// Breakpoints
+/**
+* @file _tools.breakpoints.scss
+* @author Johannes Holmberg
+*/
+
+/**
+* @breakpoint
+* Mixin for creating a breakpoint directive in context to the selector
+*/
 @mixin breakpoint($point) {
 
   @if $point == mobile-lg {
@@ -31,10 +39,6 @@
 
   @else if $point == desktop-xxl {
     @media (min-width: 130em) { @content; }
-  }
-
-  @else if $point == low {
-    @media (max-height: 40em) { @content; }
   }
 
   @else {

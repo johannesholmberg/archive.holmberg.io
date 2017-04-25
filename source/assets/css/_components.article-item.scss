@@ -10,8 +10,8 @@
 }
 
 .c-article-item__link {
-  @extend %clearfix;
-  display: block;
+  display: table;
+  width: 100%;
   padding: 1.1em .5em .9em;
   border-top: 1px solid $gray-border1;
   color: $base-text-color;

@@ -21,9 +21,8 @@
 }
 
 .c-book-cover__image-holder {
-  @extend %clearfix;
   border-bottom: .5em solid $gray-opacity1;
-  display: block;
+  display: table;
   background: none;
   min-height: 5.5em;
 

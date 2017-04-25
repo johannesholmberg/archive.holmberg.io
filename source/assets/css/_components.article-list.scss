@@ -1,13 +1,13 @@
 .c-article-list {
   background: #fff;
   width: 100%;
-  padding: 4em 5%;
-  max-width: 70em;
+  padding: 4em 5vw;
   flex: 1 1 40em;
 }
 
 .c-article-list__section {
-  @extend %clearfix;
+  display: table;
+  width: 100%;
 
   @include breakpoint(mobile-xl) {
     &:first-of-type {
