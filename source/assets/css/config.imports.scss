@@ -25,7 +25,6 @@
  * General..............Common HTML elements.
  * Headings.............H1–H6.
  * Links................Styling all a elements.
- * Code.................Styling all code elements.
  * Lists................Styling of ul and ol.
  * Quotes...............Base styling for quotes.
  * Tables...............Base styling for tables.
@@ -64,10 +63,9 @@
 @import "generic.selections";
 @import "generic.print";
 
-@import "elements.general";
+@import "elements.base";
 @import "elements.headings";
 @import "elements.links";
-@import "elements.code";
 @import "elements.lists";
 @import "elements.quotes";
 @import "elements.tables";
@@ -98,6 +96,5 @@
 @import "components.site-header";
 @import "components.start-section";
 
-@import "trumps.display";
 @import "trumps.utilities";
 @import "trumps.vendor-extensions";
