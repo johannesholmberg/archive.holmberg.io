@@ -1,1 +1,6 @@
+# Redirects
+Redirect 301 /reading/2012/05/watership-down/ https://highlights.holmberg.io/watership-down/
+Redirect 301 /reading/2012/04/1q84/ https://highlights.holmberg.io/1q84/
+Redirect 301 /reading/2012/03/steve-jobs/ https://highlights.holmberg.io/steve-jobs/
+
 ErrorDocument 404 /404.html
