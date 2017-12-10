@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://holmberg.io
+url: http://holmberg.io
 environment: production
 
 
